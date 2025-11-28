@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { CheckCircle2, Shield, Lock } from "lucide-react";
+import ScientificBadges from "@/components/ScientificBadges";
+import StatBox from "@/components/StatBox";
 import heroBedroom from "@/assets/hero-bedroom-scene.jpg";
 import saltHills from "@/assets/salt-hills-romania.jpg";
 import romanianVillage from "@/assets/romanian-village.jpg";
@@ -34,12 +36,14 @@ const Index = () => {
       {/* Hero Section */}
       <section className="py-16 md:py-24 px-4">
         <div className="container mx-auto max-w-4xl text-center">
-          <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-foreground animate-fade-in">
+          <h1 className="headline-primary animate-fade-in">
             I Watched My Wife Drown in Our Bedroom at Midnight…
           </h1>
-          <p className="font-display text-2xl md:text-3xl lg:text-4xl font-semibold text-primary mb-8 leading-tight animate-fade-in" style={{ animationDelay: "0.2s" }}>
+          <p className="subheadline mb-8 leading-tight animate-fade-in" style={{ animationDelay: "0.2s" }}>
             Then a Collapsed Salt Mine in Romania Led Me to a Village Where Nobody Gets Lung Disease…And Saved Her Life
           </p>
+          
+          <ScientificBadges />
         </div>
       </section>
 
@@ -57,10 +61,10 @@ const Index = () => {
       {/* Story Begins */}
       <section className="py-12 px-4 bg-story/30">
         <div className="container mx-auto max-w-3xl">
-          <h2 className="font-display text-3xl md:text-5xl font-bold mb-8 text-foreground">
+          <h2 className="headline-secondary mb-8 text-foreground">
             I WATCHED MY WIFE DROWN
           </h2>
-          <h3 className="font-display text-xl md:text-2xl font-semibold mb-6 text-foreground/90">
+          <h3 className="text-xl md:text-2xl font-semibold mb-6 text-foreground/90">
             Sitting Right Next to Me in Our Bed
           </h3>
           
@@ -95,7 +99,7 @@ const Index = () => {
       {/* Problem Agitation */}
       <section className="py-12 px-4">
         <div className="container mx-auto max-w-3xl">
-          <h2 className="font-display text-3xl md:text-4xl font-bold mb-6 text-foreground">
+          <h2 className="headline-secondary mb-6 text-foreground">
             Her Lungs Were Turning to Cement (And Nobody Told Us Until It Was Almost Too Late)
           </h2>
           
@@ -849,19 +853,18 @@ const Index = () => {
             <p>She nodded. "Twice this morning."</p>
             <p>He pulled up the graphs on his computer. Two lines. Side by side.</p>
             
-            <div className="my-8 p-8 bg-primary/10 rounded-lg border-l-4 border-primary">
-              <div className="mb-6">
-                <p className="font-bold text-lg mb-2 text-foreground">SIX MONTHS AGO:</p>
-                <p className="text-2xl mb-1">Lung capacity: <span className="text-emphasis font-bold">58%</span></p>
-                <p className="text-muted-foreground">Stage 3 obstruction</p>
-                <p className="text-muted-foreground">Jagged red line. Barely climbing. Flat. Struggling.</p>
-              </div>
-              
-              <div>
-                <p className="font-bold text-lg mb-2 text-foreground">TODAY:</p>
-                <p className="text-2xl mb-1">Lung capacity: <span className="text-primary font-bold">81%</span></p>
-                <p className="text-muted-foreground">Nearly normal</p>
-                <p className="text-muted-foreground">Smooth green line. Rising steadily. Strong. Normal.</p>
+            <div className="callout-box">
+              <div className="grid md:grid-cols-2 gap-6 mb-6">
+                <StatBox 
+                  number="58%" 
+                  label="SIX MONTHS AGO" 
+                  description="Stage 3 obstruction - Jagged red line"
+                />
+                <StatBox 
+                  number="81%" 
+                  label="TODAY" 
+                  description="Nearly normal - Smooth green line"
+                />
               </div>
             </div>
 
@@ -1304,7 +1307,7 @@ const Index = () => {
           </div>
 
           <div className="text-center space-y-6">
-            <Button onClick={scrollToCTA} size="lg" className="text-2xl px-20 py-10 h-auto shadow-lg hover:shadow-xl transition-all animate-pulse">
+            <Button onClick={scrollToCTA} size="lg" className="cta-button text-2xl px-20 py-10">
               CLAIM YOUR LONGEVITY SALT POUCHES NOW →
             </Button>
             <p className="text-sm text-muted-foreground">60-Day Money-Back Guarantee • Secure Checkout • Limited Availability</p>

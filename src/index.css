@@ -124,9 +124,86 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-body);
+    line-height: 1.8;
   }
   
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
+    line-height: 1.2;
+  }
+  
+  /* Custom VSL Styling */
+  .highlight-box {
+    @apply bg-primary/10 border-l-4 border-primary p-6 rounded-r-lg my-8;
+  }
+  
+  .stat-box {
+    @apply bg-gradient-to-br from-primary/20 to-accent/20 p-6 rounded-lg text-center shadow-soft;
+  }
+  
+  .emphasis-text {
+    @apply text-emphasis font-bold;
+  }
+  
+  .section-divider {
+    @apply border-t-2 border-primary/20 my-16;
+  }
+  
+  .scientific-badge {
+    @apply inline-flex items-center gap-2 px-4 py-2 bg-scientific/50 rounded-full text-sm font-semibold border border-primary/20;
+  }
+  
+  .trust-indicator {
+    @apply flex items-center gap-2 text-sm font-medium;
+  }
+  
+  /* Enhanced button styles */
+  .cta-button {
+    @apply bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 text-primary-foreground font-bold py-6 px-12 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300;
+  }
+  
+  /* Numbered list styling */
+  .numbered-point {
+    @apply flex items-start gap-4 mb-6;
+  }
+  
+  .number-badge {
+    @apply flex-shrink-0 w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold text-lg;
+  }
+  
+  /* Quote/testimony styling */
+  .testimony-box {
+    @apply border-l-4 border-primary pl-6 py-4 italic bg-story/20 rounded-r-lg;
+  }
+  
+  /* Headline effects */
+  .headline-primary {
+    @apply text-4xl md:text-6xl lg:text-7xl font-black leading-none mb-6;
+  }
+  
+  .headline-secondary {
+    @apply text-2xl md:text-4xl lg:text-5xl font-bold leading-tight;
+  }
+  
+  .subheadline {
+    @apply text-xl md:text-2xl lg:text-3xl font-semibold text-primary;
+  }
+  
+  /* Call-out boxes */
+  .callout-box {
+    @apply bg-accent/20 border-2 border-accent p-8 rounded-lg my-8 shadow-medium;
+  }
+  
+  .warning-box {
+    @apply bg-emphasis/10 border-l-4 border-emphasis p-6 rounded-r-lg my-6;
+  }
+  
+  /* Benefit/feature styling */
+  .benefit-grid {
+    @apply grid md:grid-cols-2 gap-6 my-8;
+  }
+  
+  .benefit-card {
+    @apply p-6 bg-card rounded-lg shadow-soft border border-border hover:shadow-medium transition-shadow;
   }
 }
