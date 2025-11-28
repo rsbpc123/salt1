@@ -12,7 +12,7 @@ import saltHills from "@/assets/salt-hills-romania.jpg";
 import romanianVillage from "@/assets/romanian-village.jpg";
 import lungDiagram from "@/assets/lung-diagram.jpg";
 import saltPouch from "@/assets/salt-pouch-product.jpg";
-import elderlyMan from "@/assets/elderly-man-chopping-wood.jpg";
+import elderlyWoman from "@/assets/elderly-woman-chopping-wood.jpg";
 import inchisSign from "@/assets/inchis-closed-sign.png";
 import romanianCoffeeShop from "@/assets/romanian-coffee-shop.png";
 
@@ -726,8 +726,8 @@ const Index = () => {
       </StorySection>
 
       <ImageWithText 
-        image={elderlyMan}
-        imageAlt="Elderly person chopping wood in Romanian village"
+        image={elderlyWoman}
+        imageAlt="97-year-old Romanian woman chopping wood in village"
         title="The 97-Year-Old Woman Chopping Wood (And What She Told Us About Living in This Valley)"
         bgColor="story"
       >
