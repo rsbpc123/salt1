@@ -13,6 +13,7 @@ import romanianVillage from "@/assets/romanian-village.jpg";
 import lungDiagram from "@/assets/lung-diagram.jpg";
 import saltPouch from "@/assets/salt-pouch-product.jpg";
 import elderlyMan from "@/assets/elderly-man-chopping-wood.jpg";
+import inchisSign from "@/assets/inchis-closed-sign.png";
 
 const Index = () => {
   const scrollToCTA = () => {
@@ -267,10 +268,13 @@ const Index = () => {
         <p>We pulled into the parking lot.</p>
         <p>That's when I saw the sign.</p>
         
-        <HighlightBox variant="warning">
-          <p className="text-3xl font-black text-emphasis mb-3">ÎNCHIS</p>
-          <p className="text-xl font-bold">Closed.</p>
-        </HighlightBox>
+        <div className="max-w-2xl mx-auto my-8">
+          <img 
+            src={inchisSign} 
+            alt="Închis (Closed) sign hanging in the dark tunnel entrance of the salt mine" 
+            className="w-full h-auto rounded-lg shadow-dramatic"
+          />
+        </div>
         
         <p>I walked closer. Another sign. In Romanian and English.</p>
         
