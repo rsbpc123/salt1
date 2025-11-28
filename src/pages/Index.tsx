@@ -4,6 +4,10 @@ import { CheckCircle2, Shield, Lock } from "lucide-react";
 import ScientificBadges from "@/components/ScientificBadges";
 import StatBox from "@/components/StatBox";
 import HeroSection from "@/components/HeroSection";
+import HighlightBox from "@/components/HighlightBox";
+import NumberedPoint from "@/components/NumberedPoint";
+import StorySection from "@/components/StorySection";
+import ImageWithText from "@/components/ImageWithText";
 import saltHills from "@/assets/salt-hills-romania.jpg";
 import romanianVillage from "@/assets/romanian-village.jpg";
 import lungDiagram from "@/assets/lung-diagram.jpg";
@@ -37,277 +41,363 @@ const Index = () => {
       <HeroSection />
 
       {/* Story Begins */}
-      <section className="py-12 px-4 bg-story/30">
-        <div className="container mx-auto max-w-3xl">
-          <h2 className="headline-secondary mb-8 text-foreground">
-            I WATCHED MY WIFE DROWN
-          </h2>
-          <h3 className="text-xl md:text-2xl font-semibold mb-6 text-foreground/90">
-            Sitting Right Next to Me in Our Bed
-          </h3>
-          
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
-            <p>It was just past midnight when I heard it.</p>
-            <p>That sound.</p>
-            <p>Linda wasn't breathing right.</p>
-            <p>Her chest heaving. Lips turning blue. Sitting straight up. Clutching her throat.</p>
-            <p className="font-semibold text-foreground">Drowning.</p>
-            <p>In our bedroom. In Warner Robins, Georgia. 200 miles from the nearest ocean.</p>
-            <p>I grabbed her inhaler. Shook it. Jammed it into her mouth.</p>
-            <p>"Breathe, baby."</p>
-            <p>Two puffs. Nothing.</p>
-            <p>Her wheezing got WORSE.</p>
-            <p>I dialed 911.</p>
-            <p>The paramedics arrived in 8 minutes. Felt like 8 hours.</p>
-            <p>They strapped an oxygen mask to her face. Loaded her onto the stretcher.</p>
-            <p>One of them looked at me and shook his head. Not mean. Just... tired.</p>
-            <p>Like he'd seen us before.</p>
-            <p>(He had. Three times that month.)</p>
-            <p>Two hours later, a doctor came out.</p>
-            <p>"She's stable. You can take her home in a few hours."</p>
-            <p>"What happens next time?" I asked.</p>
-            <p>He paused. "Keep doing what you're doing. Come back if it gets worse."</p>
-            <p>No solution. No plan.</p>
-            <p>Just... keep doing what we're doing.</p>
-            <p className="font-semibold text-emphasis">Except what we were doing WASN'T WORKING.</p>
-          </div>
-        </div>
-      </section>
+      <StorySection title="I WATCHED MY WIFE DROWN" bgColor="story">
+        <h3 className="text-xl md:text-2xl font-semibold mb-6 text-foreground/90">
+          Sitting Right Next to Me in Our Bed
+        </h3>
+        
+        <p>It was just past midnight when I heard it.</p>
+        <p>That sound.</p>
+        <p>Linda wasn't breathing right.</p>
+        
+        <HighlightBox variant="warning">
+          <p className="text-lg font-semibold mb-2">Her chest heaving. Lips turning blue. Sitting straight up. Clutching her throat.</p>
+          <p className="text-2xl font-bold text-emphasis">Drowning.</p>
+          <p className="mt-2">In our bedroom. In Warner Robins, Georgia. 200 miles from the nearest ocean.</p>
+        </HighlightBox>
+        
+        <p>I grabbed her inhaler. Shook it. Jammed it into her mouth.</p>
+        <p>"Breathe, baby."</p>
+        <p>Two puffs. Nothing.</p>
+        <p className="font-bold text-lg text-emphasis">Her wheezing got WORSE.</p>
+        
+        <p>I dialed 911.</p>
+        <p>The paramedics arrived in 8 minutes. Felt like 8 hours.</p>
+        <p>They strapped an oxygen mask to her face. Loaded her onto the stretcher.</p>
+        <p>One of them looked at me and shook his head. Not mean. Just... tired.</p>
+        <p>Like he'd seen us before.</p>
+        <p>(He had. Three times that month.)</p>
+        
+        <div className="section-divider" />
+        
+        <p>Two hours later, a doctor came out.</p>
+        <p>"She's stable. You can take her home in a few hours."</p>
+        <p>"What happens next time?" I asked.</p>
+        <p>He paused. "Keep doing what you're doing. Come back if it gets worse."</p>
+        
+        <HighlightBox variant="warning">
+          <p className="font-bold text-lg">No solution. No plan.</p>
+          <p>Just... keep doing what we're doing.</p>
+          <p className="font-bold text-xl text-emphasis mt-2">Except what we were doing WASN'T WORKING.</p>
+        </HighlightBox>
+      </StorySection>
 
       {/* Problem Agitation */}
-      <section className="py-12 px-4">
-        <div className="container mx-auto max-w-3xl">
-          <h2 className="headline-secondary mb-6 text-foreground">
-            Her Lungs Were Turning to Cement (And Nobody Told Us Until It Was Almost Too Late)
-          </h2>
-          
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
-            <p>Two weeks later, Linda saw her pulmonologist.</p>
-            <p>He pulled up a CT scan. White patches scattered throughout her lungs.</p>
-            <p>"This is fibrosis," he said. "Scar tissue. Your airways are hardening."</p>
-            <p>"Can you fix it?"</p>
-            <p>He shook his head. "Once the scarring sets in... no. We can only try to slow it down."</p>
-            <p>My stomach dropped.</p>
-            <p>"How long do we have?"</p>
-            <p>He looked at Linda. Then back at me.</p>
-            <p>"If we can't get the inflammation under control... maybe 18 to 24 months before the damage severely impacts her quality of life."</p>
-            <p>Linda started crying.</p>
-            <p>We walked out in silence.</p>
-            <p>And for the first time in our 40-year marriage...</p>
-            <p>I didn't know what to say to her.</p>
-          </div>
-        </div>
-      </section>
+      <StorySection title="Her Lungs Were Turning to Cement (And Nobody Told Us Until It Was Almost Too Late)">
+        <p>Two weeks later, Linda saw her pulmonologist.</p>
+        <p>He pulled up a CT scan. White patches scattered throughout her lungs.</p>
+        
+        <HighlightBox>
+          <p className="font-bold text-lg mb-2">"This is fibrosis," he said. "Scar tissue. Your airways are hardening."</p>
+          <p>"Can you fix it?"</p>
+          <p className="font-bold text-emphasis mt-2">He shook his head. "Once the scarring sets in... no. We can only try to slow it down."</p>
+        </HighlightBox>
+        
+        <p>My stomach dropped.</p>
+        <p>"How long do we have?"</p>
+        <p>He looked at Linda. Then back at me.</p>
+        
+        <HighlightBox variant="warning">
+          <p className="text-lg font-bold">"If we can't get the inflammation under control... maybe 18 to 24 months before the damage severely impacts her quality of life."</p>
+        </HighlightBox>
+        
+        <p>Linda started crying.</p>
+        <p>We walked out in silence.</p>
+        <p>And for the first time in our 40-year marriage...</p>
+        <p className="font-bold text-xl text-primary">I didn't know what to say to her.</p>
+      </StorySection>
 
-      <section className="py-12 px-4 bg-scientific/30">
-        <div className="container mx-auto max-w-3xl">
-          <h2 className="font-display text-3xl md:text-4xl font-bold mb-6 text-foreground">
-            We Did EVERYTHING the Doctors Told Us (And She Got WORSE)
-          </h2>
-          
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
-            <p>Linda wasn't reckless. She did EVERYTHING they told her.</p>
-            <p>Six different inhalers over three years. Five medications just to breathe.</p>
-            <p>We were spending $1,200 a month on prescriptions. Even WITH insurance.</p>
-            <p>And she was still drowning.</p>
-            <p>We did the Prednisone rounds. That awful steroid that made her gain 15 pounds and gave her insomnia.</p>
-            <p>Bought a $400 HEPA air purifier. Ripped out the carpets. Tried breathing exercises.</p>
-            <p>Hired a mold inspector. $800 later... no mold.</p>
-            <p>None of it made a difference.</p>
-            <p>Every doctor said the same thing: "This is just something you'll have to manage."</p>
-            <p className="font-bold text-2xl text-foreground">MANAGE.</p>
-            <p>Like we weren't already managing her not being able to walk upstairs.</p>
-            <p>Managing the oxygen concentrator humming all night.</p>
-            <p>Managing the stack of medical bills we couldn't pay.</p>
-            <p>Managing our life shrinking smaller and smaller.</p>
-            
-            <div className="my-8 p-6 bg-primary/10 rounded-lg">
-              <p className="font-semibold text-foreground mb-2">Here's why they believe that:</p>
-              <p>Medical schools teach from pulmonology textbooks written in the 1990s. BEFORE scientists discovered that lung cells can regenerate.</p>
-              <p>Your doctor isn't lying to you. They genuinely don't KNOW.</p>
-              <p>But researchers in Europe have been studying this for 20 years.</p>
-              <p className="font-bold text-primary">And the results are undeniable.</p>
-            </div>
-          </div>
+      <StorySection title="We Did EVERYTHING the Doctors Told Us (And She Got WORSE)" bgColor="scientific">
+        <p>Linda wasn't reckless. She did EVERYTHING they told her.</p>
+        
+        <div className="callout-box">
+          <NumberedPoint number={1}>
+            <p className="font-semibold">Six different inhalers over three years</p>
+            <p>Five medications just to breathe</p>
+          </NumberedPoint>
+          <NumberedPoint number={2}>
+            <p className="font-semibold">$1,200 a month on prescriptions</p>
+            <p>Even WITH insurance</p>
+          </NumberedPoint>
+          <NumberedPoint number={3}>
+            <p className="font-semibold">Prednisone rounds</p>
+            <p>That awful steroid that made her gain 15 pounds and gave her insomnia</p>
+          </NumberedPoint>
         </div>
-      </section>
+        
+        <p className="font-bold text-lg">And she was still drowning.</p>
+        
+        <p>We did the breathing exercises. Bought a $400 HEPA air purifier. Ripped out the carpets.</p>
+        <p>Hired a mold inspector. $800 later... no mold.</p>
+        <p>None of it made a difference.</p>
+        
+        <HighlightBox variant="warning">
+          <p className="text-xl font-bold mb-2">Every doctor said the same thing:</p>
+          <p className="text-2xl font-black text-emphasis">"This is just something you'll have to MANAGE."</p>
+        </HighlightBox>
+        
+        <p>Like we weren't already managing her not being able to walk upstairs.</p>
+        <p>Managing the oxygen concentrator humming all night.</p>
+        <p>Managing the stack of medical bills we couldn't pay.</p>
+        <p className="font-bold text-lg">Managing our life shrinking smaller and smaller.</p>
+        
+        <div className="highlight-box">
+          <p className="font-semibold text-lg text-foreground mb-3">Here's why they believe that:</p>
+          <p>Medical schools teach from pulmonology textbooks written in the 1990s. BEFORE scientists discovered that lung cells can regenerate.</p>
+          <p className="font-bold mt-3">Your doctor isn't lying to you. They genuinely don't KNOW.</p>
+          <p className="mt-2">But researchers in Europe have been studying this for 20 years.</p>
+          <p className="font-bold text-xl text-primary mt-3">And the results are undeniable.</p>
+        </div>
+      </StorySection>
 
       {/* The Bathroom Scene */}
-      <section className="py-12 px-4">
-        <div className="container mx-auto max-w-3xl">
-          <h2 className="font-display text-3xl md:text-4xl font-bold mb-6 text-foreground">
-            The Night I Found Her Crying in the Bathroom
-          </h2>
-          
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
-            <p>It was a Tuesday.</p>
-            <p>Linda's sister invited us to Thanksgiving. Linda said she had a cold.</p>
-            <p>But she didn't.</p>
-            <p>She just didn't want her family to see her like this.</p>
-            <p>That night, I woke up around 2 AM. Linda wasn't in bed.</p>
-            <p>I found her in the bathroom. Sitting on the floor. Crying.</p>
-            <p>"I don't want to be that person anymore," she whispered.</p>
-            <p>"What person?"</p>
-            <p>"The one everyone feels sorry for."</p>
-            <p>Her voice cracked.</p>
-            <p>"I used to RUN, Robert. I used to play with the grandkids. And now I can't even walk to the mailbox without feeling like I'm dying."</p>
-            <p>I sat down next to her.</p>
-            <p>Because what was I supposed to say?</p>
-            <p>Her lungs were getting WORSE. Not better.</p>
-            <p>The medications weren't working.</p>
-            <p>The doctors had given up.</p>
-            <p>Right then, I made a promise.</p>
-            <p className="font-bold text-xl text-primary">I'm going to fix this.</p>
-            <p>I don't care what it takes.</p>
-            <p>I don't care if I have to fly to the other side of the world.</p>
-            <p>I'm going to find a way.</p>
-          </div>
+      <StorySection title="The Night I Found Her Crying in the Bathroom">
+        <p>It was a Tuesday.</p>
+        <p>Linda's sister invited us to Thanksgiving. Linda said she had a cold.</p>
+        <p>But she didn't.</p>
+        <p>She just didn't want her family to see her like this.</p>
+        
+        <p>That night, I woke up around 2 AM. Linda wasn't in bed.</p>
+        <p>I found her in the bathroom. Sitting on the floor. Crying.</p>
+        
+        <HighlightBox variant="testimony">
+          <p className="text-lg mb-2">"I don't want to be that person anymore," she whispered.</p>
+          <p>"What person?"</p>
+          <p className="font-bold text-xl text-primary mt-3">"The one everyone feels sorry for."</p>
+        </HighlightBox>
+        
+        <p>Her voice cracked.</p>
+        <p>"I used to RUN, Robert. I used to play with the grandkids. And now I can't even walk to the mailbox without feeling like I'm dying."</p>
+        
+        <p>I sat down next to her.</p>
+        <p>Because what was I supposed to say?</p>
+        
+        <HighlightBox variant="warning">
+          <p>Her lungs were getting WORSE. Not better.</p>
+          <p>The medications weren't working.</p>
+          <p>The doctors had given up.</p>
+        </HighlightBox>
+        
+        <p>Right then, I made a promise.</p>
+        
+        <div className="callout-box text-center">
+          <p className="text-2xl font-bold text-primary mb-3">I'm going to fix this.</p>
+          <p className="text-lg">I don't care what it takes.</p>
+          <p className="text-lg">I don't care if I have to fly to the other side of the world.</p>
+          <p className="text-xl font-bold mt-3">I'm going to find a way.</p>
         </div>
-      </section>
+      </StorySection>
 
       {/* Discovery Journey */}
-      <section className="py-12 px-4 bg-story/30">
-        <div className="container mx-auto max-w-3xl">
-          <h2 className="font-display text-3xl md:text-4xl font-bold mb-6 text-foreground">
-            The Late-Night Google Search That Changed Everything
-          </h2>
-          
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
-            <p>It was 1 AM.</p>
-            <p>Linda was finally asleep upstairs.</p>
-            <p>I was at the kitchen table. Googling.</p>
-            <p>"Natural asthma remedies." "COPD cure." "How to reverse lung fibrosis."</p>
-            <p>Most of it was garbage.</p>
-            <p>Essential oils. Breathing apps. Supplements that did nothing.</p>
-            <p>I was about to close the laptop.</p>
-            <p>Then I saw it. A research paper from some Romanian medical institute.</p>
-            <p className="italic">"Long-term efficacy of halotherapy in chronic obstructive pulmonary disease."</p>
-            <p>Halotherapy. Breathing microscopic salt particles.</p>
-            <p>Sounded weird. But the study had REAL results.</p>
-            <p>People with COPD seeing improvements in lung function. Reduced coughing. Better oxygen saturation.</p>
-            <p>I kept reading.</p>
-            <p>Turns out, halotherapy started in actual salt MINES. Deep underground in Eastern Europe.</p>
-            <p>There's this place in Romania. The Praid Salt Mine.</p>
-            <p>For over a CENTURY, people with severe lung problems traveled there. From all over Europe. To go down into the mine and just... breathe.</p>
-            <p>People with Stage 3 COPD seeing their oxygen levels jump from 88% to 96%.</p>
-            <p>People on oxygen tanks for YEARS... breathing freely.</p>
+      <StorySection title="The Late-Night Google Search That Changed Everything" bgColor="story">
+        <p>It was 1 AM.</p>
+        <p>Linda was finally asleep upstairs.</p>
+        <p>I was at the kitchen table. Googling.</p>
+        <p>"Natural asthma remedies." "COPD cure." "How to reverse lung fibrosis."</p>
+        <p>Most of it was garbage.</p>
+        <p>Essential oils. Breathing apps. Supplements that did nothing.</p>
+        
+        <p>I was about to close the laptop.</p>
+        <p className="font-bold text-lg">Then I saw it.</p>
+        
+        <HighlightBox>
+          <p className="italic text-lg font-semibold">"Long-term efficacy of halotherapy in chronic obstructive pulmonary disease."</p>
+          <p className="mt-3">Halotherapy. Breathing microscopic salt particles.</p>
+          <p>Sounded weird. But the study had REAL results.</p>
+        </HighlightBox>
+        
+        <p>People with COPD seeing improvements in lung function. Reduced coughing. Better oxygen saturation.</p>
+        <p>I kept reading.</p>
+        
+        <div className="callout-box">
+          <p className="font-bold text-xl text-primary mb-3">Turns out, halotherapy started in actual salt MINES.</p>
+          <p>Deep underground in Eastern Europe.</p>
+          <p className="mt-3">There's this place in Romania. The Praid Salt Mine.</p>
+          <p>For over a CENTURY, people with severe lung problems traveled there. From all over Europe. To go down into the mine and just... breathe.</p>
+        </div>
+        
+        <div className="benefit-grid my-8">
+          <div className="benefit-card">
+            <p className="font-bold text-lg text-primary mb-2">📊 Oxygen Levels</p>
+            <p>People with Stage 3 COPD seeing their oxygen levels jump from 88% to 96%</p>
+          </div>
+          <div className="benefit-card">
+            <p className="font-bold text-lg text-primary mb-2">💊 Reduced Medications</p>
             <p>Over 50% reduced their medications. Some stopped entirely.</p>
-            <p>I'm reading about people who sound EXACTLY like Linda.</p>
-            <p>Getting better. Not managing.</p>
-            <p className="font-bold text-xl text-primary">BETTER.</p>
-            <p>The next morning, I showed Linda everything.</p>
-            <p>"Do you really think this could work?" she asked.</p>
-            <p>I took a breath. "I don't know. But we need to find out."</p>
-            <p>She nodded. "Okay. Let's go."</p>
-            <p>But here's what I didn't know yet...</p>
-            <p>The mine that saved all those people?</p>
-            <p>It was about to collapse.</p>
-            <p>And we were about to fly 5,000 miles... for nothing.</p>
+          </div>
+          <div className="benefit-card">
+            <p className="font-bold text-lg text-primary mb-2">🫁 Breathing Freely</p>
+            <p>People on oxygen tanks for YEARS... breathing freely</p>
+          </div>
+          <div className="benefit-card">
+            <p className="font-bold text-lg text-primary mb-2">✨ Real Recovery</p>
+            <p>Not managing. BETTER.</p>
           </div>
         </div>
-      </section>
+        
+        <p>I'm reading about people who sound EXACTLY like Linda.</p>
+        <p className="font-bold text-2xl text-primary">Getting better. Not managing. BETTER.</p>
+        
+        <div className="section-divider" />
+        
+        <p>The next morning, I showed Linda everything.</p>
+        <p>"Do you really think this could work?" she asked.</p>
+        <p>I took a breath. "I don't know. But we need to find out."</p>
+        <p>She nodded. "Okay. Let's go."</p>
+        
+        <HighlightBox variant="warning">
+          <p className="font-bold text-lg mb-2">But here's what I didn't know yet...</p>
+          <p>The mine that saved all those people?</p>
+          <p className="text-xl font-bold text-emphasis mt-2">It was about to collapse.</p>
+          <p className="mt-2">And we were about to fly 5,000 miles... for nothing.</p>
+        </HighlightBox>
+      </StorySection>
 
       {/* The Journey */}
-      <section className="py-12 px-4">
-        <div className="container mx-auto max-w-3xl">
-          <h2 className="font-display text-3xl md:text-4xl font-bold mb-6 text-foreground">
-            We Flew 5,000 Miles to a Salt Mine...Only to Find THIS
-          </h2>
-          
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
-            <p>Three weeks later, we were on a plane to Bucharest. Then a rental car through the Carpathian Mountains.</p>
-            <p>Heading to Praid. Home to the famous Praid Salt Mine.</p>
-            <p>I was nervous. But hopeful.</p>
-            <p>Linda squeezed my hand as we drove. "What if this actually works?"</p>
-            <p>"Then we're about to get your life back," I said.</p>
-            <p>We pulled into the parking lot.</p>
-            <p>That's when I saw the sign.</p>
-            <p className="font-bold text-xl">ÎNCHIS</p>
-            <p>Closed.</p>
-            <p>I walked closer. Another sign. In Romanian and English.</p>
-            <p className="italic">"Due to severe flooding and structural collapse, the Praid Salt Mine has been permanently closed as of May 2025."</p>
-            <p>My heart sank.</p>
-            <p>We'd flown 5,000 miles. Spent money we didn't have.</p>
-            <p>And now... nothing.</p>
-            <p>Linda put her hand on my shoulder. "We tried. That's more than most people do."</p>
-            <p>But I could hear it in her voice.</p>
-            <p>The defeat.</p>
-            <p>The resignation.</p>
-            <p>Like she'd already accepted this was how the rest of her life was going to be.</p>
-            <p>And I wasn't ready to accept that.</p>
-            <p>Not yet.</p>
-          </div>
+      <StorySection title="We Flew 5,000 Miles to a Salt Mine...Only to Find THIS">
+        <p>Three weeks later, we were on a plane to Bucharest. Then a rental car through the Carpathian Mountains.</p>
+        <p>Heading to Praid. Home to the famous Praid Salt Mine.</p>
+        
+        <p>I was nervous. But hopeful.</p>
+        <p>Linda squeezed my hand as we drove. "What if this actually works?"</p>
+        <p>"Then we're about to get your life back," I said.</p>
+        
+        <div className="section-divider" />
+        
+        <p>We pulled into the parking lot.</p>
+        <p>That's when I saw the sign.</p>
+        
+        <HighlightBox variant="warning">
+          <p className="text-3xl font-black text-emphasis mb-3">ÎNCHIS</p>
+          <p className="text-xl font-bold">Closed.</p>
+        </HighlightBox>
+        
+        <p>I walked closer. Another sign. In Romanian and English.</p>
+        
+        <div className="callout-box bg-muted">
+          <p className="italic text-center text-lg">"Due to severe flooding and structural collapse, the Praid Salt Mine has been permanently closed as of May 2025."</p>
         </div>
-      </section>
+        
+        <p>My heart sank.</p>
+        <p>We'd flown 5,000 miles. Spent money we didn't have.</p>
+        <p className="font-bold text-xl">And now... nothing.</p>
+        
+        <HighlightBox variant="testimony">
+          <p>Linda put her hand on my shoulder. "We tried. That's more than most people do."</p>
+          <p className="mt-3">But I could hear it in her voice.</p>
+          <p className="font-bold text-emphasis">The defeat. The resignation.</p>
+          <p className="mt-2">Like she'd already accepted this was how the rest of her life was going to be.</p>
+        </HighlightBox>
+        
+        <p className="font-bold text-lg">And I wasn't ready to accept that.</p>
+        <p>Not yet.</p>
+      </StorySection>
 
       {/* The Village Discovery */}
-      <section className="py-12 px-4 bg-scientific/30">
-        <div className="container mx-auto max-w-3xl">
-          <h2 className="font-display text-3xl md:text-4xl font-bold mb-6 text-foreground">
-            The Coffee Shop Conversation That Saved Linda's Life
-          </h2>
-          
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
-            <p>We drove into town. Found a small cafe on the main street. Old wooden tables. The smell of strong coffee and fresh bread.</p>
-            <p>We ordered and sat down.</p>
-            <p>Linda looked tired. Not physically. Just... defeated.</p>
-            <p>"What do we do now?" she whispered.</p>
-            <p>I had no answer.</p>
-            <p>Just that familiar crushing weight in my chest.</p>
-            <p>That's when an older woman at the next table leaned over.</p>
-            <p>"English?" she asked. Her accent thick. But clear.</p>
-            <p>"American," I said.</p>
-            <p>She smiled. "I'm Ioana."</p>
-            <p>She gestured toward the window. "You came for the mine?"</p>
-            <p>I nodded. "Yeah. But it collapsed."</p>
-            <p>She waved her hand dismissively. "The mine. Everyone comes for the mine."</p>
-            <p>She shook her head. "But the mine is not special. It's just... underground."</p>
-            <p>I frowned. "What do you mean?"</p>
-            <p>She leaned in closer. "You want salt for breathing, yes?"</p>
-            <p>"Yeah. My wife has lung problems."</p>
-            <p>Ioana looked at Linda. Studied her for a moment. Then nodded. "The mine was good. But there is a better place."</p>
-            <p>Linda sat up. "Where?"</p>
-            <p className="font-bold text-xl text-primary">Ioana smiled. "Mânzălești. Small village. About four hours from here."</p>
-            <p>She pulled out her phone. Scrolled for a minute. Then turned it toward us.</p>
-            <p>It was a YouTube video. The thumbnail showed an old man. Holding an axe. Standing in front of a pile of freshly cut wood.</p>
-            <p>The title was in Romanian. But I could make out the number: 101 de ani.</p>
-            <p>101 years old.</p>
-            <p>She hit play. The video had 96,000 views.</p>
-            <p>The old man was cutting wood. With a CHAINSAW. Moving like he was 50. Not 101.</p>
-            <p>"This is Gică Baciu," Ioana said. "He lives in Mânzălești. Everyone there lives long like this."</p>
-            <p>Linda's eyes widened. "Everyone?"</p>
-            <p>Ioana nodded. "Many people. Very old. But still strong."</p>
-            <p>She swiped to another video. An old woman. Working in her garden. Moving effortlessly.</p>
-            <p>Then another. A news report. BBC. Showing the village. White hills rising from the valley.</p>
-            <p>"That is salt," Ioana said. "On the SURFACE. Not underground like the mine."</p>
-            <p>I stared at the screen. "How is that possible?"</p>
-            <p>She shrugged. "The ground is full of salt. So much salt, it comes to the top. The river carries it. The wind blows it."</p>
-            <p>"The whole village breathes it. Every day. Their whole lives."</p>
-            <p className="font-bold text-xl text-primary">"That is why they live so long."</p>
-            <p>She showed us more videos. Multiple TV reports. Romanian news channels. National Geographic.</p>
-            <p>All about Mânzălești. The village where people live past 100.</p>
-            <p>"You can search for it yourself on YouTube," she said. "Mânzălești longevity village. There are dozens of reports. This is real. Documented for years."</p>
-            <p>I looked at Linda. Then back at Ioana.</p>
-            <p>Linda leaned forward. "Can we go there?"</p>
-            <p>Ioana smiled. "Of course. But..." She paused. "You should talk to Dr. Popescu first. She knows everything about the salt."</p>
-            <p>"Who's Dr. Popescu?"</p>
-            <p>"A researcher. From the university. She has been studying Mânzălești for many years."</p>
-            <p>She pulled out a pen. Scribbled something on a napkin. Slid it across the table.</p>
-            <p>"Her name. Her email. Tell her Ioana sent you."</p>
-            <p>I looked at the napkin. Then at Ioana. "That's very kind of you. But... why are you going out of your way for us?"</p>
-            <p>She smiled sadly. "My husband had lung problems. Like your wife."</p>
-            <p>"He is gone now. But before he died... he spent time in Mânzălești."</p>
-            <p>"It gave him ten more good years."</p>
-            <p>Her eyes got a little watery. "So when I see people like you... looking for hope..."</p>
-            <p>She trailed off. Then stood up. Patted Linda's hand.</p>
-            <p>"Go to Mânzălești. Breathe the air. You will see."</p>
-            <p>And then she left.</p>
-            <p>I sat there holding the napkin. Staring at the name. Dr. Elena Popescu.</p>
-            <p>Linda looked at me. "Robert... should we email her?"</p>
-            <p>I pulled out my phone. "I'm doing it right now."</p>
-          </div>
+      <StorySection title="The Coffee Shop Conversation That Saved Linda's Life" bgColor="scientific">
+        <p>We drove into town. Found a small cafe on the main street. Old wooden tables. The smell of strong coffee and fresh bread.</p>
+        <p>We ordered and sat down.</p>
+        <p>Linda looked tired. Not physically. Just... defeated.</p>
+        
+        <HighlightBox variant="testimony">
+          <p>"What do we do now?" she whispered.</p>
+          <p className="mt-2">I had no answer. Just that familiar crushing weight in my chest.</p>
+        </HighlightBox>
+        
+        <p className="font-bold text-lg">That's when an older woman at the next table leaned over.</p>
+        
+        <p>"English?" she asked. Her accent thick. But clear.</p>
+        <p>"American," I said.</p>
+        <p>She smiled. "I'm Ioana."</p>
+        <p>She gestured toward the window. "You came for the mine?"</p>
+        <p>I nodded. "Yeah. But it collapsed."</p>
+        
+        <HighlightBox>
+          <p className="font-bold text-lg">She waved her hand dismissively.</p>
+          <p className="text-xl mt-2">"The mine. Everyone comes for the mine."</p>
+          <p className="font-bold text-primary text-lg mt-2">"But the mine is not special. It's just... underground."</p>
+        </HighlightBox>
+        
+        <p>I frowned. "What do you mean?"</p>
+        <p>She leaned in closer. "You want salt for breathing, yes?"</p>
+        <p>"Yeah. My wife has lung problems."</p>
+        <p>Ioana looked at Linda. Studied her for a moment. Then nodded.</p>
+        
+        <div className="callout-box">
+          <p className="text-2xl font-black text-primary text-center mb-3">"The mine was good. But there is a better place."</p>
+          <p className="text-center">Linda sat up. "Where?"</p>
+          <p className="text-3xl font-black text-emphasis text-center mt-4">Mânzălești.</p>
+          <p className="text-center mt-2">Small village. About four hours from here.</p>
         </div>
-      </section>
+        
+        <p>She pulled out her phone. Scrolled for a minute. Then turned it toward us.</p>
+        <p>It was a YouTube video. The thumbnail showed an old man. Holding an axe. Standing in front of a pile of freshly cut wood.</p>
+        
+        <HighlightBox>
+          <p className="font-bold text-lg">The title was in Romanian. But I could make out the number:</p>
+          <p className="text-3xl font-bold text-primary text-center my-3">101 de ani.</p>
+          <p className="text-center">101 years old.</p>
+        </HighlightBox>
+        
+        <p>She hit play. The video had 96,000 views.</p>
+        <p>The old man was cutting wood. With a CHAINSAW. Moving like he was 50. Not 101.</p>
+        
+        <p>"This is Gică Baciu," Ioana said. "He lives in Mânzălești. Everyone there lives long like this."</p>
+        <p>Linda's eyes widened. "Everyone?"</p>
+        <p>Ioana nodded. "Many people. Very old. But still strong."</p>
+        
+        <p>She swiped to another video. An old woman. Working in her garden. Moving effortlessly.</p>
+        <p>Then another. A news report. BBC. Showing the village. White hills rising from the valley.</p>
+        
+        <div className="highlight-box">
+          <p className="font-bold text-lg text-primary mb-2">"That is salt," Ioana said.</p>
+          <p className="text-xl font-bold">On the SURFACE. Not underground like the mine.</p>
+        </div>
+        
+        <p>I stared at the screen. "How is that possible?"</p>
+        <p>She shrugged. "The ground is full of salt. So much salt, it comes to the top. The river carries it. The wind blows it."</p>
+        <p>"The whole village breathes it. Every day. Their whole lives."</p>
+        
+        <div className="callout-box text-center">
+          <p className="text-2xl font-black text-emphasis">"That is why they live so long."</p>
+        </div>
+        
+        <p>She showed us more videos. Multiple TV reports. Romanian news channels. National Geographic.</p>
+        <p>All about Mânzălești. The village where people live past 100.</p>
+        
+        <HighlightBox>
+          <p className="font-bold">"You can search for it yourself on YouTube," she said.</p>
+          <p className="mt-2 italic">"Mânzălești longevity village. There are dozens of reports. This is real. Documented for years."</p>
+        </HighlightBox>
+        
+        <p>I looked at Linda. Then back at Ioana.</p>
+        <p>Linda leaned forward. "Can we go there?"</p>
+        <p>Ioana smiled. "Of course. But..." She paused. "You should talk to Dr. Popescu first. She knows everything about the salt."</p>
+        
+        <p>"Who's Dr. Popescu?"</p>
+        <p>"A researcher. From the university. She has been studying Mânzălești for many years."</p>
+        <p>She pulled out a pen. Scribbled something on a napkin. Slid it across the table.</p>
+        <p>"Her name. Her email. Tell her Ioana sent you."</p>
+        
+        <div className="section-divider" />
+        
+        <p>I looked at the napkin. Then at Ioana. "That's very kind of you. But... why are you going out of your way for us?"</p>
+        
+        <HighlightBox variant="testimony">
+          <p>She smiled sadly. "My husband had lung problems. Like your wife."</p>
+          <p className="mt-2">"He is gone now. But before he died... he spent time in Mânzălești."</p>
+          <p className="font-bold text-primary text-lg mt-3">"It gave him ten more good years."</p>
+          <p className="mt-3">Her eyes got a little watery. "So when I see people like you... looking for hope..."</p>
+        </HighlightBox>
+        
+        <p>She trailed off. Then stood up. Patted Linda's hand.</p>
+        <p className="font-bold text-xl text-primary">"Go to Mânzălești. Breathe the air. You will see."</p>
+        <p>And then she left.</p>
+        
+        <p>I sat there holding the napkin. Staring at the name. Dr. Elena Popescu.</p>
+        <p>Linda looked at me. "Robert... should we email her?"</p>
+        <p className="font-bold text-lg">I pulled out my phone. "I'm doing it right now."</p>
+      </StorySection>
 
       {/* Email from Dr. Popescu */}
       <section className="py-12 px-4">
@@ -342,90 +432,107 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Salt Hills Image */}
-      <section className="px-4 py-12 bg-story/30">
-        <div className="container mx-auto max-w-5xl">
-          <h2 className="font-display text-3xl md:text-4xl font-bold mb-8 text-center text-foreground">
-            The 4-Hour Drive That Felt Like Traveling Back in Time
-          </h2>
-          <img 
-            src={saltHills} 
-            alt="White salt hills in Romanian mountains" 
-            className="w-full h-auto rounded-lg shadow-medium mb-8"
-          />
-          <div className="prose prose-lg max-w-3xl mx-auto space-y-4 text-foreground/80">
-            <p>We left before sunrise. Dr. Popescu's directions sitting on the dashboard.</p>
-            <p>For the first hour, everything looked normal. Small towns. Gas stations. Road signs.</p>
-            <p>Then the road narrowed.</p>
-            <p>The towns got smaller.</p>
-            <p>And I started to feel it.</p>
-            <p>That strange mix of hope and terror.</p>
-            <p>We passed villages that looked like they hadn't changed in 100 years. Wooden houses. Horse-drawn carts. Fields worked by hand.</p>
-            <p>"This feels like we're in a different century," Linda said.</p>
-            <p>She wasn't wrong.</p>
-            <p>Another hour passed. Then... I saw them.</p>
-            <p>White hills rising from the valley.</p>
-            <p>At first, I thought: snow.</p>
-            <p>But it was May. Too warm.</p>
-            <p>I pulled over. Got out.</p>
-            <p>Walked closer.</p>
-            <p>Not snow.</p>
-            <p className="font-bold text-xl text-primary">Salt.</p>
-            <p>Coating the hillsides like powder. Sparkling like crushed diamonds in the morning sun.</p>
-            <p>Linda came up beside me. "Robert... is that...?"</p>
-            <p>"Yeah," I said quietly. "That's salt."</p>
-            <p>We stood there for a minute. Just staring at these hills. Covered in salt. Out in the open. Not underground. Not in a mine. Just... there.</p>
-            <p>Then I heard a car pull up behind us.</p>
-            <p>I turned. A woman got out. Probably in her late 50s. Carrying a weathered leather bag. Warm smile.</p>
-            <p>"Robert? Linda?"</p>
-            <p>I nodded.</p>
-            <p>She walked over. Extended her hand. "I'm Dr. Elena Popescu. Welcome to Mânzălești."</p>
-          </div>
+      <ImageWithText 
+        image={saltHills}
+        imageAlt="White salt hills in Romanian mountains"
+        title="The 4-Hour Drive That Felt Like Traveling Back in Time"
+        bgColor="story"
+      >
+        <p>We left before sunrise. Dr. Popescu's directions sitting on the dashboard.</p>
+        <p>For the first hour, everything looked normal. Small towns. Gas stations. Road signs.</p>
+        
+        <HighlightBox>
+          <p>Then the road narrowed.</p>
+          <p>The towns got smaller.</p>
+          <p className="font-bold text-lg mt-2">And I started to feel it.</p>
+          <p>That strange mix of hope and terror.</p>
+        </HighlightBox>
+        
+        <p>We passed villages that looked like they hadn't changed in 100 years. Wooden houses. Horse-drawn carts. Fields worked by hand.</p>
+        <p>"This feels like we're in a different century," Linda said.</p>
+        <p>She wasn't wrong.</p>
+        
+        <p>Another hour passed. Then... I saw them.</p>
+        <p className="font-bold text-xl text-primary">White hills rising from the valley.</p>
+        
+        <p>At first, I thought: snow.</p>
+        <p>But it was May. Too warm.</p>
+        <p>I pulled over. Got out. Walked closer.</p>
+        
+        <div className="callout-box text-center">
+          <p className="text-sm mb-2">Not snow.</p>
+          <p className="text-4xl font-black text-emphasis">Salt.</p>
+          <p className="mt-3">Coating the hillsides like powder.</p>
+          <p>Sparkling like crushed diamonds in the morning sun.</p>
         </div>
-      </section>
+        
+        <p>Linda came up beside me. "Robert... is that...?"</p>
+        <p>"Yeah," I said quietly. "That's salt."</p>
+        <p>We stood there for a minute. Just staring at these hills. Covered in salt. Out in the open. Not underground. Not in a mine. Just... there.</p>
+        
+        <p>Then I heard a car pull up behind us.</p>
+        <p>I turned. A woman got out. Probably in her late 50s. Carrying a weathered leather bag. Warm smile.</p>
+        <p>"Robert? Linda?"</p>
+        <p>I nodded.</p>
+        <p className="font-bold text-lg">She walked over. Extended her hand. "I'm Dr. Elena Popescu. Welcome to Mânzălești."</p>
+      </ImageWithText>
 
-      {/* The Village */}
-      <section className="py-12 px-4">
-        <div className="container mx-auto max-w-5xl">
-          <h2 className="font-display text-3xl md:text-4xl font-bold mb-8 text-center text-foreground">
-            What We Found in the Village Where People Live Past 100
-          </h2>
-          <img 
-            src={romanianVillage} 
-            alt="Traditional Romanian village in the mountains" 
-            className="w-full h-auto rounded-lg shadow-medium mb-8"
-          />
-          <div className="prose prose-lg max-w-3xl mx-auto space-y-4 text-foreground/80">
-            <p>Dr. Popescu shook our hands. Then looked back toward the white hills. "Beautiful, isn't it?"</p>
-            <p>Linda nodded. "I've never seen anything like it."</p>
-            <p>"Most people haven't," Dr. Popescu said. "This is one of the only places on Earth where salt deposits rise to the surface like this."</p>
-            <p>She gestured for us to follow her. "Come. Let me show you the village."</p>
-            <p>We got back in our cars. Followed her down a winding dirt road.</p>
-            <p>Through fields dotted with those white salt formations. Past wooden fences. Grazing sheep. Old women in headscarves tending gardens.</p>
-            <p>Then we reached the village center.</p>
-            <p>A small church. A general store. A handful of houses scattered around a dirt square.</p>
-            <p>Simple. Quiet. Untouched by time.</p>
-            <p>Dr. Popescu parked. We pulled up beside her. "This is Mânzălești," she said.</p>
-            <p>I looked around. It felt like we'd stepped into a different era. No paved roads. No power lines. Just... simplicity.</p>
-            <p>Linda grabbed my hand. "Robert... where are we going to stay?"</p>
-            <p>Dr. Popescu smiled. "I've arranged something."</p>
-            <p>She led us down a narrow path. Past a few more houses. Until we reached a small cottage. White walls. Blue shutters. Flowers in the window boxes.</p>
-            <p>An older woman was standing outside. Probably in her 70s. Wearing a traditional Romanian dress. Smiling warmly.</p>
-            <p>"This is Maria," Dr. Popescu said. "She's agreed to rent you her guest house for as long as you need."</p>
-            <p>Maria said something in Romanian. Dr. Popescu translated. "She says welcome. And she's happy you're here."</p>
-            <p>Maria walked over to Linda. Took both her hands. Said something else.</p>
-            <p>Dr. Popescu translated again. "She says her sister had breathing problems, too. The air here helped her. She also had terrible allergies every spring. Sneezing. Watery eyes. Couldn't go outside. After two months here, the allergies stopped completely."</p>
-            <p>Linda's eyes welled up a little. "Thank you," she said.</p>
-            <p>Maria squeezed her hands. Then led us around the side of the main house. To a smaller building in the back.</p>
-            <p>Inside was simple. One bedroom. Small kitchen. Bathroom. But it was clean. Comfortable.</p>
-            <p>And honestly? It felt... peaceful.</p>
-            <p>Dr. Popescu stood in the doorway. "I'll let you get settled. Get some rest tonight."</p>
-            <p>She paused. "Tomorrow morning, come by my office. It's just down the road. I want to show you something."</p>
-            <p>"What?" I asked.</p>
-            <p>She smiled. "Why this place actually works."</p>
-          </div>
-        </div>
-      </section>
+      <ImageWithText 
+        image={romanianVillage}
+        imageAlt="Traditional Romanian village in the mountains"
+        title="What We Found in the Village Where People Live Past 100"
+      >
+        <p>Dr. Popescu shook our hands. Then looked back toward the white hills. "Beautiful, isn't it?"</p>
+        <p>Linda nodded. "I've never seen anything like it."</p>
+        
+        <HighlightBox>
+          <p className="font-semibold">"Most people haven't," Dr. Popescu said.</p>
+          <p className="text-lg font-bold text-primary mt-2">"This is one of the only places on Earth where salt deposits rise to the surface like this."</p>
+        </HighlightBox>
+        
+        <p>She gestured for us to follow her. "Come. Let me show you the village."</p>
+        
+        <p>We got back in our cars. Followed her down a winding dirt road.</p>
+        <p>Through fields dotted with those white salt formations. Past wooden fences. Grazing sheep. Old women in headscarves tending gardens.</p>
+        
+        <p>Then we reached the village center.</p>
+        <p>A small church. A general store. A handful of houses scattered around a dirt square.</p>
+        <p className="font-bold">Simple. Quiet. Untouched by time.</p>
+        
+        <p>Dr. Popescu parked. We pulled up beside her. "This is Mânzălești," she said.</p>
+        <p>I looked around. It felt like we'd stepped into a different era. No paved roads. No power lines. Just... simplicity.</p>
+        
+        <p>Linda grabbed my hand. "Robert... where are we going to stay?"</p>
+        <p>Dr. Popescu smiled. "I've arranged something."</p>
+        
+        <p>She led us down a narrow path. Past a few more houses. Until we reached a small cottage. White walls. Blue shutters. Flowers in the window boxes.</p>
+        <p>An older woman was standing outside. Probably in her 70s. Wearing a traditional Romanian dress. Smiling warmly.</p>
+        
+        <HighlightBox>
+          <p>"This is Maria," Dr. Popescu said. "She's agreed to rent you her guest house for as long as you need."</p>
+        </HighlightBox>
+        
+        <p>Maria said something in Romanian. Dr. Popescu translated. "She says welcome. And she's happy you're here."</p>
+        <p>Maria walked over to Linda. Took both her hands. Said something else.</p>
+        
+        <HighlightBox variant="testimony">
+          <p className="font-semibold">Dr. Popescu translated again:</p>
+          <p className="mt-2">"She says her sister had breathing problems, too. The air here helped her.</p>
+          <p className="mt-2">She also had terrible allergies every spring. Sneezing. Watery eyes. Couldn't go outside.</p>
+          <p className="font-bold text-primary text-lg mt-3">After two months here, the allergies stopped completely."</p>
+        </HighlightBox>
+        
+        <p>Linda's eyes welled up a little. "Thank you," she said.</p>
+        <p>Maria squeezed her hands. Then led us around the side of the main house. To a smaller building in the back.</p>
+        
+        <p>Inside was simple. One bedroom. Small kitchen. Bathroom. But it was clean. Comfortable.</p>
+        <p>And honestly? It felt... peaceful.</p>
+        
+        <p>Dr. Popescu stood in the doorway. "I'll let you get settled. Get some rest tonight."</p>
+        <p>She paused. "Tomorrow morning, come by my office. It's just down the road. I want to show you something."</p>
+        <p>"What?" I asked.</p>
+        <p className="font-bold text-xl text-primary">She smiled. "Why this place actually works."</p>
+      </ImageWithText>
 
       {/* Scientific Explanation */}
       <section className="py-12 px-4 bg-scientific/30">
@@ -556,186 +663,271 @@ const Index = () => {
       </section>
 
       {/* The Transformation */}
-      <section className="py-12 px-4">
-        <div className="container mx-auto max-w-3xl">
-          <h2 className="font-display text-3xl md:text-4xl font-bold mb-6 text-foreground">
-            Day 3: The Morning Linda Woke Up Without Wheezing (For the First Time in 3 Years)
-          </h2>
-          
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
-            <p>The first two days were... underwhelming.</p>
-            <p>We walked around the village. Met some locals. (None of whom spoke English.)</p>
-            <p>Looked at the salt-covered hills. Breathed.</p>
-            <p>And that was it.</p>
-            <p>Linda said she felt "okay." Not better. Not worse. Just... okay.</p>
-            <p>I started to think we'd made a mistake.</p>
-            <p className="font-bold text-xl">Then... day 3.</p>
-            <p>I woke up around 7 AM. Linda was still asleep next to me.</p>
-            <p>But something was different.</p>
-            <p>I couldn't figure out what it was at first.</p>
-            <p>Then I realized.</p>
-            <p className="font-bold text-emphasis text-xl">I didn't hear the wheeze.</p>
-            <p>That rattling sound that had been part of our mornings for YEARS. It was... gone.</p>
-            <p>I sat up. Watched her chest rise and fall. Smooth. Steady. Quiet.</p>
-            <p>No struggle. No gasping. Just... breathing.</p>
-            <p>She opened her eyes. "Morning," she said.</p>
-            <p>Her voice was clear. Not strained. Not tight. Clear.</p>
-            <p>"How do you feel?" I asked.</p>
-            <p>She paused. Took a deep breath. All the way in. Held it. Then let it out slowly.</p>
-            <p>Her eyes widened.</p>
-            <p className="font-bold text-2xl text-primary">"I can breathe," she whispered.</p>
-            <p>Not "I'm breathing okay." Not "I'm managing."</p>
-            <p>"I can BREATHE."</p>
-            <p>She sat up. Took another breath. Deeper this time.</p>
-            <p>"Robert, I don't feel like I'm suffocating."</p>
-            <p>She started crying. Happy tears.</p>
-            <p>"I forgot what this felt like."</p>
-            <p>I didn't say anything. Because I was crying too.</p>
-          </div>
+      <StorySection title="Day 3: The Morning Linda Woke Up Without Wheezing (For the First Time in 3 Years)">
+        <p>The first two days were... underwhelming.</p>
+        <p>We walked around the village. Met some locals. (None of whom spoke English.)</p>
+        <p>Looked at the salt-covered hills. Breathed.</p>
+        <p>And that was it.</p>
+        
+        <p>Linda said she felt "okay." Not better. Not worse. Just... okay.</p>
+        <p>I started to think we'd made a mistake.</p>
+        
+        <div className="callout-box text-center">
+          <p className="text-3xl font-black text-emphasis">Then... day 3.</p>
         </div>
-      </section>
-
-      {/* Ana's Story */}
-      <section className="py-12 px-4 bg-story/30">
-        <div className="container mx-auto max-w-5xl">
-          <h2 className="font-display text-3xl md:text-4xl font-bold mb-8 text-center text-foreground">
-            The 97-Year-Old Woman Chopping Wood (And What She Told Us About Living in This Valley)
-          </h2>
-          
-          <img 
-            src={elderlyMan} 
-            alt="Elderly person chopping wood in Romanian village" 
-            className="w-full h-auto rounded-lg shadow-medium mb-8"
-          />
-
-          <div className="prose prose-lg max-w-3xl mx-auto space-y-4 text-foreground/80">
-            <p>Later that morning, Dr. Popescu came by.</p>
-            <p>"How are you feeling?" she asked Linda.</p>
-            <p>"Better. A lot better."</p>
-            <p>Dr. Popescu smiled. "Good. Come with me. I want to show you something."</p>
-            <p>We walked through the village. Down a narrow dirt path. Past a few scattered houses.</p>
-            <p>Then we came to a small garden.</p>
-            <p>An older woman was kneeling in the dirt. Pulling weeds. Moving with steady, practiced motions.</p>
-            <p>Dr. Popescu called out to her in Romanian.</p>
-            <p>The woman looked up. Smiled. Stood up without using her hands.</p>
-            <p>Up close, I could see how old she was. Deeply lined face. Hands weathered from decades of work. But her eyes were bright. Alert.</p>
-            <p>"This is Ana," Dr. Popescu said. "She's 97."</p>
-            <p>We shook hands. Her grip was surprisingly strong.</p>
-            <p>Dr. Popescu translated as we talked.</p>
-            <p>"Have you always lived here?" I asked.</p>
-            <p>Ana nodded. Said something in Romanian.</p>
-            <p>Dr. Popescu translated: "She was born in this house. Her mother was born here, too. Four generations of her family have lived in this valley."</p>
-            <p>Linda asked, "Have you had any lung problems? Asthma? Breathing issues?"</p>
-            <p>Ana looked confused. Said something to Dr. Popescu.</p>
-            <p>Dr. Popescu smiled. "She says no one in her family has ever had lung problems. Not her. Not her mother. Not her grandmother."</p>
-            <p>"Never?"</p>
-            <p>Ana shrugged. Said something else.</p>
-            <p>Dr. Popescu translated: "She says the salt protects our lungs. We don't get the breathing sickness. We don't get the spring allergies either. Even the children here... no asthma. No hay fever."</p>
-            <p>We talked for a few more minutes. Then Ana gestured toward a pile of freshly chopped firewood.</p>
-            <p>Dr. Popescu laughed. Translated: "She says she chopped that this morning. For winter."</p>
-            <p>I stared at the pile. Then at Ana. "You chopped all that? Today?"</p>
-            <p>Ana nodded. Said something with a grin.</p>
-            <p>Dr. Popescu translated: "She says her knees used to hurt. But not anymore. She uses warm salt bags on them at night. Old tradition here."</p>
-            <p>Linda's eyes widened. "Salt bags?"</p>
-            <p>Ana nodded again. Went inside her house. Came back with a small fabric pouch. Handed it to Linda.</p>
-            <p>It was warm. Filled with coarse salt.</p>
-            <p>Dr. Popescu explained: "The villagers heat these pouches and apply them to sore joints. Knees. Shoulders. Hips. It reduces inflammation. My own mother used them for arthritis."</p>
-            <p>Ana said something else.</p>
-            <p>Dr. Popescu smiled. "She says you can keep that one. She has many."</p>
-            <p>Linda held the pouch. "Thank you," she whispered.</p>
-            <p>As we walked away, Dr. Popescu said, "There are dozens of people like her in this village. All in their 90s. Many over 100."</p>
-            <p>"They don't take medication. They don't go to doctors. They just... live."</p>
-            <p>"And breathe this air every single day."</p>
-            <p>Linda turned to me. "Robert... what if this is real?"</p>
-            <p>I looked back at Ana. Still working in her garden. At 97.</p>
-            <p>"I think it is," I said.</p>
-          </div>
+        
+        <p>I woke up around 7 AM. Linda was still asleep next to me.</p>
+        <p>But something was different.</p>
+        <p>I couldn't figure out what it was at first.</p>
+        <p>Then I realized.</p>
+        
+        <HighlightBox variant="warning">
+          <p className="text-2xl font-bold text-emphasis text-center">I didn't hear the wheeze.</p>
+          <p className="mt-3">That rattling sound that had been part of our mornings for YEARS.</p>
+          <p className="font-bold text-lg mt-2">It was... gone.</p>
+        </HighlightBox>
+        
+        <p>I sat up. Watched her chest rise and fall. Smooth. Steady. Quiet.</p>
+        <p>No struggle. No gasping. Just... breathing.</p>
+        
+        <p>She opened her eyes. "Morning," she said.</p>
+        <p>Her voice was clear. Not strained. Not tight. Clear.</p>
+        <p>"How do you feel?" I asked.</p>
+        
+        <p>She paused. Took a deep breath. All the way in. Held it. Then let it out slowly.</p>
+        <p>Her eyes widened.</p>
+        
+        <div className="callout-box text-center bg-primary/5">
+          <p className="text-3xl font-black text-primary mb-3">"I can breathe," she whispered.</p>
+          <p className="text-lg">Not "I'm breathing okay." Not "I'm managing."</p>
+          <p className="text-2xl font-bold text-emphasis mt-3">"I can BREATHE."</p>
         </div>
-      </section>
+        
+        <p>She sat up. Took another breath. Deeper this time.</p>
+        <p>"Robert, I don't feel like I'm suffocating."</p>
+        <p>She started crying. Happy tears.</p>
+        <p className="font-bold text-xl text-primary">"I forgot what this felt like."</p>
+        
+        <p>I didn't say anything. Because I was crying too.</p>
+      </StorySection>
+
+      <ImageWithText 
+        image={elderlyMan}
+        imageAlt="Elderly person chopping wood in Romanian village"
+        title="The 97-Year-Old Woman Chopping Wood (And What She Told Us About Living in This Valley)"
+        bgColor="story"
+      >
+        <p>Later that morning, Dr. Popescu came by.</p>
+        <p>"How are you feeling?" she asked Linda.</p>
+        <p>"Better. A lot better."</p>
+        <p>Dr. Popescu smiled. "Good. Come with me. I want to show you something."</p>
+        
+        <p>We walked through the village. Down a narrow dirt path. Past a few scattered houses.</p>
+        <p>Then we came to a small garden.</p>
+        <p>An older woman was kneeling in the dirt. Pulling weeds. Moving with steady, practiced motions.</p>
+        
+        <HighlightBox>
+          <p>Dr. Popescu called out to her in Romanian.</p>
+          <p>The woman looked up. Smiled. Stood up without using her hands.</p>
+          <p className="font-bold text-lg text-primary mt-2">Up close, I could see how old she was. Deeply lined face. Hands weathered from decades of work. But her eyes were bright. Alert.</p>
+        </HighlightBox>
+        
+        <p>"This is Ana," Dr. Popescu said. "She's 97."</p>
+        <p>We shook hands. Her grip was surprisingly strong.</p>
+        
+        <p>Dr. Popescu translated as we talked.</p>
+        <p>"Have you always lived here?" I asked.</p>
+        <p>Ana nodded. Said something in Romanian.</p>
+        <p>Dr. Popescu translated: "She was born in this house. Her mother was born here, too. Four generations of her family have lived in this valley."</p>
+        
+        <p>Linda asked, "Have you had any lung problems? Asthma? Breathing issues?"</p>
+        
+        <HighlightBox variant="testimony">
+          <p>Ana looked confused. Said something to Dr. Popescu.</p>
+          <p className="mt-3">Dr. Popescu smiled. "She says no one in her family has ever had lung problems. Not her. Not her mother. Not her grandmother."</p>
+          <p className="font-bold text-xl text-primary mt-3">"Never?"</p>
+        </HighlightBox>
+        
+        <p>Ana shrugged. Said something else.</p>
+        <p>Dr. Popescu translated: "She says the salt protects our lungs. We don't get the breathing sickness. We don't get the spring allergies either. Even the children here... no asthma. No hay fever."</p>
+        
+        <p>We talked for a few more minutes. Then Ana gestured toward a pile of freshly chopped firewood.</p>
+        <p>Dr. Popescu laughed. Translated: "She says she chopped that this morning. For winter."</p>
+        <p>I stared at the pile. Then at Ana. "You chopped all that? Today?"</p>
+        
+        <HighlightBox>
+          <p>Ana nodded. Said something with a grin.</p>
+          <p className="mt-2">Dr. Popescu translated: "She says her knees used to hurt. But not anymore.</p>
+          <p className="font-bold text-primary text-lg mt-2">She uses warm salt bags on them at night. Old tradition here."</p>
+        </HighlightBox>
+        
+        <p>Linda's eyes widened. "Salt bags?"</p>
+        <p>Ana nodded again. Went inside her house. Came back with a small fabric pouch. Handed it to Linda.</p>
+        <p>It was warm. Filled with coarse salt.</p>
+        
+        <p>Dr. Popescu explained: "The villagers heat these pouches and apply them to sore joints. Knees. Shoulders. Hips. It reduces inflammation. My own mother used them for arthritis."</p>
+        <p>Ana said something else.</p>
+        <p>Dr. Popescu smiled. "She says you can keep that one. She has many."</p>
+        <p>Linda held the pouch. "Thank you," she whispered.</p>
+        
+        <div className="section-divider" />
+        
+        <p>As we walked away, Dr. Popescu said, "There are dozens of people like her in this village. All in their 90s. Many over 100."</p>
+        <p>"They don't take medication. They don't go to doctors. They just... live."</p>
+        <p className="font-bold text-lg text-primary">"And breathe this air every single day."</p>
+        
+        <p>Linda turned to me. "Robert... what if this is real?"</p>
+        <p>I looked back at Ana. Still working in her garden. At 97.</p>
+        <p className="font-bold text-xl">"I think it is," I said.</p>
+      </ImageWithText>
 
       {/* Day 10 Transformation */}
-      <section className="py-12 px-4 bg-scientific/30">
-        <div className="container mx-auto max-w-3xl">
-          <h2 className="font-display text-3xl md:text-4xl font-bold mb-6 text-foreground">
-            By Day 10, Linda Did Something She Hasn't Done in 5 Years (And I Cried Like a Baby Watching Her)
-          </h2>
-          
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
-            <p>Over the next week, Linda transformed.</p>
-            <p>Not overnight. But steadily.</p>
-            <p>By day 5, she was walking around the village without stopping to catch her breath.</p>
-            <p>By day 7, she was sleeping through the night. No coughing fits. No waking up at 3 AM struggling to breathe.</p>
-            <p>By day 10... she wanted to hike.</p>
-            <p>There's this trail near the village. About 3 miles. Moderate incline. Nothing crazy.</p>
-            <p>But for Linda? It might as well have been Everest.</p>
-            <p>Six months earlier, she couldn't walk to the mailbox without stopping halfway.</p>
-            <p>And now... she wanted to hike.</p>
-            <p>"Are you sure?" I asked.</p>
-            <p>She nodded. "I want to try."</p>
-            <p>We started walking. Slowly at first.</p>
-            <p>I kept waiting for her to stop. To catch her breath. To say she needed a break.</p>
-            <p>But she didn't.</p>
-            <p>She just... kept going. One foot in front of the other. Breathing. ACTUALLY breathing.</p>
-            <p>About halfway up, she stopped. Not because she was tired. But because she wanted to look at the view.</p>
-            <p>The mountains stretched out in front of us. Green and gold and endless. The white salt hills sparkling in the distance.</p>
-            <p>"I never thought I'd be able to do this again," she said quietly.</p>
-            <p>I didn't say anything.</p>
-            <p>Because I was crying.</p>
-            <p>That afternoon, Dr. Popescu came by with a portable oxygen monitor. "Let's see how you're doing," she said.</p>
-            <p>She clipped it onto Linda's finger. We waited.</p>
-            <p className="font-bold text-2xl text-primary">97%.</p>
-            <p>Dr. Popescu smiled. "Excellent."</p>
-            <p>Linda looked at me. "What was it before?"</p>
-            <p>"88%," I said quietly.</p>
-            <p>Dr. Popescu pulled out a peak flow meter. "Blow into this. As hard as you can."</p>
-            <p>Linda did.</p>
-            <p className="font-bold text-2xl text-primary">420.</p>
-            <p>"What was it before?" Dr. Popescu asked.</p>
-            <p>"310," Linda whispered.</p>
-            <p>Dr. Popescu nodded. "You've gone from severe obstruction to borderline normal. In 10 days."</p>
-            <p>Linda started crying. "I'm getting better."</p>
-            <p>Dr. Popescu squeezed her hand. "Yes. You are."</p>
-            <p>But while Linda was getting better... that hike absolutely DESTROYED my knees.</p>
-            <p>Twenty-two years in the Air Force had left them pretty shot.</p>
-            <p>And by the time we got back to the cottage, I could barely walk.</p>
-            <p>Then I remembered what Dr. Popescu said about the villagers using warm salt for joint pain.</p>
-            <p>I grabbed one of the small pouches Maria had given us. Heated it on the stove for a few minutes. Pressed it against my right knee.</p>
-            <p>Within 20 minutes, the throbbing stopped.</p>
-            <p>The next morning? No pain.</p>
-            <p>First time in years.</p>
+      <StorySection title="By Day 10, Linda Did Something She Hasn't Done in 5 Years (And I Cried Like a Baby Watching Her)" bgColor="scientific">
+        <p>Over the next week, Linda transformed.</p>
+        <p>Not overnight. But steadily.</p>
+        
+        <div className="benefit-grid my-8">
+          <div className="benefit-card">
+            <p className="font-bold text-lg text-primary mb-2">Day 5</p>
+            <p>Walking around the village without stopping to catch her breath</p>
+          </div>
+          <div className="benefit-card">
+            <p className="font-bold text-lg text-primary mb-2">Day 7</p>
+            <p>Sleeping through the night. No coughing fits. No waking up at 3 AM struggling to breathe.</p>
           </div>
         </div>
-      </section>
+        
+        <div className="callout-box text-center">
+          <p className="text-2xl font-bold text-emphasis mb-2">By day 10...</p>
+          <p className="text-xl">She wanted to hike.</p>
+        </div>
+        
+        <p>There's this trail near the village. About 3 miles. Moderate incline. Nothing crazy.</p>
+        <p>But for Linda? It might as well have been Everest.</p>
+        <p>Six months earlier, she couldn't walk to the mailbox without stopping halfway.</p>
+        <p className="font-bold text-xl text-primary">And now... she wanted to hike.</p>
+        
+        <p>"Are you sure?" I asked.</p>
+        <p>She nodded. "I want to try."</p>
+        
+        <div className="section-divider" />
+        
+        <p>We started walking. Slowly at first.</p>
+        <p>I kept waiting for her to stop. To catch her breath. To say she needed a break.</p>
+        <p>But she didn't.</p>
+        <p className="font-bold text-lg">She just... kept going. One foot in front of the other. Breathing. ACTUALLY breathing.</p>
+        
+        <HighlightBox>
+          <p>About halfway up, she stopped. Not because she was tired. But because she wanted to look at the view.</p>
+          <p className="mt-3">The mountains stretched out in front of us. Green and gold and endless. The white salt hills sparkling in the distance.</p>
+          <p className="font-bold text-primary text-lg mt-3">"I never thought I'd be able to do this again," she said quietly.</p>
+        </HighlightBox>
+        
+        <p>I didn't say anything.</p>
+        <p>Because I was crying.</p>
+        
+        <div className="section-divider" />
+        
+        <p>That afternoon, Dr. Popescu came by with a portable oxygen monitor. "Let's see how you're doing," she said.</p>
+        <p>She clipped it onto Linda's finger. We waited.</p>
+        
+        <div className="callout-box">
+          <div className="grid md:grid-cols-2 gap-6 mb-6">
+            <StatBox 
+              number="97%" 
+              label="Oxygen Saturation" 
+              description="Up from 88%"
+            />
+            <StatBox 
+              number="420" 
+              label="Peak Flow" 
+              description="Up from 310"
+            />
+          </div>
+          <p className="text-center font-bold text-xl text-primary">You've gone from severe obstruction to borderline normal. In 10 days.</p>
+        </div>
+        
+        <p>Linda started crying. "I'm getting better."</p>
+        <p>Dr. Popescu squeezed her hand. "Yes. You are."</p>
+        
+        <div className="section-divider" />
+        
+        <HighlightBox>
+          <p className="font-semibold text-lg mb-2">But while Linda was getting better... that hike absolutely DESTROYED my knees.</p>
+          <p>Twenty-two years in the Air Force had left them pretty shot.</p>
+          <p>And by the time we got back to the cottage, I could barely walk.</p>
+        </HighlightBox>
+        
+        <p>Then I remembered what Dr. Popescu said about the villagers using warm salt for joint pain.</p>
+        <p>I grabbed one of the small pouches Maria had given us. Heated it on the stove for a few minutes. Pressed it against my right knee.</p>
+        
+        <div className="callout-box text-center">
+          <p className="text-lg mb-2">Within 20 minutes, the throbbing stopped.</p>
+          <p className="text-2xl font-bold text-primary">The next morning? No pain.</p>
+          <p className="text-lg mt-2">First time in years.</p>
+        </div>
+      </StorySection>
 
       {/* Coming Home Problem */}
-      <section className="py-12 px-4">
-        <div className="container mx-auto max-w-3xl">
-          <h2 className="font-display text-3xl md:text-4xl font-bold mb-6 text-foreground">
-            The Problem We Discovered When We Got Home (And Why Everything Almost Fell Apart)
-          </h2>
-          
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
-            <p>We flew home three weeks later.</p>
-            <p>I was terrified. Terrified the effects would wear off. That we'd get back to Georgia... and it would all come crashing down.</p>
-            <p>But for the first few weeks... Linda was fine. Better than fine.</p>
-            <p>She was THRIVING.</p>
-            <p>She reduced her inhaler use by 80%. Stopped taking steroids altogether. Started going for walks around the neighborhood. Even played with the grandkids in the backyard.</p>
-            <p>I thought we'd won. I really did.</p>
-            <p>Then... about six weeks after we got home... I heard it.</p>
-            <p>That sound. Faint at first. But unmistakable.</p>
-            <p className="font-bold text-emphasis text-xl">The wheeze.</p>
-            <p>Linda coughed a few times. "Just dry air," she said.</p>
-            <p>But I knew better.</p>
-            <p>By that afternoon, she was reaching for her inhaler again. And that night... the wheezing was back.</p>
-            <p>Within two weeks, it was like Romania never happened.</p>
-            <p>The shortness of breath. The coughing fits. The sleepless nights. All of it. Came rushing back.</p>
-            <p>One night, I found her in the bathroom again. Sitting on the floor. Crying. Just like before.</p>
-            <p>"I thought we fixed it," she sobbed.</p>
-            <p>I held her. And I made another promise.</p>
-            <p>"We're going to figure this out."</p>
+      <StorySection title="The Problem We Discovered When We Got Home (And Why Everything Almost Fell Apart)">
+        <p>We flew home three weeks later.</p>
+        <p>I was terrified. Terrified the effects would wear off. That we'd get back to Georgia... and it would all come crashing down.</p>
+        
+        <p>But for the first few weeks... Linda was fine. Better than fine.</p>
+        <p className="font-bold text-xl text-primary">She was THRIVING.</p>
+        
+        <div className="benefit-grid my-8">
+          <div className="benefit-card">
+            <CheckCircle2 className="h-8 w-8 text-primary mb-2" />
+            <p>Reduced inhaler use by 80%</p>
+          </div>
+          <div className="benefit-card">
+            <CheckCircle2 className="h-8 w-8 text-primary mb-2" />
+            <p>Stopped taking steroids altogether</p>
+          </div>
+          <div className="benefit-card">
+            <CheckCircle2 className="h-8 w-8 text-primary mb-2" />
+            <p>Started going for walks</p>
+          </div>
+          <div className="benefit-card">
+            <CheckCircle2 className="h-8 w-8 text-primary mb-2" />
+            <p>Played with the grandkids</p>
           </div>
         </div>
-      </section>
+        
+        <p>I thought we'd won. I really did.</p>
+        
+        <div className="section-divider" />
+        
+        <p>Then... about six weeks after we got home... I heard it.</p>
+        
+        <HighlightBox variant="warning">
+          <p className="text-lg mb-2">That sound. Faint at first. But unmistakable.</p>
+          <p className="text-3xl font-black text-emphasis text-center my-4">The wheeze.</p>
+        </HighlightBox>
+        
+        <p>Linda coughed a few times. "Just dry air," she said.</p>
+        <p>But I knew better.</p>
+        
+        <p>By that afternoon, she was reaching for her inhaler again. And that night... the wheezing was back.</p>
+        
+        <HighlightBox variant="warning">
+          <p className="font-bold text-lg text-emphasis">Within two weeks, it was like Romania never happened.</p>
+          <p className="mt-3">The shortness of breath. The coughing fits. The sleepless nights.</p>
+          <p className="font-bold text-xl mt-2">All of it. Came rushing back.</p>
+        </HighlightBox>
+        
+        <p>One night, I found her in the bathroom again. Sitting on the floor. Crying. Just like before.</p>
+        
+        <HighlightBox variant="testimony">
+          <p className="text-xl font-bold text-primary">"I thought we fixed it," she sobbed.</p>
+        </HighlightBox>
+        
+        <p>I held her. And I made another promise.</p>
+        <div className="callout-box text-center">
+          <p className="text-2xl font-bold text-primary">"We're going to figure this out."</p>
+        </div>
+      </StorySection>
 
       {/* The Solution */}
       <section className="py-12 px-4 bg-story/30">
