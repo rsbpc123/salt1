@@ -274,6 +274,7 @@ const Index = () => {
             alt="Închis (Closed) sign hanging in the dark tunnel entrance of the salt mine" 
             className="w-full h-auto rounded-lg shadow-dramatic"
           />
+          <p className="text-center text-muted-foreground italic mt-4">(Romanian for "Closed")</p>
         </div>
         
         <p>I walked closer. Another sign. In Romanian and English.</p>
