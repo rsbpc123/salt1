@@ -1321,54 +1321,58 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             <Card className="p-8 shadow-medium border-2 border-border">
               <div className="text-center mb-6">
-                <h3 className="font-display text-2xl font-bold mb-2 text-foreground">Single Pouch</h3>
-                <p className="text-sm text-muted-foreground mb-4">Try it risk-free</p>
+                <h3 className="font-display text-2xl font-bold mb-2 text-foreground">ONE LONGEVITY SALT POUCH</h3>
                 <div className="mb-4">
-                  <span className="text-4xl font-bold text-foreground">$89</span>
-                  <p className="text-sm text-muted-foreground line-through mt-1">Regular: $180</p>
+                  <p className="text-lg font-bold text-accent mb-2">50.6% OFF</p>
+                  <div className="flex items-center justify-center gap-3 mb-2">
+                    <span className="text-2xl text-muted-foreground line-through">$180</span>
+                    <span className="text-4xl font-bold text-foreground">$89</span>
+                  </div>
                 </div>
-                <p className="text-sm text-muted-foreground">Less than $3/day</p>
               </div>
               <Button onClick={scrollToCTA} className="w-full" size="lg">
                 Get Started
               </Button>
             </Card>
 
-            <Card className="p-8 shadow-medium border-4 border-primary relative transform md:scale-105">
-              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-bold">
-                MOST POPULAR
-              </div>
+            <Card className="p-8 shadow-medium border-2 border-border">
               <div className="text-center mb-6">
-                <h3 className="font-display text-2xl font-bold mb-2 text-foreground">3 Pouches</h3>
-                <p className="text-sm text-muted-foreground mb-4">Full home coverage</p>
+                <h3 className="font-display text-2xl font-bold mb-2 text-foreground">3 LONGEVITY SALT POUCHES</h3>
                 <div className="mb-4">
-                  <span className="text-4xl font-bold text-primary">$78</span>
-                  <span className="text-xl text-muted-foreground"> each</span>
-                  <p className="text-sm text-muted-foreground line-through mt-1">Regular: $180 each</p>
-                  <p className="font-bold text-lg text-primary mt-2">Save $33 per pouch</p>
+                  <p className="text-lg font-bold text-accent mb-2">56.6% OFF</p>
+                  <div className="flex items-center justify-center gap-3 mb-2">
+                    <span className="text-2xl text-muted-foreground line-through">$180</span>
+                    <span className="text-4xl font-bold text-foreground">$78</span>
+                    <span className="text-xl text-muted-foreground">per pouch</span>
+                  </div>
+                  <p className="text-xl font-bold text-primary mt-3">TOTAL: $234</p>
                 </div>
-                <p className="text-sm text-foreground/80">This is what Linda uses. One for the bedroom. One for the living room. One for travel.</p>
               </div>
               <Button onClick={scrollToCTA} className="w-full" size="lg">
-                Best Value
+                Order Now
               </Button>
             </Card>
 
-            <Card className="p-8 shadow-medium border-2 border-primary/50">
-              <div className="text-center mb-6">
-                <h3 className="font-display text-2xl font-bold mb-2 text-foreground">5 Pouches</h3>
-                <p className="text-sm text-muted-foreground mb-4">Maximum savings</p>
-                <div className="mb-4">
-                  <span className="text-4xl font-bold text-primary">$62</span>
-                  <span className="text-xl text-muted-foreground"> each</span>
-                  <p className="text-sm text-muted-foreground line-through mt-1">Regular: $180 each</p>
-                  <p className="font-bold text-lg text-primary mt-2">Save $118 per pouch</p>
-                </div>
-                <p className="text-sm text-muted-foreground">Less than $2/day per pouch</p>
-                <p className="text-sm text-foreground/80 mt-2">Stock up now. Because once this batch sells out, it could be MONTHS before we get more.</p>
+            <Card className="p-8 shadow-medium border-4 border-primary relative transform md:scale-105">
+              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-bold flex gap-2">
+                <span>BEST VALUE</span>
+                <span>•</span>
+                <span>BEST SELLING</span>
               </div>
-              <Button onClick={scrollToCTA} className="w-full" size="lg" variant="secondary">
-                Stock Up & Save
+              <div className="text-center mb-6">
+                <h3 className="font-display text-2xl font-bold mb-2 text-foreground">5 LONGEVITY SALT POUCHES</h3>
+                <div className="mb-4">
+                  <p className="text-lg font-bold text-accent mb-2">65.6% OFF</p>
+                  <div className="flex items-center justify-center gap-3 mb-2">
+                    <span className="text-2xl text-muted-foreground line-through">$180</span>
+                    <span className="text-4xl font-bold text-primary">$62</span>
+                    <span className="text-xl text-muted-foreground">per pouch</span>
+                  </div>
+                  <p className="text-xl font-bold text-primary mt-3">TOTAL: $310</p>
+                </div>
+              </div>
+              <Button onClick={scrollToCTA} className="w-full" size="lg">
+                Best Value
               </Button>
             </Card>
           </div>
