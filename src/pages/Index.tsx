@@ -14,6 +14,7 @@ import lungDiagram from "@/assets/lung-diagram.jpg";
 import saltPouch from "@/assets/salt-pouch-product.jpg";
 import elderlyMan from "@/assets/elderly-man-chopping-wood.jpg";
 import inchisSign from "@/assets/inchis-closed-sign.png";
+import romanianCoffeeShop from "@/assets/romanian-coffee-shop.png";
 
 const Index = () => {
   const scrollToCTA = () => {
@@ -300,6 +301,14 @@ const Index = () => {
 
       {/* The Village Discovery */}
       <StorySection title="The Coffee Shop Conversation That Saved Linda's Life" bgColor="scientific">
+        <div className="max-w-4xl mx-auto my-8">
+          <img 
+            src={romanianCoffeeShop} 
+            alt="Colorful historic buildings and outdoor cafe in a Romanian village street" 
+            className="w-full h-auto rounded-lg shadow-dramatic"
+          />
+        </div>
+        
         <p>We drove into town. Found a small cafe on the main street. Old wooden tables. The smell of strong coffee and fresh bread.</p>
         <p>We ordered and sat down.</p>
         <p>Linda looked tired. Not physically. Just... defeated.</p>
