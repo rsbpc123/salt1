@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 import { CheckCircle2, Shield, Lock } from "lucide-react";
 import ScientificBadges from "@/components/ScientificBadges";
 import StatBox from "@/components/StatBox";
-import heroBedroom from "@/assets/hero-bedroom-scene.jpg";
+import HeroSection from "@/components/HeroSection";
 import saltHills from "@/assets/salt-hills-romania.jpg";
 import romanianVillage from "@/assets/romanian-village.jpg";
 import lungDiagram from "@/assets/lung-diagram.jpg";
@@ -33,30 +33,8 @@ const Index = () => {
         </div>
       </header>
 
-      {/* Hero Section */}
-      <section className="py-16 md:py-24 px-4">
-        <div className="container mx-auto max-w-4xl text-center">
-          <h1 className="headline-primary animate-fade-in">
-            I Watched My Wife Drown in Our Bedroom at Midnight…
-          </h1>
-          <p className="subheadline mb-8 leading-tight animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            Then a Collapsed Salt Mine in Romania Led Me to a Village Where Nobody Gets Lung Disease…And Saved Her Life
-          </p>
-          
-          <ScientificBadges />
-        </div>
-      </section>
-
-      {/* Hero Image */}
-      <section className="px-4 mb-12">
-        <div className="container mx-auto max-w-5xl">
-          <img 
-            src={heroBedroom} 
-            alt="Dramatic bedroom scene at midnight" 
-            className="w-full h-auto rounded-lg shadow-medium"
-          />
-        </div>
-      </section>
+      {/* Hero Section with Image */}
+      <HeroSection />
 
       {/* Story Begins */}
       <section className="py-12 px-4 bg-story/30">
