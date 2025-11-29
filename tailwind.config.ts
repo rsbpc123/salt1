@@ -61,6 +61,14 @@ export default {
         story: "hsl(var(--story-bg))",
         scientific: "hsl(var(--scientific-bg))",
         emphasis: "hsl(var(--emphasis-color))",
+        vsl: {
+          hero: "hsl(var(--vsl-hero-bg))",
+          highlight: "hsl(var(--vsl-highlight))",
+          "highlight-fg": "hsl(var(--vsl-highlight-fg))",
+          content: "hsl(var(--vsl-content-box))",
+          check: "hsl(var(--vsl-checkmark))",
+          secondary: "hsl(var(--vsl-secondary-bg))",
+        },
       },
       fontFamily: {
         display: ["var(--font-display)", "serif"],
