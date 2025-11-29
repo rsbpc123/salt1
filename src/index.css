@@ -38,7 +38,7 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
     
-    /* VSL-style design tokens */
+    /* Sales page design tokens */
     --vsl-hero-bg: 235 50% 13%;           /* Deep blue hero background */
     --vsl-highlight: 8 85% 55%;           /* Bright red/orange for highlights */
     --vsl-highlight-fg: 0 0% 100%;        /* White text on highlights */
@@ -140,7 +140,7 @@ All colors MUST be HSL.
     line-height: 1.2;
   }
   
-  /* VSL-Style Components */
+  /* Sales Page Components */
   
   /* Red Highlight Boxes - like the reference site */
   .vsl-highlight {
