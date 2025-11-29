@@ -1,8 +1,8 @@
-interface VSLHighlightProps {
+interface SalesHighlightProps {
   children: React.ReactNode;
 }
 
-const VSLHighlight = ({ children }: VSLHighlightProps) => {
+const SalesHighlight = ({ children }: SalesHighlightProps) => {
   return (
     <span className="vsl-highlight">
       {children}
@@ -10,4 +10,4 @@ const VSLHighlight = ({ children }: VSLHighlightProps) => {
   );
 };
 
-export default VSLHighlight;
+export default SalesHighlight;
