@@ -8,50 +8,58 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 220 15% 15%;
+    --background: 235 50% 13%;  /* Deep blue background like VSL */
+    --foreground: 0 0% 100%;     /* White text */
 
-    --card: 0 0% 98%;
+    --card: 0 0% 100%;            /* White cards */
     --card-foreground: 220 15% 15%;
 
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 15%;
 
-    --primary: 197 85% 42%;
+    --primary: 235 50% 13%;       /* Deep blue for primary */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 200 25% 95%;
+    --secondary: 0 0% 95%;
     --secondary-foreground: 220 15% 15%;
 
-    --muted: 200 20% 96%;
-    --muted-foreground: 220 10% 45%;
+    --muted: 220 15% 20%;
+    --muted-foreground: 0 0% 75%;
 
-    --accent: 40 95% 55%;
-    --accent-foreground: 220 15% 15%;
+    --accent: 140 70% 50%;        /* Green for checkmarks */
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 200 15% 88%;
-    --input: 200 15% 88%;
-    --ring: 197 85% 42%;
+    --border: 220 15% 25%;
+    --input: 220 15% 20%;
+    --ring: 8 85% 55%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
     
-    /* Custom design tokens */
-    --trust-bg: 197 20% 95%;
-    --headline-gradient: linear-gradient(135deg, hsl(220, 15%, 15%), hsl(197, 85%, 25%));
-    --emphasis-color: 0 85% 50%;
-    --story-bg: 45 100% 98%;
-    --scientific-bg: 197 40% 97%;
+    /* VSL-style design tokens */
+    --vsl-hero-bg: 235 50% 13%;           /* Deep blue hero background */
+    --vsl-highlight: 8 85% 55%;           /* Bright red/orange for highlights */
+    --vsl-highlight-fg: 0 0% 100%;        /* White text on highlights */
+    --vsl-content-box: 0 0% 100%;         /* White content boxes */
+    --vsl-checkmark: 140 70% 50%;         /* Green checkmarks */
+    --vsl-secondary-bg: 220 15% 96%;      /* Light gray sections */
+    
+    --trust-bg: 220 15% 96%;
+    --headline-gradient: linear-gradient(135deg, hsl(235, 50%, 25%), hsl(235, 50%, 13%));
+    --emphasis-color: 8 85% 55%;           /* Red emphasis */
+    --story-bg: 220 15% 96%;
+    --scientific-bg: 235 30% 20%;
     
     /* Typography */
     --font-display: 'Playfair Display', serif;
     --font-body: 'Inter', sans-serif;
     
     /* Shadows */
-    --shadow-soft: 0 2px 20px rgba(0, 0, 0, 0.06);
-    --shadow-medium: 0 4px 30px rgba(0, 0, 0, 0.1);
+    --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
+    --shadow-medium: 0 8px 40px rgba(0, 0, 0, 0.15);
+    --shadow-glow: 0 0 30px rgba(8, 145, 178, 0.3);
     
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -132,34 +140,59 @@ All colors MUST be HSL.
     line-height: 1.2;
   }
   
-  /* Custom VSL Styling */
+  /* VSL-Style Components */
+  
+  /* Red Highlight Boxes - like the reference site */
+  .vsl-highlight {
+    @apply inline-block bg-[hsl(var(--vsl-highlight))] text-white font-bold px-3 py-1 my-1;
+  }
+  
   .highlight-box {
-    @apply bg-primary/10 border-l-4 border-primary p-6 rounded-r-lg my-8;
+    @apply bg-card border-l-4 border-[hsl(var(--vsl-highlight))] p-6 rounded-r-lg my-8 shadow-medium;
+  }
+  
+  /* White Content Boxes on Dark Backgrounds */
+  .vsl-content-box {
+    @apply bg-card text-card-foreground p-8 rounded-xl shadow-medium my-8;
+  }
+  
+  /* Green Checkmark Bullets */
+  .vsl-checklist {
+    @apply space-y-4;
+  }
+  
+  .vsl-check-item {
+    @apply flex items-start gap-4 bg-card p-4 rounded-lg;
+  }
+  
+  .vsl-check-icon {
+    @apply flex-shrink-0 w-8 h-8 rounded-full bg-[hsl(var(--vsl-checkmark))] text-white flex items-center justify-center font-bold;
   }
   
   .stat-box {
-    @apply bg-gradient-to-br from-primary/20 to-accent/20 p-6 rounded-lg text-center shadow-soft;
+    @apply bg-card p-6 rounded-lg text-center shadow-medium border-2 border-[hsl(var(--vsl-highlight))];
   }
   
   .emphasis-text {
-    @apply text-emphasis font-bold;
+    @apply text-[hsl(var(--emphasis-color))] font-bold;
   }
   
   .section-divider {
-    @apply border-t-2 border-primary/20 my-16;
+    @apply border-t-2 border-border/30 my-16;
   }
   
+  /* Scientific Badge Strip */
   .scientific-badge {
-    @apply inline-flex items-center gap-2 px-4 py-2 bg-scientific/50 rounded-full text-sm font-semibold border border-primary/20;
+    @apply inline-flex items-center gap-2 px-4 py-2 bg-card rounded-full text-sm font-semibold border border-border shadow-soft;
   }
   
   .trust-indicator {
     @apply flex items-center gap-2 text-sm font-medium;
   }
   
-  /* Enhanced button styles */
+  /* VSL CTA Button - Bold Red/Orange */
   .cta-button {
-    @apply bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 text-primary-foreground font-bold py-6 px-12 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300;
+    @apply bg-[hsl(var(--vsl-highlight))] hover:bg-[hsl(var(--vsl-highlight))]/90 text-white font-black py-6 px-12 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 text-xl;
   }
   
   /* Numbered list styling */
@@ -168,34 +201,34 @@ All colors MUST be HSL.
   }
   
   .number-badge {
-    @apply flex-shrink-0 w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold text-lg;
+    @apply flex-shrink-0 w-10 h-10 rounded-full bg-[hsl(var(--vsl-highlight))] text-white flex items-center justify-center font-bold text-lg;
   }
   
-  /* Quote/testimony styling */
+  /* Testimony Box with Avatar */
   .testimony-box {
-    @apply border-l-4 border-primary pl-6 py-4 italic bg-story/20 rounded-r-lg;
+    @apply bg-card border-l-4 border-[hsl(var(--vsl-highlight))] pl-6 py-6 pr-6 rounded-r-lg shadow-medium;
   }
   
-  /* Headline effects */
+  /* Dramatic Headlines */
   .headline-primary {
-    @apply text-4xl md:text-6xl lg:text-7xl font-black leading-none mb-6;
+    @apply text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-6 text-white;
   }
   
   .headline-secondary {
-    @apply text-2xl md:text-4xl lg:text-5xl font-bold leading-tight;
+    @apply text-2xl md:text-3xl lg:text-4xl font-bold leading-tight text-foreground;
   }
   
   .subheadline {
-    @apply text-xl md:text-2xl lg:text-3xl font-semibold text-primary;
+    @apply text-xl md:text-2xl font-semibold text-foreground/90;
   }
   
   /* Call-out boxes */
   .callout-box {
-    @apply bg-accent/20 border-2 border-accent p-8 rounded-lg my-8 shadow-medium;
+    @apply bg-[hsl(var(--vsl-highlight))]/10 border-2 border-[hsl(var(--vsl-highlight))] p-8 rounded-lg my-8 shadow-medium;
   }
   
   .warning-box {
-    @apply bg-emphasis/10 border-l-4 border-emphasis p-6 rounded-r-lg my-6;
+    @apply bg-[hsl(var(--vsl-highlight))]/10 border-l-4 border-[hsl(var(--vsl-highlight))] p-6 rounded-r-lg my-6;
   }
   
   /* Benefit/feature styling */
@@ -205,5 +238,15 @@ All colors MUST be HSL.
   
   .benefit-card {
     @apply p-6 bg-card rounded-lg shadow-soft border border-border hover:shadow-medium transition-shadow;
+  }
+  
+  /* Deep Blue Hero Section Background */
+  .vsl-hero-section {
+    @apply bg-[hsl(var(--vsl-hero-bg))] text-white py-16 px-4;
+  }
+  
+  /* Light Gray Alternating Sections */
+  .vsl-light-section {
+    @apply bg-[hsl(var(--vsl-secondary-bg))] py-12 px-4;
   }
 }
