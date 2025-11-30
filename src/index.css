@@ -211,7 +211,7 @@ All colors MUST be HSL.
   
   /* Dramatic Headlines */
   .headline-primary {
-    @apply text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-6 text-white;
+    @apply text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-6 text-emphasis;
   }
   
   .headline-secondary {
