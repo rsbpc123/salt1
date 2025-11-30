@@ -15,6 +15,12 @@ import saltPouch from "@/assets/salt-pouch-product.jpg";
 import elderlyWoman from "@/assets/elderly-woman-chopping-wood.jpg";
 import inchisSign from "@/assets/inchis-closed-sign.png";
 import romanianCoffeeShop from "@/assets/romanian-coffee-shop.png";
+import saltCrystals from "@/assets/salt-crystals-closeup.jpg";
+import elderlyCouple from "@/assets/elderly-couple-breathing.jpg";
+import healthyLungs from "@/assets/healthy-lungs-diagram.jpg";
+import saltTherapyPouch from "@/assets/salt-therapy-pouch.jpg";
+import elderlyGardening from "@/assets/elderly-woman-gardening.jpg";
+import saltParticles from "@/assets/salt-particle-visualization.jpg";
 
 const Index = () => {
   const scrollToCTA = () => {
@@ -44,69 +50,85 @@ const Index = () => {
 
       {/* Story Begins */}
       <StorySection title="I WATCHED MY WIFE DROWN" bgColor="story">
-        <h3 className="text-xl md:text-2xl font-semibold mb-6 text-foreground/90">
-          Sitting Right Next to Me in Our Bed
-        </h3>
-        
-        <p>It was just past midnight when I heard it.</p>
-        <p>That sound.</p>
-        <p>Linda wasn't breathing right.</p>
-        
-        <HighlightBox variant="warning">
-          <p className="text-lg font-semibold mb-2">Her chest heaving. Lips turning blue. Sitting straight up. Clutching her throat.</p>
-          <p className="text-2xl font-bold text-emphasis">Drowning.</p>
-          <p className="mt-2">In our bedroom. In Warner Robins, Georgia. 200 miles from the nearest ocean.</p>
-        </HighlightBox>
-        
-        <p>I grabbed her inhaler. Shook it. Jammed it into her mouth.</p>
-        <p>"Breathe, baby."</p>
-        <p>Two puffs. Nothing.</p>
-        <p className="font-bold text-lg text-emphasis">Her wheezing got WORSE.</p>
-        
-        <p>I dialed 911.</p>
-        <p>The paramedics arrived in 8 minutes. Felt like 8 hours.</p>
-        <p>They strapped an oxygen mask to her face. Loaded her onto the stretcher.</p>
-        <p>One of them looked at me and shook his head. Not mean. Just... tired.</p>
-        <p>Like he'd seen us before.</p>
-        <p>(He had. Three times that month.)</p>
-        
-        <div className="section-divider" />
-        
-        <p>Two hours later, a doctor came out.</p>
-        <p>"She's stable. You can take her home in a few hours."</p>
-        <p>"What happens next time?" I asked.</p>
-        <p>He paused. "Keep doing what you're doing. Come back if it gets worse."</p>
-        
-        <HighlightBox variant="warning">
-          <p className="font-bold text-lg">No solution. No plan.</p>
-          <p>Just... keep doing what we're doing.</p>
-          <p className="font-bold text-xl text-emphasis mt-2">Except what we were doing WASN'T WORKING.</p>
-        </HighlightBox>
+        <ImageWithText 
+          image={saltCrystals}
+          imageAlt="Close-up of pink healing salt crystals"
+          imagePosition="float-right"
+          imageSize="medium"
+          imageShape="rounded"
+        >
+          <h3 className="text-xl md:text-2xl font-semibold mb-6 text-foreground/90">
+            Sitting Right Next to Me in Our Bed
+          </h3>
+          
+          <p>It was just past midnight when I heard it.</p>
+          <p>That sound.</p>
+          <p>Linda wasn't breathing right.</p>
+          
+          <HighlightBox variant="warning">
+            <p className="text-lg font-semibold mb-2">Her chest heaving. Lips turning blue. Sitting straight up. Clutching her throat.</p>
+            <p className="text-2xl font-bold text-emphasis">Drowning.</p>
+            <p className="mt-2">In our bedroom. In Warner Robins, Georgia. 200 miles from the nearest ocean.</p>
+          </HighlightBox>
+          
+          <p>I grabbed her inhaler. Shook it. Jammed it into her mouth.</p>
+          <p>"Breathe, baby."</p>
+          <p>Two puffs. Nothing.</p>
+          <p className="font-bold text-lg text-emphasis">Her wheezing got WORSE.</p>
+          
+          <p>I dialed 911.</p>
+          <p>The paramedics arrived in 8 minutes. Felt like 8 hours.</p>
+          <p>They strapped an oxygen mask to her face. Loaded her onto the stretcher.</p>
+          <p>One of them looked at me and shook his head. Not mean. Just... tired.</p>
+          <p>Like he'd seen us before.</p>
+          <p>(He had. Three times that month.)</p>
+          
+          <div className="section-divider" />
+          
+          <p>Two hours later, a doctor came out.</p>
+          <p>"She's stable. You can take her home in a few hours."</p>
+          <p>"What happens next time?" I asked.</p>
+          <p>He paused. "Keep doing what you're doing. Come back if it gets worse."</p>
+          
+          <HighlightBox variant="warning">
+            <p className="font-bold text-lg">No solution. No plan.</p>
+            <p>Just... keep doing what we're doing.</p>
+            <p className="font-bold text-xl text-emphasis mt-2">Except what we were doing WASN'T WORKING.</p>
+          </HighlightBox>
+        </ImageWithText>
       </StorySection>
 
       {/* Problem Agitation */}
       <StorySection title="Her Lungs Were Turning to Cement (And Nobody Told Us Until It Was Almost Too Late)">
-        <p>Two weeks later, Linda saw her pulmonologist.</p>
-        <p>He pulled up a CT scan. White patches scattered throughout her lungs.</p>
-        
-        <HighlightBox>
-          <p className="font-bold text-lg mb-2">"This is fibrosis," he said. "Scar tissue. Your airways are hardening."</p>
-          <p>"Can you fix it?"</p>
-          <p className="font-bold text-emphasis mt-2">He shook his head. "Once the scarring sets in... no. We can only try to slow it down."</p>
-        </HighlightBox>
-        
-        <p>My stomach dropped.</p>
-        <p>"How long do we have?"</p>
-        <p>He looked at Linda. Then back at me.</p>
-        
-        <HighlightBox variant="warning">
-          <p className="text-lg font-bold">"If we can't get the inflammation under control... maybe 18 to 24 months before the damage severely impacts her quality of life."</p>
-        </HighlightBox>
-        
-        <p>Linda started crying.</p>
-        <p>We walked out in silence.</p>
-        <p>And for the first time in our 40-year marriage...</p>
-        <p className="font-bold text-xl text-primary">I didn't know what to say to her.</p>
+        <ImageWithText 
+          image={healthyLungs}
+          imageAlt="Medical illustration of healthy lungs"
+          imagePosition="float-left"
+          imageSize="medium"
+          imageShape="circle"
+        >
+          <p>Two weeks later, Linda saw her pulmonologist.</p>
+          <p>He pulled up a CT scan. White patches scattered throughout her lungs.</p>
+          
+          <HighlightBox>
+            <p className="font-bold text-lg mb-2">"This is fibrosis," he said. "Scar tissue. Your airways are hardening."</p>
+            <p>"Can you fix it?"</p>
+            <p className="font-bold text-emphasis mt-2">He shook his head. "Once the scarring sets in... no. We can only try to slow it down."</p>
+          </HighlightBox>
+          
+          <p>My stomach dropped.</p>
+          <p>"How long do we have?"</p>
+          <p>He looked at Linda. Then back at me.</p>
+          
+          <HighlightBox variant="warning">
+            <p className="text-lg font-bold">"If we can't get the inflammation under control... maybe 18 to 24 months before the damage severely impacts her quality of life."</p>
+          </HighlightBox>
+          
+          <p>Linda started crying.</p>
+          <p>We walked out in silence.</p>
+          <p>And for the first time in our 40-year marriage...</p>
+          <p className="font-bold text-xl text-primary">I didn't know what to say to her.</p>
+        </ImageWithText>
       </StorySection>
 
       <StorySection title="We Did EVERYTHING the Doctors Told Us (And She Got WORSE)" bgColor="scientific">
@@ -192,67 +214,75 @@ const Index = () => {
 
       {/* Discovery Journey */}
       <StorySection title="The Late-Night Google Search That Changed Everything" bgColor="story">
-        <p>It was 1 AM.</p>
-        <p>Linda was finally asleep upstairs.</p>
-        <p>I was at the kitchen table. Googling.</p>
-        <p>"Natural asthma remedies." "COPD cure." "How to reverse lung fibrosis."</p>
-        <p>Most of it was garbage.</p>
-        <p>Essential oils. Breathing apps. Supplements that did nothing.</p>
-        
-        <p>I was about to close the laptop.</p>
-        <p className="font-bold text-lg">Then I saw it.</p>
-        
-        <HighlightBox>
-          <p className="italic text-lg font-semibold">"Long-term efficacy of halotherapy in chronic obstructive pulmonary disease."</p>
-          <p className="mt-3">Halotherapy. Breathing microscopic salt particles.</p>
-          <p>Sounded weird. But the study had REAL results.</p>
-        </HighlightBox>
-        
-        <p>People with COPD seeing improvements in lung function. Reduced coughing. Better oxygen saturation.</p>
-        <p>I kept reading.</p>
-        
-        <div className="callout-box">
-          <p className="font-bold text-xl text-primary mb-3">Turns out, halotherapy started in actual salt MINES.</p>
-          <p>Deep underground in Eastern Europe.</p>
-          <p className="mt-3">There's this place in Romania. The Praid Salt Mine.</p>
-          <p>For over a CENTURY, people with severe lung problems traveled there. From all over Europe. To go down into the mine and just... breathe.</p>
-        </div>
-        
-        <div className="benefit-grid my-8">
-          <div className="benefit-card">
-            <p className="font-bold text-lg text-primary mb-2">📊 Oxygen Levels</p>
-            <p>People with Stage 3 COPD seeing their oxygen levels jump from 88% to 96%</p>
+        <ImageWithText 
+          image={saltParticles}
+          imageAlt="Visualization of salt particles being inhaled"
+          imagePosition="float-right"
+          imageSize="large"
+          imageShape="rounded"
+        >
+          <p>It was 1 AM.</p>
+          <p>Linda was finally asleep upstairs.</p>
+          <p>I was at the kitchen table. Googling.</p>
+          <p>"Natural asthma remedies." "COPD cure." "How to reverse lung fibrosis."</p>
+          <p>Most of it was garbage.</p>
+          <p>Essential oils. Breathing apps. Supplements that did nothing.</p>
+          
+          <p>I was about to close the laptop.</p>
+          <p className="font-bold text-lg">Then I saw it.</p>
+          
+          <HighlightBox>
+            <p className="italic text-lg font-semibold">"Long-term efficacy of halotherapy in chronic obstructive pulmonary disease."</p>
+            <p className="mt-3">Halotherapy. Breathing microscopic salt particles.</p>
+            <p>Sounded weird. But the study had REAL results.</p>
+          </HighlightBox>
+          
+          <p>People with COPD seeing improvements in lung function. Reduced coughing. Better oxygen saturation.</p>
+          <p>I kept reading.</p>
+          
+          <div className="callout-box">
+            <p className="font-bold text-xl text-primary mb-3">Turns out, halotherapy started in actual salt MINES.</p>
+            <p>Deep underground in Eastern Europe.</p>
+            <p className="mt-3">There's this place in Romania. The Praid Salt Mine.</p>
+            <p>For over a CENTURY, people with severe lung problems traveled there. From all over Europe. To go down into the mine and just... breathe.</p>
           </div>
-          <div className="benefit-card">
-            <p className="font-bold text-lg text-primary mb-2">💊 Reduced Medications</p>
-            <p>Over 50% reduced their medications. Some stopped entirely.</p>
+          
+          <div className="benefit-grid my-8">
+            <div className="benefit-card">
+              <p className="font-bold text-lg text-primary mb-2">📊 Oxygen Levels</p>
+              <p>People with Stage 3 COPD seeing their oxygen levels jump from 88% to 96%</p>
+            </div>
+            <div className="benefit-card">
+              <p className="font-bold text-lg text-primary mb-2">💊 Reduced Medications</p>
+              <p>Over 50% reduced their medications. Some stopped entirely.</p>
+            </div>
+            <div className="benefit-card">
+              <p className="font-bold text-lg text-primary mb-2">🫁 Breathing Freely</p>
+              <p>People on oxygen tanks for YEARS... breathing freely</p>
+            </div>
+            <div className="benefit-card">
+              <p className="font-bold text-lg text-primary mb-2">✨ Real Recovery</p>
+              <p>Not managing. BETTER.</p>
+            </div>
           </div>
-          <div className="benefit-card">
-            <p className="font-bold text-lg text-primary mb-2">🫁 Breathing Freely</p>
-            <p>People on oxygen tanks for YEARS... breathing freely</p>
-          </div>
-          <div className="benefit-card">
-            <p className="font-bold text-lg text-primary mb-2">✨ Real Recovery</p>
-            <p>Not managing. BETTER.</p>
-          </div>
-        </div>
-        
-        <p>I'm reading about people who sound EXACTLY like Linda.</p>
-        <p className="font-bold text-2xl text-primary">Getting better. Not managing. BETTER.</p>
-        
-        <div className="section-divider" />
-        
-        <p>The next morning, I showed Linda everything.</p>
-        <p>"Do you really think this could work?" she asked.</p>
-        <p>I took a breath. "I don't know. But we need to find out."</p>
-        <p>She nodded. "Okay. Let's go."</p>
-        
-        <HighlightBox variant="warning">
-          <p className="font-bold text-lg mb-2">But here's what I didn't know yet...</p>
-          <p>The mine that saved all those people?</p>
-          <p className="text-xl font-bold text-emphasis mt-2">It was about to collapse.</p>
-          <p className="mt-2">And we were about to fly 5,000 miles... for nothing.</p>
-        </HighlightBox>
+          
+          <p>I'm reading about people who sound EXACTLY like Linda.</p>
+          <p className="font-bold text-2xl text-primary">Getting better. Not managing. BETTER.</p>
+          
+          <div className="section-divider" />
+          
+          <p>The next morning, I showed Linda everything.</p>
+          <p>"Do you really think this could work?" she asked.</p>
+          <p>I took a breath. "I don't know. But we need to find out."</p>
+          <p>She nodded. "Okay. Let's go."</p>
+          
+          <HighlightBox variant="warning">
+            <p className="font-bold text-lg mb-2">But here's what I didn't know yet...</p>
+            <p>The mine that saved all those people?</p>
+            <p className="text-xl font-bold text-emphasis mt-2">It was about to collapse.</p>
+            <p className="mt-2">And we were about to fly 5,000 miles... for nothing.</p>
+          </HighlightBox>
+        </ImageWithText>
       </StorySection>
 
       {/* The Journey */}
@@ -359,6 +389,14 @@ const Index = () => {
         <p>"This is Gică Baciu," Ioana said. "He lives in Mânzălești. Everyone there lives long like this."</p>
         <p>Linda's eyes widened. "Everyone?"</p>
         <p>Ioana nodded. "Many people. Very old. But still strong."</p>
+        
+        <div className="max-w-md mx-auto my-8 float-right ml-6 mb-6">
+          <img 
+            src={elderlyGardening}
+            alt="Elderly woman working energetically in her vibrant flower garden"
+            className="w-full h-auto rounded-lg shadow-medium hover-scale"
+          />
+        </div>
         
         <p>She swiped to another video. An old woman. Working in her garden. Moving effortlessly.</p>
         <p>Then another. A news report. BBC. Showing the village. White hills rising from the valley.</p>
@@ -780,6 +818,15 @@ const Index = () => {
         <p>It was warm. Filled with coarse salt.</p>
         
         <p>Dr. Popescu explained: "The villagers heat these pouches and apply them to sore joints. Knees. Shoulders. Hips. It reduces inflammation. My own mother used them for arthritis."</p>
+        
+        <div className="max-w-sm mx-auto my-6 float-right ml-6 mb-6">
+          <img 
+            src={saltTherapyPouch}
+            alt="Traditional salt therapy pouch with purple ribbon"
+            className="w-full h-auto rounded-lg shadow-medium hover-scale"
+          />
+        </div>
+        
         <p>Ana said something else.</p>
         <p>Dr. Popescu smiled. "She says you can keep that one. She has many."</p>
         <p>Linda held the pouch. "Thank you," she whispered.</p>
@@ -797,69 +844,77 @@ const Index = () => {
 
       {/* Day 10 Transformation */}
       <StorySection title="By Day 10, Linda Did Something She Hasn't Done in 5 Years (And I Cried Like a Baby Watching Her)" bgColor="scientific">
-        <p>Over the next week, Linda transformed.</p>
-        <p>Not overnight. But steadily.</p>
-        
-        <div className="benefit-grid my-8">
-          <div className="benefit-card">
-            <p className="font-bold text-lg text-primary mb-2">Day 5</p>
-            <p>Walking around the village without stopping to catch her breath</p>
+        <ImageWithText 
+          image={elderlyCouple}
+          imageAlt="Elderly couple walking together through misty forest breathing fresh air"
+          imagePosition="float-left"
+          imageSize="large"
+          imageShape="rounded"
+        >
+          <p>Over the next week, Linda transformed.</p>
+          <p>Not overnight. But steadily.</p>
+          
+          <div className="benefit-grid my-8">
+            <div className="benefit-card">
+              <p className="font-bold text-lg text-primary mb-2">Day 5</p>
+              <p>Walking around the village without stopping to catch her breath</p>
+            </div>
+            <div className="benefit-card">
+              <p className="font-bold text-lg text-primary mb-2">Day 7</p>
+              <p>Sleeping through the night. No coughing fits. No waking up at 3 AM struggling to breathe.</p>
+            </div>
           </div>
-          <div className="benefit-card">
-            <p className="font-bold text-lg text-primary mb-2">Day 7</p>
-            <p>Sleeping through the night. No coughing fits. No waking up at 3 AM struggling to breathe.</p>
+          
+          <div className="callout-box text-center">
+            <p className="text-2xl font-bold text-emphasis mb-2">By day 10...</p>
+            <p className="text-xl">She wanted to hike.</p>
           </div>
-        </div>
-        
-        <div className="callout-box text-center">
-          <p className="text-2xl font-bold text-emphasis mb-2">By day 10...</p>
-          <p className="text-xl">She wanted to hike.</p>
-        </div>
-        
-        <p>There's this trail near the village. About 3 miles. Moderate incline. Nothing crazy.</p>
-        <p>But for Linda? It might as well have been Everest.</p>
-        <p>Six months earlier, she couldn't walk to the mailbox without stopping halfway.</p>
-        <p className="font-bold text-xl text-primary">And now... she wanted to hike.</p>
-        
-        <p>"Are you sure?" I asked.</p>
-        <p>She nodded. "I want to try."</p>
-        
-        <div className="section-divider" />
-        
-        <p>We started walking. Slowly at first.</p>
-        <p>I kept waiting for her to stop. To catch her breath. To say she needed a break.</p>
-        <p>But she didn't.</p>
-        <p className="font-bold text-lg">She just... kept going. One foot in front of the other. Breathing. ACTUALLY breathing.</p>
-        
-        <HighlightBox>
-          <p>About halfway up, she stopped. Not because she was tired. But because she wanted to look at the view.</p>
-          <p className="mt-3">The mountains stretched out in front of us. Green and gold and endless. The white salt hills sparkling in the distance.</p>
-          <p className="font-bold text-primary text-lg mt-3">"I never thought I'd be able to do this again," she said quietly.</p>
-        </HighlightBox>
-        
-        <p>I didn't say anything.</p>
-        <p>Because I was crying.</p>
-        
-        <div className="section-divider" />
-        
-        <p>That afternoon, Dr. Popescu came by with a portable oxygen monitor. "Let's see how you're doing," she said.</p>
-        <p>She clipped it onto Linda's finger. We waited.</p>
-        
-        <div className="callout-box">
-          <div className="grid md:grid-cols-2 gap-6 mb-6">
-            <StatBox 
-              number="97%" 
-              label="Oxygen Saturation" 
-              description="Up from 88%"
-            />
-            <StatBox 
-              number="420" 
-              label="Peak Flow" 
-              description="Up from 310"
-            />
+          
+          <p>There's this trail near the village. About 3 miles. Moderate incline. Nothing crazy.</p>
+          <p>But for Linda? It might as well have been Everest.</p>
+          <p>Six months earlier, she couldn't walk to the mailbox without stopping halfway.</p>
+          <p className="font-bold text-xl text-primary">And now... she wanted to hike.</p>
+          
+          <p>"Are you sure?" I asked.</p>
+          <p>She nodded. "I want to try."</p>
+          
+          <div className="section-divider" />
+          
+          <p>We started walking. Slowly at first.</p>
+          <p>I kept waiting for her to stop. To catch her breath. To say she needed a break.</p>
+          <p>But she didn't.</p>
+          <p className="font-bold text-lg">She just... kept going. One foot in front of the other. Breathing. ACTUALLY breathing.</p>
+          
+          <HighlightBox>
+            <p>About halfway up, she stopped. Not because she was tired. But because she wanted to look at the view.</p>
+            <p className="mt-3">The mountains stretched out in front of us. Green and gold and endless. The white salt hills sparkling in the distance.</p>
+            <p className="font-bold text-primary text-lg mt-3">"I never thought I'd be able to do this again," she said quietly.</p>
+          </HighlightBox>
+          
+          <p>I didn't say anything.</p>
+          <p>Because I was crying.</p>
+          
+          <div className="section-divider" />
+          
+          <p>That afternoon, Dr. Popescu came by with a portable oxygen monitor. "Let's see how you're doing," she said.</p>
+          <p>She clipped it onto Linda's finger. We waited.</p>
+          
+          <div className="callout-box">
+            <div className="grid md:grid-cols-2 gap-6 mb-6">
+              <StatBox 
+                number="97%" 
+                label="Oxygen Saturation" 
+                description="Up from 88%"
+              />
+              <StatBox 
+                number="420" 
+                label="Peak Flow" 
+                description="Up from 310"
+              />
+            </div>
+            <p className="text-center font-bold text-xl text-primary">You've gone from severe obstruction to borderline normal. In 10 days.</p>
           </div>
-          <p className="text-center font-bold text-xl text-primary">You've gone from severe obstruction to borderline normal. In 10 days.</p>
-        </div>
+        </ImageWithText>
         
         <p>Linda started crying. "I'm getting better."</p>
         <p>Dr. Popescu squeezed her hand. "Yes. You are."</p>
