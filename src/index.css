@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 270 30% 20%;
 
-    --primary: 270 65% 70%;       /* Light purple for primary */
+    --primary: 270 65% 45%;       /* Darker purple for primary */
     --primary-foreground: 0 0% 100%;
 
     --secondary: 40 35% 88%;      /* Warm beige */
@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --muted: 270 20% 85%;
     --muted-foreground: 270 15% 45%;
 
-    --accent: 270 65% 70%;        /* Light purple accent */
+    --accent: 270 65% 45%;        /* Darker purple accent */
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -34,7 +34,7 @@ All colors MUST be HSL.
 
     --border: 270 20% 85%;
     --input: 270 20% 90%;
-    --ring: 270 65% 70%;
+    --ring: 270 65% 45%;
 
     --radius: 0.75rem;
     
@@ -91,7 +91,7 @@ All colors MUST be HSL.
     --popover: 270 30% 12%;
     --popover-foreground: 270 10% 90%;
 
-    --primary: 270 65% 70%;
+    --primary: 270 65% 45%;
     --primary-foreground: 270 30% 12%;
 
     --secondary: 40 25% 25%;
@@ -100,7 +100,7 @@ All colors MUST be HSL.
     --muted: 270 20% 20%;
     --muted-foreground: 270 10% 65%;
 
-    --accent: 270 65% 70%;
+    --accent: 270 65% 45%;
     --accent-foreground: 270 30% 12%;
 
     --destructive: 0 62.8% 50%;
@@ -108,7 +108,7 @@ All colors MUST be HSL.
 
     --border: 270 20% 25%;
     --input: 270 20% 20%;
-    --ring: 270 65% 70%;
+    --ring: 270 65% 45%;
     
     --trust-bg: 270 25% 18%;
     --story-bg: 270 25% 15%;
