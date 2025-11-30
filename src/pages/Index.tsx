@@ -132,45 +132,47 @@ const Index = () => {
       </StorySection>
 
       <StorySection title="We Did EVERYTHING the Doctors Told Us (And She Got WORSE)" bgColor="scientific">
-        <p>Linda wasn't reckless. She did EVERYTHING they told her.</p>
-        
-        <div className="callout-box">
-          <NumberedPoint number={1}>
-            <p className="font-semibold">Six different inhalers over three years</p>
-            <p>Five medications just to breathe</p>
-          </NumberedPoint>
-          <NumberedPoint number={2}>
-            <p className="font-semibold">$1,200 a month on prescriptions</p>
-            <p>Even WITH insurance</p>
-          </NumberedPoint>
-          <NumberedPoint number={3}>
-            <p className="font-semibold">Prednisone rounds</p>
-            <p>That awful steroid that made her gain 15 pounds and gave her insomnia</p>
-          </NumberedPoint>
-        </div>
-        
-        <p className="font-bold text-lg">And she was still drowning.</p>
-        
-        <p>We did the breathing exercises. Bought a $400 HEPA air purifier. Ripped out the carpets.</p>
-        <p>Hired a mold inspector. $800 later... no mold.</p>
-        <p>None of it made a difference.</p>
-        
-        <HighlightBox variant="warning">
-          <p className="text-xl font-bold mb-2">Every doctor said the same thing:</p>
-          <p className="text-2xl font-black text-emphasis">"This is just something you'll have to MANAGE."</p>
-        </HighlightBox>
-        
-        <p>Like we weren't already managing her not being able to walk upstairs.</p>
-        <p>Managing the oxygen concentrator humming all night.</p>
-        <p>Managing the stack of medical bills we couldn't pay.</p>
-        <p className="font-bold text-lg">Managing our life shrinking smaller and smaller.</p>
-        
-        <div className="highlight-box">
-          <p className="font-semibold text-lg text-foreground mb-3">Here's why they believe that:</p>
-          <p>Medical schools teach from pulmonology textbooks written in the 1990s. BEFORE scientists discovered that lung cells can regenerate.</p>
-          <p className="font-bold mt-3">Your doctor isn't lying to you. They genuinely don't KNOW.</p>
-          <p className="mt-2">But researchers in Europe have been studying this for 20 years.</p>
-          <p className="font-bold text-xl text-primary mt-3">And the results are undeniable.</p>
+        <div className="vsl-content-box">
+          <p>Linda wasn't reckless. She did EVERYTHING they told her.</p>
+          
+          <div className="callout-box">
+            <NumberedPoint number={1}>
+              <p className="font-semibold">Six different inhalers over three years</p>
+              <p>Five medications just to breathe</p>
+            </NumberedPoint>
+            <NumberedPoint number={2}>
+              <p className="font-semibold">$1,200 a month on prescriptions</p>
+              <p>Even WITH insurance</p>
+            </NumberedPoint>
+            <NumberedPoint number={3}>
+              <p className="font-semibold">Prednisone rounds</p>
+              <p>That awful steroid that made her gain 15 pounds and gave her insomnia</p>
+            </NumberedPoint>
+          </div>
+          
+          <p className="font-bold text-lg">And she was still drowning.</p>
+          
+          <p>We did the breathing exercises. Bought a $400 HEPA air purifier. Ripped out the carpets.</p>
+          <p>Hired a mold inspector. $800 later... no mold.</p>
+          <p>None of it made a difference.</p>
+          
+          <HighlightBox variant="warning">
+            <p className="text-xl font-bold mb-2">Every doctor said the same thing:</p>
+            <p className="text-2xl font-black text-emphasis">"This is just something you'll have to MANAGE."</p>
+          </HighlightBox>
+          
+          <p>Like we weren't already managing her not being able to walk upstairs.</p>
+          <p>Managing the oxygen concentrator humming all night.</p>
+          <p>Managing the stack of medical bills we couldn't pay.</p>
+          <p className="font-bold text-lg">Managing our life shrinking smaller and smaller.</p>
+          
+          <div className="highlight-box">
+            <p className="font-semibold text-lg text-foreground mb-3">Here's why they believe that:</p>
+            <p>Medical schools teach from pulmonology textbooks written in the 1990s. BEFORE scientists discovered that lung cells can regenerate.</p>
+            <p className="font-bold mt-3">Your doctor isn't lying to you. They genuinely don't KNOW.</p>
+            <p className="mt-2">But researchers in Europe have been studying this for 20 years.</p>
+            <p className="font-bold text-xl text-primary mt-3">And the results are undeniable.</p>
+          </div>
         </div>
       </StorySection>
 
@@ -339,116 +341,118 @@ const Index = () => {
           />
         </div>
         
-        <p>We drove into town. Found a small cafe on the main street. Old wooden tables. The smell of strong coffee and fresh bread.</p>
-        <p>We ordered and sat down.</p>
-        <p>Linda looked tired. Not physically. Just... defeated.</p>
-        
-        <HighlightBox variant="testimony">
-          <p>"What do we do now?" she whispered.</p>
-          <p className="mt-2">I had no answer. Just that familiar crushing weight in my chest.</p>
-        </HighlightBox>
-        
-        <p className="font-bold text-lg">That's when an older woman at the next table leaned over.</p>
-        
-        <p>"English?" she asked. Her accent thick. But clear.</p>
-        <p>"American," I said.</p>
-        <p>She smiled. "I'm Ioana."</p>
-        <p>She gestured toward the window. "You came for the mine?"</p>
-        <p>I nodded. "Yeah. But it collapsed."</p>
-        
-        <HighlightBox>
-          <p className="font-bold text-lg">She waved her hand dismissively.</p>
-          <p className="text-xl mt-2">"The mine. Everyone comes for the mine."</p>
-          <p className="font-bold text-primary text-lg mt-2">"But the mine is not special. It's just... underground."</p>
-        </HighlightBox>
-        
-        <p>I frowned. "What do you mean?"</p>
-        <p>She leaned in closer. "You want salt for breathing, yes?"</p>
-        <p>"Yeah. My wife has lung problems."</p>
-        <p>Ioana looked at Linda. Studied her for a moment. Then nodded.</p>
-        
-        <div className="callout-box">
-          <p className="text-2xl font-black text-primary text-center mb-3">"The mine was good. But there is a better place."</p>
-          <p className="text-center">Linda sat up. "Where?"</p>
-          <p className="text-3xl font-black text-emphasis text-center mt-4">Mânzălești.</p>
-          <p className="text-center mt-2">Small village. About four hours from here.</p>
+        <div className="vsl-content-box">
+          <p>We drove into town. Found a small cafe on the main street. Old wooden tables. The smell of strong coffee and fresh bread.</p>
+          <p>We ordered and sat down.</p>
+          <p>Linda looked tired. Not physically. Just... defeated.</p>
+          
+          <HighlightBox variant="testimony">
+            <p>"What do we do now?" she whispered.</p>
+            <p className="mt-2">I had no answer. Just that familiar crushing weight in my chest.</p>
+          </HighlightBox>
+          
+          <p className="font-bold text-lg">That's when an older woman at the next table leaned over.</p>
+          
+          <p>"English?" she asked. Her accent thick. But clear.</p>
+          <p>"American," I said.</p>
+          <p>She smiled. "I'm Ioana."</p>
+          <p>She gestured toward the window. "You came for the mine?"</p>
+          <p>I nodded. "Yeah. But it collapsed."</p>
+          
+          <HighlightBox>
+            <p className="font-bold text-lg">She waved her hand dismissively.</p>
+            <p className="text-xl mt-2">"The mine. Everyone comes for the mine."</p>
+            <p className="font-bold text-primary text-lg mt-2">"But the mine is not special. It's just... underground."</p>
+          </HighlightBox>
+          
+          <p>I frowned. "What do you mean?"</p>
+          <p>She leaned in closer. "You want salt for breathing, yes?"</p>
+          <p>"Yeah. My wife has lung problems."</p>
+          <p>Ioana looked at Linda. Studied her for a moment. Then nodded.</p>
+          
+          <div className="callout-box">
+            <p className="text-2xl font-black text-primary text-center mb-3">"The mine was good. But there is a better place."</p>
+            <p className="text-center">Linda sat up. "Where?"</p>
+            <p className="text-3xl font-black text-emphasis text-center mt-4">Mânzălești.</p>
+            <p className="text-center mt-2">Small village. About four hours from here.</p>
+          </div>
+          
+          <p>She pulled out her phone. Scrolled for a minute. Then turned it toward us.</p>
+          <p>It was a YouTube video. The thumbnail showed an old man. Holding an axe. Standing in front of a pile of freshly cut wood.</p>
+          
+          <HighlightBox>
+            <p className="font-bold text-lg">The title was in Romanian. But I could make out the number:</p>
+            <p className="text-3xl font-bold text-primary text-center my-3">101 de ani.</p>
+            <p className="text-center">101 years old.</p>
+          </HighlightBox>
+          
+          <p>She hit play. The video had 96,000 views.</p>
+          <p>The old man was cutting wood. With a CHAINSAW. Moving like he was 50. Not 101.</p>
+          
+          <p>"This is Gică Baciu," Ioana said. "He lives in Mânzălești. Everyone there lives long like this."</p>
+          <p>Linda's eyes widened. "Everyone?"</p>
+          <p>Ioana nodded. "Many people. Very old. But still strong."</p>
+          
+          <p>She swiped to another video. An old woman. Working in her garden. Moving effortlessly.</p>
+          <p>Then another. A news report. BBC. Showing the village. White hills rising from the valley.</p>
+          
+          <div className="my-8">
+            <img 
+              src={elderlyGardening}
+              alt="Elderly woman working energetically in her vibrant flower garden"
+              className="w-full max-w-2xl mx-auto h-auto rounded-lg shadow-medium hover-scale"
+            />
+          </div>
+          
+          <div className="highlight-box">
+            <p className="font-bold text-lg text-primary mb-2">"That is salt," Ioana said.</p>
+            <p className="text-xl font-bold">On the SURFACE. Not underground like the mine.</p>
+          </div>
+          
+          <p>I stared at the screen. "How is that possible?"</p>
+          <p>She shrugged. "The ground is full of salt. So much salt, it comes to the top. The river carries it. The wind blows it."</p>
+          <p>"The whole village breathes it. Every day. Their whole lives."</p>
+          
+          <div className="callout-box text-center">
+            <p className="text-2xl font-black text-emphasis">"That is why they live so long."</p>
+          </div>
+          
+          <p>She showed us more videos. Multiple TV reports. Romanian news channels. National Geographic.</p>
+          <p>All about Mânzălești. The village where people live past 100.</p>
+          
+          <HighlightBox>
+            <p className="font-bold">"You can search for it yourself on YouTube," she said.</p>
+            <p className="mt-2 italic">"Mânzălești longevity village. There are dozens of reports. This is real. Documented for years."</p>
+          </HighlightBox>
+          
+          <p>I looked at Linda. Then back at Ioana.</p>
+          <p>Linda leaned forward. "Can we go there?"</p>
+          <p>Ioana smiled. "Of course. But..." She paused. "You should talk to Dr. Popescu first. She knows everything about the salt."</p>
+          
+          <p>"Who's Dr. Popescu?"</p>
+          <p>"A researcher. From the university. She has been studying Mânzălești for many years."</p>
+          <p>She pulled out a pen. Scribbled something on a napkin. Slid it across the table.</p>
+          <p>"Her name. Her email. Tell her Ioana sent you."</p>
+          
+          <div className="section-divider" />
+          
+          <p>I looked at the napkin. Then at Ioana. "That's very kind of you. But... why are you going out of your way for us?"</p>
+          
+          <HighlightBox variant="testimony">
+            <p>She smiled sadly. "My husband had lung problems. Like your wife."</p>
+            <p className="mt-2">"He is gone now. But before he died... he spent time in Mânzălești."</p>
+            <p className="font-bold text-primary text-lg mt-3">"It gave him ten more good years."</p>
+            <p className="mt-3">Her eyes got a little watery. "So when I see people like you... looking for hope..."</p>
+          </HighlightBox>
+          
+          <p>She trailed off. Then stood up. Patted Linda's hand.</p>
+          <p className="font-bold text-xl text-primary">"Go to Mânzălești. Breathe the air. You will see."</p>
+          <p>And then she left.</p>
+          
+          <p>I sat there holding the napkin. Staring at the name. Dr. Elena Popescu.</p>
+          <p>Linda looked at me. "Robert... should we email her?"</p>
+          <p className="font-bold text-lg">I pulled out my phone. "I'm doing it right now."</p>
         </div>
-        
-        <p>She pulled out her phone. Scrolled for a minute. Then turned it toward us.</p>
-        <p>It was a YouTube video. The thumbnail showed an old man. Holding an axe. Standing in front of a pile of freshly cut wood.</p>
-        
-        <HighlightBox>
-          <p className="font-bold text-lg">The title was in Romanian. But I could make out the number:</p>
-          <p className="text-3xl font-bold text-primary text-center my-3">101 de ani.</p>
-          <p className="text-center">101 years old.</p>
-        </HighlightBox>
-        
-        <p>She hit play. The video had 96,000 views.</p>
-        <p>The old man was cutting wood. With a CHAINSAW. Moving like he was 50. Not 101.</p>
-        
-        <p>"This is Gică Baciu," Ioana said. "He lives in Mânzălești. Everyone there lives long like this."</p>
-        <p>Linda's eyes widened. "Everyone?"</p>
-        <p>Ioana nodded. "Many people. Very old. But still strong."</p>
-        
-        <p>She swiped to another video. An old woman. Working in her garden. Moving effortlessly.</p>
-        <p>Then another. A news report. BBC. Showing the village. White hills rising from the valley.</p>
-        
-        <div className="my-8">
-          <img 
-            src={elderlyGardening}
-            alt="Elderly woman working energetically in her vibrant flower garden"
-            className="w-full max-w-2xl mx-auto h-auto rounded-lg shadow-medium hover-scale"
-          />
-        </div>
-        
-        <div className="highlight-box">
-          <p className="font-bold text-lg text-primary mb-2">"That is salt," Ioana said.</p>
-          <p className="text-xl font-bold">On the SURFACE. Not underground like the mine.</p>
-        </div>
-        
-        <p>I stared at the screen. "How is that possible?"</p>
-        <p>She shrugged. "The ground is full of salt. So much salt, it comes to the top. The river carries it. The wind blows it."</p>
-        <p>"The whole village breathes it. Every day. Their whole lives."</p>
-        
-        <div className="callout-box text-center">
-          <p className="text-2xl font-black text-emphasis">"That is why they live so long."</p>
-        </div>
-        
-        <p>She showed us more videos. Multiple TV reports. Romanian news channels. National Geographic.</p>
-        <p>All about Mânzălești. The village where people live past 100.</p>
-        
-        <HighlightBox>
-          <p className="font-bold">"You can search for it yourself on YouTube," she said.</p>
-          <p className="mt-2 italic">"Mânzălești longevity village. There are dozens of reports. This is real. Documented for years."</p>
-        </HighlightBox>
-        
-        <p>I looked at Linda. Then back at Ioana.</p>
-        <p>Linda leaned forward. "Can we go there?"</p>
-        <p>Ioana smiled. "Of course. But..." She paused. "You should talk to Dr. Popescu first. She knows everything about the salt."</p>
-        
-        <p>"Who's Dr. Popescu?"</p>
-        <p>"A researcher. From the university. She has been studying Mânzălești for many years."</p>
-        <p>She pulled out a pen. Scribbled something on a napkin. Slid it across the table.</p>
-        <p>"Her name. Her email. Tell her Ioana sent you."</p>
-        
-        <div className="section-divider" />
-        
-        <p>I looked at the napkin. Then at Ioana. "That's very kind of you. But... why are you going out of your way for us?"</p>
-        
-        <HighlightBox variant="testimony">
-          <p>She smiled sadly. "My husband had lung problems. Like your wife."</p>
-          <p className="mt-2">"He is gone now. But before he died... he spent time in Mânzălești."</p>
-          <p className="font-bold text-primary text-lg mt-3">"It gave him ten more good years."</p>
-          <p className="mt-3">Her eyes got a little watery. "So when I see people like you... looking for hope..."</p>
-        </HighlightBox>
-        
-        <p>She trailed off. Then stood up. Patted Linda's hand.</p>
-        <p className="font-bold text-xl text-primary">"Go to Mânzălești. Breathe the air. You will see."</p>
-        <p>And then she left.</p>
-        
-        <p>I sat there holding the napkin. Staring at the name. Dr. Elena Popescu.</p>
-        <p>Linda looked at me. "Robert... should we email her?"</p>
-        <p className="font-bold text-lg">I pulled out my phone. "I'm doing it right now."</p>
       </StorySection>
 
       {/* Email from Dr. Popescu */}
@@ -597,123 +601,125 @@ const Index = () => {
             Dr. Popescu Showed Us EXACTLY How This Works (And Why Your Doctor Will Never Tell You)
           </h2>
           
-          <div className="grid md:grid-cols-2 gap-8 mb-8">
-            <img 
-              src={lungDiagram} 
-              alt="Medical diagram of human lungs" 
-              className="w-full h-auto rounded-lg shadow-medium"
-            />
-            <div className="flex flex-col justify-center">
-              <div className="prose prose-lg space-y-4 text-foreground/80">
-                <p>The next morning, we walked down the dirt road to a small building near the village center.</p>
-                <p>A hand-painted sign out front read: Dr. Elena Popescu - Research Office</p>
-                <p>She was waiting for us at the door. "Come in, come in."</p>
-                <p>Inside was a single room. Shelves lined with books. A desk covered in papers. And on the walls... diagrams. Charts. Photos of lungs.</p>
+          <div className="vsl-content-box">
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <img 
+                src={lungDiagram} 
+                alt="Medical diagram of human lungs" 
+                className="w-full h-auto rounded-lg shadow-medium"
+              />
+              <div className="flex flex-col justify-center">
+                <div className="prose prose-lg space-y-4 text-foreground/80">
+                  <p>The next morning, we walked down the dirt road to a small building near the village center.</p>
+                  <p>A hand-painted sign out front read: Dr. Elena Popescu - Research Office</p>
+                  <p>She was waiting for us at the door. "Come in, come in."</p>
+                  <p>Inside was a single room. Shelves lined with books. A desk covered in papers. And on the walls... diagrams. Charts. Photos of lungs.</p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="prose prose-lg max-w-3xl mx-auto space-y-4 text-foreground/80">
-            <p>She gestured toward two chairs. "Sit. I want to explain something."</p>
-            <p>Linda and I sat down.</p>
-            <p>Dr. Popescu pulled out a laminated diagram. Showed it to us.</p>
-            <p>It was a cross-section of human lungs. Airways branching like tree roots.</p>
-            <p>But some of them were... clogged. Thick white plugs blocking the passages.</p>
-            <p>"This is what Linda's lungs look like right now," she said.</p>
-            <p>Linda leaned forward. Staring at the image.</p>
-            <p>"Your lungs aren't just inflamed," Dr. Popescu continued. "They're DROWNING."</p>
-            <p>"The inflammation causes your body to produce excess mucus. Thick, sticky mucus that traps bacteria and irritants."</p>
-            <p>"And that mucus forms a CEMENT-like plug in your airways."</p>
-            <p>She pointed to the white blockages on the diagram.</p>
-            <p>"Your medications try to open the airways. But they don't address the MUCUS."</p>
-            <p>"So you're essentially trying to breathe through a straw that's clogged with glue."</p>
-            <p>Linda's hand went to her throat. Like she could feel it.</p>
-            <p>Dr. Popescu pulled out another diagram.</p>
-            <p>"This is where the salt changes everything."</p>
-            
-            <div className="my-8 p-6 bg-primary/10 rounded-lg border-l-4 border-primary">
-              <h3 className="font-display text-2xl font-bold mb-4 text-foreground">When you breathe in microscopic salt particles... four things happen:</h3>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                  <div>
-                    <strong className="text-foreground">FIRST... the salt hydrates the mucus.</strong>
-                    <p className="mt-1">"It draws water into the mucus proteins, making them thinner and easier to expel."</p>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                  <div>
-                    <strong className="text-foreground">SECOND... it restores ciliary function.</strong>
-                    <p className="mt-1">"Your lungs have tiny hair-like structures called cilia that sweep mucus up and out. But chronic inflammation paralyzes them."</p>
-                    <p className="mt-1">"The salt reactivates those cilia. Gets them moving again."</p>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                  <div>
-                    <strong className="text-foreground">THIRD... it reduces inflammation at a cellular level.</strong>
-                    <p className="mt-1">"This isn't table salt. It was formed 22 million years ago under intense volcanic pressure and heat."</p>
-                    <p className="mt-1">"The minerals got BAKED into the salt. Creating compounds that don't exist in regular sodium chloride."</p>
-                    <p className="mt-1">"Kieserite. Polyhalite. Iron oxide. These minerals have documented anti-inflammatory and mucolytic properties."</p>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                  <div>
-                    <strong className="text-foreground">FOURTH... the salt creates an osmotic effect that opens your airways.</strong>
-                    <p className="mt-1">"As the salt particles settle on the airway walls, they pull fluid OUT of the swollen tissue."</p>
-                    <p className="mt-1">"Like how salt draws water out of a vegetable when you're pickling it."</p>
-                  </div>
-                </li>
-              </ul>
+            <div className="prose prose-lg max-w-3xl mx-auto space-y-4 text-foreground/80">
+              <p>She gestured toward two chairs. "Sit. I want to explain something."</p>
+              <p>Linda and I sat down.</p>
+              <p>Dr. Popescu pulled out a laminated diagram. Showed it to us.</p>
+              <p>It was a cross-section of human lungs. Airways branching like tree roots.</p>
+              <p>But some of them were... clogged. Thick white plugs blocking the passages.</p>
+              <p>"This is what Linda's lungs look like right now," she said.</p>
+              <p>Linda leaned forward. Staring at the image.</p>
+              <p>"Your lungs aren't just inflamed," Dr. Popescu continued. "They're DROWNING."</p>
+              <p>"The inflammation causes your body to produce excess mucus. Thick, sticky mucus that traps bacteria and irritants."</p>
+              <p>"And that mucus forms a CEMENT-like plug in your airways."</p>
+              <p>She pointed to the white blockages on the diagram.</p>
+              <p>"Your medications try to open the airways. But they don't address the MUCUS."</p>
+              <p>"So you're essentially trying to breathe through a straw that's clogged with glue."</p>
+              <p>Linda's hand went to her throat. Like she could feel it.</p>
+              <p>Dr. Popescu pulled out another diagram.</p>
+              <p>"This is where the salt changes everything."</p>
+              
+              <div className="my-8 p-6 bg-primary/10 rounded-lg border-l-4 border-primary">
+                <h3 className="font-display text-2xl font-bold mb-4 text-foreground">When you breathe in microscopic salt particles... four things happen:</h3>
+                <ul className="space-y-4">
+                  <li className="flex items-start gap-3">
+                    <CheckCircle2 className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                    <div>
+                      <strong className="text-foreground">FIRST... the salt hydrates the mucus.</strong>
+                      <p className="mt-1">"It draws water into the mucus proteins, making them thinner and easier to expel."</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle2 className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                    <div>
+                      <strong className="text-foreground">SECOND... it restores ciliary function.</strong>
+                      <p className="mt-1">"Your lungs have tiny hair-like structures called cilia that sweep mucus up and out. But chronic inflammation paralyzes them."</p>
+                      <p className="mt-1">"The salt reactivates those cilia. Gets them moving again."</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle2 className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                    <div>
+                      <strong className="text-foreground">THIRD... it reduces inflammation at a cellular level.</strong>
+                      <p className="mt-1">"This isn't table salt. It was formed 22 million years ago under intense volcanic pressure and heat."</p>
+                      <p className="mt-1">"The minerals got BAKED into the salt. Creating compounds that don't exist in regular sodium chloride."</p>
+                      <p className="mt-1">"Kieserite. Polyhalite. Iron oxide. These minerals have documented anti-inflammatory and mucolytic properties."</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle2 className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                    <div>
+                      <strong className="text-foreground">FOURTH... the salt creates an osmotic effect that opens your airways.</strong>
+                      <p className="mt-1">"As the salt particles settle on the airway walls, they pull fluid OUT of the swollen tissue."</p>
+                      <p className="mt-1">"Like how salt draws water out of a vegetable when you're pickling it."</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <p>She pointed back to the lung diagram.</p>
+              <p>"This is why the air here works when medications don't."</p>
+              <p className="font-bold text-xl text-primary">"The medications only treat symptoms. The salt treats the ROOT CAUSE."</p>
+              <p>"And it's not just lung problems," she added.</p>
+              <p>"The same mechanism works for allergies."</p>
+              <p>She walked over to the window. Pointed toward the fields outside.</p>
+              <p>"Every spring, people come here from all over Romania. When the pollen count is at its highest."</p>
+              <p>"They arrive with red, watery eyes. Sneezing fits. Can't go outside without feeling miserable."</p>
+              <p>"Seasonal allergies are just inflammation in your nasal passages. Swollen tissue. Excess mucus."</p>
+              <p>"The salt reduces that inflammation. Thins the mucus. Opens your sinuses."</p>
+              <p>"After two weeks breathing this air? Most of them don't need their antihistamines anymore."</p>
+              <p>She smiled.</p>
+              <p>"Maria's sister used to be one of the worst cases I'd ever seen. Miserable every spring. Sneezing. Watery eyes. Couldn't even work in her garden."</p>
+              <p>"After two months here? The allergies disappeared completely."</p>
+              <p>"Now she spends her entire spring outside. No medication. No symptoms."</p>
+              <p>"Just breathing."</p>
+              <p>I leaned back in my chair. Just... processing.</p>
+              <p>"Why doesn't my doctor know about this?" Linda asked.</p>
+              <p>Dr. Popescu smiled sadly.</p>
+              <p>"They DO know. They just don't CARE."</p>
+              <p>"You can't patent salt. Big Pharma can't make billions off a natural mineral."</p>
+              <p>"So they don't fund research on it. They don't teach it in medical school. They certainly don't recommend it."</p>
+              <p>"Instead, they push medications that cost $40-$150 per dose... that you'll need for the rest of your life... and that only treat symptoms. Not the root cause."</p>
+              <p>She walked back to her desk. Picked up a thermos and a small audio device.</p>
+              <p>"This is what I give all my patients."</p>
+              <p>She handed Linda the thermos.</p>
+              <p>"Thyme, rosemary, eucalyptus. It helps thin the mucus from the INSIDE... while the salt works from the OUTSIDE."</p>
+              <p>Linda unscrewed the top. Took a sip.</p>
+              <p>"It's good."</p>
+              <p>"My grandmother's recipe," Dr. Popescu said with a smile.</p>
+              <p>Then she held up the audio device.</p>
+              <p>"And this is a guided breathing exercise. Five minutes. Every morning."</p>
+              <p>"It helps expel the trapped mucus and restore your lung capacity."</p>
+              <p>"We use it with all our patients here. I want you to take it home with you."</p>
+              <p>She handed it to Linda.</p>
+              <p>"For the next few days... just breathe the air. Drink the tea. Do the exercise."</p>
+              <p>"That's it."</p>
+              <p>Linda looked at me. Then back at Dr. Popescu.</p>
+              <p>"Thank you," she whispered.</p>
+              <p>Dr. Popescu squeezed her hand.</p>
+              <p>"You're going to be okay. I promise."</p>
+              <p>We walked out of that office in a daze.</p>
+              <p>Linda held the thermos in one hand. The audio device in the other.</p>
+              <p>And for the first time in years...</p>
+              <p>She had hope.</p>
             </div>
-
-            <p>She pointed back to the lung diagram.</p>
-            <p>"This is why the air here works when medications don't."</p>
-            <p className="font-bold text-xl text-primary">"The medications only treat symptoms. The salt treats the ROOT CAUSE."</p>
-            <p>"And it's not just lung problems," she added.</p>
-            <p>"The same mechanism works for allergies."</p>
-            <p>She walked over to the window. Pointed toward the fields outside.</p>
-            <p>"Every spring, people come here from all over Romania. When the pollen count is at its highest."</p>
-            <p>"They arrive with red, watery eyes. Sneezing fits. Can't go outside without feeling miserable."</p>
-            <p>"Seasonal allergies are just inflammation in your nasal passages. Swollen tissue. Excess mucus."</p>
-            <p>"The salt reduces that inflammation. Thins the mucus. Opens your sinuses."</p>
-            <p>"After two weeks breathing this air? Most of them don't need their antihistamines anymore."</p>
-            <p>She smiled.</p>
-            <p>"Maria's sister used to be one of the worst cases I'd ever seen. Miserable every spring. Sneezing. Watery eyes. Couldn't even work in her garden."</p>
-            <p>"After two months here? The allergies disappeared completely."</p>
-            <p>"Now she spends her entire spring outside. No medication. No symptoms."</p>
-            <p>"Just breathing."</p>
-            <p>I leaned back in my chair. Just... processing.</p>
-            <p>"Why doesn't my doctor know about this?" Linda asked.</p>
-            <p>Dr. Popescu smiled sadly.</p>
-            <p>"They DO know. They just don't CARE."</p>
-            <p>"You can't patent salt. Big Pharma can't make billions off a natural mineral."</p>
-            <p>"So they don't fund research on it. They don't teach it in medical school. They certainly don't recommend it."</p>
-            <p>"Instead, they push medications that cost $40-$150 per dose... that you'll need for the rest of your life... and that only treat symptoms. Not the root cause."</p>
-            <p>She walked back to her desk. Picked up a thermos and a small audio device.</p>
-            <p>"This is what I give all my patients."</p>
-            <p>She handed Linda the thermos.</p>
-            <p>"Thyme, rosemary, eucalyptus. It helps thin the mucus from the INSIDE... while the salt works from the OUTSIDE."</p>
-            <p>Linda unscrewed the top. Took a sip.</p>
-            <p>"It's good."</p>
-            <p>"My grandmother's recipe," Dr. Popescu said with a smile.</p>
-            <p>Then she held up the audio device.</p>
-            <p>"And this is a guided breathing exercise. Five minutes. Every morning."</p>
-            <p>"It helps expel the trapped mucus and restore your lung capacity."</p>
-            <p>"We use it with all our patients here. I want you to take it home with you."</p>
-            <p>She handed it to Linda.</p>
-            <p>"For the next few days... just breathe the air. Drink the tea. Do the exercise."</p>
-            <p>"That's it."</p>
-            <p>Linda looked at me. Then back at Dr. Popescu.</p>
-            <p>"Thank you," she whispered.</p>
-            <p>Dr. Popescu squeezed her hand.</p>
-            <p>"You're going to be okay. I promise."</p>
-            <p>We walked out of that office in a daze.</p>
-            <p>Linda held the thermos in one hand. The audio device in the other.</p>
-            <p>And for the first time in years...</p>
-            <p>She had hope.</p>
           </div>
         </div>
       </section>
@@ -858,88 +864,90 @@ const Index = () => {
           />
         </div>
         
-        <p>Over the next week, Linda transformed.</p>
-        <p>Not overnight. But steadily.</p>
-        
-        <div className="benefit-grid my-8">
-          <div className="benefit-card">
-            <p className="font-bold text-lg text-primary mb-2">Day 5</p>
-            <p>Walking around the village without stopping to catch her breath</p>
+        <div className="vsl-content-box">
+          <p>Over the next week, Linda transformed.</p>
+          <p>Not overnight. But steadily.</p>
+          
+          <div className="benefit-grid my-8">
+            <div className="benefit-card">
+              <p className="font-bold text-lg text-primary mb-2">Day 5</p>
+              <p>Walking around the village without stopping to catch her breath</p>
+            </div>
+            <div className="benefit-card">
+              <p className="font-bold text-lg text-primary mb-2">Day 7</p>
+              <p>Sleeping through the night. No coughing fits. No waking up at 3 AM struggling to breathe.</p>
+            </div>
           </div>
-          <div className="benefit-card">
-            <p className="font-bold text-lg text-primary mb-2">Day 7</p>
-            <p>Sleeping through the night. No coughing fits. No waking up at 3 AM struggling to breathe.</p>
+          
+          <div className="callout-box text-center">
+            <p className="text-2xl font-bold text-emphasis mb-2">By day 10...</p>
+            <p className="text-xl">She wanted to hike.</p>
           </div>
-        </div>
-        
-        <div className="callout-box text-center">
-          <p className="text-2xl font-bold text-emphasis mb-2">By day 10...</p>
-          <p className="text-xl">She wanted to hike.</p>
-        </div>
-        
-        <p>There's this trail near the village. About 3 miles. Moderate incline. Nothing crazy.</p>
-        <p>But for Linda? It might as well have been Everest.</p>
-        <p>Six months earlier, she couldn't walk to the mailbox without stopping halfway.</p>
-        <p className="font-bold text-xl text-primary">And now... she wanted to hike.</p>
-        
-        <p>"Are you sure?" I asked.</p>
-        <p>She nodded. "I want to try."</p>
-        
-        <div className="section-divider" />
-        
-        <p>We started walking. Slowly at first.</p>
-        <p>I kept waiting for her to stop. To catch her breath. To say she needed a break.</p>
-        <p>But she didn't.</p>
-        <p className="font-bold text-lg">She just... kept going. One foot in front of the other. Breathing. ACTUALLY breathing.</p>
-        
-        <HighlightBox>
-          <p>About halfway up, she stopped. Not because she was tired. But because she wanted to look at the view.</p>
-          <p className="mt-3">The mountains stretched out in front of us. Green and gold and endless. The white salt hills sparkling in the distance.</p>
-          <p className="font-bold text-primary text-lg mt-3">"I never thought I'd be able to do this again," she said quietly.</p>
-        </HighlightBox>
-        
-        <p>I didn't say anything.</p>
-        <p>Because I was crying.</p>
-        
-        <div className="section-divider" />
-        
-        <p>That afternoon, Dr. Popescu came by with a portable oxygen monitor. "Let's see how you're doing," she said.</p>
-        <p>She clipped it onto Linda's finger. We waited.</p>
-        
-        <div className="callout-box">
-          <div className="grid md:grid-cols-2 gap-6 mb-6">
-            <StatBox 
-              number="97%" 
-              label="Oxygen Saturation" 
-              description="Up from 88%"
-            />
-            <StatBox 
-              number="420" 
-              label="Peak Flow" 
-              description="Up from 310"
-            />
+          
+          <p>There's this trail near the village. About 3 miles. Moderate incline. Nothing crazy.</p>
+          <p>But for Linda? It might as well have been Everest.</p>
+          <p>Six months earlier, she couldn't walk to the mailbox without stopping halfway.</p>
+          <p className="font-bold text-xl text-primary">And now... she wanted to hike.</p>
+          
+          <p>"Are you sure?" I asked.</p>
+          <p>She nodded. "I want to try."</p>
+          
+          <div className="section-divider" />
+          
+          <p>We started walking. Slowly at first.</p>
+          <p>I kept waiting for her to stop. To catch her breath. To say she needed a break.</p>
+          <p>But she didn't.</p>
+          <p className="font-bold text-lg">She just... kept going. One foot in front of the other. Breathing. ACTUALLY breathing.</p>
+          
+          <HighlightBox>
+            <p>About halfway up, she stopped. Not because she was tired. But because she wanted to look at the view.</p>
+            <p className="mt-3">The mountains stretched out in front of us. Green and gold and endless. The white salt hills sparkling in the distance.</p>
+            <p className="font-bold text-primary text-lg mt-3">"I never thought I'd be able to do this again," she said quietly.</p>
+          </HighlightBox>
+          
+          <p>I didn't say anything.</p>
+          <p>Because I was crying.</p>
+          
+          <div className="section-divider" />
+          
+          <p>That afternoon, Dr. Popescu came by with a portable oxygen monitor. "Let's see how you're doing," she said.</p>
+          <p>She clipped it onto Linda's finger. We waited.</p>
+          
+          <div className="callout-box">
+            <div className="grid md:grid-cols-2 gap-6 mb-6">
+              <StatBox 
+                number="97%" 
+                label="Oxygen Saturation" 
+                description="Up from 88%"
+              />
+              <StatBox 
+                number="420" 
+                label="Peak Flow" 
+                description="Up from 310"
+              />
+            </div>
+            <p className="text-center font-bold text-xl text-primary">You've gone from severe obstruction to borderline normal. In 10 days.</p>
           </div>
-          <p className="text-center font-bold text-xl text-primary">You've gone from severe obstruction to borderline normal. In 10 days.</p>
-        </div>
-        
-        <p>Linda started crying. "I'm getting better."</p>
-        <p>Dr. Popescu squeezed her hand. "Yes. You are."</p>
-        
-        <div className="section-divider" />
-        
-        <HighlightBox>
-          <p className="font-semibold text-lg mb-2">But while Linda was getting better... that hike absolutely DESTROYED my knees.</p>
-          <p>Twenty-two years in the Air Force had left them pretty shot.</p>
-          <p>And by the time we got back to the cottage, I could barely walk.</p>
-        </HighlightBox>
-        
-        <p>Then I remembered what Dr. Popescu said about the villagers using warm salt for joint pain.</p>
-        <p>I grabbed one of the small pouches Maria had given us. Heated it on the stove for a few minutes. Pressed it against my right knee.</p>
-        
-        <div className="callout-box text-center">
-          <p className="text-lg mb-2">Within 20 minutes, the throbbing stopped.</p>
-          <p className="text-2xl font-bold text-primary">The next morning? No pain.</p>
-          <p className="text-lg mt-2">First time in years.</p>
+          
+          <p>Linda started crying. "I'm getting better."</p>
+          <p>Dr. Popescu squeezed her hand. "Yes. You are."</p>
+          
+          <div className="section-divider" />
+          
+          <HighlightBox>
+            <p className="font-semibold text-lg mb-2">But while Linda was getting better... that hike absolutely DESTROYED my knees.</p>
+            <p>Twenty-two years in the Air Force had left them pretty shot.</p>
+            <p>And by the time we got back to the cottage, I could barely walk.</p>
+          </HighlightBox>
+          
+          <p>Then I remembered what Dr. Popescu said about the villagers using warm salt for joint pain.</p>
+          <p>I grabbed one of the small pouches Maria had given us. Heated it on the stove for a few minutes. Pressed it against my right knee.</p>
+          
+          <div className="callout-box text-center">
+            <p className="text-lg mb-2">Within 20 minutes, the throbbing stopped.</p>
+            <p className="text-2xl font-bold text-primary">The next morning? No pain.</p>
+            <p className="text-lg mt-2">First time in years.</p>
+          </div>
         </div>
       </StorySection>
 
@@ -1084,49 +1092,51 @@ const Index = () => {
             The Spirometry Test That Made Her Pulmonologist Question His Own Equipment
           </h2>
           
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
-            <p>I needed proof. Real, clinical proof.</p>
-            <p>So I scheduled a follow-up with Linda's pulmonologist. The same doctor who'd told us Linda's lungs were "permanently damaged."</p>
-            <p>We walked into his office on a Tuesday morning. Linda was nervous.</p>
-            <p>"What if the numbers aren't as good as we think?" she whispered.</p>
-            <p>I squeezed her hand. "They will be."</p>
-            <p>The nurse ran the spirometry test. Linda blew into the tube. Once. Twice. Three times.</p>
-            <p>Then we waited.</p>
-            <p>The doctor came in a few minutes later. Holding a printout.</p>
-            <p>He stared at it for a long time. Then looked at Linda. Then back at the printout.</p>
-            <p>"Did we recalibrate the machine?" he asked the nurse.</p>
-            <p>She nodded. "Twice this morning."</p>
-            <p>He pulled up the graphs on his computer. Two lines. Side by side.</p>
-            
-            <div className="callout-box">
-              <div className="grid md:grid-cols-2 gap-6 mb-6">
-                <StatBox 
-                  number="58%" 
-                  label="SIX MONTHS AGO" 
-                  description="Stage 3 obstruction - Jagged red line"
-                />
-                <StatBox 
-                  number="81%" 
-                  label="TODAY" 
-                  description="Nearly normal - Smooth green line"
-                />
+          <div className="vsl-content-box">
+            <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
+              <p>I needed proof. Real, clinical proof.</p>
+              <p>So I scheduled a follow-up with Linda's pulmonologist. The same doctor who'd told us Linda's lungs were "permanently damaged."</p>
+              <p>We walked into his office on a Tuesday morning. Linda was nervous.</p>
+              <p>"What if the numbers aren't as good as we think?" she whispered.</p>
+              <p>I squeezed her hand. "They will be."</p>
+              <p>The nurse ran the spirometry test. Linda blew into the tube. Once. Twice. Three times.</p>
+              <p>Then we waited.</p>
+              <p>The doctor came in a few minutes later. Holding a printout.</p>
+              <p>He stared at it for a long time. Then looked at Linda. Then back at the printout.</p>
+              <p>"Did we recalibrate the machine?" he asked the nurse.</p>
+              <p>She nodded. "Twice this morning."</p>
+              <p>He pulled up the graphs on his computer. Two lines. Side by side.</p>
+              
+              <div className="callout-box">
+                <div className="grid md:grid-cols-2 gap-6 mb-6">
+                  <StatBox 
+                    number="58%" 
+                    label="SIX MONTHS AGO" 
+                    description="Stage 3 obstruction - Jagged red line"
+                  />
+                  <StatBox 
+                    number="81%" 
+                    label="TODAY" 
+                    description="Nearly normal - Smooth green line"
+                  />
+                </div>
               </div>
-            </div>
 
-            <p>He stared at the screen. Didn't say anything for a solid ten seconds.</p>
-            <p className="font-bold text-xl text-primary">Then: "I've never seen improvement like this."</p>
-            <p>He turned to Linda. "What have you been doing differently?"</p>
-            <p>Linda glanced at me. I didn't say anything.</p>
-            <p>She looked back at the doctor. "I've been breathing salt air. From Romania."</p>
-            <p>He raised an eyebrow. "I'm sorry?"</p>
-            <p>"There's a village in Romania. Mânzălești. The air is saturated with salt particles. We went there. And when we came home, we got a system that recreates that air."</p>
-            <p>He nodded slowly. Like he was trying to process something that didn't fit into his worldview.</p>
-            <p>"Well... whatever you're doing... keep doing it."</p>
-            <p>He adjusted her chart. Reduced her steroid dose. Scheduled her next appointment for six months out instead of three.</p>
-            <p>And sent us on our way.</p>
-            <p>He didn't ask WHAT we were using. He didn't ask HOW it worked. He just... moved on.</p>
-            <p>But the results were right there. On his screen. Undeniable.</p>
-            <p className="font-bold text-emphasis text-xl">Linda's lungs were HEALING.</p>
+              <p>He stared at the screen. Didn't say anything for a solid ten seconds.</p>
+              <p className="font-bold text-xl text-primary">Then: "I've never seen improvement like this."</p>
+              <p>He turned to Linda. "What have you been doing differently?"</p>
+              <p>Linda glanced at me. I didn't say anything.</p>
+              <p>She looked back at the doctor. "I've been breathing salt air. From Romania."</p>
+              <p>He raised an eyebrow. "I'm sorry?"</p>
+              <p>"There's a village in Romania. Mânzălești. The air is saturated with salt particles. We went there. And when we came home, we got a system that recreates that air."</p>
+              <p>He nodded slowly. Like he was trying to process something that didn't fit into his worldview.</p>
+              <p>"Well... whatever you're doing... keep doing it."</p>
+              <p>He adjusted her chart. Reduced her steroid dose. Scheduled her next appointment for six months out instead of three.</p>
+              <p>And sent us on our way.</p>
+              <p>He didn't ask WHAT we were using. He didn't ask HOW it worked. He just... moved on.</p>
+              <p>But the results were right there. On his screen. Undeniable.</p>
+              <p className="font-bold text-emphasis text-xl">Linda's lungs were HEALING.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -1362,89 +1372,91 @@ const Index = () => {
             Here's How Much This Costs (And Why Most Companies Would Charge 3X More)
           </h2>
           
-          <div className="prose prose-lg max-w-3xl mx-auto mb-12 text-center text-foreground/80">
-            <p>If I were running this like a typical health company... I'd probably charge $300 per pouch.</p>
-            <p>And people would still buy it.</p>
-            <p>Because what's the alternative?</p>
-            <p>Flying to Romania costs $1,500 round trip. Staying there for a month? Another $3,000 to $5,000.</p>
-            <p>So you're looking at close to $10,000... just to TRY what Linda and I experienced.</p>
-            <p>Compared to THAT... $300 per pouch would be a steal.</p>
-            <p>But I'm not pricing this for maximum profit.</p>
-            <p>I'm pricing it so ANYONE who needs it can afford it.</p>
-            <p className="font-bold text-xl text-primary">Which is why your first Longevity Salt pouch is just $89.</p>
-            <p>That's over 50% off the regular retail price of $180.</p>
-            <p>Less than $3 per day.</p>
-            <p>About what you'd spend on a latte.</p>
-            <p>Except this might actually save your life.</p>
-            <p>And if you want full coverage... bedroom, living room, office... you can save even MORE.</p>
-          </div>
+          <div className="vsl-content-box">
+            <div className="prose prose-lg max-w-3xl mx-auto mb-12 text-center text-foreground/80">
+              <p>If I were running this like a typical health company... I'd probably charge $300 per pouch.</p>
+              <p>And people would still buy it.</p>
+              <p>Because what's the alternative?</p>
+              <p>Flying to Romania costs $1,500 round trip. Staying there for a month? Another $3,000 to $5,000.</p>
+              <p>So you're looking at close to $10,000... just to TRY what Linda and I experienced.</p>
+              <p>Compared to THAT... $300 per pouch would be a steal.</p>
+              <p>But I'm not pricing this for maximum profit.</p>
+              <p>I'm pricing it so ANYONE who needs it can afford it.</p>
+              <p className="font-bold text-xl text-primary">Which is why your first Longevity Salt pouch is just $89.</p>
+              <p>That's over 50% off the regular retail price of $180.</p>
+              <p>Less than $3 per day.</p>
+              <p>About what you'd spend on a latte.</p>
+              <p>Except this might actually save your life.</p>
+              <p>And if you want full coverage... bedroom, living room, office... you can save even MORE.</p>
+            </div>
 
-          <div className="grid md:grid-cols-3 gap-6 mb-12">
-            <Card className="p-8 shadow-medium border-2 border-border">
-              <div className="text-center mb-6">
-                <h3 className="font-display text-2xl font-bold mb-2 text-foreground">ONE LONGEVITY SALT POUCH</h3>
-                <div className="mb-4">
-                  <p className="text-lg font-bold text-accent mb-2">50.6% OFF</p>
-                  <div className="flex items-center justify-center gap-3 mb-2">
-                    <span className="text-2xl text-muted-foreground line-through">$180</span>
-                    <span className="text-4xl font-bold text-foreground">$89</span>
+            <div className="grid md:grid-cols-3 gap-6 mb-12">
+              <Card className="p-8 shadow-medium border-2 border-border">
+                <div className="text-center mb-6">
+                  <h3 className="font-display text-2xl font-bold mb-2 text-foreground">ONE LONGEVITY SALT POUCH</h3>
+                  <div className="mb-4">
+                    <p className="text-lg font-bold text-accent mb-2">50.6% OFF</p>
+                    <div className="flex items-center justify-center gap-3 mb-2">
+                      <span className="text-2xl text-muted-foreground line-through">$180</span>
+                      <span className="text-4xl font-bold text-foreground">$89</span>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <Button onClick={scrollToCTA} className="w-full" size="lg">
-                Get Started
-              </Button>
-            </Card>
+                <Button onClick={scrollToCTA} className="w-full" size="lg">
+                  Get Started
+                </Button>
+              </Card>
 
-            <Card className="p-8 shadow-medium border-2 border-border">
-              <div className="text-center mb-6">
-                <h3 className="font-display text-2xl font-bold mb-2 text-foreground">3 LONGEVITY SALT POUCHES</h3>
-                <div className="mb-4">
-                  <p className="text-lg font-bold text-accent mb-2">56.6% OFF</p>
-                  <div className="flex items-center justify-center gap-3 mb-2">
-                    <span className="text-2xl text-muted-foreground line-through">$180</span>
-                    <span className="text-4xl font-bold text-foreground">$78</span>
-                    <span className="text-xl text-muted-foreground">per pouch</span>
+              <Card className="p-8 shadow-medium border-2 border-border">
+                <div className="text-center mb-6">
+                  <h3 className="font-display text-2xl font-bold mb-2 text-foreground">3 LONGEVITY SALT POUCHES</h3>
+                  <div className="mb-4">
+                    <p className="text-lg font-bold text-accent mb-2">56.6% OFF</p>
+                    <div className="flex items-center justify-center gap-3 mb-2">
+                      <span className="text-2xl text-muted-foreground line-through">$180</span>
+                      <span className="text-4xl font-bold text-foreground">$78</span>
+                      <span className="text-xl text-muted-foreground">per pouch</span>
+                    </div>
+                    <p className="text-xl font-bold text-primary mt-3">TOTAL: $234</p>
                   </div>
-                  <p className="text-xl font-bold text-primary mt-3">TOTAL: $234</p>
                 </div>
-              </div>
-              <Button onClick={scrollToCTA} className="w-full" size="lg">
-                Order Now
-              </Button>
-            </Card>
+                <Button onClick={scrollToCTA} className="w-full" size="lg">
+                  Order Now
+                </Button>
+              </Card>
 
-            <Card className="p-8 shadow-medium border-4 border-primary relative transform md:scale-105">
-              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-bold flex gap-2">
-                <span>BEST VALUE</span>
-                <span>•</span>
-                <span>BEST SELLING</span>
-              </div>
-              <div className="text-center mb-6">
-                <h3 className="font-display text-2xl font-bold mb-2 text-foreground">5 LONGEVITY SALT POUCHES</h3>
-                <div className="mb-4">
-                  <p className="text-lg font-bold text-accent mb-2">65.6% OFF</p>
-                  <div className="flex items-center justify-center gap-3 mb-2">
-                    <span className="text-2xl text-muted-foreground line-through">$180</span>
-                    <span className="text-4xl font-bold text-primary">$62</span>
-                    <span className="text-xl text-muted-foreground">per pouch</span>
+              <Card className="p-8 shadow-medium border-4 border-primary relative transform md:scale-105">
+                <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-bold flex gap-2">
+                  <span>BEST VALUE</span>
+                  <span>•</span>
+                  <span>BEST SELLING</span>
+                </div>
+                <div className="text-center mb-6">
+                  <h3 className="font-display text-2xl font-bold mb-2 text-foreground">5 LONGEVITY SALT POUCHES</h3>
+                  <div className="mb-4">
+                    <p className="text-lg font-bold text-accent mb-2">65.6% OFF</p>
+                    <div className="flex items-center justify-center gap-3 mb-2">
+                      <span className="text-2xl text-muted-foreground line-through">$180</span>
+                      <span className="text-4xl font-bold text-primary">$62</span>
+                      <span className="text-xl text-muted-foreground">per pouch</span>
+                    </div>
+                    <p className="text-xl font-bold text-primary mt-3">TOTAL: $310</p>
                   </div>
-                  <p className="text-xl font-bold text-primary mt-3">TOTAL: $310</p>
                 </div>
-              </div>
-              <Button onClick={scrollToCTA} className="w-full" size="lg">
-                Best Value
-              </Button>
-            </Card>
-          </div>
+                <Button onClick={scrollToCTA} className="w-full" size="lg">
+                  Best Value
+                </Button>
+              </Card>
+            </div>
 
-          <div className="text-center space-y-6">
-            <Button onClick={scrollToCTA} size="lg" className="text-xl px-16 py-8 h-auto animate-pulse">
-              YES, I WANT TO BREATHE FREELY AGAIN →
-            </Button>
-            <p className="text-sm text-muted-foreground">60-Day Money-Back Guarantee • Secure Checkout</p>
-            <p className="text-sm text-foreground/80">That's less than $2 per day. To breathe easier. Sleep better. And get your life back.</p>
-            <p className="text-sm text-foreground/80">And just so you know... you're taking ZERO risk here.</p>
+            <div className="text-center space-y-6">
+              <Button onClick={scrollToCTA} size="lg" className="text-xl px-16 py-8 h-auto animate-pulse">
+                YES, I WANT TO BREATHE FREELY AGAIN →
+              </Button>
+              <p className="text-sm text-muted-foreground">60-Day Money-Back Guarantee • Secure Checkout</p>
+              <p className="text-sm text-foreground/80">That's less than $2 per day. To breathe easier. Sleep better. And get your life back.</p>
+              <p className="text-sm text-foreground/80">And just so you know... you're taking ZERO risk here.</p>
+            </div>
           </div>
         </div>
       </section>
