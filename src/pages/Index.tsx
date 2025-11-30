@@ -390,16 +390,16 @@ const Index = () => {
         <p>Linda's eyes widened. "Everyone?"</p>
         <p>Ioana nodded. "Many people. Very old. But still strong."</p>
         
-        <div className="max-w-md mx-auto my-8 float-right ml-6 mb-6">
+        <p>She swiped to another video. An old woman. Working in her garden. Moving effortlessly.</p>
+        <p>Then another. A news report. BBC. Showing the village. White hills rising from the valley.</p>
+        
+        <div className="my-8">
           <img 
             src={elderlyGardening}
             alt="Elderly woman working energetically in her vibrant flower garden"
-            className="w-full h-auto rounded-lg shadow-medium hover-scale"
+            className="w-full max-w-2xl mx-auto h-auto rounded-lg shadow-medium hover-scale"
           />
         </div>
-        
-        <p>She swiped to another video. An old woman. Working in her garden. Moving effortlessly.</p>
-        <p>Then another. A news report. BBC. Showing the village. White hills rising from the valley.</p>
         
         <div className="highlight-box">
           <p className="font-bold text-lg text-primary mb-2">"That is salt," Ioana said.</p>
@@ -489,6 +489,8 @@ const Index = () => {
         imageAlt="White salt hills in Romanian mountains"
         title="The 4-Hour Drive That Felt Like Traveling Back in Time"
         bgColor="story"
+        imagePosition="top"
+        imageSize="full"
       >
         <p>We left before sunrise. Dr. Popescu's directions sitting on the dashboard.</p>
         <p>For the first hour, everything looked normal. Small towns. Gas stations. Road signs.</p>
@@ -533,6 +535,8 @@ const Index = () => {
         image={romanianVillage}
         imageAlt="Traditional Romanian village in the mountains"
         title="What We Found in the Village Where People Live Past 100"
+        imagePosition="top"
+        imageSize="full"
       >
         <p>Dr. Popescu shook our hands. Then looked back toward the white hills. "Beautiful, isn't it?"</p>
         <p>Linda nodded. "I've never seen anything like it."</p>
@@ -768,6 +772,8 @@ const Index = () => {
         imageAlt="97-year-old Romanian woman chopping wood in village"
         title="The 97-Year-Old Woman Chopping Wood (And What She Told Us About Living in This Valley)"
         bgColor="story"
+        imagePosition="top"
+        imageSize="full"
       >
         <p>Later that morning, Dr. Popescu came by.</p>
         <p>"How are you feeling?" she asked Linda.</p>
@@ -819,11 +825,11 @@ const Index = () => {
         
         <p>Dr. Popescu explained: "The villagers heat these pouches and apply them to sore joints. Knees. Shoulders. Hips. It reduces inflammation. My own mother used them for arthritis."</p>
         
-        <div className="max-w-sm mx-auto my-6 float-right ml-6 mb-6">
+        <div className="my-6">
           <img 
             src={saltTherapyPouch}
             alt="Traditional salt therapy pouch with purple ribbon"
-            className="w-full h-auto rounded-lg shadow-medium hover-scale"
+            className="w-full max-w-md mx-auto h-auto rounded-lg shadow-medium hover-scale"
           />
         </div>
         
@@ -844,77 +850,77 @@ const Index = () => {
 
       {/* Day 10 Transformation */}
       <StorySection title="By Day 10, Linda Did Something She Hasn't Done in 5 Years (And I Cried Like a Baby Watching Her)" bgColor="scientific">
-        <ImageWithText 
-          image={elderlyCouple}
-          imageAlt="Elderly couple walking together through misty forest breathing fresh air"
-          imagePosition="float-left"
-          imageSize="large"
-          imageShape="rounded"
-        >
-          <p>Over the next week, Linda transformed.</p>
-          <p>Not overnight. But steadily.</p>
-          
-          <div className="benefit-grid my-8">
-            <div className="benefit-card">
-              <p className="font-bold text-lg text-primary mb-2">Day 5</p>
-              <p>Walking around the village without stopping to catch her breath</p>
-            </div>
-            <div className="benefit-card">
-              <p className="font-bold text-lg text-primary mb-2">Day 7</p>
-              <p>Sleeping through the night. No coughing fits. No waking up at 3 AM struggling to breathe.</p>
-            </div>
+        <div className="my-8">
+          <img 
+            src={elderlyCouple}
+            alt="Elderly couple walking together through misty forest breathing fresh air"
+            className="w-full max-w-3xl mx-auto h-auto rounded-lg shadow-medium hover-scale"
+          />
+        </div>
+        
+        <p>Over the next week, Linda transformed.</p>
+        <p>Not overnight. But steadily.</p>
+        
+        <div className="benefit-grid my-8">
+          <div className="benefit-card">
+            <p className="font-bold text-lg text-primary mb-2">Day 5</p>
+            <p>Walking around the village without stopping to catch her breath</p>
           </div>
-          
-          <div className="callout-box text-center">
-            <p className="text-2xl font-bold text-emphasis mb-2">By day 10...</p>
-            <p className="text-xl">She wanted to hike.</p>
+          <div className="benefit-card">
+            <p className="font-bold text-lg text-primary mb-2">Day 7</p>
+            <p>Sleeping through the night. No coughing fits. No waking up at 3 AM struggling to breathe.</p>
           </div>
-          
-          <p>There's this trail near the village. About 3 miles. Moderate incline. Nothing crazy.</p>
-          <p>But for Linda? It might as well have been Everest.</p>
-          <p>Six months earlier, she couldn't walk to the mailbox without stopping halfway.</p>
-          <p className="font-bold text-xl text-primary">And now... she wanted to hike.</p>
-          
-          <p>"Are you sure?" I asked.</p>
-          <p>She nodded. "I want to try."</p>
-          
-          <div className="section-divider" />
-          
-          <p>We started walking. Slowly at first.</p>
-          <p>I kept waiting for her to stop. To catch her breath. To say she needed a break.</p>
-          <p>But she didn't.</p>
-          <p className="font-bold text-lg">She just... kept going. One foot in front of the other. Breathing. ACTUALLY breathing.</p>
-          
-          <HighlightBox>
-            <p>About halfway up, she stopped. Not because she was tired. But because she wanted to look at the view.</p>
-            <p className="mt-3">The mountains stretched out in front of us. Green and gold and endless. The white salt hills sparkling in the distance.</p>
-            <p className="font-bold text-primary text-lg mt-3">"I never thought I'd be able to do this again," she said quietly.</p>
-          </HighlightBox>
-          
-          <p>I didn't say anything.</p>
-          <p>Because I was crying.</p>
-          
-          <div className="section-divider" />
-          
-          <p>That afternoon, Dr. Popescu came by with a portable oxygen monitor. "Let's see how you're doing," she said.</p>
-          <p>She clipped it onto Linda's finger. We waited.</p>
-          
-          <div className="callout-box">
-            <div className="grid md:grid-cols-2 gap-6 mb-6">
-              <StatBox 
-                number="97%" 
-                label="Oxygen Saturation" 
-                description="Up from 88%"
-              />
-              <StatBox 
-                number="420" 
-                label="Peak Flow" 
-                description="Up from 310"
-              />
-            </div>
-            <p className="text-center font-bold text-xl text-primary">You've gone from severe obstruction to borderline normal. In 10 days.</p>
+        </div>
+        
+        <div className="callout-box text-center">
+          <p className="text-2xl font-bold text-emphasis mb-2">By day 10...</p>
+          <p className="text-xl">She wanted to hike.</p>
+        </div>
+        
+        <p>There's this trail near the village. About 3 miles. Moderate incline. Nothing crazy.</p>
+        <p>But for Linda? It might as well have been Everest.</p>
+        <p>Six months earlier, she couldn't walk to the mailbox without stopping halfway.</p>
+        <p className="font-bold text-xl text-primary">And now... she wanted to hike.</p>
+        
+        <p>"Are you sure?" I asked.</p>
+        <p>She nodded. "I want to try."</p>
+        
+        <div className="section-divider" />
+        
+        <p>We started walking. Slowly at first.</p>
+        <p>I kept waiting for her to stop. To catch her breath. To say she needed a break.</p>
+        <p>But she didn't.</p>
+        <p className="font-bold text-lg">She just... kept going. One foot in front of the other. Breathing. ACTUALLY breathing.</p>
+        
+        <HighlightBox>
+          <p>About halfway up, she stopped. Not because she was tired. But because she wanted to look at the view.</p>
+          <p className="mt-3">The mountains stretched out in front of us. Green and gold and endless. The white salt hills sparkling in the distance.</p>
+          <p className="font-bold text-primary text-lg mt-3">"I never thought I'd be able to do this again," she said quietly.</p>
+        </HighlightBox>
+        
+        <p>I didn't say anything.</p>
+        <p>Because I was crying.</p>
+        
+        <div className="section-divider" />
+        
+        <p>That afternoon, Dr. Popescu came by with a portable oxygen monitor. "Let's see how you're doing," she said.</p>
+        <p>She clipped it onto Linda's finger. We waited.</p>
+        
+        <div className="callout-box">
+          <div className="grid md:grid-cols-2 gap-6 mb-6">
+            <StatBox 
+              number="97%" 
+              label="Oxygen Saturation" 
+              description="Up from 88%"
+            />
+            <StatBox 
+              number="420" 
+              label="Peak Flow" 
+              description="Up from 310"
+            />
           </div>
-        </ImageWithText>
+          <p className="text-center font-bold text-xl text-primary">You've gone from severe obstruction to borderline normal. In 10 days.</p>
+        </div>
         
         <p>Linda started crying. "I'm getting better."</p>
         <p>Dr. Popescu squeezed her hand. "Yes. You are."</p>
