@@ -36,7 +36,7 @@ All colors MUST be HSL.
     --input: 270 20% 90%;
     --ring: 270 65% 45%;
 
-    --radius: 0.75rem;
+    --radius: 14px;
     
     /* Sales page design tokens */
     --vsl-hero-bg: 270 50% 25%;           /* Deep purple hero background */
@@ -52,32 +52,37 @@ All colors MUST be HSL.
     --story-bg: 40 40% 92%;
     --scientific-bg: 270 40% 30%;
     
-    /* Typography */
-    --font-display: 'Playfair Display', serif;
-    --font-body: 'Inter', sans-serif;
+    /* Typography - Lora serif font */
+    --font-display: 'Lora', serif;
+    --font-body: 'Lora', serif;
+    
+    /* Font sizes from reference */
+    --text-body: 24px;
+    --text-body-lh: 34px;
+    --text-body-lg: 28px;
+    --text-body-lg-lh: 38px;
+    --text-body-xl: 30px;
+    --text-body-xl-lh: 40px;
+    --text-heading: 44px;
+    --text-heading-lh: 54px;
+    --text-hero: 50px;
+    --text-hero-lh: 64px;
     
     /* Shadows */
     --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
-    --shadow-medium: 0 8px 40px rgba(0, 0, 0, 0.15);
-    --shadow-glow: 0 0 30px rgba(8, 145, 178, 0.3);
+    --shadow-medium: 0 0 10px rgba(0, 0, 0, 0.1);
+    --shadow-glow: 0 5px 10px rgba(0, 0, 0, 0.15);
     
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -127,50 +132,117 @@ All colors MUST be HSL.
 @layer base {
   * {
     @apply border-border;
+    box-sizing: border-box;
   }
 
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-body);
-    line-height: 1.8;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
-    line-height: 1.2;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
   }
   
+  h1 {
+    font-size: 44px;
+    line-height: 54px;
+  }
+  
+  h2 {
+    font-size: 44px;
+    line-height: 54px;
+  }
+  
+  h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  
+  p {
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+  }
+  
+  p:first-child {
+    margin-top: 0;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  u {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 7px;
+  }
+
   /* Sales Page Components */
   
-  /* Red Highlight Boxes - like the reference site */
+  /* Highlight Boxes */
   .vsl-highlight {
-    @apply inline-block bg-[hsl(var(--vsl-highlight))] text-white font-bold px-3 py-1 my-1;
+    @apply inline-block bg-[hsl(var(--vsl-highlight))] text-white font-bold;
+    padding: 0 6px;
   }
   
   .highlight-box {
-    @apply bg-card border-l-4 border-[hsl(var(--vsl-highlight))] p-6 rounded-r-lg my-8 shadow-medium;
+    @apply bg-card border-l-4 border-[hsl(var(--vsl-highlight))] rounded-r-lg;
+    padding: 24px 28px;
+    margin: 34px 0 0 0;
+    box-shadow: var(--shadow-medium);
+    border-radius: 14px;
   }
   
   /* White Content Boxes on Dark Backgrounds */
   .vsl-content-box {
-    @apply bg-card text-card-foreground p-8 rounded-xl shadow-medium my-8;
+    @apply bg-card text-card-foreground;
+    padding: 38px 30px;
+    border-radius: 14px;
+    box-shadow: var(--shadow-medium);
+    margin: 34px 0 0 0;
   }
   
   /* Green Checkmark Bullets */
   .vsl-checklist {
-    @apply space-y-4;
+    padding: 0;
   }
   
   .vsl-check-item {
-    @apply flex items-start gap-4 bg-card p-4 rounded-lg;
+    @apply flex items-start gap-4 bg-card rounded-lg;
+    padding: 0 0 0 40px;
+    margin: 30px 0 0 0;
   }
   
   .vsl-check-icon {
-    @apply flex-shrink-0 w-8 h-8 rounded-full bg-[hsl(var(--vsl-checkmark))] text-white flex items-center justify-center font-bold;
+    @apply flex-shrink-0 rounded-full bg-[hsl(var(--vsl-checkmark))] text-white flex items-center justify-center font-bold;
+    width: 32px;
+    height: 32px;
   }
   
   .stat-box {
-    @apply bg-card p-6 rounded-lg text-center shadow-medium border-2 border-[hsl(var(--vsl-highlight))];
+    @apply bg-card text-center border-2 border-[hsl(var(--vsl-highlight))];
+    padding: 24px 28px;
+    border-radius: 14px;
+    box-shadow: var(--shadow-glow);
   }
   
   .emphasis-text {
@@ -178,75 +250,371 @@ All colors MUST be HSL.
   }
   
   .section-divider {
-    @apply border-t-2 border-border/30 my-16;
+    @apply border-t-2 border-border/30;
+    margin: 40px 0;
   }
   
   /* Scientific Badge Strip */
   .scientific-badge {
-    @apply inline-flex items-center gap-2 px-4 py-2 bg-card rounded-full text-sm font-semibold border border-border shadow-soft;
+    @apply inline-flex items-center gap-2 bg-card text-sm font-semibold border border-border;
+    padding: 12px 20px;
+    border-radius: 50px;
+    box-shadow: var(--shadow-soft);
   }
   
   .trust-indicator {
     @apply flex items-center gap-2 text-sm font-medium;
   }
   
-  /* VSL CTA Button - Bold Red/Orange */
+  /* VSL CTA Button */
   .cta-button {
-    @apply bg-[hsl(var(--vsl-highlight))] hover:bg-[hsl(var(--vsl-highlight))]/90 text-white font-black py-6 px-12 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 text-xl;
+    @apply bg-[hsl(var(--vsl-highlight))] hover:bg-[hsl(var(--vsl-highlight))]/90 text-white font-black;
+    padding: 18px 28px;
+    border-radius: 8px;
+    font-size: 32px;
+    line-height: 42px;
+    text-transform: uppercase;
+    box-shadow: var(--shadow-glow);
+    transition: var(--transition-smooth);
+    display: block;
+    text-align: center;
+  }
+  
+  .cta-button:hover {
+    transform: scale(1.02);
   }
   
   /* Numbered list styling */
   .numbered-point {
-    @apply flex items-start gap-4 mb-6;
+    @apply flex items-start;
+    gap: 16px;
+    margin: 30px 0 0 0;
   }
   
   .number-badge {
-    @apply flex-shrink-0 w-10 h-10 rounded-full bg-[hsl(var(--vsl-highlight))] text-white flex items-center justify-center font-bold text-lg;
+    @apply flex-shrink-0 rounded-full bg-[hsl(var(--vsl-highlight))] text-white flex items-center justify-center font-bold;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
   }
   
-  /* Testimony Box with Avatar */
+  /* Testimony Box */
   .testimony-box {
-    @apply bg-card border-l-4 border-[hsl(var(--vsl-highlight))] pl-6 py-6 pr-6 rounded-r-lg shadow-medium;
+    @apply bg-card border-l-4 border-[hsl(var(--vsl-highlight))] rounded-r-lg;
+    padding: 24px 28px;
+    box-shadow: var(--shadow-medium);
+    border-radius: 14px;
+    margin: 34px 0 0 0;
   }
   
-  /* Dramatic Headlines */
+  /* Headlines */
   .headline-primary {
-    @apply text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-6 text-emphasis;
+    @apply font-black text-emphasis;
+    font-size: 50px;
+    line-height: 64px;
+    margin-bottom: 24px;
   }
   
   .headline-secondary {
-    @apply text-2xl md:text-3xl lg:text-4xl font-bold leading-tight text-foreground;
+    @apply font-bold text-foreground;
+    font-size: 44px;
+    line-height: 54px;
   }
   
   .subheadline {
-    @apply text-xl md:text-2xl font-semibold text-foreground/90;
+    @apply font-semibold text-foreground/90;
+    font-size: 28px;
+    line-height: 38px;
   }
   
   /* Call-out boxes */
   .callout-box {
-    @apply bg-[hsl(var(--vsl-highlight))]/10 border-2 border-[hsl(var(--vsl-highlight))] p-8 rounded-lg my-8 shadow-medium;
+    @apply bg-[hsl(var(--vsl-highlight))]/10 border-2 border-[hsl(var(--vsl-highlight))];
+    padding: 24px 28px;
+    border-radius: 14px;
+    margin: 40px 0 0 0;
+    box-shadow: var(--shadow-medium);
   }
   
   .warning-box {
-    @apply bg-[hsl(var(--vsl-highlight))]/10 border-l-4 border-[hsl(var(--vsl-highlight))] p-6 rounded-r-lg my-6;
+    @apply bg-[hsl(var(--vsl-highlight))]/10 border-l-4 border-[hsl(var(--vsl-highlight))] rounded-r-lg;
+    padding: 24px 28px;
+    margin: 34px 0 0 0;
   }
   
   /* Benefit/feature styling */
   .benefit-grid {
-    @apply grid md:grid-cols-2 gap-6 my-8;
+    @apply grid md:grid-cols-2;
+    gap: 24px;
+    margin: 40px 0 0 0;
   }
   
   .benefit-card {
-    @apply p-6 bg-card rounded-lg shadow-soft border border-border hover:shadow-medium transition-shadow;
+    @apply bg-card border border-border;
+    padding: 24px 28px;
+    border-radius: 14px;
+    box-shadow: var(--shadow-soft);
+    transition: var(--transition-smooth);
   }
   
-  /* Deep Blue Hero Section Background */
+  .benefit-card:hover {
+    box-shadow: var(--shadow-medium);
+  }
+  
+  /* Hero Section Background */
   .vsl-hero-section {
-    @apply bg-[hsl(var(--vsl-hero-bg))] text-white py-16 px-4;
+    @apply bg-[hsl(var(--vsl-hero-bg))] text-white;
+    padding: 44px 0;
   }
   
-  /* Light Gray Alternating Sections */
+  /* Light Alternating Sections */
   .vsl-light-section {
-    @apply bg-[hsl(var(--vsl-secondary-bg))] py-12 px-4;
+    @apply bg-[hsl(var(--vsl-secondary-bg))];
+    padding: 40px 0;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  /* Body text sizes */
+  .bdfont {
+    font-size: 24px;
+    line-height: 34px;
+    text-align: left;
+  }
+  
+  .bdfont2 {
+    font-size: 28px;
+    line-height: 38px;
+    text-align: left;
+  }
+  
+  .bdfont3 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: left;
+  }
+  
+  .bdfont4 {
+    font-size: 34px;
+    line-height: 40px;
+    text-align: left;
+  }
+  
+  .bdfont5 {
+    font-size: 26px;
+    line-height: 36px;
+    text-align: left;
+  }
+  
+  /* Margins */
+  .mar1 { margin: 34px 0 0 0; }
+  .mar2 { margin: 40px 0 0 0; }
+  .mar3 { margin: 25px 0 0 0; }
+  .mar4 { margin: 10px 0 0 0; }
+  .mar5 { margin-top: 29px; }
+  
+  /* Text utilities */
+  .bold { font-weight: bold; }
+  .semibold { font-weight: 600; }
+  .txlncntr { text-align: center; }
+  .txlnlft { text-align: left; }
+  .italic { font-style: italic; }
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 1000px) {
+  body {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  h1, h2, .headline-secondary {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  
+  h3 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  
+  .headline-primary {
+    font-size: 41px;
+    line-height: 55px;
+  }
+  
+  .subheadline, .bdfont2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  
+  .bdfont3 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  
+  .bdfont4 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  
+  .bdfont5 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  
+  .container {
+    max-width: 750px;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .cta-button {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  
+  .mar1 { margin: 30px 0 0 0; }
+  .mar2 { margin: 35px 0 0 0; }
+  .mar5 { margin-top: 25px; }
+  
+  .highlight-box,
+  .vsl-content-box,
+  .callout-box,
+  .testimony-box {
+    padding: 22px 18px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  h1, h2, .headline-secondary {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  
+  .headline-primary {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  
+  .subheadline, .bdfont2 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  
+  .bdfont3 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  
+  .bdfont4 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  
+  .bdfont5 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 640px;
+    padding: 0 10px;
+  }
+  
+  .vsl-hero-section {
+    padding: 24px 0;
+  }
+  
+  .vsl-light-section {
+    padding: 30px 0;
+  }
+  
+  .cta-button {
+    font-size: 22px;
+    line-height: 30px;
+    padding: 15px 20px;
+  }
+  
+  .highlight-box,
+  .vsl-content-box,
+  .callout-box,
+  .testimony-box,
+  .benefit-card {
+    padding: 20px 12px;
+  }
+  
+  .numbered-point {
+    margin: 22px 0 0 0;
+  }
+  
+  .mar1 { margin: 26px 0 0 0; }
+  .mar2 { margin: 34px 0 0 0; }
+  .mar4 { margin: 5px 0 0 0; }
+  .mar5 { margin-top: 20px; }
+  
+  u {
+    text-underline-offset: 4px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  h1, h2, .headline-secondary {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  
+  .headline-primary {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  
+  .cta-button {
+    font-size: 19px;
+    line-height: 26px;
+    padding: 15px 12px;
+  }
+}
+
+@media only screen and (max-width: 389px) {
+  h1, h2, .headline-secondary {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  
+  .headline-primary {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  
+  .subheadline, .bdfont2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  .bdfont3 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  
+  .bdfont4 {
+    font-size: 22px;
+    line-height: 32px;
   }
 }
