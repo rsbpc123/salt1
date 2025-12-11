@@ -17,26 +17,26 @@ const HeroSection = () => {
             </p>
             
             {/* Hero Quote */}
-            <div className="testimony-box text-left animate-fade-in" style={{ animationDelay: "0.3s" }}>
-              <p className="text-lg md:text-xl not-italic font-semibold text-foreground mb-4">
+            <div className="testimony-box text-left animate-fade-in p-4 md:p-6" style={{ animationDelay: "0.3s" }}>
+              <p className="text-sm md:text-base not-italic font-semibold text-foreground mb-2">
                 "I spent $50,000 trying to save my wife's lungs.
               </p>
-              <p className="text-lg md:text-xl not-italic text-foreground mb-4">
+              <p className="text-sm md:text-base not-italic text-foreground mb-2">
                 Five different pulmonologists. Twelve medications. Three ER visits in one month.
               </p>
-              <p className="text-lg md:text-xl not-italic text-foreground mb-4">
+              <p className="text-sm md:text-base not-italic text-foreground mb-2">
                 Nothing worked.
               </p>
-              <p className="text-lg md:text-xl not-italic text-foreground mb-4">
+              <p className="text-sm md:text-base not-italic text-foreground mb-2">
                 Then I found a village in Romania where 97-year-olds chop wood… and nobody has asthma.
               </p>
-              <p className="text-lg md:text-xl not-italic font-semibold text-foreground mb-4">
+              <p className="text-sm md:text-base not-italic font-semibold text-foreground mb-2">
                 Now Linda's off oxygen. And I'm bringing that same air to America."
               </p>
-              <p className="text-base font-medium text-muted-foreground mt-4">
+              <p className="text-xs md:text-sm font-medium text-muted-foreground mt-3">
                 — Robert Mitchell
               </p>
-              <p className="text-sm text-muted-foreground">
+              <p className="text-xs text-muted-foreground">
                 Retired Air Force | Warner Robins, Georgia
               </p>
             </div>
