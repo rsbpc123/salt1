@@ -1,18 +1,27 @@
+import heroBackground from "@/assets/hero-background.webp";
 import heroBedroom from "@/assets/hero-bedroom-scene.jpg";
 import ScientificBadges from "./ScientificBadges";
 
 const HeroSection = () => {
   return (
     <>
-      {/* Main Headline Section */}
-      <section className="py-12 md:py-20 px-4 bg-gradient-to-b from-background to-story/20">
-        <div className="container mx-auto max-w-5xl text-center">
-        <h1 className="headline-primary animate-fade-in mb-6">
+      {/* Main Headline Section with Background */}
+      <section className="relative py-12 md:py-20 px-4 overflow-hidden">
+        {/* Background Image - Blurred and Dimmed */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-sm scale-105"
+          style={{ backgroundImage: `url(${heroBackground})` }}
+        />
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-black/50" />
+        
+        <div className="container mx-auto max-w-5xl text-center relative z-10">
+        <h1 className="headline-primary animate-fade-in mb-6 text-white drop-shadow-lg">
             I Watched My Wife Drown in Our Bedroom at Midnight…
           </h1>
           
           <div className="max-w-3xl mx-auto mb-8">
-            <p className="subheadline leading-tight animate-fade-in mb-6" style={{ animationDelay: "0.2s" }}>
+            <p className="subheadline leading-tight animate-fade-in mb-6 text-white/90 drop-shadow-md" style={{ animationDelay: "0.2s" }}>
               Then a Collapsed Salt Mine in Romania Led Me to a Village Where Nobody Gets Lung Disease… And Saved Her Life
             </p>
             
