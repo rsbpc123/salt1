@@ -11,6 +11,7 @@ import ImageWithText from "@/components/ImageWithText";
 import PullQuote from "@/components/PullQuote";
 import ImageOverlay from "@/components/ImageOverlay";
 import FloatingImage from "@/components/FloatingImage";
+import FullBleedImage from "@/components/FullBleedImage";
 import EmphasisBox from "@/components/EmphasisBox";
 import saltHills from "@/assets/salt-hills-romania.jpg";
 import romanianVillage from "@/assets/romanian-village.jpg";
@@ -64,24 +65,22 @@ const Index = () => {
             Sitting Right Next to Me in Our Bed
           </h3>
           
-          {/* Opening Copy with Floating Image */}
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80 overflow-hidden">
+          {/* Opening Copy */}
+          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
             <p>It was just past midnight when I heard it.</p>
             <p>That sound.</p>
             <p>Linda wasn't breathing right.</p>
-            
-            {/* Float the 911 phone image */}
-            <FloatingImage 
-              image={phoneCall911}
-              imageAlt="Hand holding phone with 911 on screen in dark bedroom"
-              position="right"
-              size="large"
-              caption="8 minutes. Felt like 8 hours."
-            />
-            
             <p>Her chest heaving... lips turning blue... sitting straight up in bed.</p>
             <p>Clutching her throat.</p>
           </div>
+          
+          {/* Full-Bleed Visual Pause */}
+          <FullBleedImage 
+            image={phoneCall911}
+            imageAlt="Hand holding phone with 911 on screen in dark bedroom"
+            caption="8 minutes. Felt like 8 hours."
+            captionPosition="bottom-left"
+          />
           
           {/* Dramatic Pull Quote */}
           <PullQuote size="dramatic" align="center">
@@ -102,30 +101,25 @@ const Index = () => {
             <p className="text-xl font-bold text-emphasis mt-2">Her wheezing got WORSE.</p>
           </EmphasisBox>
           
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80 mt-10 overflow-hidden">
+          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80 mt-10">
             <p>I grabbed my phone. Dialed 911.</p>
             <p>The paramedics arrived in 8 minutes.</p>
-            
-            <PullQuote size="medium" align="left">
-              Felt like 8 hours.
-            </PullQuote>
-            
-            {/* Float the ambulance image on left */}
-            <FloatingImage 
-              image={ambulanceDriveway}
-              imageAlt="Ambulance in driveway seen from bedroom window at night"
-              position="left"
-              size="large"
-              caption="Three times that month."
-            />
-            
+          </div>
+          
+          {/* Full-Bleed Visual Pause - Ambulance */}
+          <FullBleedImage 
+            image={ambulanceDriveway}
+            imageAlt="Ambulance in driveway seen from bedroom window at night"
+            caption="Three times that month."
+            captionPosition="bottom-center"
+          />
+          
+          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
             <p>They strapped an oxygen mask to her face... loaded her onto the stretcher.</p>
             <p>One of them looked at me and shook his head.</p>
             <p>Not mean. Just tired.</p>
             <p className="italic">Like he'd seen this before.</p>
             <p className="italic font-semibold">(He had. Three times that month.)</p>
-            
-            <div className="clear-both"></div>
           </div>
           
           <div className="prose prose-lg max-w-none space-y-4 text-foreground/80 mt-8">
