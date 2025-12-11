@@ -7,22 +7,37 @@ const HeroSection = () => {
       {/* Main Headline Section */}
       <section className="py-12 md:py-20 px-4 bg-gradient-to-b from-background to-story/20">
         <div className="container mx-auto max-w-5xl text-center">
-          <h1 className="headline-primary animate-fade-in mb-6">
+        <h1 className="headline-primary animate-fade-in mb-6">
             I Watched My Wife Drown in Our Bedroom at Midnight…
           </h1>
           
           <div className="max-w-3xl mx-auto mb-8">
             <p className="subheadline leading-tight animate-fade-in mb-6" style={{ animationDelay: "0.2s" }}>
-              Then a Collapsed Salt Mine in Romania Led Me to a Village Where Nobody Gets Lung Disease…And Saved Her Life
+              Then a Collapsed Salt Mine in Romania Led Me to a Village Where Nobody Gets Lung Disease… And Saved Her Life
             </p>
             
-            {/* Credibility Quote */}
+            {/* Hero Quote */}
             <div className="testimony-box text-left animate-fade-in" style={{ animationDelay: "0.3s" }}>
-              <p className="text-lg md:text-xl not-italic font-semibold text-foreground mb-2">
-                "17,789 Americans have cleared their airways and restored their breathing using this natural salt therapy from a Romanian village where people live past 100 with perfect lungs."
+              <p className="text-lg md:text-xl not-italic font-semibold text-foreground mb-4">
+                "I spent $50,000 trying to save my wife's lungs.
               </p>
-              <p className="text-base font-medium text-muted-foreground">
-                - Robert Mitchell, Retired Air Force, Georgia
+              <p className="text-lg md:text-xl not-italic text-foreground mb-4">
+                Five different pulmonologists. Twelve medications. Three ER visits in one month.
+              </p>
+              <p className="text-lg md:text-xl not-italic text-foreground mb-4">
+                Nothing worked.
+              </p>
+              <p className="text-lg md:text-xl not-italic text-foreground mb-4">
+                Then I found a village in Romania where 97-year-olds chop wood… and nobody has asthma.
+              </p>
+              <p className="text-lg md:text-xl not-italic font-semibold text-foreground mb-4">
+                Now Linda's off oxygen. And I'm bringing that same air to America."
+              </p>
+              <p className="text-base font-medium text-muted-foreground mt-4">
+                — Robert Mitchell
+              </p>
+              <p className="text-sm text-muted-foreground">
+                Retired Air Force | Warner Robins, Georgia
               </p>
             </div>
           </div>
