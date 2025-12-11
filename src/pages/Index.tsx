@@ -21,6 +21,9 @@ import healthyLungs from "@/assets/healthy-lungs-diagram.jpg";
 import saltTherapyPouch from "@/assets/salt-therapy-pouch.jpg";
 import elderlyGardening from "@/assets/elderly-woman-gardening.jpg";
 import saltParticles from "@/assets/salt-particle-visualization.jpg";
+import phoneCall911 from "@/assets/911-call-phone.jpg";
+import ambulanceDriveway from "@/assets/ambulance-driveway.jpg";
+import emptyWaitingRoom from "@/assets/empty-hospital-waiting-room.jpg";
 
 const Index = () => {
   const scrollToCTA = () => {
@@ -48,55 +51,84 @@ const Index = () => {
       {/* Hero Section with Image */}
       <HeroSection />
 
-      {/* Story Begins */}
-      <StorySection title="I WATCHED MY WIFE DROWN" bgColor="story">
-        <ImageWithText 
-          image={saltCrystals}
-          imageAlt="Close-up of pink healing salt crystals"
-          imagePosition="float-right"
-          imageSize="medium"
-          imageShape="rounded"
-        >
-          <h3 className="text-xl md:text-2xl font-semibold mb-6 text-foreground/90">
+      {/* Story Begins - Plain Background */}
+      <section className="py-12 md:py-16 px-4 bg-background">
+        <div className="container mx-auto max-w-3xl">
+          <h2 className="headline-secondary mb-4 text-foreground">I WATCHED MY WIFE DROWN</h2>
+          <h3 className="text-xl md:text-2xl font-semibold mb-8 text-foreground/90">
             Sitting Right Next to Me in Our Bed
           </h3>
           
-          <p>It was just past midnight when I heard it.</p>
-          <p>That sound.</p>
-          <p>Linda wasn't breathing right.</p>
-          
-          <HighlightBox variant="warning">
-            <p className="text-lg font-semibold mb-2">Her chest heaving. Lips turning blue. Sitting straight up. Clutching her throat.</p>
+          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
+            <p>It was just past midnight when I heard it.</p>
+            <p>That sound.</p>
+            <p>Linda wasn't breathing right.</p>
+            <p>Her chest heaving... lips turning blue... sitting straight up in bed.</p>
+            <p>Clutching her throat.</p>
             <p className="text-2xl font-bold text-emphasis">Drowning.</p>
-            <p className="mt-2">In our bedroom. In Warner Robins, Georgia. 200 miles from the nearest ocean.</p>
-          </HighlightBox>
+            <p>In our bedroom. In Warner Robins, Georgia.</p>
+            <p>200 miles from the nearest ocean.</p>
+            
+            <p>I grabbed her inhaler. Shook it hard. Jammed it into her mouth.</p>
+            <p>"Breathe, baby. Breathe."</p>
+            <p>Two puffs.</p>
+            <p>Nothing.</p>
+            <p className="font-bold text-lg text-emphasis">Her wheezing got WORSE.</p>
+          </div>
           
-          <p>I grabbed her inhaler. Shook it. Jammed it into her mouth.</p>
-          <p>"Breathe, baby."</p>
-          <p>Two puffs. Nothing.</p>
-          <p className="font-bold text-lg text-emphasis">Her wheezing got WORSE.</p>
+          {/* Image #1 - 911 Call */}
+          <div className="my-10 md:my-14">
+            <img 
+              src={phoneCall911} 
+              alt="Hand holding phone with 911 on screen in dark bedroom" 
+              className="w-full md:w-4/5 mx-auto h-auto rounded-lg shadow-dramatic"
+            />
+          </div>
           
-          <p>I dialed 911.</p>
-          <p>The paramedics arrived in 8 minutes. Felt like 8 hours.</p>
-          <p>They strapped an oxygen mask to her face. Loaded her onto the stretcher.</p>
-          <p>One of them looked at me and shook his head. Not mean. Just... tired.</p>
-          <p>Like he'd seen us before.</p>
-          <p>(He had. Three times that month.)</p>
+          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
+            <p>I grabbed my phone. Dialed 911.</p>
+            <p>The paramedics arrived in 8 minutes.</p>
+            <p>Felt like 8 hours.</p>
+            <p>They strapped an oxygen mask to her face... loaded her onto the stretcher.</p>
+            <p>One of them looked at me and shook his head.</p>
+            <p>Not mean. Just tired.</p>
+            <p>Like he'd seen this before.</p>
+            <p className="italic">(He had. Three times that month.)</p>
+          </div>
           
-          <div className="section-divider" />
+          {/* Image #2 - Ambulance in Driveway */}
+          <div className="my-10 md:my-14">
+            <img 
+              src={ambulanceDriveway} 
+              alt="Ambulance in driveway seen from bedroom window at night" 
+              className="w-full md:w-4/5 mx-auto h-auto rounded-lg shadow-dramatic"
+            />
+          </div>
           
-          <p>Two hours later, a doctor came out.</p>
-          <p>"She's stable. You can take her home in a few hours."</p>
-          <p>"What happens next time?" I asked.</p>
-          <p>He paused. "Keep doing what you're doing. Come back if it gets worse."</p>
+          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
+            <p>Two hours later, a doctor came out.</p>
+            <p>"She's stable. You can take her home in a few hours."</p>
+            <p>I looked at him. "What happens next time?"</p>
+            <p>He paused.</p>
+            <p>"Keep doing what you're doing. Come back if it gets worse."</p>
+          </div>
           
-          <HighlightBox variant="warning">
+          {/* Image #3 - Empty Hospital Waiting Room */}
+          <div className="my-10 md:my-16">
+            <img 
+              src={emptyWaitingRoom} 
+              alt="Empty hospital waiting room at 2am" 
+              className="w-full md:w-4/5 mx-auto h-auto rounded-lg shadow-dramatic"
+            />
+          </div>
+          
+          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
             <p className="font-bold text-lg">No solution. No plan.</p>
             <p>Just... keep doing what we're doing.</p>
-            <p className="font-bold text-xl text-emphasis mt-2">Except what we were doing WASN'T WORKING.</p>
-          </HighlightBox>
-        </ImageWithText>
-      </StorySection>
+            <p className="font-bold text-xl text-emphasis">Except what we were doing WASN'T WORKING.</p>
+          </div>
+        </div>
+      </section>
 
       {/* Problem Agitation */}
       <StorySection title="Her Lungs Were Turning to Cement (And Nobody Told Us Until It Was Almost Too Late)">
