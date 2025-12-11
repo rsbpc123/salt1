@@ -8,6 +8,10 @@ import HighlightBox from "@/components/HighlightBox";
 import NumberedPoint from "@/components/NumberedPoint";
 import StorySection from "@/components/StorySection";
 import ImageWithText from "@/components/ImageWithText";
+import PullQuote from "@/components/PullQuote";
+import ImageOverlay from "@/components/ImageOverlay";
+import FloatingImage from "@/components/FloatingImage";
+import EmphasisBox from "@/components/EmphasisBox";
 import saltHills from "@/assets/salt-hills-romania.jpg";
 import romanianVillage from "@/assets/romanian-village.jpg";
 import lungDiagram from "@/assets/lung-diagram.jpg";
@@ -51,84 +55,106 @@ const Index = () => {
       {/* Hero Section with Image */}
       <HeroSection />
 
-      {/* Story Begins - Plain Background */}
+      {/* Story Begins - Dynamic Visual Layout */}
       <section className="py-12 md:py-16 px-4 bg-background">
-        <div className="container mx-auto max-w-3xl">
-          <h2 className="headline-secondary mb-4 text-foreground">I WATCHED MY WIFE DROWN</h2>
-          <h3 className="text-xl md:text-2xl font-semibold mb-8 text-foreground/90">
+        <div className="container mx-auto max-w-4xl">
+          {/* Opening Headlines */}
+          <h2 className="headline-secondary mb-4 text-foreground text-center">I WATCHED MY WIFE DROWN</h2>
+          <h3 className="text-xl md:text-2xl font-semibold mb-12 text-foreground/90 text-center">
             Sitting Right Next to Me in Our Bed
           </h3>
           
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
+          {/* Opening Copy with Floating Image */}
+          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80 overflow-hidden">
             <p>It was just past midnight when I heard it.</p>
             <p>That sound.</p>
             <p>Linda wasn't breathing right.</p>
+            
+            {/* Float the 911 phone image */}
+            <FloatingImage 
+              image={phoneCall911}
+              imageAlt="Hand holding phone with 911 on screen in dark bedroom"
+              position="right"
+              size="large"
+              caption="8 minutes. Felt like 8 hours."
+            />
+            
             <p>Her chest heaving... lips turning blue... sitting straight up in bed.</p>
             <p>Clutching her throat.</p>
-            <p className="text-2xl font-bold text-emphasis">Drowning.</p>
+          </div>
+          
+          {/* Dramatic Pull Quote */}
+          <PullQuote size="dramatic" align="center">
+            Drowning.
+          </PullQuote>
+          
+          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80 text-center mb-8">
             <p>In our bedroom. In Warner Robins, Georgia.</p>
-            <p>200 miles from the nearest ocean.</p>
-            
-            <p>I grabbed her inhaler. Shook it hard. Jammed it into her mouth.</p>
-            <p>"Breathe, baby. Breathe."</p>
-            <p>Two puffs.</p>
-            <p>Nothing.</p>
-            <p className="font-bold text-lg text-emphasis">Her wheezing got WORSE.</p>
+            <p className="text-xl font-semibold">200 miles from the nearest ocean.</p>
           </div>
           
-          {/* Image #1 - 911 Call */}
-          <div className="my-10 md:my-14">
-            <img 
-              src={phoneCall911} 
-              alt="Hand holding phone with 911 on screen in dark bedroom" 
-              className="w-full md:w-4/5 mx-auto h-auto rounded-lg shadow-dramatic"
-            />
-          </div>
+          {/* Emphasis Box for the desperation */}
+          <EmphasisBox variant="dramatic">
+            <p className="text-lg mb-2">I grabbed her inhaler. Shook it hard. Jammed it into her mouth.</p>
+            <p className="text-xl font-bold italic">"Breathe, baby. Breathe."</p>
+            <p className="mt-2">Two puffs.</p>
+            <p className="font-bold">Nothing.</p>
+            <p className="text-xl font-bold text-emphasis mt-2">Her wheezing got WORSE.</p>
+          </EmphasisBox>
           
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
+          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80 mt-10 overflow-hidden">
             <p>I grabbed my phone. Dialed 911.</p>
             <p>The paramedics arrived in 8 minutes.</p>
-            <p>Felt like 8 hours.</p>
+            
+            <PullQuote size="medium" align="left">
+              Felt like 8 hours.
+            </PullQuote>
+            
+            {/* Float the ambulance image on left */}
+            <FloatingImage 
+              image={ambulanceDriveway}
+              imageAlt="Ambulance in driveway seen from bedroom window at night"
+              position="left"
+              size="large"
+              caption="Three times that month."
+            />
+            
             <p>They strapped an oxygen mask to her face... loaded her onto the stretcher.</p>
             <p>One of them looked at me and shook his head.</p>
             <p>Not mean. Just tired.</p>
-            <p>Like he'd seen this before.</p>
-            <p className="italic">(He had. Three times that month.)</p>
+            <p className="italic">Like he'd seen this before.</p>
+            <p className="italic font-semibold">(He had. Three times that month.)</p>
+            
+            <div className="clear-both"></div>
           </div>
           
-          {/* Image #2 - Ambulance in Driveway */}
-          <div className="my-10 md:my-14">
-            <img 
-              src={ambulanceDriveway} 
-              alt="Ambulance in driveway seen from bedroom window at night" 
-              className="w-full md:w-4/5 mx-auto h-auto rounded-lg shadow-dramatic"
-            />
-          </div>
-          
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
+          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80 mt-8">
             <p>Two hours later, a doctor came out.</p>
             <p>"She's stable. You can take her home in a few hours."</p>
             <p>I looked at him. "What happens next time?"</p>
             <p>He paused.</p>
-            <p>"Keep doing what you're doing. Come back if it gets worse."</p>
-          </div>
-          
-          {/* Image #3 - Empty Hospital Waiting Room */}
-          <div className="my-10 md:my-16">
-            <img 
-              src={emptyWaitingRoom} 
-              alt="Empty hospital waiting room at 2am" 
-              className="w-full md:w-4/5 mx-auto h-auto rounded-lg shadow-dramatic"
-            />
-          </div>
-          
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
-            <p className="font-bold text-lg">No solution. No plan.</p>
-            <p>Just... keep doing what we're doing.</p>
-            <p className="font-bold text-xl text-emphasis">Except what we were doing WASN'T WORKING.</p>
+            
+            <EmphasisBox variant="subtle">
+              <p className="text-xl italic">"Keep doing what you're doing. Come back if it gets worse."</p>
+            </EmphasisBox>
           </div>
         </div>
       </section>
+      
+      {/* Emotional Climax - Full Image Overlay */}
+      <ImageOverlay 
+        image={emptyWaitingRoom}
+        imageAlt="Empty hospital waiting room at 2am"
+        overlayOpacity="medium"
+        height="tall"
+      >
+        <p className="text-xl md:text-2xl text-foreground/80 mb-6">No solution. No plan.</p>
+        <p className="text-lg md:text-xl text-foreground/70 mb-8">Just... keep doing what we're doing.</p>
+        <p className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-emphasis leading-tight">
+          Except what we were doing<br/>
+          <span className="text-primary">WASN'T WORKING.</span>
+        </p>
+      </ImageOverlay>
 
       {/* Problem Agitation */}
       <StorySection title="Her Lungs Were Turning to Cement (And Nobody Told Us Until It Was Almost Too Late)">
