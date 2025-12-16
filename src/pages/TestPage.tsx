@@ -16,6 +16,7 @@ import bonusEnergyButton from "@/assets/bonus-energy-button.png";
 import moneyBackGuarantee from "@/assets/money-back-guarantee.png";
 import arrowCurveRed from "@/assets/arrow-curve-red.png";
 import arrowDownLeft from "@/assets/arrow-down-left.png";
+import arrowDecorative from "@/assets/arrow-decorative.jpg";
 import arrowLeft from "@/assets/arrow-left.png";
 import arrowRight from "@/assets/arrow-right.png";
 import clickbankLogo from "@/assets/clickbank-logo.png";
@@ -392,8 +393,8 @@ const TestPage = () => {
       </section>
 
       {/* Pricing Box - sec26 */}
-      <section className="py-1 md:py-4 px-4 bg-white">
-        <div className="max-w-[600px] mx-auto -mt-[400px] md:-mt-[500px] relative z-10">
+      <section className="py-8 md:py-10 px-4 bg-white">
+        <div className="max-w-[600px] mx-auto relative z-10">
           <div className="bg-[#fffeec] border-2 border-[#e7e4b1] rounded-[14px] shadow-lg overflow-hidden">
             {/* Header */}
             <div className="bg-[#ffebc3] rounded-t-[12px] p-4 md:p-5 text-center">
@@ -403,68 +404,70 @@ const TestPage = () => {
               </h2>
             </div>
             
-            {/* Arrow Image */}
-            <div className="flex justify-center -mt-1">
-              <img 
-                src={arrowDownLeft} 
-                alt="" 
-                className="w-[40px] md:w-[50px] rotate-90"
-              />
-            </div>
+            {/* Decorative Arrow */}
+            <img 
+              src={arrowDecorative} 
+              alt="" 
+              className="w-full h-[30px] md:h-[40px] object-cover"
+            />
             
             {/* Body */}
             <div className="p-4 md:p-6 text-center">
               <img 
                 src={productDiscount} 
                 alt="Memory Wave with 40% off discount" 
-                className="w-[180px] md:w-[280px] mx-auto mb-6"
+                className="w-[200px] md:w-[320px] mx-auto mb-6"
               />
               
               {/* Feature Pills */}
-              <div className="flex justify-center mb-6 w-[82%] mx-auto">
+              <div className="flex justify-center mb-6 w-[90%] mx-auto">
                 <div className="bg-[#8d5cc7] text-white px-3 md:px-5 py-2 md:py-3 rounded-l-[14px] flex-1 relative">
-                  <p className="font-bold text-[15px] md:text-[24px] leading-[19px] md:leading-[30px] text-left pl-[50px] md:pl-[68px]">Special<br/>Discount</p>
-                  <div className="absolute left-[20px] md:left-[30px] top-[10px] md:top-[10px] w-[30px] md:w-[50px] h-[30px] md:h-[50px] bg-white/30 rounded-full" />
+                  <p className="font-bold text-[14px] md:text-[20px] leading-[18px] md:leading-[26px] text-left pl-[40px] md:pl-[55px]">Special<br/>Discount</p>
+                  <div className="absolute left-[10px] md:left-[15px] top-[8px] md:top-[10px] w-[28px] md:w-[38px] h-[28px] md:h-[38px] bg-white/30 rounded-full" />
                 </div>
                 <div className="bg-[#5590d8] text-white px-3 md:px-5 py-2 md:py-3 flex-1 relative">
-                  <p className="font-bold text-[15px] md:text-[24px] leading-[19px] md:leading-[30px] text-left pl-[50px] md:pl-[68px]">Instant<br/>Access</p>
-                  <div className="absolute left-[20px] md:left-[39px] top-[10px] md:top-[10px] w-[30px] md:w-[50px] h-[30px] md:h-[50px] bg-white/30 rounded-full" />
+                  <p className="font-bold text-[14px] md:text-[20px] leading-[18px] md:leading-[26px] text-left pl-[40px] md:pl-[55px]">Instant<br/>Access</p>
+                  <div className="absolute left-[10px] md:left-[15px] top-[8px] md:top-[10px] w-[28px] md:w-[38px] h-[28px] md:h-[38px] bg-white/30 rounded-full" />
                 </div>
                 <div className="bg-[#26afbd] text-white px-3 md:px-5 py-2 md:py-3 rounded-r-[14px] flex-1 relative">
-                  <p className="font-bold text-[15px] md:text-[24px] leading-[19px] md:leading-[30px] text-left pl-[50px] md:pl-[68px]">Quick Start<br/>Bonuses</p>
-                  <div className="absolute left-[20px] md:left-[30px] top-[10px] md:top-[10px] w-[30px] md:w-[50px] h-[30px] md:h-[50px] bg-white/30 rounded-full" />
+                  <p className="font-bold text-[14px] md:text-[20px] leading-[18px] md:leading-[26px] text-left pl-[40px] md:pl-[55px]">Quick Start<br/>Bonuses</p>
+                  <div className="absolute left-[10px] md:left-[15px] top-[8px] md:top-[10px] w-[28px] md:w-[38px] h-[28px] md:h-[38px] bg-white/30 rounded-full" />
                 </div>
               </div>
               
               <p className="text-[#373737] text-[16px] md:text-[22px] leading-[26px] md:leading-[32px] mb-4">
-                Regular Price: <span className="relative mx-1"><span className="line-through">$200</span></span> <span className="relative mx-1"><span className="line-through">$100</span></span> <span className="relative mx-1"><span className="line-through">$49</span></span>
+                Regular Price: <span className="line-through text-red-500">$200</span> <span className="line-through text-red-500">$100</span> <span className="line-through text-red-500">$49</span>
               </p>
               
-              <div className="relative inline-block mb-4 w-[260px] md:w-[354px]">
+              <div className="relative inline-block mb-4">
                 <p className="font-bold text-[20px] md:text-[24px] leading-[28px] md:leading-[34px]">Today Just For</p>
                 <p className="font-bold text-[54px] md:text-[71px] leading-[54px] md:leading-[71px] text-[#1b2b61] mt-2">$39</p>
+              </div>
+              
+              {/* Green arrows pointing to button */}
+              <div className="flex justify-center items-center gap-2 md:gap-4 mb-2">
+                <img src={arrowRight} alt="" className="w-[40px] md:w-[60px]" />
+                <img src={arrowLeft} alt="" className="w-[40px] md:w-[60px]" />
               </div>
               
               <a href="#" className="block">
                 <img 
                   src={orderButton} 
                   alt="Order Now" 
-                  className="w-full max-w-[400px] mx-auto hover:opacity-90 transition-opacity"
+                  className="w-full max-w-[450px] mx-auto hover:opacity-90 transition-opacity"
                 />
               </a>
               
               {/* Trust badges */}
               <div className="flex justify-center items-center gap-4 mt-6 flex-wrap">
                 <img src={sslEncryption} alt="256 Bit SSL Encryption" className="h-[40px] md:h-[50px]" />
-                <img src={moneyBackGuarantee} alt="90 Day Money Back Guarantee" className="h-[60px] md:h-[80px]" />
+                <img src={moneyBackGuarantee} alt="90 Day Money Back Guarantee" className="h-[70px] md:h-[100px]" />
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Spacing for pricing box */}
-      <div className="h-[100px] md:h-[200px] bg-white" />
 
       {/* Guarantee Section */}
       <section className="py-8 md:py-10 px-4 bg-white">
