@@ -100,6 +100,18 @@ export default {
             height: "0",
           },
         },
+        "pulse-ring": {
+          "0%": {
+            width: "70px",
+            height: "70px",
+            opacity: "1",
+          },
+          "100%": {
+            width: "250px",
+            height: "250px",
+            opacity: "0",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
