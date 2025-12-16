@@ -1,13 +1,54 @@
 import { useState } from "react";
 
+// Import all images
+import heroBackground from "@/assets/hero-background.jpg";
+import heroBackgroundMobile from "@/assets/hero-background-mobile.jpg";
+import doctorQuote from "@/assets/doctor-quote.png";
+import institutionLogos from "@/assets/institution-logos.png";
+import brainHippocampus from "@/assets/brain-hippocampus.png";
+import stressedSeniorsCollage from "@/assets/stressed-seniors-collage.png";
+import doctorPhoto from "@/assets/doctor-photo.png";
+import productBundle from "@/assets/product-bundle.png";
+import productDiscount from "@/assets/product-discount.png";
+import bonusMemorySaver from "@/assets/bonus-memory-saver.png";
+import bonusGroceryGuide from "@/assets/bonus-grocery-guide.png";
+import bonusEnergyButton from "@/assets/bonus-energy-button.png";
+import moneyBackGuarantee from "@/assets/money-back-guarantee.png";
+import arrowCurveRed from "@/assets/arrow-curve-red.png";
+import arrowDownLeft from "@/assets/arrow-down-left.png";
+import arrowLeft from "@/assets/arrow-left.png";
+import arrowRight from "@/assets/arrow-right.png";
+import clickbankLogo from "@/assets/clickbank-logo.png";
+import bbbSeal from "@/assets/bbb-seal.png";
+import sslEncryption from "@/assets/ssl-encryption.png";
+import happySeniorsCollage from "@/assets/happy-seniors-collage.png";
+import scientistLab from "@/assets/scientist-lab.png";
+import womanHeadphones from "@/assets/woman-headphones.png";
+import womanLaptopOrder from "@/assets/woman-laptop-order.png";
+import stopwatch from "@/assets/stopwatch.png";
+import questionCollage from "@/assets/question-collage.png";
+import orderButton from "@/assets/order-button.png";
+import customerSupport from "@/assets/customer-support.png";
+import riskfreeSeal from "@/assets/riskfree-seal.png";
+
 const TestPage = () => {
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
 
   return (
     <div className="min-h-screen bg-[#f9f9f9]" style={{ fontFamily: '"Lora", serif' }}>
       {/* Hero Section - sec1 */}
-      <section className="bg-[#09287a] text-white py-6 md:py-10 px-4">
-        <div className="max-w-[970px] mx-auto">
+      <section 
+        className="text-white py-6 md:py-10 px-4 bg-cover bg-center bg-no-repeat relative"
+        style={{ 
+          backgroundImage: `url(${heroBackground})`,
+        }}
+      >
+        {/* Mobile background override */}
+        <div 
+          className="absolute inset-0 md:hidden bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${heroBackgroundMobile})` }}
+        />
+        <div className="max-w-[970px] mx-auto relative z-10">
           <div className="text-center md:text-left">
             <p className="font-bold text-[28px] md:text-[50px] leading-[36px] md:leading-[64px]">
               Top NYC Neuroscientist:
@@ -27,7 +68,11 @@ const TestPage = () => {
           {/* Testimonial Box - s1txtbx2 */}
           <div className="relative mt-7 md:pl-[155px] md:w-[80%]">
             <div className="md:absolute md:left-[-5px] md:top-[-2px] w-[160px] mx-auto md:mx-0 mb-4 md:mb-0">
-              <div className="w-[120px] h-[120px] bg-gray-400 rounded-full mx-auto md:mx-0" />
+              <img 
+                src={doctorQuote} 
+                alt="Dr. James Rivers" 
+                className="w-[120px] h-[120px] rounded-full mx-auto md:mx-0 object-cover"
+              />
             </div>
             <p className="font-bold italic text-[18px] md:text-[24px] leading-[24px] md:leading-[34px] text-center md:text-left">
               "17,789 Americans have cleared away the brain fog, using this safe, science-backed 8-second daily ritual, including my parents and in-laws."
@@ -63,10 +108,12 @@ const TestPage = () => {
           <p className="font-semibold text-[20px] md:text-[24px] leading-[28px] md:leading-[32px] text-center">
             Scientific References and Spiritual Studies:
           </p>
-          <div className="flex justify-center items-center gap-4 md:gap-8 flex-wrap mt-5 opacity-60">
-            {["Harvard", "NASA", "Stanford", "MIT", "Yale"].map((name) => (
-              <span key={name} className="text-gray-600 text-sm md:text-base font-medium">{name}</span>
-            ))}
+          <div className="flex justify-center items-center mt-5">
+            <img 
+              src={institutionLogos} 
+              alt="Nature Neuro, University of Toronto, JNeurosci" 
+              className="max-w-full h-auto opacity-80"
+            />
           </div>
         </div>
       </section>
@@ -76,13 +123,22 @@ const TestPage = () => {
         <div className="max-w-[970px] mx-auto">
           <div className="md:float-right md:ml-4 md:mb-4 text-center md:text-right mb-6">
             <div className="relative inline-block">
-              <div className="w-[280px] md:w-[350px] h-[280px] md:h-[350px] bg-gray-200 rounded-lg mx-auto" />
+              <img 
+                src={brainHippocampus} 
+                alt="Brain with hippocampus highlighted" 
+                className="w-[280px] md:w-[350px] rounded-lg mx-auto"
+              />
               {/* Pulsing Animation */}
               <div className="absolute right-[80px] md:right-[100px] top-[100px] md:top-[130px]">
                 <div className="absolute w-[70px] h-[70px] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-gray-300 shadow-[inset_0_0_10px_#ddd] animate-[pulse-ring_3s_linear_infinite]" />
                 <div className="absolute w-[70px] h-[70px] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-gray-300 shadow-[inset_0_0_10px_#ddd] animate-[pulse-ring_3s_linear_1.5s_infinite]" />
               </div>
             </div>
+            <img 
+              src={arrowCurveRed} 
+              alt="" 
+              className="w-[80px] md:w-[100px] mx-auto mt-2"
+            />
           </div>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mb-8">
@@ -118,7 +174,11 @@ const TestPage = () => {
             </h2>
             
             <div className="md:float-right md:ml-4 md:-mr-4 text-center mb-4">
-              <div className="w-[200px] md:w-[280px] h-[150px] md:h-[200px] bg-gray-200 rounded-lg mx-auto" />
+              <img 
+                src={stressedSeniorsCollage} 
+                alt="Seniors experiencing memory difficulties" 
+                className="w-[200px] md:w-[280px] rounded-lg mx-auto"
+              />
             </div>
             
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold mt-8">It attacks brain cells.</p>
@@ -144,7 +204,11 @@ const TestPage = () => {
           </h2>
 
           <div className="md:float-left md:mr-6 md:-ml-5 mb-4 text-center">
-            <div className="w-[280px] md:w-[340px] h-[350px] md:h-[450px] bg-white/20 rounded-lg mx-auto" />
+            <img 
+              src={doctorPhoto} 
+              alt="Dr. James Rivers" 
+              className="w-[280px] md:w-[340px] rounded-lg mx-auto"
+            />
           </div>
           
           <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] font-bold text-white mt-8">My name is Dr. James Rivers.</p>
@@ -169,7 +233,11 @@ const TestPage = () => {
           </h2>
           
           <div className="md:float-right md:ml-4 md:-mr-5 text-center mb-4">
-            <div className="w-[250px] md:w-[320px] h-[200px] md:h-[260px] bg-gray-200 rounded-lg mx-auto" />
+            <img 
+              src={scientistLab} 
+              alt="Scientist in laboratory" 
+              className="w-[250px] md:w-[320px] rounded-lg mx-auto"
+            />
           </div>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">How does your memory work?</p>
@@ -178,14 +246,18 @@ const TestPage = () => {
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Now the truth is, these brain cells die for everyone.</p>
           
           {/* Blue Box */}
-          <div className="bg-[#203d91] rounded-[14px] p-5 md:p-6 mt-10 text-white relative">
-            <div className="md:absolute md:right-0 md:bottom-0">
-              <div className="w-[200px] md:w-[280px] h-[150px] md:h-[200px] bg-white/20 rounded-lg mx-auto md:mx-0" />
+          <div className="bg-[#203d91] rounded-[14px] p-5 md:p-6 mt-10 text-white relative overflow-hidden">
+            <div className="md:absolute md:right-4 md:bottom-4">
+              <img 
+                src={questionCollage} 
+                alt="People with questions about memory" 
+                className="w-[200px] md:w-[250px] rounded-lg mx-auto md:mx-0"
+              />
             </div>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] md:pr-[300px]">
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] md:pr-[280px]">
               When we look at a healthy adult, <strong>they lose 50,000 brain cells a day…</strong>
             </p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold md:pr-[300px]">
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold md:pr-[280px]">
               This is okay, because you have 86 billion of them! <em>But there's a catch:</em>
             </p>
           </div>
@@ -203,15 +275,21 @@ const TestPage = () => {
           </h2>
           
           <div className="md:float-left md:mr-5 md:-ml-4 text-center mb-4 relative">
-            <div className="w-[280px] md:w-[350px] h-[220px] md:h-[280px] bg-gray-200 rounded-lg mx-auto" />
+            <img 
+              src={womanHeadphones} 
+              alt="Woman using Memory Wave with headphones" 
+              className="w-[280px] md:w-[350px] rounded-lg mx-auto"
+            />
             {/* Red Callout */}
             <div className="absolute -top-10 md:-top-16 right-0 md:-right-10">
               <p className="text-[#ff0000] text-[22px] md:text-[30px] leading-[22px] md:leading-[30px] text-center" style={{ fontFamily: "'Permanent Marker', cursive" }}>
                 Read This!
               </p>
-              <div className="w-[60px] md:w-[80px] h-[40px] md:h-[50px] mt-1">
-                {/* Arrow would go here */}
-              </div>
+              <img 
+                src={arrowLeft} 
+                alt="" 
+                className="w-[60px] md:w-[80px] mt-1"
+              />
             </div>
           </div>
           
@@ -247,12 +325,21 @@ const TestPage = () => {
           </h2>
           
           <div className="md:float-right md:ml-4 md:-mr-20 text-center mb-4 relative">
-            <div className="w-[280px] md:w-[400px] h-[220px] md:h-[320px] bg-gray-200 rounded-lg mx-auto" />
+            <img 
+              src={happySeniorsCollage} 
+              alt="Happy seniors with improved memory" 
+              className="w-[280px] md:w-[350px] rounded-lg mx-auto"
+            />
             {/* Red Callout */}
             <div className="absolute -top-10 md:-top-12 left-0 md:-left-24">
               <p className="text-[#ff0000] text-[22px] md:text-[30px] leading-[22px] md:leading-[30px] text-center" style={{ fontFamily: "'Permanent Marker', cursive" }}>
                 Important
               </p>
+              <img 
+                src={arrowRight} 
+                alt="" 
+                className="w-[60px] md:w-[80px] mt-1"
+              />
             </div>
           </div>
           
@@ -275,7 +362,11 @@ const TestPage = () => {
       {/* Product Section */}
       <section className="py-10 px-4 bg-[#203d91]">
         <div className="max-w-[970px] mx-auto text-center">
-          <div className="w-[320px] md:w-[500px] h-[240px] md:h-[380px] bg-white/20 rounded-2xl mx-auto mb-8" />
+          <img 
+            src={productBundle} 
+            alt="The Memory Wave Product Bundle" 
+            className="w-[320px] md:w-[500px] mx-auto mb-8"
+          />
           
           <div className="bg-gradient-to-b from-transparent to-[#1a2f6f] rounded-2xl p-6 md:p-8 text-white">
             <p className="text-[18px] md:text-[28px] leading-[28px] md:leading-[38px] font-bold text-center mb-6">
@@ -312,14 +403,22 @@ const TestPage = () => {
               </h2>
             </div>
             
-            {/* Arrow Image Placeholder */}
+            {/* Arrow Image */}
             <div className="flex justify-center -mt-1">
-              <div className="w-full h-[30px] bg-gradient-to-b from-[#ffebc3] to-transparent" />
+              <img 
+                src={arrowDownLeft} 
+                alt="" 
+                className="w-[40px] md:w-[50px] rotate-90"
+              />
             </div>
             
             {/* Body */}
             <div className="p-4 md:p-6 text-center">
-              <div className="w-[180px] md:w-[280px] h-[130px] md:h-[200px] bg-gray-200 rounded-lg mx-auto mb-6" />
+              <img 
+                src={productDiscount} 
+                alt="Memory Wave with 40% off discount" 
+                className="w-[180px] md:w-[280px] mx-auto mb-6"
+              />
               
               {/* Feature Pills */}
               <div className="flex justify-center mb-6 w-[82%] mx-auto">
@@ -338,7 +437,7 @@ const TestPage = () => {
               </div>
               
               <p className="text-[#373737] text-[16px] md:text-[22px] leading-[26px] md:leading-[32px] mb-4">
-                Regular Price: <span className="relative mx-1"><span className="line-through">$200</span><span className="absolute inset-0 border-b-2 border-red-500 rotate-[-10deg] top-1/2" /></span> <span className="relative mx-1"><span className="line-through">$100</span><span className="absolute inset-0 border-b-2 border-red-500 rotate-[-10deg] top-1/2" /></span> <span className="relative mx-1"><span className="line-through">$49</span><span className="absolute inset-0 border-b-2 border-red-500 rotate-[-10deg] top-1/2" /></span>
+                Regular Price: <span className="relative mx-1"><span className="line-through">$200</span></span> <span className="relative mx-1"><span className="line-through">$100</span></span> <span className="relative mx-1"><span className="line-through">$49</span></span>
               </p>
               
               <div className="relative inline-block mb-4 w-[260px] md:w-[354px]">
@@ -346,9 +445,19 @@ const TestPage = () => {
                 <p className="font-bold text-[54px] md:text-[71px] leading-[54px] md:leading-[71px] text-[#1b2b61] mt-2">$39</p>
               </div>
               
-              <button className="w-full bg-gradient-to-b from-[#4CAF50] to-[#2E7D32] text-white text-[18px] md:text-[22px] font-bold py-4 px-8 rounded-xl hover:from-[#43A047] hover:to-[#1B5E20] transition-all shadow-lg mt-2">
-                Click Here To Get The Memory Wave Now!
-              </button>
+              <a href="#" className="block">
+                <img 
+                  src={orderButton} 
+                  alt="Order Now" 
+                  className="w-full max-w-[400px] mx-auto hover:opacity-90 transition-opacity"
+                />
+              </a>
+              
+              {/* Trust badges */}
+              <div className="flex justify-center items-center gap-4 mt-6 flex-wrap">
+                <img src={sslEncryption} alt="256 Bit SSL Encryption" className="h-[40px] md:h-[50px]" />
+                <img src={moneyBackGuarantee} alt="90 Day Money Back Guarantee" className="h-[60px] md:h-[80px]" />
+              </div>
             </div>
           </div>
         </div>
@@ -356,6 +465,27 @@ const TestPage = () => {
 
       {/* Spacing for pricing box */}
       <div className="h-[100px] md:h-[200px] bg-white" />
+
+      {/* Guarantee Section */}
+      <section className="py-8 md:py-10 px-4 bg-white">
+        <div className="max-w-[970px] mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
+            <img 
+              src={moneyBackGuarantee} 
+              alt="90 Day Money Back Guarantee" 
+              className="w-[150px] md:w-[200px]"
+            />
+            <div>
+              <h3 className="text-[24px] md:text-[34px] leading-[32px] md:leading-[44px] font-bold mb-4">
+                Your Purchase Is Backed By Our Iron-Clad 90-Day 100% Money-Back Guarantee
+              </h3>
+              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">
+                Try the Memory Wave for a full 90 days. If you're not completely satisfied with your results, simply contact our friendly customer support team for a full refund. No questions asked.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Bonus Section - sec30 */}
       <section className="py-8 md:py-10 px-4 bg-[#edf4ff]">
@@ -370,9 +500,9 @@ const TestPage = () => {
           
           {/* Bonus Cards - giftbx */}
           {[
-            { num: 1, title: 'Get The Best-Selling "1-Minute Memory Saver"', desc: "This 1-minute trick is simple and fun! You use it anytime you learn something new that you want stored permanently in your long-term memory. Do it from home, while waiting in line or anywhere else, and it's scientifically-proven to lock your new lesson into your memory the very first time you try it." },
-            { num: 2, title: "Get The Smart Grocery Shopping Guide", desc: "Second is the Smart Grocery Shopping Guide, including the 10 common American foods that actually trigger brain fog, plus our 5 simple shortcuts to help cut your monthly grocery bill by $100 a month or more immediately, whether you shop at Walmart, Amazon, Costco, Target, Publix, Whole Foods or anywhere else!" },
-            { num: 3, title: 'Get The "Energy Button"', desc: "Your 3rd free bonus for checking out today is a new report called The Energy Button! Customers often say the energy boost they get from the Memory Wave is like getting an extra day a week. So you'll discover our top tips for what to do with all that extra energy." },
+            { num: 1, title: 'Get The Best-Selling "1-Minute Memory Saver"', desc: "This 1-minute trick is simple and fun! You use it anytime you learn something new that you want stored permanently in your long-term memory. Do it from home, while waiting in line or anywhere else, and it's scientifically-proven to lock your new lesson into your memory the very first time you try it.", img: bonusMemorySaver },
+            { num: 2, title: "Get The Smart Grocery Shopping Guide", desc: "Second is the Smart Grocery Shopping Guide, including the 10 common American foods that actually trigger brain fog, plus our 5 simple shortcuts to help cut your monthly grocery bill by $100 a month or more immediately, whether you shop at Walmart, Amazon, Costco, Target, Publix, Whole Foods or anywhere else!", img: bonusGroceryGuide },
+            { num: 3, title: 'Get The "Energy Button"', desc: "Your 3rd free bonus for checking out today is a new report called The Energy Button! Customers often say the energy boost they get from the Memory Wave is like getting an extra day a week. So you'll discover our top tips for what to do with all that extra energy.", img: bonusEnergyButton },
           ].map((bonus) => (
             <div key={bonus.num} className="bg-white border-2 border-[#203d91] rounded-[14px] overflow-hidden mt-8 md:mt-10">
               <div className="bg-[#203d91] p-3 md:p-4">
@@ -381,8 +511,12 @@ const TestPage = () => {
                 </p>
               </div>
               <div className="p-5 md:p-6 flex flex-col md:flex-row gap-4 md:gap-8">
-                <div className="relative flex-shrink-0 mx-auto md:mx-0 md:float-right md:ml-6 md:mr-6">
-                  <div className="w-[180px] md:w-[220px] h-[220px] md:h-[280px] bg-gray-200 rounded-lg" />
+                <div className="relative flex-shrink-0 mx-auto md:mx-0">
+                  <img 
+                    src={bonus.img} 
+                    alt={bonus.title} 
+                    className="w-[180px] md:w-[220px] rounded-lg"
+                  />
                   {/* Badge */}
                   <div className="absolute -top-2 -right-2 md:right-[5px] md:top-[25px] w-[80px] md:w-[100px] h-[80px] md:h-[100px] bg-red-600 rounded-full flex flex-col items-center justify-center text-white">
                     <span className="text-[13px] md:text-[17px] font-semibold leading-tight">FREE</span>
@@ -394,6 +528,27 @@ const TestPage = () => {
               </div>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Customer Support Section */}
+      <section className="py-8 md:py-10 px-4 bg-white">
+        <div className="max-w-[970px] mx-auto">
+          <div className="bg-[#f1f6ff] rounded-[14px] p-6 md:p-8 flex flex-col md:flex-row items-center gap-6">
+            <img 
+              src={customerSupport} 
+              alt="Customer Support" 
+              className="w-[120px] md:w-[150px]"
+            />
+            <div>
+              <h3 className="text-[22px] md:text-[30px] leading-[30px] md:leading-[40px] font-bold mb-3 text-center md:text-left">
+                Questions? Our Friendly Customer Support Is Here To Help
+              </h3>
+              <p className="text-[16px] md:text-[22px] leading-[24px] md:leading-[32px] text-center md:text-left">
+                Email us at support@memorywaveofficial.com and we'll get back to you within 24 hours.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -414,16 +569,16 @@ const TestPage = () => {
             ].map((faq, index) => (
               <div key={index} className={`border border-[#c4d4f0] rounded-[14px] overflow-hidden ${activeAccordion === index ? 'rounded-b-[14px]' : ''}`}>
                 <button
-                  className={`w-full p-4 md:p-5 text-left flex items-start gap-3 transition-colors ${activeAccordion === index ? 'bg-[#edf4ff] rounded-t-[14px]' : 'bg-white hover:bg-gray-50'}`}
+                  className={`w-full p-4 md:p-5 text-left flex items-start gap-3 transition-colors relative ${activeAccordion === index ? 'bg-[#edf4ff] rounded-t-[14px]' : 'bg-white hover:bg-gray-50'}`}
                   onClick={() => setActiveAccordion(activeAccordion === index ? null : index)}
                 >
-                  <span className="bg-[#0da72f] text-white text-[14px] md:text-[16px] font-bold w-8 h-8 md:w-11 md:h-11 rounded-full flex items-center justify-center flex-shrink-0 italic uppercase absolute left-3 md:left-8 top-4 md:top-5">
+                  <span className="bg-[#0da72f] text-white text-[14px] md:text-[16px] font-bold w-8 h-8 md:w-11 md:h-11 rounded-full flex items-center justify-center flex-shrink-0 italic uppercase">
                     Q{index + 1}
                   </span>
-                  <span className="text-[16px] md:text-[24px] leading-[24px] md:leading-[34px] pl-10 md:pl-16 pr-8 md:pr-12">{faq.q}</span>
+                  <span className="text-[16px] md:text-[24px] leading-[24px] md:leading-[34px] pr-8 md:pr-12">{faq.q}</span>
                 </button>
                 {activeAccordion === index && (
-                  <div className="px-4 md:px-6 pb-6 pl-14 md:pl-24 bg-white border-t-0">
+                  <div className="px-4 md:px-6 pb-6 pl-14 md:pl-20 bg-white border-t-0">
                     <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[34px] text-[#333]">{faq.a}</p>
                   </div>
                 )}
@@ -445,6 +600,14 @@ const TestPage = () => {
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
             And let me be the first to welcome you to the Memory Wave family, and congratulate you on your wise decision to invest in your brighter, safer, healthier future. Thank you very much for watching and God bless.
           </p>
+          
+          <a href="#" className="block mt-8">
+            <img 
+              src={orderButton} 
+              alt="Order Now" 
+              className="w-full max-w-[400px] mx-auto hover:opacity-90 transition-opacity"
+            />
+          </a>
           
           <div className="bg-[linear-gradient(to_right,rgba(48,79,171,0),rgba(48,79,171,1)_49%,rgba(48,79,171,0))] py-3 mx-auto max-w-[700px] mt-8">
             <p className="text-white font-bold text-[18px] md:text-[24px]">NASA Neuroscientist-Recommended…</p>
@@ -488,6 +651,12 @@ const TestPage = () => {
       {/* Footer */}
       <footer className="py-8 md:py-11 px-4 border-t border-[#c5c5c5]">
         <div className="max-w-[970px] mx-auto text-center">
+          {/* Trust Badges */}
+          <div className="flex justify-center items-center gap-6 mb-6 flex-wrap">
+            <img src={clickbankLogo} alt="ClickBank Trusted & Secure" className="h-[25px] md:h-[30px] opacity-60" />
+            <img src={bbbSeal} alt="BBB Accredited Business" className="h-[50px] md:h-[60px]" />
+          </div>
+          
           <div className="flex justify-center gap-0">
             <a href="#" className="text-[14px] md:text-[20px] leading-[14px] md:leading-[20px] text-[#333] px-3 md:px-4 border-r border-[#333] last:border-r-0 hover:underline">Privacy Policy</a>
             <a href="#" className="text-[14px] md:text-[20px] leading-[14px] md:leading-[20px] text-[#333] px-3 md:px-4 border-r border-[#333] last:border-r-0 hover:underline">Terms & Conditions</a>
