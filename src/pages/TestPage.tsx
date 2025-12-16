@@ -366,10 +366,10 @@ const TestPage = () => {
           <img 
             src={productBundle} 
             alt="The Memory Wave Product Bundle" 
-            className="w-[320px] md:w-[500px] mx-auto mb-8"
+            className="w-[280px] md:w-[500px] mx-auto mb-8"
           />
           
-          <div className="bg-gradient-to-b from-transparent to-[#1a2f6f] rounded-2xl p-6 md:p-8 text-white">
+          <div className="rounded-2xl p-6 md:p-8 text-white">
             <p className="text-[18px] md:text-[28px] leading-[28px] md:leading-[38px] font-bold text-center mb-6">
               The Memory Wave soundwave is developed by neuroscientists that uses advanced brain entrainment to activate Gamma and the brain power for a better memory..
             </p>
@@ -380,10 +380,38 @@ const TestPage = () => {
         </div>
       </section>
 
+      {/* How To Order Section */}
+      <section className="py-8 md:py-10 px-4 bg-[#edf4fe]">
+        <div className="max-w-[970px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
+            How To Order
+          </h2>
+          
+          <div className="flex flex-col md:flex-row items-center gap-8 justify-center">
+            <div className="text-center">
+              <img 
+                src={womanLaptopOrder} 
+                alt="Order on your computer" 
+                className="w-[200px] md:w-[280px] rounded-lg mx-auto mb-4"
+              />
+              <p className="text-[16px] md:text-[20px] font-bold">Order on your computer</p>
+            </div>
+            <div className="text-center">
+              <img 
+                src={stopwatch} 
+                alt="Takes less than 60 seconds" 
+                className="w-[100px] md:w-[140px] mx-auto mb-4"
+              />
+              <p className="text-[16px] md:text-[20px] font-bold">Takes less than 60 seconds</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Banner */}
       <section className="py-8 md:py-10 px-4 bg-[#203f94]">
         <div className="max-w-[970px] mx-auto text-center">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-white mb-4">
+          <h2 className="text-[24px] md:text-[44px] leading-[32px] md:leading-[54px] font-bold text-white mb-4">
             Go ahead and complete your checkout below and experience everything I've talked about <span className="text-[#fff000]">100% risk free right now</span>.
           </h2>
           <div className="bg-[linear-gradient(to_right,rgba(48,79,171,0),rgba(48,79,171,1)_49%,rgba(48,79,171,0))] py-3 mx-auto max-w-[700px] mt-8">
