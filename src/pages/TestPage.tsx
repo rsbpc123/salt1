@@ -360,9 +360,178 @@ const TestPage = () => {
         </div>
       </section>
 
+      {/* Section 7 - The Brain Invader Explained */}
+      <section className="py-10 px-4 bg-[#edf4fe]">
+        <div className="max-w-[970px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
+            The Tiny Invader That<br/>NASA Scientists Found..
+          </h2>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            When NASA sends astronauts into space, they don&apos;t just monitor their bodies..
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
+            They monitor their brains.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            And what they discovered shocked the scientific community..
+          </p>
+          
+          <div className="bg-white rounded-[14px] p-5 md:p-6 mt-8 border-l-4 border-[#203d91]">
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold italic">
+              &ldquo;After 6 months in space, astronauts showed significant brain shrinkage. Their hippocampus - the memory center - had shrunk by up to 4%.&rdquo;
+            </p>
+            <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] mt-4 text-gray-600">
+              - NASA Brain Study, 2019
+            </p>
+          </div>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            But here&apos;s what surprised them even more..
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
+            The same brain shrinkage is happening to millions of Americans over 50 - right here on Earth.
+          </p>
+        </div>
+      </section>
+
+      {/* Section 8 - The Solution Discovery */}
+      <section className="py-10 px-4 bg-white">
+        <div className="max-w-[970px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
+            The 8-Second Discovery<br/>That Changed Everything..
+          </h2>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            That&apos;s when I stumbled on a breakthrough study from the University of Toronto..
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
+            Scientists had discovered a special brainwave called &ldquo;Gamma&rdquo; that activates your brain&apos;s natural cleaning system.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            Think of it like a power washer for your brain..
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            When Gamma is activated, your brain&apos;s neural guardians spring into action, clearing away the toxic buildup that causes brain fog and memory problems.
+          </p>
+          
+          <div className="bg-[#203d91] rounded-[14px] p-5 md:p-6 mt-8 text-white">
+            <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] font-bold text-center">
+              The problem? Most people&apos;s Gamma waves are dormant after age 50.
+            </p>
+          </div>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
+            That&apos;s where the 8-second ear ritual comes in..
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            By listening to a specially designed soundwave through your ears, you can reactivate your dormant Gamma waves in just 8 seconds.
+          </p>
+        </div>
+      </section>
+
+      {/* Section 9 - Testimonial */}
+      <section className="py-10 px-4 bg-[#edf4fe]">
+        <div className="max-w-[970px] mx-auto">
+          <div className="bg-white rounded-[14px] p-6 md:p-8 shadow-lg">
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic">
+              &ldquo;I was skeptical at first, but after just one week of using the Memory Wave, I noticed I could remember names at parties again. After a month, the brain fog that had plagued me for years was completely gone. I feel 20 years younger!&rdquo;
+            </p>
+            <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] mt-4 font-bold">
+              - Margaret T., 67, Tampa, FL
+            </p>
+          </div>
+          
+          <div className="bg-white rounded-[14px] p-6 md:p-8 shadow-lg mt-6">
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic">
+              &ldquo;My doctor couldn&apos;t believe the change. I went from forgetting where I put my keys every day to remembering entire conversations word for word. The Memory Wave is the real deal.&rdquo;
+            </p>
+            <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] mt-4 font-bold">
+              - Robert J., 72, Phoenix, AZ
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 10 - How It Works */}
+      <section className="py-10 px-4 bg-white">
+        <div className="max-w-[970px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
+            How The Memory Wave<br/>Works In Just 8 Seconds..
+          </h2>
+          
+          <div className="space-y-6">
+            <div className="flex gap-4 items-start">
+              <span className="bg-[#203d91] text-white font-bold text-[20px] md:text-[24px] w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center flex-shrink-0">1</span>
+              <div>
+                <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">Put on any pair of headphones</p>
+                <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] text-gray-600 mt-2">Regular earbuds or over-ear headphones work perfectly fine.</p>
+              </div>
+            </div>
+            
+            <div className="flex gap-4 items-start">
+              <span className="bg-[#203d91] text-white font-bold text-[20px] md:text-[24px] w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center flex-shrink-0">2</span>
+              <div>
+                <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">Press play on the Memory Wave audio</p>
+                <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] text-gray-600 mt-2">Within 8 seconds, the special soundwave begins activating your Gamma brainwaves.</p>
+              </div>
+            </div>
+            
+            <div className="flex gap-4 items-start">
+              <span className="bg-[#203d91] text-white font-bold text-[20px] md:text-[24px] w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center flex-shrink-0">3</span>
+              <div>
+                <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">Relax for 12 minutes</p>
+                <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] text-gray-600 mt-2">That&apos;s it! Your brain&apos;s natural cleaning system kicks in, clearing away toxic buildup.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 11 - The Science */}
+      <section className="py-10 px-4 bg-[#203d91]">
+        <div className="max-w-[970px] mx-auto text-white">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
+            The Science Behind<br/>The Memory Wave..
+          </h2>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            The Memory Wave isn&apos;t some &ldquo;snake oil&rdquo; remedy..
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
+            It&apos;s based on over 47 peer-reviewed scientific studies.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            Studies from institutions like MIT, Harvard, and the University of Toronto have all confirmed the power of Gamma brainwaves for memory and cognitive function.
+          </p>
+          
+          <div className="bg-white/10 rounded-[14px] p-5 md:p-6 mt-8">
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold italic">
+              &ldquo;Gamma oscillations are associated with higher cognitive functions including attention, learning, and memory.&rdquo;
+            </p>
+            <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] mt-4 opacity-80">
+              - Journal of Neuroscience
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Product Section */}
       <section className="py-10 px-4 bg-[#203d91]">
         <div className="max-w-[970px] mx-auto text-center">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-white text-center mb-8">
+            Introducing The Memory Wave..
+          </h2>
+          
           <img 
             src={productBundle} 
             alt="The Memory Wave Product Bundle" 
@@ -374,7 +543,7 @@ const TestPage = () => {
               The Memory Wave soundwave is developed by neuroscientists that uses advanced brain entrainment to activate Gamma and the brain power for a better memory..
             </p>
             
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold mt-8">It's simple, easy and you can do it at-home:</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold mt-8">It&apos;s simple, easy and you can do it at-home:</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Just pop on a pair of headphones and relax for an easy 12 minutes listening to the calming soundwave..</p>
           </div>
         </div>
@@ -675,6 +844,33 @@ const TestPage = () => {
                 The Picower Institute for Learning and Memory at NASA. 40Hz rhythms fight Alzheimer's at the cellular and molecular level.
               </li>
             </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* P.S. Section */}
+      <section className="py-8 md:py-10 px-4 bg-[#f9f9f9]">
+        <div className="max-w-[970px] mx-auto">
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mb-6">
+            <strong>P.S.</strong> Remember, the Memory Wave is backed by our iron-clad 90-day money-back guarantee. If you&apos;re not completely satisfied, simply email us for a full refund. No questions asked. You have absolutely nothing to lose.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mb-6">
+            <strong>P.P.S.</strong> The special discount price of just $39 (down from $200) is only available for a limited time. Once this page is taken down, the price will return to normal. Don&apos;t miss your chance to clear your brain fog and sharpen your memory.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">
+            <strong>P.P.P.S.</strong> Think about where you&apos;ll be 90 days from now. You could still be struggling with brain fog, forgetting names and misplacing your keys... or you could be enjoying crystal-clear thinking and a razor-sharp memory. The choice is yours. Click the button below to get started.
+          </p>
+          
+          <div className="text-center mt-8">
+            <a href="#" className="block">
+              <img 
+                src={orderButton} 
+                alt="Order Now" 
+                className="w-full max-w-[400px] mx-auto hover:opacity-90 transition-opacity"
+              />
+            </a>
           </div>
         </div>
       </section>
