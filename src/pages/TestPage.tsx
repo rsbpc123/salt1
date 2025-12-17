@@ -36,7 +36,7 @@ const TestPage = () => {
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
 
   return (
-    <div className="min-h-screen bg-[#f9f9f9]" style={{ fontFamily: '"Lora", serif' }}>
+    <div className="min-h-screen bg-background" style={{ fontFamily: '"Lora", serif' }}>
       {/* Hero Section - sec1 */}
       <section 
         className="text-white py-6 md:py-10 px-4 bg-cover bg-center bg-no-repeat relative"
@@ -87,15 +87,15 @@ const TestPage = () => {
           <div className="bg-white rounded-[14px] mt-7 p-5 md:p-7 text-black">
             <ul className="space-y-4">
               <li className="flex items-start gap-3 font-semibold text-[18px] md:text-[24px] leading-[24px] md:leading-[34px] pl-10 md:pl-14 relative">
-                <span className="absolute left-0 top-0 w-8 h-8 md:w-10 md:h-10 bg-[#203d91] rounded-full flex items-center justify-center text-white text-lg">✓</span>
+                <span className="absolute left-0 top-0 w-8 h-8 md:w-10 md:h-10 bg-primary rounded-full flex items-center justify-center text-primary-foreground text-lg">✓</span>
                 NASA-Trained Neuroscientist has discovered a new way to clear brain fog, boost brain power and improve memory
               </li>
-              <li className="flex items-start gap-3 font-semibold text-[18px] md:text-[24px] leading-[24px] md:leading-[34px] pt-4 border-t border-[#dddddd] pl-10 md:pl-14 relative">
-                <span className="absolute left-0 top-4 w-8 h-8 md:w-10 md:h-10 bg-[#203d91] rounded-full flex items-center justify-center text-white text-lg">✓</span>
+              <li className="flex items-start gap-3 font-semibold text-[18px] md:text-[24px] leading-[24px] md:leading-[34px] pt-4 border-t border-border pl-10 md:pl-14 relative">
+                <span className="absolute left-0 top-4 w-8 h-8 md:w-10 md:h-10 bg-primary rounded-full flex items-center justify-center text-primary-foreground text-lg">✓</span>
                 Find out why 17,789 Americans say the secret is a safe, proven, 8-second daily ritual that starts working the very first time you try it..
               </li>
-              <li className="flex items-start gap-3 font-semibold text-[18px] md:text-[24px] leading-[24px] md:leading-[34px] pt-4 border-t border-[#dddddd] pl-10 md:pl-14 relative">
-                <span className="absolute left-0 top-4 w-8 h-8 md:w-10 md:h-10 bg-[#203d91] rounded-full flex items-center justify-center text-white text-lg">✓</span>
+              <li className="flex items-start gap-3 font-semibold text-[18px] md:text-[24px] leading-[24px] md:leading-[34px] pt-4 border-t border-border pl-10 md:pl-14 relative">
+                <span className="absolute left-0 top-4 w-8 h-8 md:w-10 md:h-10 bg-primary rounded-full flex items-center justify-center text-primary-foreground text-lg">✓</span>
                 Breakthrough NASA study confirms there's a "brain invader" that's far more common than we thought..
               </li>
             </ul>
@@ -104,7 +104,7 @@ const TestPage = () => {
       </section>
 
       {/* Scientific Strip */}
-      <section className="bg-[#e7eaf1] py-6 md:py-8 px-4">
+      <section className="bg-muted py-6 md:py-8 px-4">
         <div className="max-w-[970px] mx-auto">
           <p className="font-semibold text-[20px] md:text-[24px] leading-[28px] md:leading-[32px] text-center">
             Scientific References and Spiritual Studies:
@@ -120,7 +120,7 @@ const TestPage = () => {
       </section>
 
       {/* Section 2 - Body Content */}
-      <section className="py-10 px-4 bg-white">
+      <section className="py-10 px-4 bg-card">
         <div className="max-w-[970px] mx-auto">
           <div className="md:float-right md:ml-4 md:mb-4 text-center md:text-right mb-6">
             <div className="relative inline-block">
@@ -163,11 +163,11 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* Section 3 - Blue Background with White Box */}
-      <section className="bg-[#203d91] py-0 px-4">
+      {/* Section 3 - Purple Background with White Box */}
+      <section className="bg-primary py-0 px-4">
         <div className="max-w-[970px] mx-auto">
           {/* White Box - Overlapping into this section */}
-          <div className="bg-[#f1f6ff] rounded-[14px] shadow-lg p-6 md:p-8 -mt-4 relative z-10">
+          <div className="bg-secondary rounded-[14px] shadow-lg p-6 md:p-8 -mt-4 relative z-10">
             <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-6">
               A Tiny Invader..<br/>
               Scientifically Verified By 5 Studies..<br/>
@@ -199,9 +199,9 @@ const TestPage = () => {
           </div>
           
           {/* Big Headline */}
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center text-white py-10">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center text-primary-foreground py-10">
             A 8-Second Ear Ritual.. Scientifically Verified By 5 Different Studies.. For A Better Memory And Brain Power..<br/>
-            <span className="text-[#fff000]">(do this from home!)</span>
+            <span className="text-[#ffd700]">(do this from home!)</span>
           </h2>
 
           <div className="md:float-left md:mr-6 md:-ml-5 mb-4 text-center">
@@ -212,13 +212,13 @@ const TestPage = () => {
             />
           </div>
           
-          <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] font-bold text-white mt-8">My name is Dr. James Rivers.</p>
+          <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] font-bold text-primary-foreground mt-8">My name is Dr. James Rivers.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] text-white mt-8">
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] text-primary-foreground mt-8">
             The breakthrough came to light when a colleague handed me a stunning report from NASA.
           </p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] text-white mt-8">
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] text-primary-foreground mt-8">
             And stay with me - this gets good.
           </p>
           
@@ -227,7 +227,7 @@ const TestPage = () => {
       </section>
 
       {/* Section 4 - How Memory Works */}
-      <section className="py-10 px-4 bg-white">
+      <section className="py-10 px-4 bg-card">
         <div className="max-w-[970px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-10">
             How Your Memory<br/>Actually Works..
@@ -246,8 +246,8 @@ const TestPage = () => {
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">And memory is information stashed inside your brain cells.</p>
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Now the truth is, these brain cells die for everyone.</p>
           
-          {/* Blue Box */}
-          <div className="bg-[#203d91] rounded-[14px] p-5 md:p-6 mt-10 text-white relative overflow-hidden">
+          {/* Purple Box */}
+          <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-10 text-primary-foreground relative overflow-hidden">
             <div className="md:absolute md:right-4 md:bottom-4">
               <img 
                 src={questionCollage} 
@@ -267,8 +267,8 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* Section 5 - Light Blue Background */}
-      <section className="py-10 px-4 bg-[#edf4fe]">
+      {/* Section 5 - Light Purple Background */}
+      <section className="py-10 px-4 bg-secondary">
         <div className="max-w-[970px] mx-auto">
           <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] font-bold text-center">NASA Neuroscientist:</p>
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mt-2 mb-8">
@@ -311,10 +311,10 @@ const TestPage = () => {
       </section>
 
       {/* Section 6 - Root Cause */}
-      <section className="py-10 px-4 bg-white text-black">
+      <section className="py-10 px-4 bg-card text-card-foreground">
         <div className="max-w-[970px] mx-auto">
-          {/* Dark Gray Box */}
-          <div className="bg-[#363636] rounded-[10px] p-5 md:p-6 mb-10 text-white">
+          {/* Dark Box */}
+          <div className="bg-foreground rounded-[10px] p-5 md:p-6 mb-10 text-background">
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">
               As a scientist with training from NASA, I had to know why?
             </p>
@@ -361,7 +361,7 @@ const TestPage = () => {
       </section>
 
       {/* Section 7 - The Brain Invader Explained */}
-      <section className="py-10 px-4 bg-[#edf4fe]">
+      <section className="py-10 px-4 bg-secondary">
         <div className="max-w-[970px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
             The Tiny Invader That<br/>NASA Scientists Found..
@@ -379,7 +379,7 @@ const TestPage = () => {
             And what they discovered shocked the scientific community..
           </p>
           
-          <div className="bg-white rounded-[14px] p-5 md:p-6 mt-8 border-l-4 border-[#203d91]">
+          <div className="bg-card rounded-[14px] p-5 md:p-6 mt-8 border-l-4 border-primary">
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold italic">
               &ldquo;After 6 months in space, astronauts showed significant brain shrinkage. Their hippocampus - the memory center - had shrunk by up to 4%.&rdquo;
             </p>
@@ -399,7 +399,7 @@ const TestPage = () => {
       </section>
 
       {/* Section 8 - The Solution Discovery */}
-      <section className="py-10 px-4 bg-white">
+      <section className="py-10 px-4 bg-card">
         <div className="max-w-[970px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
             The 8-Second Discovery<br/>That Changed Everything..
@@ -421,7 +421,7 @@ const TestPage = () => {
             When Gamma is activated, your brain&apos;s neural guardians spring into action, clearing away the toxic buildup that causes brain fog and memory problems.
           </p>
           
-          <div className="bg-[#203d91] rounded-[14px] p-5 md:p-6 mt-8 text-white">
+          <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-8 text-primary-foreground">
             <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] font-bold text-center">
               The problem? Most people&apos;s Gamma waves are dormant after age 50.
             </p>
@@ -438,9 +438,9 @@ const TestPage = () => {
       </section>
 
       {/* Section 9 - Testimonial */}
-      <section className="py-10 px-4 bg-[#edf4fe]">
+      <section className="py-10 px-4 bg-secondary">
         <div className="max-w-[970px] mx-auto">
-          <div className="bg-white rounded-[14px] p-6 md:p-8 shadow-lg">
+          <div className="bg-card rounded-[14px] p-6 md:p-8 shadow-lg">
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic">
               &ldquo;I was skeptical at first, but after just one week of using the Memory Wave, I noticed I could remember names at parties again. After a month, the brain fog that had plagued me for years was completely gone. I feel 20 years younger!&rdquo;
             </p>
@@ -449,7 +449,7 @@ const TestPage = () => {
             </p>
           </div>
           
-          <div className="bg-white rounded-[14px] p-6 md:p-8 shadow-lg mt-6">
+          <div className="bg-card rounded-[14px] p-6 md:p-8 shadow-lg mt-6">
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic">
               &ldquo;My doctor couldn&apos;t believe the change. I went from forgetting where I put my keys every day to remembering entire conversations word for word. The Memory Wave is the real deal.&rdquo;
             </p>
@@ -461,7 +461,7 @@ const TestPage = () => {
       </section>
 
       {/* Section 10 - How It Works */}
-      <section className="py-10 px-4 bg-white">
+      <section className="py-10 px-4 bg-card">
         <div className="max-w-[970px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
             How The Memory Wave<br/>Works In Just 8 Seconds..
@@ -469,26 +469,26 @@ const TestPage = () => {
           
           <div className="space-y-6">
             <div className="flex gap-4 items-start">
-              <span className="bg-[#203d91] text-white font-bold text-[20px] md:text-[24px] w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center flex-shrink-0">1</span>
+              <span className="bg-primary text-primary-foreground font-bold text-[20px] md:text-[24px] w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center flex-shrink-0">1</span>
               <div>
                 <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">Put on any pair of headphones</p>
-                <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] text-gray-600 mt-2">Regular earbuds or over-ear headphones work perfectly fine.</p>
+                <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] text-muted-foreground mt-2">Regular earbuds or over-ear headphones work perfectly fine.</p>
               </div>
             </div>
             
             <div className="flex gap-4 items-start">
-              <span className="bg-[#203d91] text-white font-bold text-[20px] md:text-[24px] w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center flex-shrink-0">2</span>
+              <span className="bg-primary text-primary-foreground font-bold text-[20px] md:text-[24px] w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center flex-shrink-0">2</span>
               <div>
                 <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">Press play on the Memory Wave audio</p>
-                <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] text-gray-600 mt-2">Within 8 seconds, the special soundwave begins activating your Gamma brainwaves.</p>
+                <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] text-muted-foreground mt-2">Within 8 seconds, the special soundwave begins activating your Gamma brainwaves.</p>
               </div>
             </div>
             
             <div className="flex gap-4 items-start">
-              <span className="bg-[#203d91] text-white font-bold text-[20px] md:text-[24px] w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center flex-shrink-0">3</span>
+              <span className="bg-primary text-primary-foreground font-bold text-[20px] md:text-[24px] w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center flex-shrink-0">3</span>
               <div>
                 <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">Relax for 12 minutes</p>
-                <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] text-gray-600 mt-2">That&apos;s it! Your brain&apos;s natural cleaning system kicks in, clearing away toxic buildup.</p>
+                <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] text-muted-foreground mt-2">That&apos;s it! Your brain&apos;s natural cleaning system kicks in, clearing away toxic buildup.</p>
               </div>
             </div>
           </div>
@@ -496,8 +496,8 @@ const TestPage = () => {
       </section>
 
       {/* Section 11 - The Science */}
-      <section className="py-10 px-4 bg-[#203d91]">
-        <div className="max-w-[970px] mx-auto text-white">
+      <section className="py-10 px-4 bg-primary">
+        <div className="max-w-[970px] mx-auto text-primary-foreground">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
             The Science Behind<br/>The Memory Wave..
           </h2>
@@ -526,9 +526,9 @@ const TestPage = () => {
       </section>
 
       {/* Product Section */}
-      <section className="py-10 px-4 bg-[#203d91]">
+      <section className="py-10 px-4 bg-primary">
         <div className="max-w-[970px] mx-auto text-center">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-white text-center mb-8">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-primary-foreground text-center mb-8">
             Introducing The Memory Wave..
           </h2>
           
@@ -538,7 +538,7 @@ const TestPage = () => {
             className="w-[280px] md:w-[500px] mx-auto mb-8"
           />
           
-          <div className="rounded-2xl p-6 md:p-8 text-white">
+          <div className="rounded-2xl p-6 md:p-8 text-primary-foreground">
             <p className="text-[18px] md:text-[28px] leading-[28px] md:leading-[38px] font-bold text-center mb-6">
               The Memory Wave soundwave is developed by neuroscientists that uses advanced brain entrainment to activate Gamma and the brain power for a better memory..
             </p>
@@ -550,7 +550,7 @@ const TestPage = () => {
       </section>
 
       {/* How To Order Section */}
-      <section className="py-8 md:py-10 px-4 bg-[#edf4fe]">
+      <section className="py-8 md:py-10 px-4 bg-secondary">
         <div className="max-w-[970px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
             How To Order
@@ -578,24 +578,24 @@ const TestPage = () => {
       </section>
 
       {/* CTA Banner */}
-      <section className="py-8 md:py-10 px-4 bg-[#203f94]">
+      <section className="py-8 md:py-10 px-4 bg-primary">
         <div className="max-w-[970px] mx-auto text-center">
-          <h2 className="text-[24px] md:text-[44px] leading-[32px] md:leading-[54px] font-bold text-white mb-4">
-            Go ahead and complete your checkout below and experience everything I've talked about <span className="text-[#fff000]">100% risk free right now</span>.
+          <h2 className="text-[24px] md:text-[44px] leading-[32px] md:leading-[54px] font-bold text-primary-foreground mb-4">
+            Go ahead and complete your checkout below and experience everything I've talked about <span className="text-[#ffd700]">100% risk free right now</span>.
           </h2>
-          <div className="bg-[linear-gradient(to_right,rgba(48,79,171,0),rgba(48,79,171,1)_49%,rgba(48,79,171,0))] py-3 mx-auto max-w-[700px] mt-8">
-            <p className="text-white font-bold text-[18px] md:text-[24px]">NASA Neuroscientist-Recommended…</p>
+          <div className="bg-[linear-gradient(to_right,transparent,hsl(var(--primary)/0.8)_49%,transparent)] py-3 mx-auto max-w-[700px] mt-8">
+            <p className="text-primary-foreground font-bold text-[18px] md:text-[24px]">NASA Neuroscientist-Recommended…</p>
           </div>
         </div>
       </section>
 
       {/* Pricing Box - sec26 */}
-      <section className="py-8 md:py-10 px-4 bg-white">
+      <section className="py-8 md:py-10 px-4 bg-card">
         <div className="max-w-[600px] mx-auto relative z-10">
           <div className="bg-[#fffeec] border-2 border-[#e7e4b1] rounded-[14px] shadow-lg overflow-hidden">
             {/* Header */}
-            <div className="bg-[#ffebc3] rounded-t-[12px] p-4 md:p-5 text-center">
-              <h2 className="text-[24px] md:text-[44px] leading-[32px] md:leading-[54px] font-bold text-[#1b2b61]">
+            <div className="bg-secondary rounded-t-[12px] p-4 md:p-5 text-center">
+              <h2 className="text-[24px] md:text-[44px] leading-[32px] md:leading-[54px] font-bold text-primary">
                 Claim Your Memory Wave<br/>
                 (Money Back 90-Day Guaranteed)
               </h2>
@@ -618,15 +618,15 @@ const TestPage = () => {
               
               {/* Feature Pills */}
               <div className="flex justify-center mb-6 w-[90%] mx-auto">
-                <div className="bg-[#8d5cc7] text-white px-3 md:px-5 py-2 md:py-3 rounded-l-[14px] flex-1 relative">
+                <div className="bg-primary text-primary-foreground px-3 md:px-5 py-2 md:py-3 rounded-l-[14px] flex-1 relative">
                   <p className="font-bold text-[14px] md:text-[20px] leading-[18px] md:leading-[26px] text-left pl-[40px] md:pl-[55px]">Special<br/>Discount</p>
                   <div className="absolute left-[10px] md:left-[15px] top-[8px] md:top-[10px] w-[28px] md:w-[38px] h-[28px] md:h-[38px] bg-white/30 rounded-full" />
                 </div>
-                <div className="bg-[#5590d8] text-white px-3 md:px-5 py-2 md:py-3 flex-1 relative">
+                <div className="bg-primary/80 text-primary-foreground px-3 md:px-5 py-2 md:py-3 flex-1 relative">
                   <p className="font-bold text-[14px] md:text-[20px] leading-[18px] md:leading-[26px] text-left pl-[40px] md:pl-[55px]">Instant<br/>Access</p>
                   <div className="absolute left-[10px] md:left-[15px] top-[8px] md:top-[10px] w-[28px] md:w-[38px] h-[28px] md:h-[38px] bg-white/30 rounded-full" />
                 </div>
-                <div className="bg-[#26afbd] text-white px-3 md:px-5 py-2 md:py-3 rounded-r-[14px] flex-1 relative">
+                <div className="bg-primary/60 text-primary-foreground px-3 md:px-5 py-2 md:py-3 rounded-r-[14px] flex-1 relative">
                   <p className="font-bold text-[14px] md:text-[20px] leading-[18px] md:leading-[26px] text-left pl-[40px] md:pl-[55px]">Quick Start<br/>Bonuses</p>
                   <div className="absolute left-[10px] md:left-[15px] top-[8px] md:top-[10px] w-[28px] md:w-[38px] h-[28px] md:h-[38px] bg-white/30 rounded-full" />
                 </div>
@@ -638,7 +638,7 @@ const TestPage = () => {
               
               <div className="relative inline-block mb-4">
                 <p className="font-bold text-[20px] md:text-[24px] leading-[28px] md:leading-[34px]">Today Just For</p>
-                <p className="font-bold text-[54px] md:text-[71px] leading-[54px] md:leading-[71px] text-[#1b2b61] mt-2">$39</p>
+                <p className="font-bold text-[54px] md:text-[71px] leading-[54px] md:leading-[71px] text-primary mt-2">$39</p>
               </div>
               
               {/* Green arrows pointing to button */}
@@ -704,10 +704,10 @@ const TestPage = () => {
             { num: 2, title: "Get The Smart Grocery Shopping Guide", desc: "Second is the Smart Grocery Shopping Guide, including the 10 common American foods that actually trigger brain fog, plus our 5 simple shortcuts to help cut your monthly grocery bill by $100 a month or more immediately, whether you shop at Walmart, Amazon, Costco, Target, Publix, Whole Foods or anywhere else!", img: bonusGroceryGuide },
             { num: 3, title: 'Get The "Energy Button"', desc: "Your 3rd free bonus for checking out today is a new report called The Energy Button! Customers often say the energy boost they get from the Memory Wave is like getting an extra day a week. So you'll discover our top tips for what to do with all that extra energy.", img: bonusEnergyButton },
           ].map((bonus) => (
-            <div key={bonus.num} className="bg-white border-2 border-[#203d91] rounded-[14px] overflow-hidden mt-8 md:mt-10">
-              <div className="bg-[#203d91] p-3 md:p-4">
-                <p className="font-bold text-[20px] md:text-[34px] leading-[28px] md:leading-[44px] text-white text-center md:text-left">
-                  <span className="text-[#fff000]">Your {bonus.num === 1 ? "1st" : bonus.num === 2 ? "2nd" : "3rd"} FREE Gift:</span> {bonus.title} <span className="text-[#fff000]">FREE!</span>
+            <div key={bonus.num} className="bg-card border-2 border-primary rounded-[14px] overflow-hidden mt-8 md:mt-10">
+              <div className="bg-primary p-3 md:p-4">
+                <p className="font-bold text-[20px] md:text-[34px] leading-[28px] md:leading-[44px] text-primary-foreground text-center md:text-left">
+                  <span className="text-[#ffd700]">Your {bonus.num === 1 ? "1st" : bonus.num === 2 ? "2nd" : "3rd"} FREE Gift:</span> {bonus.title} <span className="text-[#ffd700]">FREE!</span>
                 </p>
               </div>
               <div className="p-5 md:p-6 flex flex-col md:flex-row gap-4 md:gap-8">
@@ -732,9 +732,9 @@ const TestPage = () => {
       </section>
 
       {/* Customer Support Section */}
-      <section className="py-8 md:py-10 px-4 bg-white">
+      <section className="py-8 md:py-10 px-4 bg-card">
         <div className="max-w-[970px] mx-auto">
-          <div className="bg-[#f1f6ff] rounded-[14px] p-6 md:p-8 flex flex-col md:flex-row items-center gap-6">
+          <div className="bg-secondary rounded-[14px] p-6 md:p-8 flex flex-col md:flex-row items-center gap-6">
             <img 
               src={customerSupport} 
               alt="Customer Support" 
@@ -753,7 +753,7 @@ const TestPage = () => {
       </section>
 
       {/* FAQ Section - sec34 */}
-      <section className="py-8 md:py-10 px-4 bg-white">
+      <section className="py-8 md:py-10 px-4 bg-card">
         <div className="max-w-[970px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8 md:mb-10">
             Frequently Asked Questions About The Memory Wave
@@ -767,19 +767,19 @@ const TestPage = () => {
               { q: '"Is the Memory Wave safe?"', a: "The Memory Wave has been used by thousands of Americans with zero reported side effects. It's not a drug or pill. It's a special soundwave based on research from NASA and the University of Toronto, that helps clear away the brain-rotting toxins by activating Gamma and healthy Brain Clearance." },
               { q: '"Do I need to change my diet or eat special foods to get the benefits?"', a: "No, you do not. The Memory Wave works independently of your diet. You may have seen videos telling you certain foods 'kill' your memory, but none of those solutions address the root cause." },
             ].map((faq, index) => (
-              <div key={index} className={`border border-[#c4d4f0] rounded-[14px] overflow-hidden ${activeAccordion === index ? 'rounded-b-[14px]' : ''}`}>
+              <div key={index} className={`border border-border rounded-[14px] overflow-hidden ${activeAccordion === index ? 'rounded-b-[14px]' : ''}`}>
                 <button
-                  className={`w-full p-4 md:p-5 text-left flex items-start gap-3 transition-colors relative ${activeAccordion === index ? 'bg-[#edf4ff] rounded-t-[14px]' : 'bg-white hover:bg-gray-50'}`}
+                  className={`w-full p-4 md:p-5 text-left flex items-start gap-3 transition-colors relative ${activeAccordion === index ? 'bg-secondary rounded-t-[14px]' : 'bg-card hover:bg-muted'}`}
                   onClick={() => setActiveAccordion(activeAccordion === index ? null : index)}
                 >
-                  <span className="bg-[#0da72f] text-white text-[14px] md:text-[16px] font-bold w-8 h-8 md:w-11 md:h-11 rounded-full flex items-center justify-center flex-shrink-0 italic uppercase">
+                  <span className="bg-primary text-primary-foreground text-[14px] md:text-[16px] font-bold w-8 h-8 md:w-11 md:h-11 rounded-full flex items-center justify-center flex-shrink-0 italic uppercase">
                     Q{index + 1}
                   </span>
                   <span className="text-[16px] md:text-[24px] leading-[24px] md:leading-[34px] pr-8 md:pr-12">{faq.q}</span>
                 </button>
                 {activeAccordion === index && (
-                  <div className="px-4 md:px-6 pb-6 pl-14 md:pl-20 bg-white border-t-0">
-                    <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[34px] text-[#333]">{faq.a}</p>
+                  <div className="px-4 md:px-6 pb-6 pl-14 md:pl-20 bg-card border-t-0">
+                    <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[34px] text-foreground">{faq.a}</p>
                   </div>
                 )}
               </div>
@@ -789,8 +789,8 @@ const TestPage = () => {
       </section>
 
       {/* Final CTA */}
-      <section className="py-8 md:py-10 px-4 bg-[#203f94]">
-        <div className="max-w-[970px] mx-auto text-center text-white">
+      <section className="py-8 md:py-10 px-4 bg-primary">
+        <div className="max-w-[970px] mx-auto text-center text-primary-foreground">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold mb-6">
             Claim your copy of the Memory Wave now.
           </h2>
@@ -809,37 +809,37 @@ const TestPage = () => {
             />
           </a>
           
-          <div className="bg-[linear-gradient(to_right,rgba(48,79,171,0),rgba(48,79,171,1)_49%,rgba(48,79,171,0))] py-3 mx-auto max-w-[700px] mt-8">
-            <p className="text-white font-bold text-[18px] md:text-[24px]">NASA Neuroscientist-Recommended…</p>
+          <div className="bg-[linear-gradient(to_right,transparent,hsl(var(--primary)/0.8)_49%,transparent)] py-3 mx-auto max-w-[700px] mt-8">
+            <p className="text-primary-foreground font-bold text-[18px] md:text-[24px]">NASA Neuroscientist-Recommended…</p>
           </div>
         </div>
       </section>
 
       {/* Scientific References */}
-      <section className="py-8 md:py-12 px-4 bg-white">
+      <section className="py-8 md:py-12 px-4 bg-card">
         <div className="max-w-[970px] mx-auto">
           <h3 className="text-[20px] md:text-[24px] leading-[30px] md:leading-[34px] font-bold mb-6 mt-10">Scientific References:</h3>
           <div className="grid md:grid-cols-2 gap-6">
             <ul className="space-y-4 pl-2">
-              <li className="text-[12px] md:text-[14px] leading-[20px] md:leading-[22px] text-[#999999] pl-6 relative">
+              <li className="text-[12px] md:text-[14px] leading-[20px] md:leading-[22px] text-muted-foreground pl-6 relative">
                 <span className="absolute left-0 top-0 w-[25px]">1.</span>
                 Murdock, M. H., Yang, C.-Y., Sun, N., et al. (2024). Multisensory gamma stimulation promotes glymphatic clearance of amyloid. <em>Nature,</em> 627(8002), 149-156.
               </li>
-              <li className="text-[12px] md:text-[14px] leading-[20px] md:leading-[22px] text-[#999999] pl-6 relative">
+              <li className="text-[12px] md:text-[14px] leading-[20px] md:leading-[22px] text-muted-foreground pl-6 relative">
                 <span className="absolute left-0 top-0 w-[25px]">2.</span>
                 Bhardwaj, A., & Nagandla, K. (2021). Intellectual engagement and cognitive ability in later life: a longitudinal study. <em>ScienceDirect.</em>
               </li>
-              <li className="text-[12px] md:text-[14px] leading-[20px] md:leading-[22px] text-[#999999] pl-6 relative">
+              <li className="text-[12px] md:text-[14px] leading-[20px] md:leading-[22px] text-muted-foreground pl-6 relative">
                 <span className="absolute left-0 top-0 w-[25px]">3.</span>
                 Livingston, G., Sommerlad, A., Orgeta, V., et al. (2018). Dementia prevention, intervention, and care. <em>BMJ,</em> 363, k4925.
               </li>
             </ul>
             <ul className="space-y-4 pr-2">
-              <li className="text-[12px] md:text-[14px] leading-[20px] md:leading-[22px] text-[#999999] pl-6 relative">
+              <li className="text-[12px] md:text-[14px] leading-[20px] md:leading-[22px] text-muted-foreground pl-6 relative">
                 <span className="absolute left-0 top-0 w-[25px]">4.</span>
                 Massachusetts Institute of Technology News. (2024). Evidence that gamma rhythm stimulation can treat neurological disorders emerging.
               </li>
-              <li className="text-[12px] md:text-[14px] leading-[20px] md:leading-[22px] text-[#999999] pl-6 relative">
+              <li className="text-[12px] md:text-[14px] leading-[20px] md:leading-[22px] text-muted-foreground pl-6 relative">
                 <span className="absolute left-0 top-0 w-[25px]">5.</span>
                 The Picower Institute for Learning and Memory at NASA. 40Hz rhythms fight Alzheimer's at the cellular and molecular level.
               </li>
@@ -849,7 +849,7 @@ const TestPage = () => {
       </section>
 
       {/* P.S. Section */}
-      <section className="py-8 md:py-10 px-4 bg-[#f9f9f9]">
+      <section className="py-8 md:py-10 px-4 bg-background">
         <div className="max-w-[970px] mx-auto">
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mb-6">
             <strong>P.S.</strong> Remember, the Memory Wave is backed by our iron-clad 90-day money-back guarantee. If you&apos;re not completely satisfied, simply email us for a full refund. No questions asked. You have absolutely nothing to lose.
@@ -876,7 +876,7 @@ const TestPage = () => {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 md:py-11 px-4 border-t border-[#c5c5c5]">
+      <footer className="py-8 md:py-11 px-4 border-t border-border">
         <div className="max-w-[970px] mx-auto text-center">
           {/* Trust Badges */}
           <div className="flex justify-center items-center gap-6 mb-6 flex-wrap">
@@ -885,11 +885,11 @@ const TestPage = () => {
           </div>
           
           <div className="flex justify-center gap-0">
-            <a href="#" className="text-[14px] md:text-[20px] leading-[14px] md:leading-[20px] text-[#333] px-3 md:px-4 border-r border-[#333] last:border-r-0 hover:underline">Privacy Policy</a>
-            <a href="#" className="text-[14px] md:text-[20px] leading-[14px] md:leading-[20px] text-[#333] px-3 md:px-4 border-r border-[#333] last:border-r-0 hover:underline">Terms & Conditions</a>
-            <a href="#" className="text-[14px] md:text-[20px] leading-[14px] md:leading-[20px] text-[#333] px-3 md:px-4 hover:underline">Contact Us</a>
+            <a href="#" className="text-[14px] md:text-[20px] leading-[14px] md:leading-[20px] text-foreground px-3 md:px-4 border-r border-foreground last:border-r-0 hover:underline">Privacy Policy</a>
+            <a href="#" className="text-[14px] md:text-[20px] leading-[14px] md:leading-[20px] text-foreground px-3 md:px-4 border-r border-foreground last:border-r-0 hover:underline">Terms & Conditions</a>
+            <a href="#" className="text-[14px] md:text-[20px] leading-[14px] md:leading-[20px] text-foreground px-3 md:px-4 hover:underline">Contact Us</a>
           </div>
-          <p className="text-[14px] md:text-[20px] leading-[24px] md:leading-[30px] text-[#333] mt-3">
+          <p className="text-[14px] md:text-[20px] leading-[24px] md:leading-[30px] text-foreground mt-3">
             Copyright © 2024 Memory Wave. All Rights Reserved.
           </p>
         </div>
