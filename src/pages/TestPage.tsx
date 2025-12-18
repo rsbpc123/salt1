@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 // Import all images
-import heroBackground from "@/assets/hero-background.jpg";
+import heroBackground from "@/assets/hero-background.webp";
 import heroBackgroundMobile from "@/assets/hero-background-mobile.jpg";
 import doctorQuote from "@/assets/doctor-quote.png";
 import institutionLogos from "@/assets/institution-logos.png";
