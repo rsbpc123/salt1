@@ -38,17 +38,19 @@ const TestPage = () => {
   return (
     <div className="min-h-screen bg-background" style={{ fontFamily: '"Lora", serif' }}>
       {/* Hero Section - sec1 */}
-      <section 
-        className="text-white py-6 md:py-10 px-4 bg-cover bg-center bg-no-repeat relative"
-        style={{ 
-          backgroundImage: `url(${heroBackground})`,
-        }}
-      >
+      <section className="text-white py-6 md:py-10 px-4 relative overflow-hidden">
+        {/* Background Image - Blurred */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-sm scale-105"
+          style={{ backgroundImage: `url(${heroBackground})` }}
+        />
         {/* Mobile background override */}
         <div 
-          className="absolute inset-0 md:hidden bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 md:hidden bg-cover bg-center bg-no-repeat blur-sm scale-105"
           style={{ backgroundImage: `url(${heroBackgroundMobile})` }}
         />
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-black/50" />
         <div className="max-w-[970px] mx-auto relative z-10">
           <div className="text-center md:text-left">
             <p className="font-bold text-[28px] md:text-[50px] leading-[36px] md:leading-[64px]">
