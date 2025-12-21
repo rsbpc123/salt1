@@ -170,7 +170,7 @@ const TestPage = () => {
               <img 
                 src={oxygenMaskHospital} 
                 alt="Oxygen mask on hospital bed" 
-                className="w-[220px] md:w-[300px] rounded-lg shadow-md mx-auto"
+                className="w-[280px] md:w-[380px] rounded-lg shadow-md mx-auto"
               />
             </div>
             
