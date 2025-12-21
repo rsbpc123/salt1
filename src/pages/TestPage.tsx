@@ -8,6 +8,7 @@ import drPopescu from "@/assets/dr-popescu.png";
 import institutionLogos from "@/assets/institution-logos.png";
 import brainHippocampus from "@/assets/brain-hippocampus.png";
 import lungsDiagram from "@/assets/lungs-diagram.png";
+import oxygenMaskHospital from "@/assets/oxygen-mask-hospital.webp";
 import stressedSeniorsCollage from "@/assets/stressed-seniors-collage.png";
 import doctorPhoto from "@/assets/doctor-photo.png";
 import productBundle from "@/assets/product-bundle.png";
@@ -164,6 +165,14 @@ const TestPage = () => {
             <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2">
               I dialed 911.
             </h2>
+            
+            <div className="md:float-right md:ml-6 md:-mr-4 mb-4 text-center">
+              <img 
+                src={oxygenMaskHospital} 
+                alt="Oxygen mask on hospital bed" 
+                className="w-[220px] md:w-[300px] rounded-lg shadow-md mx-auto"
+              />
+            </div>
             
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">The paramedics arrived in 8 minutes. Felt like 8 hours.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">They strapped an oxygen mask to her face. Loaded her onto the stretcher.</p>
