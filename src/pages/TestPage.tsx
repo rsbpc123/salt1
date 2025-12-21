@@ -241,23 +241,22 @@ const TestPage = () => {
             </p>
           </div>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Linda started crying.</p>
-          
-          <div className="md:float-left md:mr-6 md:-ml-4 text-center mb-4 mt-8">
-            <img 
-              src={coupleHospitalHallway} 
-              alt="Couple walking silently through hospital hallway" 
-              className="w-[260px] md:w-[340px] rounded-lg mx-auto shadow-lg"
-            />
+          {/* Side by side layout */}
+          <div className="flex flex-col md:flex-row gap-6 mt-8 items-start">
+            <div className="flex-shrink-0">
+              <img 
+                src={coupleHospitalHallway} 
+                alt="Couple walking silently through hospital hallway" 
+                className="w-[260px] md:w-[340px] rounded-lg shadow-lg"
+              />
+            </div>
+            <div className="flex flex-col justify-center">
+              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic">Linda started crying.</p>
+              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">We walked out in silence.</p>
+              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold italic">And for the first time in our 40-year marriage...</p>
+              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold text-destructive">I didn't know what to say to her.</p>
+            </div>
           </div>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">We walked out in silence.</p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">And for the first time in our 40-year marriage...</p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">I didn't know what to say to her.</p>
-          
-          <div className="clear-both" />
         </div>
       </section>
 
