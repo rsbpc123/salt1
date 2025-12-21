@@ -263,7 +263,19 @@ const TestPage = () => {
 
       {/* Section 5 - We Did Everything */}
       <section className="py-10 px-4 bg-secondary">
-        <div className="max-w-[970px] mx-auto">
+        <div className="max-w-[970px] mx-auto relative">
+          {/* Read This Callout - Left side */}
+          <div className="absolute -left-4 md:-left-32 top-0 md:top-4 hidden md:block">
+            <p className="text-[#ff0000] text-[22px] md:text-[30px] leading-[22px] md:leading-[30px] text-center" style={{ fontFamily: "'Permanent Marker', cursive" }}>
+              Read This!
+            </p>
+            <img 
+              src={arrowRight} 
+              alt="" 
+              className="w-[60px] md:w-[80px] mt-1 mx-auto"
+            />
+          </div>
+          
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2">
             We Did EVERYTHING the Doctors Told Us
           </h2>
