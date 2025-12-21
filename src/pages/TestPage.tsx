@@ -2547,7 +2547,109 @@ const TestPage = () => {
         </div>
       </section>
 
+      {/* Bringing Mânzălești to America - Part 1 */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
+            How We're Bringing Mânzălești to America
+          </h2>
+          <p className="text-[20px] md:text-[28px] text-center text-muted-foreground italic mb-8">
+            (And Why It Took 6 MONTHS of Fighting Through Red Tape)
+          </p>
+          
+          <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
+          
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>Over the next 6 months, Dr. Popescu and I worked together to make this happen.</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold text-destructive">And it was a NIGHTMARE.</p>
+            
+            <p>The salt comes from the Mânzălești region. The deposits are on protected UNESCO Geopark land.</p>
+            
+            <p>Getting export approval meant navigating Romanian bureaucracy. Filing stacks of paperwork. Proving the salt was being used for wellness purposes. Not medical claims.</p>
+            
+            <p>Dr. Popescu leveraged her university connections. Worked with the local government.</p>
+            
+            <p className="font-semibold">And after MONTHS of negotiating... they approved limited export permits. For wellness purposes only.</p>
+          </div>
+        </div>
+      </section>
 
+      {/* U.S. Customs Challenge */}
+      <section className="py-10 md:py-16 px-4 bg-secondary/30">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p className="font-semibold">Then came U.S. customs.</p>
+            
+            <p>The shipment almost got seized because the inspector flagged the mineral composition.</p>
+            
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-destructive pl-6 my-8">
+              "This isn't standard sodium chloride," he said. "What IS this?"
+            </p>
+            
+            <p>We had to provide geological reports. Scientific papers proving these were naturally occurring volcanic minerals. Not synthetic additives. Not pharmaceutical compounds.</p>
+            
+            <p className="italic">Just ancient salt. Formed 20 million years ago under volcanic pressure.</p>
+            
+            <p className="font-semibold text-primary">It took months. But we fought through it.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Final Product */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>We secured the salt from Mânzălești. Sourced the four herbs from the Carpathian hillsides. (Mint. Sage. Basil. Lavender. The same herbs that grow wild on those salt-covered hills.)</p>
+            
+            <p>Refined the breathable membrane pouch system. Tested it on dozens of volunteers. All of whom reported dramatic improvements within 4 to 6 weeks.</p>
+            
+            <p className="font-semibold">And finally... after months of waiting... the first shipment arrived.</p>
+            
+            <p>I opened the first box myself. Held the pouch in my hands.</p>
+            
+            <p>And immediately called Linda. "We did it. We actually did it."</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Product Reveal */}
+      <section className="py-10 md:py-16 px-4 bg-primary/5">
+        <div className="max-w-[750px] mx-auto">
+          <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg text-center">
+            <h3 className="text-[28px] md:text-[36px] font-bold text-primary mb-6">We call it Longevity Salt.</h3>
+            
+            <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground text-left">
+              <p>Because that's what it gave Linda. Not just more years. But the ability to LIVE those years fully.</p>
+              
+              <p className="font-semibold">Without fear. Without gasping. Without being a prisoner to her lungs.</p>
+              
+              <p className="text-[22px] md:text-[28px] font-bold text-primary text-center mt-8">And now... for the first time... it's available in the United States.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Scarcity Notice */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p className="font-semibold text-destructive text-center text-[22px] md:text-[28px]">In limited quantities.</p>
+            
+            <p>Because this salt only exists in ONE place on Earth. The Mânzălești region.</p>
+            
+            <p>And the deposits are on protected land.</p>
+            
+            <p className="italic">We can only secure small batches through Dr. Popescu's university connections.</p>
+            
+            <p className="font-semibold">When they're gone... we have to wait.</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold text-primary text-center mt-8">But it's here. And it works.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
       <footer className="py-8 md:py-11 px-4 border-t border-border">
         <div className="max-w-[970px] mx-auto text-center">
           {/* Trust Badges */}
