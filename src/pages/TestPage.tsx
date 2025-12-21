@@ -83,15 +83,15 @@ const TestPage = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 font-semibold text-[18px] md:text-[24px] leading-[24px] md:leading-[34px] pl-10 md:pl-14 relative">
                 <span className="absolute left-0 top-0 w-8 h-8 md:w-10 md:h-10 bg-primary rounded-full flex items-center justify-center text-primary-foreground text-lg">✓</span>
-                NASA-Trained Neuroscientist has discovered a new way to clear brain fog, boost brain power and improve memory
+                A desperate husband flies 5,000 miles to Romania... and discovers a hidden village where 97-year-olds chop wood with PERFECT lungs (and have never touched an inhaler).
               </li>
               <li className="flex items-start gap-3 font-semibold text-[18px] md:text-[24px] leading-[24px] md:leading-[34px] pt-4 border-t border-border pl-10 md:pl-14 relative">
                 <span className="absolute left-0 top-4 w-8 h-8 md:w-10 md:h-10 bg-primary rounded-full flex items-center justify-center text-primary-foreground text-lg">✓</span>
-                Find out why 17,789 Americans say the secret is a safe, proven, 8-second daily ritual that starts working the very first time you try it..
+                Romanian pulmonologist explains why your lung scarring might NOT be permanent... and reveals the 3-phase process that lets your airways finally HEAL.
               </li>
               <li className="flex items-start gap-3 font-semibold text-[18px] md:text-[24px] leading-[24px] md:leading-[34px] pt-4 border-t border-border pl-10 md:pl-14 relative">
                 <span className="absolute left-0 top-4 w-8 h-8 md:w-10 md:h-10 bg-primary rounded-full flex items-center justify-center text-primary-foreground text-lg">✓</span>
-                Breakthrough NASA study confirms there's a "brain invader" that's far more common than we thought..
+                The real reason your COPD medications stop working (and why breathing the same air as a forgotten Eastern European village... might be the only thing that can reverse it).
               </li>
             </ul>
           </div>
