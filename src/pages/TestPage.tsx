@@ -170,12 +170,20 @@ const TestPage = () => {
               I dialed 911.
             </h2>
             
-            <div className="md:float-right md:ml-6 md:-mr-4 mb-4 text-center">
-              <img 
-                src={oxygenMaskHospital} 
-                alt="Oxygen mask on hospital bed" 
-                className="w-[280px] md:w-[380px] rounded-lg shadow-md mx-auto"
-              />
+            <div className="md:float-right md:ml-6 md:-mr-4 mb-4 text-center relative">
+              <div 
+                className="relative overflow-visible"
+                style={{
+                  maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
+                  WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
+                }}
+              >
+                <img 
+                  src={oxygenMaskHospital} 
+                  alt="Oxygen mask on hospital bed" 
+                  className="w-[280px] md:w-[380px] mx-auto"
+                />
+              </div>
             </div>
             
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">The paramedics arrived in 8 minutes. Felt like 8 hours.</p>
@@ -216,12 +224,20 @@ const TestPage = () => {
       <section className="py-10 px-4 bg-card">
         <div className="max-w-[970px] mx-auto relative">
           
-          <div className="md:float-right md:ml-6 md:-mr-4 text-center mb-4">
-            <img 
-              src={lungCtScan} 
-              alt="CT scan showing lung fibrosis" 
-              className="w-[280px] md:w-[380px] rounded-lg mx-auto shadow-lg"
-            />
+          <div className="md:float-right md:ml-6 md:-mr-4 text-center mb-4 relative">
+            <div 
+              className="relative overflow-visible"
+              style={{
+                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={lungCtScan} 
+                alt="CT scan showing lung fibrosis" 
+                className="w-[280px] md:w-[380px] mx-auto"
+              />
+            </div>
           </div>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">"This is fibrosis," he said. "Scar tissue. Your airways are hardening."</p>
@@ -245,12 +261,20 @@ const TestPage = () => {
           
           {/* Side by side layout */}
           <div className="flex flex-col md:flex-row gap-6 mt-8 items-start">
-            <div className="flex-shrink-0">
-              <img 
-                src={coupleHospitalHallway} 
-                alt="Couple walking silently through hospital hallway" 
-                className="w-[260px] md:w-[340px] rounded-lg shadow-lg"
-              />
+            <div className="flex-shrink-0 relative">
+              <div 
+                className="relative overflow-visible"
+                style={{
+                  maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
+                  WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
+                }}
+              >
+                <img 
+                  src={coupleHospitalHallway} 
+                  alt="Couple walking silently through hospital hallway" 
+                  className="w-[260px] md:w-[340px]"
+                />
+              </div>
             </div>
             <div className="flex flex-col justify-center">
               <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic">Linda started crying.</p>
@@ -285,12 +309,20 @@ const TestPage = () => {
             (And She Got WORSE)
           </p>
           
-          <div className="md:float-right md:ml-6 md:-mr-4 text-center mb-4">
-            <img 
-              src={medicationsPile} 
-              alt="Pile of prescription medications and medical bills" 
-              className="w-[280px] md:w-[380px] rounded-lg mx-auto shadow-lg"
-            />
+          <div className="md:float-right md:ml-6 md:-mr-4 text-center mb-4 relative">
+            <div 
+              className="relative overflow-visible"
+              style={{
+                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={medicationsPile} 
+                alt="Pile of prescription medications and medical bills" 
+                className="w-[280px] md:w-[380px] mx-auto"
+              />
+            </div>
           </div>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
@@ -363,12 +395,20 @@ const TestPage = () => {
             The Night I Found Her Crying in the Bathroom
           </h2>
           
-          <div className="md:float-right md:ml-6 md:-mr-4 text-center mb-4">
-            <img 
-              src={womanBathroomFloor} 
-              alt="Woman sitting alone in bathroom" 
-              className="w-[260px] md:w-[340px] rounded-lg mx-auto shadow-lg"
-            />
+          <div className="md:float-right md:ml-6 md:-mr-4 text-center mb-4 relative">
+            <div 
+              className="relative overflow-visible"
+              style={{
+                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={womanBathroomFloor} 
+                alt="Woman sitting alone in bathroom" 
+                className="w-[260px] md:w-[340px] mx-auto"
+              />
+            </div>
           </div>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">It was a Tuesday.</p>
