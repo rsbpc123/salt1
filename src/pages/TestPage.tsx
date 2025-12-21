@@ -13,6 +13,7 @@ import stressedSeniorsCollage from "@/assets/stressed-seniors-collage.png";
 import lungCtScan from "@/assets/lung-ct-scan.png";
 import coupleHospitalHallway from "@/assets/couple-hospital-hallway.png";
 import medicationsPile from "@/assets/medications-pile.png";
+import womanBathroomFloor from "@/assets/woman-bathroom-floor.png";
 import doctorPhoto from "@/assets/doctor-photo.png";
 import productBundle from "@/assets/product-bundle.png";
 import productDiscount from "@/assets/product-discount.png";
@@ -355,51 +356,75 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* Section 6 - Root Cause */}
+      {/* Section 6 - The Night in the Bathroom */}
       <section className="py-10 px-4 bg-card text-card-foreground">
         <div className="max-w-[970px] mx-auto">
-          {/* Dark Box */}
-          <div className="bg-foreground rounded-[10px] p-5 md:p-6 mb-10 text-background">
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">
-              As a scientist with training from NASA, I had to know why?
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
+            The Night I Found Her Crying in the Bathroom
+          </h2>
+          
+          <div className="md:float-right md:ml-6 md:-mr-4 text-center mb-4">
+            <img 
+              src={womanBathroomFloor} 
+              alt="Woman sitting alone in bathroom" 
+              className="w-[260px] md:w-[340px] rounded-lg mx-auto shadow-lg"
+            />
+          </div>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">It was a Tuesday.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda's sister invited us to Thanksgiving. Linda said she had a cold.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">But she didn't.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">She just didn't want her family to see her like this.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">That night, I woke up around 2 AM. Linda wasn't in bed.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I found her in the bathroom. Sitting on the floor. Crying.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">"I don't want to be that person anymore," she whispered.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"What person?"</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">"The one everyone feels sorry for."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Her voice cracked.</p>
+          
+          {/* Emotional Quote Box */}
+          <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-10 text-primary-foreground">
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">
+              "I used to RUN, Robert. I used to play with the grandkids. And now I can't even walk to the mailbox without feeling like I'm dying."
             </p>
           </div>
           
-          <p className="text-[20px] md:text-[30px] leading-[30px] md:leading-[40px] font-bold text-center">The truth will surprise you..</p>
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mt-2 mb-8">
-            The Surprising "Root Cause" Of Brain Fog..
-          </h2>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I sat down next to her.</p>
           
-          <div className="md:float-right md:ml-4 md:-mr-20 text-center mb-4 relative">
-            <img 
-              src={happySeniorsCollage} 
-              alt="Happy seniors with improved memory" 
-              className="w-[280px] md:w-[350px] rounded-lg mx-auto"
-            />
-            {/* Red Callout */}
-            <div className="absolute -top-10 md:-top-12 left-0 md:-left-24">
-              <p className="text-[#ff0000] text-[22px] md:text-[30px] leading-[22px] md:leading-[30px] text-center" style={{ fontFamily: "'Permanent Marker', cursive" }}>
-                Important
-              </p>
-              <img 
-                src={arrowRight} 
-                alt="" 
-                className="w-[60px] md:w-[80px] mt-1"
-              />
-            </div>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Because what was I supposed to say?</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Her lungs were getting WORSE. Not better.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">The medications weren't working.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">The doctors had given up.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">Right then, I made a promise.</p>
+          
+          {/* Promise Box */}
+          <div className="bg-foreground rounded-[10px] p-5 md:p-6 mt-10 text-background">
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">
+              I'm going to fix this.
+            </p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4">
+              I don't care what it takes.
+            </p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4">
+              I don't care if I have to fly to the other side of the world.
+            </p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4 font-bold italic">
+              I'm going to find a way.
+            </p>
           </div>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
-            Scientists have discovered a sub-group of tiny invaders in the brain that "clog up" healthy functioning while attacking the brain cells, including where your memories are stored..
-          </p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            <strong>It's like an infestation,</strong> let me show you..
-          </p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            Normally when a brain cell dies, your brain's neural guardians quickly arrive, using enzymes to clear away the "toxic waste"...
-          </p>
           
           <div className="clear-both" />
         </div>
