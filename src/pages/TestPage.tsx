@@ -3421,9 +3421,24 @@ const TestPage = () => {
           </div>
           
           {/* Robert's Sign-off */}
-          <div className="mt-8 text-center">
+          <div className="mt-8 text-left">
             <p className="text-[18px] md:text-[22px] text-foreground italic">I'm rooting for you.</p>
             <p className="text-[20px] md:text-[24px] font-bold text-primary mt-4">– Robert</p>
+          </div>
+          
+          {/* P.S. Section */}
+          <div className="mt-10 space-y-6 text-[14px] md:text-[18px] leading-relaxed text-foreground">
+            <p>
+              <span className="font-bold text-primary">P.S.</span> Remember... you're protected by our 60-day money-back guarantee. If Longevity Salt doesn't help you breathe easier... you get a full refund. No questions asked. Keep the pouches. Keep everything. You have nothing to lose... <span className="font-semibold">except the mucus drowning your lungs.</span>
+            </p>
+            
+            <p>
+              <span className="font-bold text-primary">P.P.S.</span> This batch won't last. The last shipment sold out in 11 days. If you close this page now, you might not see this offer again. The next time you check... we might be <span className="font-bold text-destructive">SOLD OUT</span>. And you'll be on a waitlist for 2 to 3 MONTHS. Don't let that happen. <span className="font-semibold">Secure your spot NOW</span> while we still have pouches available.
+            </p>
+            
+            <p>
+              <span className="font-bold text-primary">P.P.P.S.</span> Don't just take my word for it. Search <span className="font-semibold">"Mânzălești longevity village"</span> on YouTube right now. You'll find dozens of TV reports. BBC. National Geographic. Romanian news channels. All documenting this village where people live past 100. This isn't made up. <span className="font-bold">This is REAL.</span> And now you can bring it home.
+            </p>
           </div>
         </div>
       </section>
