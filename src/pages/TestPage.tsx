@@ -213,7 +213,7 @@ const TestPage = () => {
 
       {/* Section 4 - The Diagnosis */}
       <section className="py-10 px-4 bg-card">
-        <div className="max-w-[970px] mx-auto">
+        <div className="max-w-[970px] mx-auto relative">
           
           <div className="md:float-right md:ml-6 md:-mr-4 text-center mb-4">
             <img 
@@ -258,23 +258,24 @@ const TestPage = () => {
               <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold text-destructive">I didn't know what to say to her.</p>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Section 5 - We Did Everything */}
-      <section className="py-10 px-4 bg-secondary">
-        <div className="max-w-[970px] mx-auto relative">
-          {/* Read This Callout - Left side */}
-          <div className="absolute -left-4 md:-left-36 -top-2 md:-top-2 hidden md:flex flex-col items-center">
+          
+          {/* Read This Callout - positioned at bottom right, pointing down to next section */}
+          <div className="hidden md:flex flex-col items-center absolute right-10 -bottom-16">
             <p className="text-[#ff0000] text-[22px] md:text-[30px] leading-[22px] md:leading-[30px] text-center" style={{ fontFamily: "'Permanent Marker', cursive" }}>
               Read This!
             </p>
             <img 
               src={arrowCurveRed} 
               alt="" 
-              className="w-[60px] md:w-[80px] mt-1 scale-x-[-1]"
+              className="w-[60px] md:w-[80px] mt-1"
             />
           </div>
+        </div>
+      </section>
+
+      {/* Section 5 - We Did Everything */}
+      <section className="py-10 px-4 bg-secondary">
+        <div className="max-w-[970px] mx-auto relative">
           
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2">
             We Did EVERYTHING the Doctors Told Us
