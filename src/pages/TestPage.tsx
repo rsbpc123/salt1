@@ -12,6 +12,7 @@ import oxygenMaskHospital from "@/assets/oxygen-mask-hospital.webp";
 import stressedSeniorsCollage from "@/assets/stressed-seniors-collage.png";
 import lungCtScan from "@/assets/lung-ct-scan.png";
 import coupleHospitalHallway from "@/assets/couple-hospital-hallway.png";
+import medicationsPile from "@/assets/medications-pile.png";
 import doctorPhoto from "@/assets/doctor-photo.png";
 import productBundle from "@/assets/product-bundle.png";
 import productDiscount from "@/assets/product-discount.png";
@@ -260,43 +261,81 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* Section 5 - Light Purple Background */}
+      {/* Section 5 - We Did Everything */}
       <section className="py-10 px-4 bg-secondary">
         <div className="max-w-[970px] mx-auto">
-          <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] font-bold text-center">NASA Neuroscientist:</p>
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mt-2 mb-8">
-            What Happens To Your<br/>Brain Cells After 50
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2">
+            We Did EVERYTHING the Doctors Told Us
           </h2>
+          <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] font-bold text-center text-destructive mb-8">
+            (And She Got WORSE)
+          </p>
           
-          <div className="md:float-left md:mr-5 md:-ml-4 text-center mb-4 relative">
+          <div className="md:float-right md:ml-6 md:-mr-4 text-center mb-4">
             <img 
-              src={womanHeadphones} 
-              alt="Woman using Memory Wave with headphones" 
-              className="w-[280px] md:w-[350px] rounded-lg mx-auto"
+              src={medicationsPile} 
+              alt="Pile of prescription medications and medical bills" 
+              className="w-[280px] md:w-[380px] rounded-lg mx-auto shadow-lg"
             />
-            {/* Red Callout */}
-            <div className="absolute -top-10 md:-top-16 right-0 md:-right-10">
-              <p className="text-[#ff0000] text-[22px] md:text-[30px] leading-[22px] md:leading-[30px] text-center" style={{ fontFamily: "'Permanent Marker', cursive" }}>
-                Read This!
-              </p>
-              <img 
-                src={arrowLeft} 
-                alt="" 
-                className="w-[60px] md:w-[80px] mt-1"
-              />
-            </div>
           </div>
           
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            Linda wasn't reckless. She did EVERYTHING they told her.
+          </p>
+          
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
-            The area of your brain responsible for memory formation, called your hippocampus, is extra-small and fragile. <em>How small?</em>
+            Six different inhalers over three years. Five medications just to breathe.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
+            We were spending $1,200 a month on prescriptions. Even WITH insurance.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">
+            And she was still drowning.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            Imagine you're walking on a sandy beach that stretches for a mile. You bend down and pick up a few grains of sand. Those few grains of sand represent the entire area of your brain responsible for memory!
+            We did the Prednisone rounds. That awful steroid that made her gain 15 pounds and gave her insomnia.
           </p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
-            Now if you've over 50 and you forget a name, or you misplace your keys or you just feel foggy, you can bet your brain cells, your storage units, are dying off faster than they should be, causing your brain to start shrinking.
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            Bought a $400 HEPA air purifier. Ripped out the carpets. Tried breathing exercises.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            Hired a mold inspector. $800 later... no mold.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">
+            None of it made a difference.
+          </p>
+          
+          {/* Doctor Quote Box */}
+          <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-10 text-primary-foreground">
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">
+              Every doctor said the same thing: <strong>"This is just something you'll have to manage."</strong>
+            </p>
+          </div>
+          
+          <p className="text-[28px] md:text-[40px] leading-[36px] md:leading-[50px] mt-10 font-bold text-center">
+            MANAGE.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
+            Like we weren't already managing her not being able to walk upstairs.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
+            Managing the oxygen concentrator humming all night.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
+            Managing the stack of medical bills we couldn't pay.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">
+            Managing our life shrinking smaller and smaller.
           </p>
           
           <div className="clear-both" />
