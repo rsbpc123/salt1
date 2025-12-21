@@ -19,6 +19,7 @@ import closedMineSign from "@/assets/closed-mine-sign.png";
 import romanianCafeInterior from "@/assets/romanian-cafe-interior.png";
 import ioanaRomanianWoman from "@/assets/ioana-romanian-woman.png";
 import oldManChainsaw from "@/assets/old-man-chainsaw.png";
+import phoneEmailNotification from "@/assets/phone-email-notification.png";
 import doctorPhoto from "@/assets/doctor-photo.png";
 import productBundle from "@/assets/product-bundle.png";
 import productDiscount from "@/assets/product-discount.png";
@@ -897,57 +898,70 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* Section 11 - The Science */}
-      <section className="py-10 px-4 bg-primary">
-        <div className="max-w-[970px] mx-auto text-primary-foreground">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
-            The Science Behind<br/>The Memory Wave..
+      {/* Section 10 - Dr. Popescu Email */}
+      <section className="py-10 px-4 bg-card">
+        <div className="max-w-[970px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2">
+            What a Romanian Researcher Told Us Over Email
           </h2>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            The Memory Wave isn&apos;t some &ldquo;snake oil&rdquo; remedy..
+          <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] font-bold text-center text-primary mb-8">
+            (That Made Us Drive 4 Hours Into the Mountains)
           </p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
-            It&apos;s based on over 47 peer-reviewed scientific studies.
-          </p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            Studies from institutions like MIT, Harvard, and the University of Toronto have all confirmed the power of Gamma brainwaves for memory and cognitive function.
-          </p>
-          
-          <div className="bg-white/10 rounded-[14px] p-5 md:p-6 mt-8">
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold italic">
-              &ldquo;Gamma oscillations are associated with higher cognitive functions including attention, learning, and memory.&rdquo;
-            </p>
-            <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] mt-4 opacity-80">
-              - Journal of Neuroscience
-            </p>
+          <div className="md:float-right md:ml-6 md:-mr-4 text-center mb-4 relative">
+            <div 
+              className="relative overflow-visible"
+              style={{
+                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={phoneEmailNotification} 
+                alt="Phone showing email notification" 
+                className="w-[240px] md:w-[300px] mx-auto"
+              />
+            </div>
           </div>
-        </div>
-      </section>
-
-      {/* Product Section */}
-      <section className="py-10 px-4 bg-primary">
-        <div className="max-w-[970px] mx-auto text-center">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-primary-foreground text-center mb-8">
-            Introducing The Memory Wave..
-          </h2>
           
-          <img 
-            src={productBundle} 
-            alt="The Memory Wave Product Bundle" 
-            className="w-[280px] md:w-[500px] mx-auto mb-8"
-          />
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I sent the email right then and there. Explained who we were. Why we came. What we were hoping to find.</p>
           
-          <div className="rounded-2xl p-6 md:p-8 text-primary-foreground">
-            <p className="text-[18px] md:text-[28px] leading-[28px] md:leading-[38px] font-bold text-center mb-6">
-              The Memory Wave soundwave is developed by neuroscientists that uses advanced brain entrainment to activate Gamma and the brain power for a better memory..
-            </p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">I didn't expect a response. At least not right away.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">But two hours later... my phone buzzed.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">An email from Dr. Elena Popescu.</p>
+          
+          <div className="clear-both" />
+          
+          {/* Email Box */}
+          <div className="bg-secondary rounded-[14px] p-6 md:p-8 mt-10 border-l-4 border-primary">
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic">"Dear Robert and Linda,</p>
             
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold mt-8">It&apos;s simple, easy and you can do it at-home:</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Just pop on a pair of headphones and relax for an easy 12 minutes listening to the calming soundwave..</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">I'm so glad you reached out.</p>
+            
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">The Praid mine was a wonderful therapeutic environment. But you're right to be disappointed it collapsed.</p>
+            
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold">I've been researching the Mânzălești village for over 15 years. I've documented over 40 residents over 90 years old. Out of just 2,000 people.</p>
+            
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">And what I've found there is far more powerful than anything that happened in the mine.</p>
+            
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">The mine was therapeutic. But Mânzălești? It's NATURAL. The salt is everywhere. In the soil. The water. The AIR.</p>
+            
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold">The people there don't just visit the salt for a few hours. They LIVE in it. Breathe it. Every day. For their entire lives.</p>
+            
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 italic">And the results speak for themselves.</p>
+            
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">If you're willing to make the drive, I'd be happy to meet you there tomorrow. I can show you the village. Introduce you to some of the residents. And explain exactly why the air in Mânzălești might be able to help Linda.</p>
+            
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">Let me know.</p>
+            
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold">– Dr. Elena Popescu"</p>
           </div>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I read the email out loud to Linda.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">She looked at me and without hesitation said, "Let's go."</p>
         </div>
       </section>
 
