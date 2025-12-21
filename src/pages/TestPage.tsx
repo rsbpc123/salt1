@@ -5,6 +5,7 @@ import heroBackground from "@/assets/hero-background.webp";
 import heroBackgroundMobile from "@/assets/hero-background-mobile.jpg";
 import doctorQuote from "@/assets/doctor-quote.png";
 import drPopescu from "@/assets/dr-popescu.png";
+import saltHillsRomania from "@/assets/salt-hills-romania.jpg";
 import institutionLogos from "@/assets/institution-logos.png";
 import brainHippocampus from "@/assets/brain-hippocampus.png";
 import lungsDiagram from "@/assets/lungs-diagram.png";
@@ -965,43 +966,125 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* How To Order Section */}
-      <section className="py-8 md:py-10 px-4 bg-secondary">
-        <div className="max-w-[970px] mx-auto">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
-            How To Order
+      {/* The 4-Hour Drive Section */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-4 text-primary">
+            The 4-Hour Drive That Felt Like Traveling Back in Time
           </h2>
           
-          <div className="flex flex-col md:flex-row items-center gap-8 justify-center">
-            <div className="text-center">
-              <img 
-                src={womanLaptopOrder} 
-                alt="Order on your computer" 
-                className="w-[200px] md:w-[280px] rounded-lg mx-auto mb-4"
-              />
-              <p className="text-[16px] md:text-[20px] font-bold">Order on your computer</p>
-            </div>
-            <div className="text-center">
-              <img 
-                src={stopwatch} 
-                alt="Takes less than 60 seconds" 
-                className="w-[100px] md:w-[140px] mx-auto mb-4"
-              />
-              <p className="text-[16px] md:text-[20px] font-bold">Takes less than 60 seconds</p>
-            </div>
+          <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
+          
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>We left before sunrise. Dr. Popescu's directions sitting on the dashboard.</p>
+            
+            <p>For the first hour, everything looked normal. Small towns. Gas stations. Road signs.</p>
+            
+            <p>Then the road narrowed.</p>
+            
+            <p>The towns got smaller.</p>
+            
+            <p className="font-semibold italic">And I started to feel it.</p>
+            
+            <p>That strange mix of hope and terror.</p>
+            
+            <p>We passed villages that looked like they hadn't changed in 100 years. Wooden houses. Horse-drawn carts. Fields worked by hand.</p>
+            
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "This feels like we're in a different century," Linda said.
+            </p>
+            
+            <p>She wasn't wrong.</p>
+            
+            <p>Another hour passed. Then... I saw them.</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold text-primary">White hills rising from the valley.</p>
+            
+            <p>At first, I thought: snow.</p>
+            
+            <p>But it was May. Too warm.</p>
+            
+            <p>I pulled over. Got out.</p>
+            
+            <p>Walked closer.</p>
+            
+            <p className="text-[24px] md:text-[32px] font-bold">Not snow.</p>
+            
+            <p className="text-[24px] md:text-[32px] font-bold text-primary">Salt.</p>
           </div>
         </div>
       </section>
 
-      {/* CTA Banner */}
-      <section className="py-8 md:py-10 px-4 bg-primary">
-        <div className="max-w-[970px] mx-auto text-center">
-          <h2 className="text-[24px] md:text-[44px] leading-[32px] md:leading-[54px] font-bold text-primary-foreground mb-4">
-            Go ahead and complete your checkout below and experience everything I've talked about <span className="text-[#ffd700]">100% risk free right now</span>.
-          </h2>
-          <div className="bg-[linear-gradient(to_right,transparent,hsl(var(--primary)/0.8)_49%,transparent)] py-3 mx-auto max-w-[700px] mt-8">
-            <p className="text-primary-foreground font-bold text-[18px] md:text-[24px]">NASA Neuroscientist-Recommended…</p>
+      {/* Salt Hills Image Section */}
+      <section className="py-8 md:py-12 px-4 bg-secondary/30">
+        <div className="max-w-[900px] mx-auto">
+          <figure className="relative">
+            <div 
+              className="relative overflow-visible mx-auto max-w-[700px]"
+              style={{
+                maskImage: 'radial-gradient(ellipse 90% 85% at center, black 50%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 90% 85% at center, black 50%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={saltHillsRomania} 
+                alt="White salt hills rising from the Romanian valley" 
+                className="w-full h-auto rounded-lg"
+              />
+            </div>
+            <figcaption className="text-center mt-4 text-muted-foreground italic text-[16px]">
+              The salt hills of Mânzălești - coating the hillsides like powder
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      {/* Salt Discovery Continuation */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>Coating the hillsides like powder. Sparkling like crushed diamonds in the morning sun.</p>
+            
+            <p>Linda came up beside me. "Robert... is that...?"</p>
+            
+            <p>"Yeah," I said quietly. "That's salt."</p>
+            
+            <p>We stood there for a minute. Just staring at these hills. Covered in salt. Out in the open. Not underground. Not in a mine. Just... there.</p>
+            
+            <p>Then I heard a car pull up behind us.</p>
+            
+            <p>I turned. A woman got out. Probably in her late 50s. Carrying a weathered leather bag. Warm smile.</p>
+            
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "Robert? Linda?"
+            </p>
+            
+            <p>I nodded.</p>
+            
+            <p>She walked over. Extended her hand.</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold text-primary">"I'm Dr. Elena Popescu. Welcome to Mânzălești."</p>
           </div>
+          
+          {/* Dr. Popescu Image */}
+          <figure className="mt-10 relative">
+            <div 
+              className="relative overflow-visible mx-auto max-w-[400px]"
+              style={{
+                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={drPopescu} 
+                alt="Dr. Elena Popescu" 
+                className="w-full h-auto"
+              />
+            </div>
+            <figcaption className="text-center mt-4 text-muted-foreground italic text-[16px]">
+              Dr. Elena Popescu - researcher who has studied Mânzălești for over 15 years
+            </figcaption>
+          </figure>
         </div>
       </section>
 
