@@ -10,6 +10,8 @@ import brainHippocampus from "@/assets/brain-hippocampus.png";
 import lungsDiagram from "@/assets/lungs-diagram.png";
 import oxygenMaskHospital from "@/assets/oxygen-mask-hospital.webp";
 import stressedSeniorsCollage from "@/assets/stressed-seniors-collage.png";
+import lungCtScan from "@/assets/lung-ct-scan.png";
+import coupleHospitalHallway from "@/assets/couple-hospital-hallway.png";
 import doctorPhoto from "@/assets/doctor-photo.png";
 import productBundle from "@/assets/product-bundle.png";
 import productDiscount from "@/assets/product-discount.png";
@@ -192,68 +194,68 @@ const TestPage = () => {
           
           {/* Big Headline */}
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center text-primary-foreground py-10">
-            A 8-Second Ear Ritual.. Scientifically Verified By 5 Different Studies.. For A Better Memory And Brain Power..<br/>
-            <span className="text-[#ffd700]">(do this from home!)</span>
+            Her Lungs Were Turning to Cement<br/>
+            <span className="text-[#ffd700]">(And Nobody Told Us Until It Was Almost Too Late)</span>
           </h2>
 
-          <div className="md:float-left md:mr-6 md:-ml-5 mb-4 text-center">
-            <img 
-              src={doctorPhoto} 
-              alt="Dr. James Rivers" 
-              className="w-[280px] md:w-[340px] rounded-lg mx-auto"
-            />
-          </div>
-          
-          <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] font-bold text-primary-foreground mt-8">My name is Dr. James Rivers.</p>
-          
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] text-primary-foreground mt-8">
-            The breakthrough came to light when a colleague handed me a stunning report from NASA.
+            Two weeks later, Linda saw her pulmonologist.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] text-primary-foreground mt-8">
-            And stay with me - this gets good.
+            He pulled up a CT scan. White patches scattered throughout her lungs.
           </p>
           
           <div className="clear-both pb-10" />
         </div>
       </section>
 
-      {/* Section 4 - How Memory Works */}
+      {/* Section 4 - The Diagnosis */}
       <section className="py-10 px-4 bg-card">
         <div className="max-w-[970px] mx-auto">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-10">
-            How Your Memory<br/>Actually Works..
-          </h2>
           
-          <div className="md:float-right md:ml-4 md:-mr-5 text-center mb-4">
+          <div className="md:float-right md:ml-6 md:-mr-4 text-center mb-4">
             <img 
-              src={scientistLab} 
-              alt="Scientist in laboratory" 
-              className="w-[250px] md:w-[320px] rounded-lg mx-auto"
+              src={lungCtScan} 
+              alt="CT scan showing lung fibrosis" 
+              className="w-[280px] md:w-[380px] rounded-lg mx-auto shadow-lg"
             />
           </div>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">How does your memory work?</p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">You can think of your brain cells as tiny storage units.</p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">And memory is information stashed inside your brain cells.</p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Now the truth is, these brain cells die for everyone.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">"This is fibrosis," he said. "Scar tissue. Your airways are hardening."</p>
           
-          {/* Purple Box */}
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Can you fix it?"</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">He shook his head. "Once the scarring sets in... no. We can only try to slow it down."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">My stomach dropped.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">"How long do we have?"</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">He looked at Linda. Then back at me.</p>
+          
+          {/* Devastating Quote Box */}
           <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-10 text-primary-foreground relative overflow-hidden">
-            <div className="md:absolute md:right-4 md:bottom-4">
-              <img 
-                src={questionCollage} 
-                alt="People with questions about memory" 
-                className="w-[200px] md:w-[250px] rounded-lg mx-auto md:mx-0"
-              />
-            </div>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] md:pr-[280px]">
-              When we look at a healthy adult, <strong>they lose 50,000 brain cells a day…</strong>
-            </p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold md:pr-[280px]">
-              This is okay, because you have 86 billion of them! <em>But there's a catch:</em>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">
+              "If we can't get the inflammation under control... maybe 18 to 24 months before the damage severely impacts her quality of life."
             </p>
           </div>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Linda started crying.</p>
+          
+          <div className="md:float-left md:mr-6 md:-ml-4 text-center mb-4 mt-8">
+            <img 
+              src={coupleHospitalHallway} 
+              alt="Couple walking silently through hospital hallway" 
+              className="w-[260px] md:w-[340px] rounded-lg mx-auto shadow-lg"
+            />
+          </div>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">We walked out in silence.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">And for the first time in our 40-year marriage...</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">I didn't know what to say to her.</p>
           
           <div className="clear-both" />
         </div>
