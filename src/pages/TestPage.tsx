@@ -8,6 +8,8 @@ import drPopescu from "@/assets/dr-popescu.png";
 import saltHillsRomania from "@/assets/salt-hills-romania.jpg";
 import institutionLogos from "@/assets/institution-logos.png";
 import romanianVillage from "@/assets/romanian-village.jpg";
+import lungDiagram from "@/assets/lung-diagram.jpg";
+import saltCrystalsCloseup from "@/assets/salt-crystals-closeup.jpg";
 import brainHippocampus from "@/assets/brain-hippocampus.png";
 import lungsDiagram from "@/assets/lungs-diagram.png";
 import oxygenMaskHospital from "@/assets/oxygen-mask-hospital.webp";
@@ -1192,23 +1194,290 @@ const TestPage = () => {
       </section>
 
 
-      {/* Guarantee Section */}
-      <section className="py-8 md:py-10 px-4 bg-white">
-        <div className="max-w-[970px] mx-auto">
-          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
-            <img 
-              src={moneyBackGuarantee} 
-              alt="90 Day Money Back Guarantee" 
-              className="w-[150px] md:w-[200px]"
-            />
-            <div>
-              <h3 className="text-[24px] md:text-[34px] leading-[32px] md:leading-[44px] font-bold mb-4">
-                Your Purchase Is Backed By Our Iron-Clad 90-Day 100% Money-Back Guarantee
-              </h3>
-              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">
-                Try the Memory Wave for a full 90 days. If you're not completely satisfied with your results, simply contact our friendly customer support team for a full refund. No questions asked.
-              </p>
+      {/* Dr. Popescu Science Section - Part 1 */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
+            Dr. Popescu Showed Us EXACTLY How This Works
+          </h2>
+          <p className="text-[20px] md:text-[28px] text-center text-muted-foreground italic mb-8">
+            (And Why Your Doctor Will Never Tell You)
+          </p>
+          
+          <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
+          
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>The next morning, we walked down the dirt road to a small building near the village center.</p>
+            
+            <p className="italic">A hand-painted sign out front read: Dr. Elena Popescu - Research Office</p>
+            
+            <p>She was waiting for us at the door. "Come in, come in."</p>
+            
+            <p>Inside was a single room. Shelves lined with books. A desk covered in papers. And on the walls... diagrams. Charts. Photos of lungs.</p>
+            
+            <p>She gestured toward two chairs. "Sit. I want to explain something."</p>
+            
+            <p>Linda and I sat down.</p>
+            
+            <p>Dr. Popescu pulled out a laminated diagram. Showed it to us.</p>
+            
+            <p>It was a cross-section of human lungs. Airways branching like tree roots.</p>
+            
+            <p className="font-semibold">But some of them were... clogged. Thick white plugs blocking the passages.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Lung Diagram Image */}
+      <section className="py-8 md:py-12 px-4 bg-secondary/30">
+        <div className="max-w-[600px] mx-auto">
+          <figure className="relative">
+            <div 
+              className="relative overflow-visible mx-auto"
+              style={{
+                maskImage: 'radial-gradient(ellipse 90% 85% at center, black 50%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 90% 85% at center, black 50%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={lungDiagram} 
+                alt="Cross-section of human lungs showing airways with mucus plugs" 
+                className="w-full h-auto rounded-lg"
+              />
             </div>
+            <figcaption className="text-center mt-4 text-muted-foreground italic text-[16px]">
+              "This is what Linda's lungs look like right now"
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      {/* Dr. Popescu Science Section - Part 2: The Problem */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>Linda leaned forward. Staring at the image.</p>
+            
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "Your lungs aren't just inflamed," Dr. Popescu continued. "They're DROWNING."
+            </p>
+            
+            <p>"The inflammation causes your body to produce excess mucus. Thick, sticky mucus that traps bacteria and irritants."</p>
+            
+            <p className="font-semibold">"And over time... that mucus doesn't just sit there. It HARDENS."</p>
+            
+            <p>She tapped the diagram.</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold text-primary">"What you're looking at are what I call Mucus Cement Plugs."</p>
+            
+            <p className="italic">"Dense. Rubbery. Obstructive."</p>
+            
+            <p>"They can persist in the same airways for YEARS if they're not cleared."</p>
+            
+            <p>Linda's hand went to her throat. Like she could feel it.</p>
+            
+            <p>"Your medications try to open the airways by relaxing the muscles around them. But they completely ignore the PLUG blocking them."</p>
+            
+            <p>Dr. Popescu looked at us.</p>
+            
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-destructive pl-6 my-8">
+              "So you're essentially trying to inflate a balloon that's already full of thick, sticky glue."
+            </p>
+            
+            <p className="font-bold text-[22px] md:text-[26px]">"That's why nothing works."</p>
+            
+            <p>I leaned forward. "So how do you get rid of them?"</p>
+            
+            <p className="text-primary font-semibold text-[20px] md:text-[24px]">Dr. Popescu smiled.</p>
+            
+            <p className="text-[24px] md:text-[32px] font-bold text-primary">"That's where the salt comes in."</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Salt Crystals Image */}
+      <section className="py-8 md:py-12 px-4 bg-secondary/30">
+        <div className="max-w-[500px] mx-auto">
+          <figure className="relative">
+            <div 
+              className="relative overflow-visible mx-auto"
+              style={{
+                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={saltCrystalsCloseup} 
+                alt="Pink salt crystals in a glass jar" 
+                className="w-full h-auto rounded-lg"
+              />
+            </div>
+            <figcaption className="text-center mt-4 text-muted-foreground italic text-[16px]">
+              Ancient salt crystals formed 22 million years ago
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      {/* Dr. Popescu Science Section - Part 3: The Salt */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>She walked over to a shelf. Pulled down a small glass jar filled with pinkish-white crystals.</p>
+            
+            <p className="font-semibold">"This isn't table salt."</p>
+            
+            <p>She held the jar up to the light.</p>
+            
+            <p className="italic">"It was formed 22 million years ago under intense volcanic pressure and heat."</p>
+            
+            <p>"The minerals got BAKED into the salt."</p>
+            
+            <p>"Creating compounds that don't exist in regular sodium chloride."</p>
+            
+            <p>She unscrewed the lid. Poured a small amount onto a piece of paper.</p>
+            
+            <p className="font-semibold text-primary">"Kieserite. Polyhalite. Iron oxide."</p>
+            
+            <p>She pointed to the faint rose and gray streaks running through the crystals.</p>
+            
+            <p className="text-[20px] md:text-[24px] font-bold">"When you breathe in microscopic particles of THIS salt... three things happen."</p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Three Steps */}
+      <section className="py-10 md:py-16 px-4 bg-primary/5">
+        <div className="max-w-[750px] mx-auto">
+          {/* Step 1 */}
+          <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg mb-8">
+            <div className="flex items-center gap-4 mb-4">
+              <span className="w-12 h-12 md:w-16 md:h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-2xl md:text-3xl font-bold">1</span>
+              <h3 className="text-[22px] md:text-[28px] font-bold text-primary">FIRST... Osmotic Hydration</h3>
+            </div>
+            <div className="space-y-4 text-[17px] md:text-[20px] leading-relaxed text-foreground pl-0 md:pl-20">
+              <p>"Salt is hygroscopic. It naturally attracts and pulls water molecules toward it."</p>
+              <p>"When salt particles land on those dense mucus plugs, they immediately start pulling moisture FROM your surrounding lung tissue INTO the plug."</p>
+              <p className="italic text-muted-foreground">"Think of it like pouring water on dried rubber cement before you try to peel it off."</p>
+              <p className="font-semibold">"Within 20-30 minutes, those plugs start to soften and rehydrate."</p>
+            </div>
+          </div>
+
+          {/* Step 2 */}
+          <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg mb-8">
+            <div className="flex items-center gap-4 mb-4">
+              <span className="w-12 h-12 md:w-16 md:h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-2xl md:text-3xl font-bold">2</span>
+              <h3 className="text-[22px] md:text-[28px] font-bold text-primary">SECOND... Ionic Restructuring</h3>
+            </div>
+            <div className="space-y-4 text-[17px] md:text-[20px] leading-relaxed text-foreground pl-0 md:pl-20">
+              <p>"Mucus is a complex structure. A charged hydrogel where the ionic environment dramatically affects its viscosity and elasticity."</p>
+              <p>"The mineral salts in THIS salt—magnesium sulfate, polyhalite, iron oxide—literally alter the STRUCTURE of the mucus."</p>
+              <p className="font-semibold">"Making it less sticky. Less rigid. Easier to move."</p>
+            </div>
+          </div>
+
+          {/* Step 3 */}
+          <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg">
+            <div className="flex items-center gap-4 mb-4">
+              <span className="w-12 h-12 md:w-16 md:h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-2xl md:text-3xl font-bold">3</span>
+              <h3 className="text-[22px] md:text-[28px] font-bold text-primary">THIRD... Restored Clearance</h3>
+            </div>
+            <div className="space-y-4 text-[17px] md:text-[20px] leading-relaxed text-foreground pl-0 md:pl-20">
+              <p>"Your lungs have tiny hair-like structures called cilia that sweep mucus UP and OUT of your airways."</p>
+              <p>"But chronic inflammation paralyzes them."</p>
+              <p className="italic text-muted-foreground">She showed us a microscopic image. Tiny hairs. Frozen in place.</p>
+              <p>"The salt reactivates those cilia. Gets them moving again."</p>
+              <p className="font-semibold">"So within weeks of consistent exposure, your body can begin clearing plugs that have been stuck for months or years."</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Dr. Popescu Science Section - Part 4: Why Doctors Don't Tell You */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>She set the jar down.</p>
+            
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "This is why the air here works when medications don't."
+            </p>
+            
+            <p className="font-bold">"The medications only treat symptoms. The salt treats the ROOT CAUSE."</p>
+            
+            <p>I leaned back in my chair. Just... processing.</p>
+            
+            <p>"Why doesn't my doctor know about this?" Linda asked.</p>
+            
+            <p>Dr. Popescu smiled sadly.</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold text-destructive">"They DO know. They just don't CARE."</p>
+            
+            <p>"You can't patent salt. Big Pharma can't make billions off a natural mineral."</p>
+            
+            <p>"So they don't fund research on it. They don't teach it in medical school. They certainly don't recommend it."</p>
+            
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-destructive pl-6 my-8">
+              "Instead, they push medications that cost $40–$150 per dose... that you'll need for the rest of your life... and that only treat symptoms. Not the root cause."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Dr. Popescu Science Section - Part 5: The Gift */}
+      <section className="py-10 md:py-16 px-4 bg-secondary/30">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>She walked back to her desk. Picked up a thermos and a small audio device.</p>
+            
+            <p className="font-semibold">"This is what I give all my patients."</p>
+            
+            <p>She handed Linda the thermos.</p>
+            
+            <p className="italic">"Thyme, rosemary, eucalyptus. It helps thin the mucus from the INSIDE... while the salt works from the OUTSIDE."</p>
+            
+            <p>Linda unscrewed the top. Took a sip.</p>
+            
+            <p>"It's good."</p>
+            
+            <p>"My grandmother's recipe," Dr. Popescu said with a smile.</p>
+            
+            <p>Then she held up the audio device.</p>
+            
+            <p className="font-semibold">"And this is a guided breathing exercise. Five minutes. Every morning."</p>
+            
+            <p>"It helps expel the trapped mucus and restore your lung capacity."</p>
+            
+            <p>"We use it with all our patients here. I want you to take it home with you."</p>
+            
+            <p>She handed it to Linda.</p>
+            
+            <p className="italic">"For the next few days... just breathe the air. Drink the tea. Do the exercise."</p>
+            
+            <p className="font-bold">"That's it."</p>
+            
+            <p>Linda looked at me. Then back at Dr. Popescu.</p>
+            
+            <p>"Thank you," she whispered.</p>
+            
+            <p>Dr. Popescu squeezed her hand.</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold text-primary">"You're going to be okay. I promise."</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Hope Section */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto text-center">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>We walked out of that office in a daze.</p>
+            
+            <p>Linda held the thermos in one hand. The audio device in the other.</p>
+            
+            <p className="text-[24px] md:text-[32px] font-bold text-primary mt-8">And for the first time in years...</p>
+            
+            <p className="text-[28px] md:text-[36px] font-bold">She had hope.</p>
           </div>
         </div>
       </section>
