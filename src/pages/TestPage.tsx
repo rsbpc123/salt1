@@ -138,22 +138,24 @@ const TestPage = () => {
             />
           </div>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mb-8">
-            <strong>YOUR MEMORIES</strong> are formed <u className="underline-offset-[6px] decoration-2">right here</u>.
+          <p className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold mb-4">
+            I WATCHED MY WIFE DROWN
           </p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic font-bold mb-8">
-            It's called your Hippocampus.
+          <p className="text-[22px] md:text-[32px] leading-[30px] md:leading-[42px] font-bold mb-8">
+            Sitting Right Next to Me in Our Bed
           </p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mb-8">
-            <u className="underline-offset-[7px] decoration-1">But if we know where they're formed, why do you have "senior moments"?</u>
-          </p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">The root of a sluggish brain may come down to an odd invader..</p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">It's microscopic.</p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">NASA studied it.</p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">But you'd never know you had it because unlike other invaders..</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">It was just past midnight when I heard it.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">That sound.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda wasn't breathing right.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Her chest heaving. Lips turning blue. Sitting straight up. Clutching her throat.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">Drowning.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">In our bedroom. In Warner Robins, Georgia. 200 miles from the nearest ocean.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I grabbed her inhaler. Shook it. Jammed it into her mouth.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">"Breathe, baby."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Two puffs. Nothing.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">Her wheezing got WORSE.</p>
           
           <div className="clear-both" />
         </div>
