@@ -72,7 +72,7 @@ const TestPage = () => {
               />
             </div>
             <p className="font-bold italic text-[18px] md:text-[24px] leading-[24px] md:leading-[34px] text-center md:text-left">
-              "In 40 years of research, I've watched hundreds of people reverse lung damage their doctors said was permanent. The secret isn't medication. It's what you breathe while you sleep."
+              "In 25 years of research, I've watched hundreds of people reverse lung damage their doctors said was permanent. The secret isn't medication. It's what you breathe while you sleep."
             </p>
             <p className="text-[16px] md:text-[24px] leading-[22px] md:leading-[34px] mt-3 text-center md:text-left">
               <strong>– Dr. Popescu, </strong><br className="md:hidden"/>Pulmonologist
