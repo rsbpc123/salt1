@@ -267,7 +267,7 @@ const TestPage = () => {
             <img 
               src={arrowCurveRed} 
               alt="" 
-              className="w-[60px] md:w-[80px] mt-1 scale-y-[-1]"
+              className="w-[60px] md:w-[80px] mt-1 scale-x-[-1]"
             />
           </div>
         </div>
