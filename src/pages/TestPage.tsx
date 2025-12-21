@@ -7,6 +7,7 @@ import doctorQuote from "@/assets/doctor-quote.png";
 import drPopescu from "@/assets/dr-popescu.png";
 import institutionLogos from "@/assets/institution-logos.png";
 import brainHippocampus from "@/assets/brain-hippocampus.png";
+import lungsDiagram from "@/assets/lungs-diagram.png";
 import stressedSeniorsCollage from "@/assets/stressed-seniors-collage.png";
 import doctorPhoto from "@/assets/doctor-photo.png";
 import productBundle from "@/assets/product-bundle.png";
@@ -121,21 +122,15 @@ const TestPage = () => {
           <div className="md:float-right md:ml-4 md:mb-4 text-center md:text-right mb-6">
             <div className="relative inline-block">
               <img 
-                src={brainHippocampus} 
-                alt="Brain with hippocampus highlighted" 
-                className="w-[280px] md:w-[350px] rounded-lg mx-auto"
+                src={lungsDiagram} 
+                alt="Lungs with inflamed airways" 
+                className="w-[280px] md:w-[350px] rounded-lg mx-auto animate-[breathe_4s_ease-in-out_infinite]"
               />
-              {/* Pulsing Animation */}
-              <div className="absolute right-[80px] md:right-[100px] top-[100px] md:top-[130px]">
-                <div className="absolute w-[70px] h-[70px] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-gray-300 shadow-[inset_0_0_10px_#ddd] animate-[pulse-ring_3s_linear_infinite]" />
-                <div className="absolute w-[70px] h-[70px] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-gray-300 shadow-[inset_0_0_10px_#ddd] animate-[pulse-ring_3s_linear_1.5s_infinite]" />
+              {/* Pulsing Glow on Airways */}
+              <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                <div className="w-[60%] h-[40%] bg-red-500/20 rounded-full blur-xl animate-[pulse_2s_ease-in-out_infinite]" />
               </div>
             </div>
-            <img 
-              src={arrowCurveRed} 
-              alt="" 
-              className="w-[80px] md:w-[100px] mx-auto mt-2"
-            />
           </div>
           
           <p className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold mb-4">
