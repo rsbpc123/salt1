@@ -2649,7 +2649,114 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* Footer */}
+      {/* Testimonials Section */}
+      <section className="py-10 md:py-16 px-4 bg-secondary/30">
+        <div className="max-w-[900px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-10 text-primary">
+            Here's What REAL People Are Saying
+          </h2>
+          
+          <div className="space-y-8">
+            {/* Testimonial 1 - Margaret */}
+            <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg">
+              <div className="mb-4">
+                <p className="font-bold text-[18px] md:text-[22px] text-primary">Margaret T., 67</p>
+                <p className="text-muted-foreground text-[14px] md:text-[16px]">Tulsa, OK | Stage 3 COPD</p>
+              </div>
+              <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground italic">
+                <p>"I've had COPD for 12 years. Stage 3. Five medications. Oxygen saturation at 84%.</p>
+                <p>My daughter bought me one of these pouches.</p>
+                <p>Three weeks later, I was sleeping through the night.</p>
+                <p>My pulmonologist ran a spirometry test and said my lung function improved by 19%.</p>
+                <p>Oxygen saturation jumped to 93%.</p>
+                <p>I'm down to TWO medications now."</p>
+              </div>
+              <div className="mt-6 flex flex-wrap gap-3">
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ FEV1: +19% improvement</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ O2 Saturation: 84% → 93%</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Medications: 5 → 2</span>
+              </div>
+            </div>
+
+            {/* Testimonial 2 - Patricia */}
+            <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg">
+              <div className="mb-4">
+                <p className="font-bold text-[18px] md:text-[22px] text-primary">Patricia H., 61</p>
+                <p className="text-muted-foreground text-[14px] md:text-[16px]">Charleston, SC | Oxygen-Dependent COPD</p>
+              </div>
+              <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground italic">
+                <p>"For the last 5 years, I couldn't go ANYWHERE without my portable oxygen tank.</p>
+                <p>My daughter's wedding was coming up and I was terrified.</p>
+                <p>A friend told me about Longevity Salt.</p>
+                <p>Six weeks later... I walked her down that aisle breathing on my own."</p>
+              </div>
+              <div className="mt-6 flex flex-wrap gap-3">
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ On oxygen for 5 years</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Off oxygen after 6 weeks</span>
+              </div>
+            </div>
+
+            {/* Testimonial 3 - James */}
+            <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg">
+              <div className="mb-4">
+                <p className="font-bold text-[18px] md:text-[22px] text-primary">James R., 72</p>
+                <p className="text-muted-foreground text-[14px] md:text-[16px]">Asheville, NC | Stage 3 COPD + Fibrosis</p>
+              </div>
+              <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground italic">
+                <p>"Stage 3 COPD. Pulmonary fibrosis. The doctors told me my lungs were done. That I'd be on oxygen for the rest of my life.</p>
+                <p>Two months in, my oxygen saturation went from 88% to 94%.</p>
+                <p>Now I'm off oxygen completely.</p>
+                <p>And I'm hiking again."</p>
+              </div>
+              <div className="mt-6 flex flex-wrap gap-3">
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ O2 Saturation: 88% → 94%</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Off oxygen after 8 weeks</span>
+              </div>
+            </div>
+
+            {/* Testimonial 4 - David */}
+            <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg">
+              <div className="mb-4">
+                <p className="font-bold text-[18px] md:text-[22px] text-primary">David S., 55</p>
+                <p className="text-muted-foreground text-[14px] md:text-[16px]">Atlanta, GA | Severe Asthma</p>
+              </div>
+              <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground italic">
+                <p>"I was using my rescue inhaler 6 to 8 times a day. EVERY day. For three years.</p>
+                <p>Eight weeks after getting the pouch, I'm down to using my inhaler maybe once or twice a WEEK.</p>
+                <p>My peak flow went from 280 to 450."</p>
+              </div>
+              <div className="mt-6 flex flex-wrap gap-3">
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Severe asthma</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Inhaler use: 6-8x/day → 1-2x/week</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Peak flow: 280 → 450</span>
+              </div>
+            </div>
+
+            {/* Testimonial 5 - Carol */}
+            <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg">
+              <div className="mb-4">
+                <p className="font-bold text-[18px] md:text-[22px] text-primary">Carol D., 59</p>
+                <p className="text-muted-foreground text-[14px] md:text-[16px]">Knoxville, TN | Chronic Bronchitis</p>
+              </div>
+              <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground italic">
+                <p>"I went to a salt cave therapy center near my house. For three weeks, I felt AMAZING. Then I stopped going.</p>
+                <p>Within a month, I was back where I started. Waking up at 4 AM coughing so hard I'd throw up.</p>
+                <p>I thought I'd imagined the whole thing.</p>
+                <p>Then I found Longevity Salt.</p>
+                <p>Now I don't have to leave my house. The pouch sits on my nightstand.</p>
+                <p>And I'm FINALLY sleeping through the night again."</p>
+              </div>
+              <div className="mt-6 flex flex-wrap gap-3">
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Chronic bronchitis</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Relapsed after stopping treatment</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Sleeping through the night</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       <footer className="py-8 md:py-11 px-4 border-t border-border">
         <div className="max-w-[970px] mx-auto text-center">
           {/* Trust Badges */}
