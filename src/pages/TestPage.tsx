@@ -13,6 +13,7 @@ import saltCrystalsCloseup from "@/assets/salt-crystals-closeup.jpg";
 import eldernCoupleBreathing from "@/assets/elderly-couple-breathing.jpg";
 import elderlyWomanGardening from "@/assets/elderly-woman-gardening.jpg";
 import saltTherapyPouch from "@/assets/salt-therapy-pouch.jpg";
+import elderlyManChoppingWood from "@/assets/elderly-man-chopping-wood.jpg";
 import brainHippocampus from "@/assets/brain-hippocampus.png";
 import lungsDiagram from "@/assets/lungs-diagram.png";
 import oxygenMaskHospital from "@/assets/oxygen-mask-hospital.webp";
@@ -1838,38 +1839,176 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* FAQ Section - sec34 */}
-      <section className="py-8 md:py-10 px-4 bg-card">
-        <div className="max-w-[970px] mx-auto">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8 md:mb-10">
-            Frequently Asked Questions About The Memory Wave
+      {/* Day 10 Transformation Section */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
+            By Day 10, Linda Did Something She Hasn't Done in 5 Years
           </h2>
+          <p className="text-[20px] md:text-[28px] text-center text-muted-foreground italic mb-8">
+            (And I Cried Like a Baby Watching Her)
+          </p>
           
-          <div className="space-y-3">
-            {[
-              { q: 'The first question is from Melissa Ward in Hartford, Connecticut who asks, "What makes the Memory Wave superior to brain supplements or brain exercises?"', a: "There's 3 big problems with brain supplements: First is the blood-brain barrier. This is a locked door that stops nearly 99% of all treatments from reaching your brain. Second, many supplements are unproven and expensive. Third, you have to keep paying month after month." },
-              { q: '"Why is $39 such a good deal?"', a: "A single bottle of a high quality brain supplement costs anywhere from $50 to $100 monthly. That comes out to $600 to $1,200 per year! The Memory Wave is a one-time investment that lasts forever." },
-              { q: '"Why is sound effective for the brain?"', a: "Sound is able to pass the blood-brain barrier and reach your brain cells directly. This is why music can affect your mood instantly." },
-              { q: '"Is the Memory Wave safe?"', a: "The Memory Wave has been used by thousands of Americans with zero reported side effects. It's not a drug or pill. It's a special soundwave based on research from NASA and the University of Toronto, that helps clear away the brain-rotting toxins by activating Gamma and healthy Brain Clearance." },
-              { q: '"Do I need to change my diet or eat special foods to get the benefits?"', a: "No, you do not. The Memory Wave works independently of your diet. You may have seen videos telling you certain foods 'kill' your memory, but none of those solutions address the root cause." },
-            ].map((faq, index) => (
-              <div key={index} className={`border border-border rounded-[14px] overflow-hidden ${activeAccordion === index ? 'rounded-b-[14px]' : ''}`}>
-                <button
-                  className={`w-full p-4 md:p-5 text-left flex items-start gap-3 transition-colors relative ${activeAccordion === index ? 'bg-secondary rounded-t-[14px]' : 'bg-card hover:bg-muted'}`}
-                  onClick={() => setActiveAccordion(activeAccordion === index ? null : index)}
-                >
-                  <span className="bg-primary text-primary-foreground text-[14px] md:text-[16px] font-bold w-8 h-8 md:w-11 md:h-11 rounded-full flex items-center justify-center flex-shrink-0 italic uppercase">
-                    Q{index + 1}
-                  </span>
-                  <span className="text-[16px] md:text-[24px] leading-[24px] md:leading-[34px] pr-8 md:pr-12">{faq.q}</span>
-                </button>
-                {activeAccordion === index && (
-                  <div className="px-4 md:px-6 pb-6 pl-14 md:pl-20 bg-card border-t-0">
-                    <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[34px] text-foreground">{faq.a}</p>
-                  </div>
-                )}
-              </div>
-            ))}
+          <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
+          
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p className="font-semibold">Over the next week, Linda transformed.</p>
+            
+            <p>Not overnight. But steadily.</p>
+            
+            <p>By day 5, she was walking around the village without stopping to catch her breath.</p>
+            
+            <p>By day 7, she was sleeping through the night. No coughing fits. No waking up at 3 AM struggling to breathe.</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold text-primary">By day 10... she wanted to hike.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Hike */}
+      <section className="py-10 md:py-16 px-4 bg-secondary/30">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>There's this trail near the village. About 3 miles. Moderate incline. Nothing crazy.</p>
+            
+            <p>But for Linda? It might as well have been Everest.</p>
+            
+            <p className="italic">Six months earlier, she couldn't walk to the mailbox without stopping halfway.</p>
+            
+            <p className="font-semibold">And now... she wanted to hike.</p>
+            
+            <p>"Are you sure?" I asked.</p>
+            
+            <p>She nodded. "I want to try."</p>
+            
+            <p>We started walking. Slowly at first.</p>
+            
+            <p>I kept waiting for her to stop. To catch her breath. To say she needed a break.</p>
+            
+            <p className="font-semibold text-primary">But she didn't.</p>
+            
+            <p>She just... kept going. One foot in front of the other. Breathing. ACTUALLY breathing.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* The View */}
+      <section className="py-10 md:py-16 px-4 bg-primary/5">
+        <div className="max-w-[750px] mx-auto">
+          <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
+            <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+              <p>About halfway up, she stopped. Not because she was tired. But because she wanted to look at the view.</p>
+              
+              <p className="italic">The mountains stretched out in front of us. Green and gold and endless. The white salt hills sparkling in the distance.</p>
+              
+              <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-6">
+                "I never thought I'd be able to do this again," she said quietly.
+              </p>
+              
+              <p>I didn't say anything.</p>
+              
+              <p className="font-semibold">Because I was crying.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* The Medical Check */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>That afternoon, Dr. Popescu came by with a portable oxygen monitor. "Let's see how you're doing," she said.</p>
+            
+            <p>She clipped it onto Linda's finger. We waited.</p>
+            
+            <p className="text-[32px] md:text-[44px] font-bold text-primary text-center my-6">97%</p>
+            
+            <p>Dr. Popescu smiled. "Excellent."</p>
+            
+            <p>Linda looked at me. "What was it before?"</p>
+            
+            <p className="font-semibold">"88%," I said quietly.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Peak Flow Test */}
+      <section className="py-10 md:py-16 px-4 bg-primary/5">
+        <div className="max-w-[750px] mx-auto">
+          <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
+            <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+              <p>Dr. Popescu pulled out a peak flow meter. "Blow into this. As hard as you can."</p>
+              
+              <p>Linda did.</p>
+              
+              <p className="text-[32px] md:text-[44px] font-bold text-primary text-center my-6">420</p>
+              
+              <p>"What was it before?" Dr. Popescu asked.</p>
+              
+              <p className="font-semibold">"310," Linda whispered.</p>
+              
+              <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-6">
+                Dr. Popescu nodded. "You've gone from severe obstruction to borderline normal. In 10 days."
+              </p>
+              
+              <p>Linda started crying. "I'm getting better."</p>
+              
+              <p>Dr. Popescu squeezed her hand. <span className="font-bold text-primary">"Yes. You are."</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Robert's Knee Pain */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p className="font-semibold">But while Linda was getting better... that hike absolutely DESTROYED my knees.</p>
+            
+            <p>Twenty-two years in the Air Force had left them pretty shot.</p>
+            
+            <p>And by the time we got back to the cottage, I could barely walk.</p>
+            
+            <p className="italic">Then I remembered what Ana said about the warm salt bags.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Salt Bag Solution Image */}
+      <section className="py-8 md:py-12 px-4 bg-secondary/30">
+        <div className="max-w-[600px] mx-auto">
+          <figure className="relative">
+            <div 
+              className="relative overflow-visible mx-auto"
+              style={{
+                maskImage: 'radial-gradient(ellipse 90% 85% at center, black 50%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 90% 85% at center, black 50%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={elderlyManChoppingWood} 
+                alt="Healthy elderly man chopping wood" 
+                className="w-full h-auto rounded-lg"
+              />
+            </div>
+            <figcaption className="text-center mt-4 text-muted-foreground italic text-[16px]">
+              The villagers stay active well into their 90s
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      {/* The Salt Bag Miracle */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>I grabbed one of the small pouches Maria had given us. Heated it on the stove for a few minutes. Pressed it against my right knee.</p>
+            
+            <p className="font-semibold">Within 20 minutes, the throbbing stopped.</p>
+            
+            <p>The next morning? No pain.</p>
+            
+            <p className="text-[24px] md:text-[32px] font-bold text-primary text-center mt-8">First time in years.</p>
           </div>
         </div>
       </section>
