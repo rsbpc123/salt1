@@ -7,6 +7,7 @@ import doctorQuote from "@/assets/doctor-quote.png";
 import drPopescu from "@/assets/dr-popescu.png";
 import saltHillsRomania from "@/assets/salt-hills-romania.jpg";
 import institutionLogos from "@/assets/institution-logos.png";
+import romanianVillage from "@/assets/romanian-village.jpg";
 import brainHippocampus from "@/assets/brain-hippocampus.png";
 import lungsDiagram from "@/assets/lungs-diagram.png";
 import oxygenMaskHospital from "@/assets/oxygen-mask-hospital.webp";
@@ -1088,78 +1089,104 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* Pricing Box - sec26 */}
-      <section className="py-8 md:py-10 px-4 bg-card">
-        <div className="max-w-[600px] mx-auto relative z-10">
-          <div className="bg-[#fffeec] border-2 border-[#e7e4b1] rounded-[14px] shadow-lg overflow-hidden">
-            {/* Header */}
-            <div className="bg-secondary rounded-t-[12px] p-4 md:p-5 text-center">
-              <h2 className="text-[24px] md:text-[44px] leading-[32px] md:leading-[54px] font-bold text-primary">
-                Claim Your Memory Wave<br/>
-                (Money Back 90-Day Guaranteed)
-              </h2>
-            </div>
+      {/* What We Found in the Village Section */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-4 text-primary">
+            What We Found in the Village Where People Live Past 100
+          </h2>
+          
+          <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
+          
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>Dr. Popescu shook our hands. Then looked back toward the white hills. "Beautiful, isn't it?"</p>
             
-            {/* Decorative Arrow */}
-            <img 
-              src={arrowDecorative} 
-              alt="" 
-              className="w-full h-[30px] md:h-[40px] object-cover"
-            />
+            <p>Linda nodded. "I've never seen anything like it."</p>
             
-            {/* Body */}
-            <div className="p-4 md:p-6 text-center">
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "Most people haven't," Dr. Popescu said. "This is one of the only places on Earth where salt deposits rise to the surface like this."
+            </p>
+            
+            <p>She gestured for us to follow her. "Come. Let me show you the village."</p>
+            
+            <p>We got back in our cars. Followed her down a winding dirt road.</p>
+            
+            <p>Through fields dotted with those white salt formations. Past wooden fences. Grazing sheep. Old women in headscarves tending gardens.</p>
+            
+            <p className="font-semibold">Then we reached the village center.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Village Image Section */}
+      <section className="py-8 md:py-12 px-4 bg-secondary/30">
+        <div className="max-w-[900px] mx-auto">
+          <figure className="relative">
+            <div 
+              className="relative overflow-visible mx-auto max-w-[700px]"
+              style={{
+                maskImage: 'radial-gradient(ellipse 90% 85% at center, black 50%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 90% 85% at center, black 50%, transparent 100%)'
+              }}
+            >
               <img 
-                src={productDiscount} 
-                alt="Memory Wave with 40% off discount" 
-                className="w-[200px] md:w-[320px] mx-auto mb-6"
+                src={romanianVillage} 
+                alt="The village of Mânzălești - small church, dirt square, wooden fences" 
+                className="w-full h-auto rounded-lg"
               />
-              
-              {/* Feature Pills */}
-              <div className="flex justify-center mb-6 w-[90%] mx-auto">
-                <div className="bg-primary text-primary-foreground px-3 md:px-5 py-2 md:py-3 rounded-l-[14px] flex-1 relative">
-                  <p className="font-bold text-[14px] md:text-[20px] leading-[18px] md:leading-[26px] text-left pl-[40px] md:pl-[55px]">Special<br/>Discount</p>
-                  <div className="absolute left-[10px] md:left-[15px] top-[8px] md:top-[10px] w-[28px] md:w-[38px] h-[28px] md:h-[38px] bg-white/30 rounded-full" />
-                </div>
-                <div className="bg-primary/80 text-primary-foreground px-3 md:px-5 py-2 md:py-3 flex-1 relative">
-                  <p className="font-bold text-[14px] md:text-[20px] leading-[18px] md:leading-[26px] text-left pl-[40px] md:pl-[55px]">Instant<br/>Access</p>
-                  <div className="absolute left-[10px] md:left-[15px] top-[8px] md:top-[10px] w-[28px] md:w-[38px] h-[28px] md:h-[38px] bg-white/30 rounded-full" />
-                </div>
-                <div className="bg-primary/60 text-primary-foreground px-3 md:px-5 py-2 md:py-3 rounded-r-[14px] flex-1 relative">
-                  <p className="font-bold text-[14px] md:text-[20px] leading-[18px] md:leading-[26px] text-left pl-[40px] md:pl-[55px]">Quick Start<br/>Bonuses</p>
-                  <div className="absolute left-[10px] md:left-[15px] top-[8px] md:top-[10px] w-[28px] md:w-[38px] h-[28px] md:h-[38px] bg-white/30 rounded-full" />
-                </div>
-              </div>
-              
-              <p className="text-[#373737] text-[16px] md:text-[22px] leading-[26px] md:leading-[32px] mb-4">
-                Regular Price: <span className="line-through text-red-500">$200</span> <span className="line-through text-red-500">$100</span> <span className="line-through text-red-500">$49</span>
-              </p>
-              
-              <div className="relative inline-block mb-4">
-                <p className="font-bold text-[20px] md:text-[24px] leading-[28px] md:leading-[34px]">Today Just For</p>
-                <p className="font-bold text-[54px] md:text-[71px] leading-[54px] md:leading-[71px] text-primary mt-2">$39</p>
-              </div>
-              
-              {/* Green arrows pointing to button */}
-              <div className="flex justify-center items-center gap-2 md:gap-4 mb-2">
-                <img src={arrowRight} alt="" className="w-[40px] md:w-[60px]" />
-                <img src={arrowLeft} alt="" className="w-[40px] md:w-[60px]" />
-              </div>
-              
-              <a href="#" className="block">
-                <img 
-                  src={orderButton} 
-                  alt="Order Now" 
-                  className="w-full max-w-[450px] mx-auto hover:opacity-90 transition-opacity"
-                />
-              </a>
-              
-              {/* Trust badges */}
-              <div className="flex justify-center items-center gap-4 mt-6 flex-wrap">
-                <img src={sslEncryption} alt="256 Bit SSL Encryption" className="h-[40px] md:h-[50px]" />
-                <img src={moneyBackGuarantee} alt="90 Day Money Back Guarantee" className="h-[70px] md:h-[100px]" />
-              </div>
             </div>
+            <figcaption className="text-center mt-4 text-muted-foreground italic text-[16px]">
+              Mânzălești - simple, quiet, untouched by time
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      {/* Village Story Continuation */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>A small church. A general store. A handful of houses scattered around a dirt square.</p>
+            
+            <p className="italic">Simple. Quiet. Untouched by time.</p>
+            
+            <p>Dr. Popescu parked. We pulled up beside her. "This is Mânzălești," she said.</p>
+            
+            <p>I looked around. It felt like we'd stepped into a different era. No paved roads. No power lines. Just... simplicity.</p>
+            
+            <p>Linda grabbed my hand. "Robert... where are we going to stay?"</p>
+            
+            <p>Dr. Popescu smiled. "I've arranged something."</p>
+            
+            <p>She led us down a narrow path. Past a few more houses. Until we reached a small cottage. White walls. Blue shutters. Flowers in the window boxes.</p>
+            
+            <p>An older woman was standing outside. Probably in her 70s. Wearing a traditional Romanian dress. Smiling warmly.</p>
+            
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "This is Maria," Dr. Popescu said. "She's agreed to rent you her guest house for as long as you need."
+            </p>
+            
+            <p>Maria said something in Romanian. Dr. Popescu translated. "She says welcome. And she's happy you're here."</p>
+            
+            <p>Maria walked over to Linda. Took both her hands. Said something else.</p>
+            
+            <p>Dr. Popescu translated again. "She says her sister had breathing problems, too. The air here helped her."</p>
+            
+            <p>Linda's eyes welled up a little. "Thank you," she said.</p>
+            
+            <p>Maria squeezed her hands. Then led us around the side of the main house. To a smaller building in the back.</p>
+            
+            <p>Inside was simple. One bedroom. Small kitchen. Bathroom. But it was clean. Comfortable.</p>
+            
+            <p className="font-semibold italic">And honestly? It felt... peaceful.</p>
+            
+            <p>Dr. Popescu stood in the doorway. "I'll let you get settled. Get some rest tonight."</p>
+            
+            <p>She paused. "Tomorrow morning, come by my office. It's just down the road. I want to show you something."</p>
+            
+            <p>"What?" I asked.</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold text-primary">She smiled. "Why this place actually works."</p>
           </div>
         </div>
       </section>
