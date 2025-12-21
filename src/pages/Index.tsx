@@ -36,7 +36,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background" style={{ fontFamily: '"Lora", serif' }}>
       {/* Trust Header */}
       <header className="border-b border-border bg-trust/30 py-3 sticky top-0 z-50 backdrop-blur-sm">
         <div className="container mx-auto px-4">
@@ -57,16 +57,16 @@ const Index = () => {
       <HeroSection />
 
       {/* Story Begins - Dynamic Visual Layout */}
-      <section className="py-12 md:py-16 px-4 bg-background">
-        <div className="container mx-auto max-w-4xl">
+      <section className="py-10 px-4 bg-card">
+        <div className="max-w-[970px] mx-auto">
           {/* Opening Headlines */}
-          <h2 className="headline-secondary mb-4 text-foreground text-center">I WATCHED MY WIFE DROWN</h2>
-          <h3 className="text-xl md:text-2xl font-semibold mb-12 text-foreground/90 text-center">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-4">I WATCHED MY WIFE DROWN</h2>
+          <h3 className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] font-semibold mb-12 text-center">
             Sitting Right Next to Me in Our Bed
           </h3>
           
           {/* Opening Copy */}
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
+          <div className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] space-y-4">
             <p>It was just past midnight when I heard it.</p>
             <p>That sound.</p>
             <p>Linda wasn't breathing right.</p>
@@ -87,9 +87,9 @@ const Index = () => {
             Drowning.
           </PullQuote>
           
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80 text-center mb-8">
+          <div className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] text-center mb-8">
             <p>In our bedroom. In Warner Robins, Georgia.</p>
-            <p className="text-xl font-semibold">200 miles from the nearest ocean.</p>
+            <p className="font-semibold mt-4">200 miles from the nearest ocean.</p>
           </div>
           
           {/* Emphasis Box for the desperation */}
@@ -101,7 +101,7 @@ const Index = () => {
             <p className="text-xl font-bold text-emphasis mt-2">Her wheezing got WORSE.</p>
           </EmphasisBox>
           
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80 mt-10">
+          <div className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-10 space-y-4">
             <p>I grabbed my phone. Dialed 911.</p>
             <p>The paramedics arrived in 8 minutes.</p>
           </div>
@@ -114,7 +114,7 @@ const Index = () => {
             captionPosition="bottom-center"
           />
           
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80">
+          <div className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] space-y-4">
             <p>They strapped an oxygen mask to her face... loaded her onto the stretcher.</p>
             <p>One of them looked at me and shook his head.</p>
             <p>Not mean. Just tired.</p>
@@ -122,222 +122,273 @@ const Index = () => {
             <p className="italic font-semibold">(He had. Three times that month.)</p>
           </div>
           
-          <div className="prose prose-lg max-w-none space-y-4 text-foreground/80 mt-8">
+          <div className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 space-y-4">
             <p>Two hours later, a doctor came out.</p>
             <p>"She's stable. You can take her home in a few hours."</p>
             <p>I looked at him. "What happens next time?"</p>
             <p>He paused.</p>
             
             <EmphasisBox variant="subtle">
-              <p className="text-xl italic">"Keep doing what you're doing. Come back if it gets worse."</p>
+              <p className="text-[18px] md:text-[24px] italic">"Keep doing what you're doing. Come back if it gets worse."</p>
             </EmphasisBox>
           </div>
         </div>
       </section>
       
       {/* Emotional Climax - Full Image Overlay */}
-      <ImageOverlay 
-        image={emptyWaitingRoom}
-        imageAlt="Empty hospital waiting room at 2am"
-        overlayOpacity="medium"
-        height="tall"
-      >
-        <p className="text-xl md:text-2xl text-foreground/80 mb-6">No solution. No plan.</p>
-        <p className="text-lg md:text-xl text-foreground/70 mb-8">Just... keep doing what we're doing.</p>
-        <p className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-emphasis leading-tight">
-          Except what we were doing<br/>
-          <span className="text-primary">WASN'T WORKING.</span>
-        </p>
-      </ImageOverlay>
+      <section className="bg-primary py-10 px-4">
+        <div className="max-w-[970px] mx-auto">
+          <div className="bg-secondary rounded-[14px] shadow-lg p-6 md:p-8 -mt-16 relative z-10">
+            <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] mb-4 text-center">No solution. No plan.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mb-6 text-center">Just... keep doing what we're doing.</p>
+            <p className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center">
+              Except what we were doing<br/>
+              <span className="text-primary">WASN'T WORKING.</span>
+            </p>
+          </div>
+          
+          <div className="text-center py-10">
+            <img 
+              src={emptyWaitingRoom}
+              alt="Empty hospital waiting room at 2am"
+              className="w-full max-w-2xl mx-auto h-auto rounded-lg shadow-lg"
+            />
+          </div>
+        </div>
+      </section>
 
       {/* Problem Agitation */}
-      <StorySection title="Her Lungs Were Turning to Cement (And Nobody Told Us Until It Was Almost Too Late)">
-        <ImageWithText 
-          image={healthyLungs}
-          imageAlt="Medical illustration of healthy lungs"
-          imagePosition="float-left"
-          imageSize="medium"
-          imageShape="circle"
-        >
-          <p>Two weeks later, Linda saw her pulmonologist.</p>
-          <p>He pulled up a CT scan. White patches scattered throughout her lungs.</p>
+      <section className="py-10 px-4 bg-card">
+        <div className="max-w-[970px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-10">
+            Her Lungs Were Turning to Cement<br/>(And Nobody Told Us Until It Was Almost Too Late)
+          </h2>
           
-          <HighlightBox>
-            <p className="font-bold text-lg mb-2">"This is fibrosis," he said. "Scar tissue. Your airways are hardening."</p>
-            <p>"Can you fix it?"</p>
-            <p className="font-bold text-emphasis mt-2">He shook his head. "Once the scarring sets in... no. We can only try to slow it down."</p>
-          </HighlightBox>
-          
-          <p>My stomach dropped.</p>
-          <p>"How long do we have?"</p>
-          <p>He looked at Linda. Then back at me.</p>
-          
-          <HighlightBox variant="warning">
-            <p className="text-lg font-bold">"If we can't get the inflammation under control... maybe 18 to 24 months before the damage severely impacts her quality of life."</p>
-          </HighlightBox>
-          
-          <p>Linda started crying.</p>
-          <p>We walked out in silence.</p>
-          <p>And for the first time in our 40-year marriage...</p>
-          <p className="font-bold text-xl text-primary">I didn't know what to say to her.</p>
-        </ImageWithText>
-      </StorySection>
-
-      <StorySection title="We Did EVERYTHING the Doctors Told Us (And She Got WORSE)" bgColor="scientific">
-        <div className="vsl-content-box">
-          <p>Linda wasn't reckless. She did EVERYTHING they told her.</p>
-          
-          <div className="callout-box">
-            <NumberedPoint number={1}>
-              <p className="font-semibold">Six different inhalers over three years</p>
-              <p>Five medications just to breathe</p>
-            </NumberedPoint>
-            <NumberedPoint number={2}>
-              <p className="font-semibold">$1,200 a month on prescriptions</p>
-              <p>Even WITH insurance</p>
-            </NumberedPoint>
-            <NumberedPoint number={3}>
-              <p className="font-semibold">Prednisone rounds</p>
-              <p>That awful steroid that made her gain 15 pounds and gave her insomnia</p>
-            </NumberedPoint>
+          <div className="md:float-left md:mr-6 md:mb-4 text-center mb-6">
+            <img 
+              src={healthyLungs}
+              alt="Medical illustration of healthy lungs"
+              className="w-[200px] md:w-[280px] rounded-full mx-auto"
+            />
           </div>
+          <div className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] space-y-4">
+            <p>Two weeks later, Linda saw her pulmonologist.</p>
+            <p>He pulled up a CT scan. White patches scattered throughout her lungs.</p>
+            
+            <div className="bg-primary rounded-[14px] p-5 md:p-6 text-primary-foreground my-6">
+              <p className="font-bold text-[18px] md:text-[24px] mb-2">"This is fibrosis," he said. "Scar tissue. Your airways are hardening."</p>
+              <p>"Can you fix it?"</p>
+              <p className="font-bold mt-2">He shook his head. "Once the scarring sets in... no. We can only try to slow it down."</p>
+            </div>
+            
+            <p>My stomach dropped.</p>
+            <p>"How long do we have?"</p>
+            <p>He looked at Linda. Then back at me.</p>
+            
+            <div className="bg-[#fff3cd] border-l-4 border-[#ffc107] rounded-[14px] p-5 md:p-6 my-6">
+              <p className="text-[18px] md:text-[24px] font-bold">"If we can't get the inflammation under control... maybe 18 to 24 months before the damage severely impacts her quality of life."</p>
+            </div>
+            
+            <p>Linda started crying.</p>
+            <p>We walked out in silence.</p>
+            <p>And for the first time in our 40-year marriage...</p>
+            <p className="font-bold text-[20px] md:text-[26px] text-primary">I didn't know what to say to her.</p>
+          </div>
+          <div className="clear-both" />
+        </div>
+      </section>
+
+      <section className="py-10 px-4 bg-secondary">
+        <div className="max-w-[970px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-10">
+            We Did EVERYTHING the Doctors Told Us<br/>(And She Got WORSE)
+          </h2>
           
-          <p className="font-bold text-lg">And she was still drowning.</p>
-          
-          <p>We did the breathing exercises. Bought a $400 HEPA air purifier. Ripped out the carpets.</p>
-          <p>Hired a mold inspector. $800 later... no mold.</p>
-          <p>None of it made a difference.</p>
-          
-          <HighlightBox variant="warning">
-            <p className="text-xl font-bold mb-2">Every doctor said the same thing:</p>
-            <p className="text-2xl font-black text-emphasis">"This is just something you'll have to MANAGE."</p>
-          </HighlightBox>
-          
-          <p>Like we weren't already managing her not being able to walk upstairs.</p>
-          <p>Managing the oxygen concentrator humming all night.</p>
-          <p>Managing the stack of medical bills we couldn't pay.</p>
-          <p className="font-bold text-lg">Managing our life shrinking smaller and smaller.</p>
-          
-          <div className="highlight-box">
-            <p className="font-semibold text-lg text-foreground mb-3">Here's why they believe that:</p>
-            <p>Medical schools teach from pulmonology textbooks written in the 1990s. BEFORE scientists discovered that lung cells can regenerate.</p>
-            <p className="font-bold mt-3">Your doctor isn't lying to you. They genuinely don't KNOW.</p>
-            <p className="mt-2">But researchers in Europe have been studying this for 20 years.</p>
-            <p className="font-bold text-xl text-primary mt-3">And the results are undeniable.</p>
+          <div className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] space-y-4">
+            <p>Linda wasn't reckless. She did EVERYTHING they told her.</p>
+            
+            <div className="bg-card rounded-[14px] p-5 md:p-6 my-6 space-y-4">
+              <div className="flex gap-4 items-start">
+                <span className="bg-primary text-primary-foreground font-bold text-[20px] md:text-[24px] w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center flex-shrink-0">1</span>
+                <div>
+                  <p className="font-semibold">Six different inhalers over three years</p>
+                  <p className="text-muted-foreground">Five medications just to breathe</p>
+                </div>
+              </div>
+              <div className="flex gap-4 items-start">
+                <span className="bg-primary text-primary-foreground font-bold text-[20px] md:text-[24px] w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center flex-shrink-0">2</span>
+                <div>
+                  <p className="font-semibold">$1,200 a month on prescriptions</p>
+                  <p className="text-muted-foreground">Even WITH insurance</p>
+                </div>
+              </div>
+              <div className="flex gap-4 items-start">
+                <span className="bg-primary text-primary-foreground font-bold text-[20px] md:text-[24px] w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center flex-shrink-0">3</span>
+                <div>
+                  <p className="font-semibold">Prednisone rounds</p>
+                  <p className="text-muted-foreground">That awful steroid that made her gain 15 pounds and gave her insomnia</p>
+                </div>
+              </div>
+            </div>
+            
+            <p className="font-bold">And she was still drowning.</p>
+            
+            <p>We did the breathing exercises. Bought a $400 HEPA air purifier. Ripped out the carpets.</p>
+            <p>Hired a mold inspector. $800 later... no mold.</p>
+            <p>None of it made a difference.</p>
+            
+            <div className="bg-[#fff3cd] border-l-4 border-[#ffc107] rounded-[14px] p-5 md:p-6 my-6">
+              <p className="text-[20px] md:text-[26px] font-bold mb-2">Every doctor said the same thing:</p>
+              <p className="text-[24px] md:text-[32px] font-black">"This is just something you'll have to MANAGE."</p>
+            </div>
+            
+            <p>Like we weren't already managing her not being able to walk upstairs.</p>
+            <p>Managing the oxygen concentrator humming all night.</p>
+            <p>Managing the stack of medical bills we couldn't pay.</p>
+            <p className="font-bold">Managing our life shrinking smaller and smaller.</p>
+            
+            <div className="bg-card rounded-[14px] p-5 md:p-6 border-l-4 border-primary my-6">
+              <p className="font-semibold text-[18px] md:text-[24px] mb-3">Here's why they believe that:</p>
+              <p>Medical schools teach from pulmonology textbooks written in the 1990s. BEFORE scientists discovered that lung cells can regenerate.</p>
+              <p className="font-bold mt-3">Your doctor isn't lying to you. They genuinely don't KNOW.</p>
+              <p className="mt-2">But researchers in Europe have been studying this for 20 years.</p>
+              <p className="font-bold text-[20px] md:text-[26px] text-primary mt-3">And the results are undeniable.</p>
+            </div>
           </div>
         </div>
-      </StorySection>
+      </section>
 
       {/* The Bathroom Scene */}
-      <StorySection title="The Night I Found Her Crying in the Bathroom">
-        <p>It was a Tuesday.</p>
-        <p>Linda's sister invited us to Thanksgiving. Linda said she had a cold.</p>
-        <p>But she didn't.</p>
-        <p>She just didn't want her family to see her like this.</p>
-        
-        <p>That night, I woke up around 2 AM. Linda wasn't in bed.</p>
-        <p>I found her in the bathroom. Sitting on the floor. Crying.</p>
-        
-        <HighlightBox variant="testimony">
-          <p className="text-lg mb-2">"I don't want to be that person anymore," she whispered.</p>
-          <p>"What person?"</p>
-          <p className="font-bold text-xl text-primary mt-3">"The one everyone feels sorry for."</p>
-        </HighlightBox>
-        
-        <p>Her voice cracked.</p>
-        <p>"I used to RUN, Robert. I used to play with the grandkids. And now I can't even walk to the mailbox without feeling like I'm dying."</p>
-        
-        <p>I sat down next to her.</p>
-        <p>Because what was I supposed to say?</p>
-        
-        <HighlightBox variant="warning">
-          <p>Her lungs were getting WORSE. Not better.</p>
-          <p>The medications weren't working.</p>
-          <p>The doctors had given up.</p>
-        </HighlightBox>
-        
-        <p>Right then, I made a promise.</p>
-        
-        <div className="callout-box text-center">
-          <p className="text-2xl font-bold text-primary mb-3">I'm going to fix this.</p>
-          <p className="text-lg">I don't care what it takes.</p>
-          <p className="text-lg">I don't care if I have to fly to the other side of the world.</p>
-          <p className="text-xl font-bold mt-3">I'm going to find a way.</p>
+      <section className="py-10 px-4 bg-card">
+        <div className="max-w-[970px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-10">
+            The Night I Found Her Crying in the Bathroom
+          </h2>
+          
+          <div className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] space-y-4">
+            <p>It was a Tuesday.</p>
+            <p>Linda's sister invited us to Thanksgiving. Linda said she had a cold.</p>
+            <p>But she didn't.</p>
+            <p>She just didn't want her family to see her like this.</p>
+            
+            <p>That night, I woke up around 2 AM. Linda wasn't in bed.</p>
+            <p>I found her in the bathroom. Sitting on the floor. Crying.</p>
+            
+            <div className="bg-primary rounded-[14px] p-5 md:p-6 text-primary-foreground my-6">
+              <p className="text-[18px] md:text-[24px] mb-2">"I don't want to be that person anymore," she whispered.</p>
+              <p>"What person?"</p>
+              <p className="font-bold text-[20px] md:text-[26px] mt-3">"The one everyone feels sorry for."</p>
+            </div>
+            
+            <p>Her voice cracked.</p>
+            <p>"I used to RUN, Robert. I used to play with the grandkids. And now I can't even walk to the mailbox without feeling like I'm dying."</p>
+            
+            <p>I sat down next to her.</p>
+            <p>Because what was I supposed to say?</p>
+            
+            <div className="bg-[#fff3cd] border-l-4 border-[#ffc107] rounded-[14px] p-5 md:p-6 my-6">
+              <p>Her lungs were getting WORSE. Not better.</p>
+              <p>The medications weren't working.</p>
+              <p>The doctors had given up.</p>
+            </div>
+            
+            <p>Right then, I made a promise.</p>
+            
+            <div className="bg-secondary rounded-[14px] p-6 md:p-8 text-center my-6">
+              <p className="text-[24px] md:text-[32px] font-bold text-primary mb-3">I'm going to fix this.</p>
+              <p className="text-[18px] md:text-[24px]">I don't care what it takes.</p>
+              <p className="text-[18px] md:text-[24px]">I don't care if I have to fly to the other side of the world.</p>
+              <p className="text-[20px] md:text-[26px] font-bold mt-3">I'm going to find a way.</p>
+            </div>
+          </div>
         </div>
-      </StorySection>
+      </section>
 
       {/* Discovery Journey */}
-      <StorySection title="The Late-Night Google Search That Changed Everything" bgColor="story">
-        <ImageWithText 
-          image={saltParticles}
-          imageAlt="Visualization of salt particles being inhaled"
-          imagePosition="float-right"
-          imageSize="large"
-          imageShape="rounded"
-        >
-          <p>It was 1 AM.</p>
-          <p>Linda was finally asleep upstairs.</p>
-          <p>I was at the kitchen table. Googling.</p>
-          <p>"Natural asthma remedies." "COPD cure." "How to reverse lung fibrosis."</p>
-          <p>Most of it was garbage.</p>
-          <p>Essential oils. Breathing apps. Supplements that did nothing.</p>
+      <section className="py-10 px-4 bg-primary">
+        <div className="max-w-[970px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center text-primary-foreground mb-10">
+            The Late-Night Google Search<br/>That Changed Everything
+          </h2>
           
-          <p>I was about to close the laptop.</p>
-          <p className="font-bold text-lg">Then I saw it.</p>
-          
-          <HighlightBox>
-            <p className="italic text-lg font-semibold">"Long-term efficacy of halotherapy in chronic obstructive pulmonary disease."</p>
-            <p className="mt-3">Halotherapy. Breathing microscopic salt particles.</p>
-            <p>Sounded weird. But the study had REAL results.</p>
-          </HighlightBox>
-          
-          <p>People with COPD seeing improvements in lung function. Reduced coughing. Better oxygen saturation.</p>
-          <p>I kept reading.</p>
-          
-          <div className="callout-box">
-            <p className="font-bold text-xl text-primary mb-3">Turns out, halotherapy started in actual salt MINES.</p>
-            <p>Deep underground in Eastern Europe.</p>
-            <p className="mt-3">There's this place in Romania. The Praid Salt Mine.</p>
-            <p>For over a CENTURY, people with severe lung problems traveled there. From all over Europe. To go down into the mine and just... breathe.</p>
+          <div className="md:float-right md:ml-6 md:mb-4 text-center mb-6">
+            <img 
+              src={saltParticles}
+              alt="Visualization of salt particles being inhaled"
+              className="w-[280px] md:w-[350px] rounded-lg mx-auto"
+            />
           </div>
           
-          <div className="benefit-grid my-8">
-            <div className="benefit-card">
-              <p className="font-bold text-lg text-primary mb-2">📊 Oxygen Levels</p>
-              <p>People with Stage 3 COPD seeing their oxygen levels jump from 88% to 96%</p>
+          <div className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] text-primary-foreground space-y-4">
+            <p>It was 1 AM.</p>
+            <p>Linda was finally asleep upstairs.</p>
+            <p>I was at the kitchen table. Googling.</p>
+            <p>"Natural asthma remedies." "COPD cure." "How to reverse lung fibrosis."</p>
+            <p>Most of it was garbage.</p>
+            <p>Essential oils. Breathing apps. Supplements that did nothing.</p>
+            
+            <p>I was about to close the laptop.</p>
+            <p className="font-bold">Then I saw it.</p>
+            
+            <div className="bg-white/10 rounded-[14px] p-5 md:p-6 my-6">
+              <p className="italic font-semibold">"Long-term efficacy of halotherapy in chronic obstructive pulmonary disease."</p>
+              <p className="mt-3">Halotherapy. Breathing microscopic salt particles.</p>
+              <p>Sounded weird. But the study had REAL results.</p>
             </div>
-            <div className="benefit-card">
-              <p className="font-bold text-lg text-primary mb-2">💊 Reduced Medications</p>
-              <p>Over 50% reduced their medications. Some stopped entirely.</p>
+            
+            <p>People with COPD seeing improvements in lung function. Reduced coughing. Better oxygen saturation.</p>
+            <p>I kept reading.</p>
+            
+            <div className="bg-white/10 rounded-[14px] p-5 md:p-6 my-6">
+              <p className="font-bold text-[20px] md:text-[26px] mb-3">Turns out, halotherapy started in actual salt MINES.</p>
+              <p>Deep underground in Eastern Europe.</p>
+              <p className="mt-3">There's this place in Romania. The Praid Salt Mine.</p>
+              <p>For over a CENTURY, people with severe lung problems traveled there. From all over Europe. To go down into the mine and just... breathe.</p>
             </div>
-            <div className="benefit-card">
-              <p className="font-bold text-lg text-primary mb-2">🫁 Breathing Freely</p>
-              <p>People on oxygen tanks for YEARS... breathing freely</p>
+            
+            <div className="grid md:grid-cols-2 gap-4 my-8">
+              <div className="bg-white/10 rounded-[14px] p-4">
+                <p className="font-bold text-[18px] md:text-[22px] mb-2">📊 Oxygen Levels</p>
+                <p>People with Stage 3 COPD seeing their oxygen levels jump from 88% to 96%</p>
+              </div>
+              <div className="bg-white/10 rounded-[14px] p-4">
+                <p className="font-bold text-[18px] md:text-[22px] mb-2">💊 Reduced Medications</p>
+                <p>Over 50% reduced their medications. Some stopped entirely.</p>
+              </div>
+              <div className="bg-white/10 rounded-[14px] p-4">
+                <p className="font-bold text-[18px] md:text-[22px] mb-2">🫁 Breathing Freely</p>
+                <p>People on oxygen tanks for YEARS... breathing freely</p>
+              </div>
+              <div className="bg-white/10 rounded-[14px] p-4">
+                <p className="font-bold text-[18px] md:text-[22px] mb-2">✨ Real Recovery</p>
+                <p>Not managing. BETTER.</p>
+              </div>
             </div>
-            <div className="benefit-card">
-              <p className="font-bold text-lg text-primary mb-2">✨ Real Recovery</p>
-              <p>Not managing. BETTER.</p>
+            
+            <p>I'm reading about people who sound EXACTLY like Linda.</p>
+            <p className="font-bold text-[24px] md:text-[32px]">Getting better. Not managing. BETTER.</p>
+          </div>
+          <div className="clear-both" />
+        </div>
+      </section>
+      
+      <section className="py-10 px-4 bg-secondary">
+        <div className="max-w-[970px] mx-auto">
+          <div className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] space-y-4">
+            <p>The next morning, I showed Linda everything.</p>
+            <p>"Do you really think this could work?" she asked.</p>
+            <p>I took a breath. "I don't know. But we need to find out."</p>
+            <p>She nodded. "Okay. Let's go."</p>
+            
+            <div className="bg-[#fff3cd] border-l-4 border-[#ffc107] rounded-[14px] p-5 md:p-6 my-6">
+              <p className="font-bold text-[18px] md:text-[24px] mb-2">But here's what I didn't know yet...</p>
+              <p>The mine that saved all those people?</p>
+              <p className="text-[20px] md:text-[26px] font-bold mt-2">It was about to collapse.</p>
+              <p className="mt-2">And we were about to fly 5,000 miles... for nothing.</p>
             </div>
           </div>
-          
-          <p>I'm reading about people who sound EXACTLY like Linda.</p>
-          <p className="font-bold text-2xl text-primary">Getting better. Not managing. BETTER.</p>
-          
-          <div className="section-divider" />
-          
-          <p>The next morning, I showed Linda everything.</p>
-          <p>"Do you really think this could work?" she asked.</p>
-          <p>I took a breath. "I don't know. But we need to find out."</p>
-          <p>She nodded. "Okay. Let's go."</p>
-          
-          <HighlightBox variant="warning">
-            <p className="font-bold text-lg mb-2">But here's what I didn't know yet...</p>
-            <p>The mine that saved all those people?</p>
-            <p className="text-xl font-bold text-emphasis mt-2">It was about to collapse.</p>
-            <p className="mt-2">And we were about to fly 5,000 miles... for nothing.</p>
-          </HighlightBox>
-        </ImageWithText>
-      </StorySection>
+        </div>
+      </section>
 
       {/* The Journey */}
       <StorySection title="We Flew 5,000 Miles to a Salt Mine...Only to Find THIS">

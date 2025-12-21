@@ -1,51 +1,57 @@
 import heroBackground from "@/assets/hero-background.webp";
 import ScientificBadges from "./ScientificBadges";
 
+import heroBackgroundMobile from "@/assets/hero-background-mobile.jpg";
+
 const HeroSection = () => {
   return (
-    <section className="relative py-12 md:py-20 px-4 overflow-hidden">
-      {/* Background Image - Blurred and Dimmed */}
+    <section className="text-white py-6 md:py-10 px-4 relative overflow-hidden">
+      {/* Background Image - Blurred */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-sm scale-105"
         style={{ backgroundImage: `url(${heroBackground})` }}
       />
+      {/* Mobile background override */}
+      <div 
+        className="absolute inset-0 md:hidden bg-cover bg-center bg-no-repeat blur-sm scale-105"
+        style={{ backgroundImage: `url(${heroBackgroundMobile})` }}
+      />
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/50" />
       
-      <div className="container mx-auto max-w-5xl text-center relative z-10">
-        <h1 className="headline-primary animate-fade-in mb-6 text-white drop-shadow-lg">
-          I Watched My Wife Drown in Our Bedroom at Midnight…
-        </h1>
-        
-        <div className="max-w-3xl mx-auto mb-8">
-          <p className="subheadline leading-tight animate-fade-in mb-6 text-white/90 drop-shadow-md" style={{ animationDelay: "0.2s" }}>
-            Then a Collapsed Salt Mine in Romania Led Me to a Village Where Nobody Gets Lung Disease… And Saved Her Life
+      <div className="max-w-[970px] mx-auto relative z-10">
+        <div className="text-center md:text-left">
+          <p className="font-bold text-[28px] md:text-[50px] leading-[36px] md:leading-[64px]">
+            I Watched My Wife Drown
           </p>
-          
-          {/* Hero Quote */}
-          <div className="testimony-box text-left animate-fade-in p-4 md:p-6" style={{ animationDelay: "0.3s" }}>
-            <p className="text-sm md:text-base not-italic font-semibold text-foreground mb-2">
-              "I spent $50,000 trying to save my wife's lungs.
-            </p>
-            <p className="text-sm md:text-base not-italic text-foreground mb-2">
-              Five different pulmonologists. Twelve medications. Three ER visits in one month.
-            </p>
-            <p className="text-sm md:text-base not-italic text-foreground mb-2">
-              Nothing worked.
-            </p>
-            <p className="text-sm md:text-base not-italic text-foreground mb-2">
-              Then I found a village in Romania where 97-year-olds chop wood… and nobody has asthma.
-            </p>
-            <p className="text-sm md:text-base not-italic font-semibold text-foreground mb-2">
-              Now Linda's off oxygen. And I'm bringing that same air to America."
-            </p>
-            <p className="text-xs md:text-sm font-medium text-muted-foreground mt-3">
-              — Robert Mitchell
-            </p>
-            <p className="text-xs text-muted-foreground">
-              Retired Air Force | Warner Robins, Georgia
-            </p>
-          </div>
+          <p className="font-bold text-[32px] md:text-[57px] leading-[44px] md:leading-[68px] mt-2">
+            <span className="bg-[linear-gradient(to_bottom,transparent_60%,#ffd700_60%)] px-1.5">
+              in Our Bedroom at Midnight…
+            </span>
+          </p>
+        </div>
+        
+        {/* Subtitle */}
+        <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 text-center md:text-left">
+          Then a Collapsed Salt Mine in Romania Led Me to a Village Where Nobody Gets Lung Disease… And Saved Her Life
+        </p>
+        
+        {/* Feature Box */}
+        <div className="bg-white rounded-[14px] mt-7 p-5 md:p-7 text-black">
+          <ul className="space-y-4">
+            <li className="flex items-start gap-3 font-semibold text-[18px] md:text-[24px] leading-[24px] md:leading-[34px] pl-10 md:pl-14 relative">
+              <span className="absolute left-0 top-0 w-8 h-8 md:w-10 md:h-10 bg-primary rounded-full flex items-center justify-center text-primary-foreground text-lg">✓</span>
+              Retired Air Force veteran discovers ancient Romanian salt therapy that saved his wife's lungs after doctors gave up
+            </li>
+            <li className="flex items-start gap-3 font-semibold text-[18px] md:text-[24px] leading-[24px] md:leading-[34px] pt-4 border-t border-border pl-10 md:pl-14 relative">
+              <span className="absolute left-0 top-4 w-8 h-8 md:w-10 md:h-10 bg-primary rounded-full flex items-center justify-center text-primary-foreground text-lg">✓</span>
+              17,000+ Americans now breathing easier with this natural salt pouch you can use at home
+            </li>
+            <li className="flex items-start gap-3 font-semibold text-[18px] md:text-[24px] leading-[24px] md:leading-[34px] pt-4 border-t border-border pl-10 md:pl-14 relative">
+              <span className="absolute left-0 top-4 w-8 h-8 md:w-10 md:h-10 bg-primary rounded-full flex items-center justify-center text-primary-foreground text-lg">✓</span>
+              Backed by 15+ years of research from Dr. Elena Popescu at the University of Bucharest
+            </li>
+          </ul>
         </div>
         
         <ScientificBadges />
