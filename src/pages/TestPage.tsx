@@ -14,6 +14,7 @@ import lungCtScan from "@/assets/lung-ct-scan.png";
 import coupleHospitalHallway from "@/assets/couple-hospital-hallway.png";
 import medicationsPile from "@/assets/medications-pile.png";
 import womanBathroomFloor from "@/assets/woman-bathroom-crying.png";
+import manLaptopNight from "@/assets/man-laptop-night.png";
 import doctorPhoto from "@/assets/doctor-photo.png";
 import productBundle from "@/assets/product-bundle.png";
 import productDiscount from "@/assets/product-discount.png";
@@ -470,41 +471,108 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* Section 7 - The Brain Invader Explained */}
+      {/* Section 7 - The Late Night Google Search */}
       <section className="py-10 px-4 bg-secondary">
         <div className="max-w-[970px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
-            The Tiny Invader That<br/>NASA Scientists Found..
+            The Late-Night Google Search That Changed Everything
           </h2>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            When NASA sends astronauts into space, they don&apos;t just monitor their bodies..
-          </p>
+          <div className="md:float-left md:mr-6 md:-ml-4 text-center mb-4 relative">
+            <div 
+              className="relative overflow-visible"
+              style={{
+                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={manLaptopNight} 
+                alt="Man searching on laptop late at night" 
+                className="w-[260px] md:w-[340px] mx-auto"
+              />
+            </div>
+          </div>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
-            They monitor their brains.
-          </p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">It was 1 AM.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            And what they discovered shocked the scientific community..
-          </p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda was finally asleep upstairs.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I was at the kitchen table. Googling.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">"Natural asthma remedies." "COPD cure." "How to reverse lung fibrosis."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Most of it was garbage.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Essential oils. Breathing apps. Supplements that did nothing.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I was about to close the laptop.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">Then I saw it. A research paper from some Romanian medical institute.</p>
           
           <div className="bg-card rounded-[14px] p-5 md:p-6 mt-8 border-l-4 border-primary">
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold italic">
-              &ldquo;After 6 months in space, astronauts showed significant brain shrinkage. Their hippocampus - the memory center - had shrunk by up to 4%.&rdquo;
-            </p>
-            <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] mt-4 text-gray-600">
-              - NASA Brain Study, 2019
+              "Long-term efficacy of halotherapy in chronic obstructive pulmonary disease."
             </p>
           </div>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            But here&apos;s what surprised them even more..
-          </p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8"><strong>Halotherapy.</strong> Breathing microscopic salt particles.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
-            The same brain shrinkage is happening to millions of Americans over 50 - right here on Earth.
-          </p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Sounded weird. But the study had REAL results.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">People with COPD seeing improvements in lung function. Reduced coughing. Better oxygen saturation.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">I kept reading.</p>
+          
+          <div className="clear-both" />
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Turns out, halotherapy started in actual salt MINES. Deep underground in Eastern Europe.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">There's this place in Romania. The Praid Salt Mine.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">For over a CENTURY, people with severe lung problems traveled there. From all over Europe. To go down into the mine and just... breathe.</p>
+          
+          {/* Results Box */}
+          <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-10 text-primary-foreground">
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">
+              People with Stage 3 COPD seeing their oxygen levels jump from 88% to 96%.
+            </p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4">
+              People on oxygen tanks for YEARS... breathing freely.
+            </p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4 font-bold">
+              Over 50% reduced their medications. Some stopped entirely.
+            </p>
+          </div>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">I'm reading about people who sound EXACTLY like Linda.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Getting better. Not managing.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-primary text-[24px] md:text-[32px]">BETTER.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">The next morning, I showed Linda everything.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">"Do you really think this could work?" she asked.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I took a breath. "I don't know. But we need to find out."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She nodded. "Okay. Let's go."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">But here's what I didn't know yet...</p>
+          
+          {/* Cliffhanger Box */}
+          <div className="bg-foreground rounded-[10px] p-5 md:p-6 mt-10 text-background">
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">
+              The mine that saved all those people?
+            </p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4 font-bold">
+              It was about to collapse.
+            </p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4 font-bold italic">
+              And we were about to fly 5,000 miles... for nothing.
+            </p>
+          </div>
         </div>
       </section>
 
