@@ -10,6 +10,7 @@ import institutionLogos from "@/assets/institution-logos.png";
 import romanianVillage from "@/assets/romanian-village.jpg";
 import lungDiagram from "@/assets/lung-diagram.jpg";
 import saltCrystalsCloseup from "@/assets/salt-crystals-closeup.jpg";
+import eldernCoupleBreathing from "@/assets/elderly-couple-breathing.jpg";
 import brainHippocampus from "@/assets/brain-hippocampus.png";
 import lungsDiagram from "@/assets/lungs-diagram.png";
 import oxygenMaskHospital from "@/assets/oxygen-mask-hospital.webp";
@@ -1482,47 +1483,121 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* Bonus Section - sec30 */}
-      <section className="py-8 md:py-10 px-4 bg-[#edf4ff]">
-        <div className="max-w-[970px] mx-auto">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-6">
-            JUST <em>Added!</em> Get $197.00 In Free Gifts And Bonuses When You Order Today..
+      {/* Day 3 Breakthrough Section */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
+            Day 3: The Morning Linda Woke Up Without Wheezing
           </h2>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 text-center">
-            For everyone who orders at the discount price today, I'm giving you 4 free bonuses that aren't available anywhere else.
+          <p className="text-[20px] md:text-[28px] text-center text-muted-foreground italic mb-8">
+            (For the First Time in 3 Years)
           </p>
           
-          {/* Bonus Cards - giftbx */}
-          {[
-            { num: 1, title: 'Get The Best-Selling "1-Minute Memory Saver"', desc: "This 1-minute trick is simple and fun! You use it anytime you learn something new that you want stored permanently in your long-term memory. Do it from home, while waiting in line or anywhere else, and it's scientifically-proven to lock your new lesson into your memory the very first time you try it.", img: bonusMemorySaver },
-            { num: 2, title: "Get The Smart Grocery Shopping Guide", desc: "Second is the Smart Grocery Shopping Guide, including the 10 common American foods that actually trigger brain fog, plus our 5 simple shortcuts to help cut your monthly grocery bill by $100 a month or more immediately, whether you shop at Walmart, Amazon, Costco, Target, Publix, Whole Foods or anywhere else!", img: bonusGroceryGuide },
-            { num: 3, title: 'Get The "Energy Button"', desc: "Your 3rd free bonus for checking out today is a new report called The Energy Button! Customers often say the energy boost they get from the Memory Wave is like getting an extra day a week. So you'll discover our top tips for what to do with all that extra energy.", img: bonusEnergyButton },
-          ].map((bonus) => (
-            <div key={bonus.num} className="bg-card border-2 border-primary rounded-[14px] overflow-hidden mt-8 md:mt-10">
-              <div className="bg-primary p-3 md:p-4">
-                <p className="font-bold text-[20px] md:text-[34px] leading-[28px] md:leading-[44px] text-primary-foreground text-center md:text-left">
-                  <span className="text-[#ffd700]">Your {bonus.num === 1 ? "1st" : bonus.num === 2 ? "2nd" : "3rd"} FREE Gift:</span> {bonus.title} <span className="text-[#ffd700]">FREE!</span>
-                </p>
-              </div>
-              <div className="p-5 md:p-6 flex flex-col md:flex-row gap-4 md:gap-8">
-                <div className="relative flex-shrink-0 mx-auto md:mx-0">
-                  <img 
-                    src={bonus.img} 
-                    alt={bonus.title} 
-                    className="w-[180px] md:w-[220px] rounded-lg"
-                  />
-                  {/* Badge */}
-                  <div className="absolute -top-2 -right-2 md:right-[5px] md:top-[25px] w-[80px] md:w-[100px] h-[80px] md:h-[100px] bg-red-600 rounded-full flex flex-col items-center justify-center text-white">
-                    <span className="text-[13px] md:text-[17px] font-semibold leading-tight">FREE</span>
-                    <span className="text-[11px] md:text-[14px] leading-tight">BONUS</span>
-                    <span className="text-[28px] md:text-[40px] font-bold leading-none">#{bonus.num}</span>
-                  </div>
-                </div>
-                <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[34px] text-center md:text-left">{bonus.desc}</p>
-              </div>
+          <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
+          
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>The first two days were... underwhelming.</p>
+            
+            <p>We walked around the village. Met some locals. (None of whom spoke English.)</p>
+            
+            <p>Looked at the salt-covered hills. Breathed.</p>
+            
+            <p className="italic">And that was it.</p>
+            
+            <p>Linda said she felt "okay." Not better. Not worse. Just... okay.</p>
+            
+            <p className="font-semibold">I started to think we'd made a mistake.</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold text-primary mt-8">Then... day 3.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Morning Scene Image */}
+      <section className="py-8 md:py-12 px-4 bg-secondary/30">
+        <div className="max-w-[600px] mx-auto">
+          <figure className="relative">
+            <div 
+              className="relative overflow-visible mx-auto"
+              style={{
+                maskImage: 'radial-gradient(ellipse 90% 85% at center, black 50%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 90% 85% at center, black 50%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={eldernCoupleBreathing} 
+                alt="Linda waking up peacefully, breathing clearly" 
+                className="w-full h-auto rounded-lg"
+              />
             </div>
-          ))}
+          </figure>
+        </div>
+      </section>
+
+      {/* Day 3 Continuation - The Realization */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>I woke up around 7 AM. Linda was still asleep next to me.</p>
+            
+            <p className="font-semibold">But something was different.</p>
+            
+            <p>I couldn't figure out what it was at first.</p>
+            
+            <p>Then I realized.</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold text-primary">I didn't hear the wheeze.</p>
+            
+            <p>That rattling sound that had been part of our mornings for YEARS. It was... gone.</p>
+            
+            <p>I sat up. Watched her chest rise and fall. Smooth. Steady. Quiet.</p>
+            
+            <p className="italic">No struggle. No gasping. Just... breathing.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Moment */}
+      <section className="py-10 md:py-16 px-4 bg-primary/5">
+        <div className="max-w-[750px] mx-auto">
+          <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
+            <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+              <p>She opened her eyes. "Morning," she said.</p>
+              
+              <p>Her voice was clear. Not strained. Not tight. <span className="font-bold">Clear.</span></p>
+              
+              <p>"How do you feel?" I asked.</p>
+              
+              <p>She paused. Took a deep breath. All the way in. Held it. Then let it out slowly.</p>
+              
+              <p className="font-semibold">Her eyes widened.</p>
+              
+              <p className="text-[24px] md:text-[32px] font-bold text-primary text-center my-8">"I can breathe," she whispered.</p>
+              
+              <p>Not "I'm breathing okay." Not "I'm managing."</p>
+              
+              <p className="text-[26px] md:text-[34px] font-bold text-center">"I can BREATHE."</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Emotional Conclusion */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>She sat up. Took another breath. Deeper this time.</p>
+            
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "Robert, I don't feel like I'm suffocating."
+            </p>
+            
+            <p>She started crying. Happy tears.</p>
+            
+            <p className="font-semibold italic">"I forgot what this felt like."</p>
+            
+            <p>I didn't say anything. Because I was crying too.</p>
+          </div>
         </div>
       </section>
 
