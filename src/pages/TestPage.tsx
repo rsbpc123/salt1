@@ -4,6 +4,7 @@ import { useState } from "react";
 import heroBackground from "@/assets/hero-background.webp";
 import heroBackgroundMobile from "@/assets/hero-background-mobile.jpg";
 import doctorQuote from "@/assets/doctor-quote.png";
+import drPopescu from "@/assets/dr-popescu.png";
 import institutionLogos from "@/assets/institution-logos.png";
 import brainHippocampus from "@/assets/brain-hippocampus.png";
 import stressedSeniorsCollage from "@/assets/stressed-seniors-collage.png";
@@ -65,16 +66,16 @@ const TestPage = () => {
           <div className="relative mt-7 md:pl-[155px] md:w-[80%]">
             <div className="md:absolute md:left-[-5px] md:top-[-2px] w-[160px] mx-auto md:mx-0 mb-4 md:mb-0">
               <img 
-                src={doctorQuote} 
-                alt="Dr. James Rivers" 
+                src={drPopescu} 
+                alt="Dr. Popescu" 
                 className="w-[120px] h-[120px] rounded-full mx-auto md:mx-0 object-cover"
               />
             </div>
             <p className="font-bold italic text-[18px] md:text-[24px] leading-[24px] md:leading-[34px] text-center md:text-left">
-              "17,789 Americans have cleared away the brain fog, using this safe, science-backed 8-second daily ritual, including my parents and in-laws."
+              "In 40 years of research, I've watched hundreds of people reverse lung damage their doctors said was permanent. The secret isn't medication. It's what you breathe while you sleep."
             </p>
             <p className="text-[16px] md:text-[24px] leading-[22px] md:leading-[34px] mt-3 text-center md:text-left">
-              <strong>- Dr. James Rivers, </strong><br className="md:hidden"/>NASA-Trained Neuroscientist
+              <strong>– Dr. Popescu, </strong><br className="md:hidden"/>Pulmonologist
             </p>
           </div>
           
