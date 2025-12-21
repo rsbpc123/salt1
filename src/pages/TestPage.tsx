@@ -2423,7 +2423,131 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* Footer */}
+      {/* Spirometry Test Section - Part 1 */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
+            The Spirometry Test That Made Her Pulmonologist Question His Own Equipment
+          </h2>
+          
+          <div className="h-1 w-24 bg-primary mx-auto mb-10 mt-8"></div>
+          
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p className="font-semibold">I needed proof. Real, clinical proof.</p>
+            
+            <p>So I scheduled a follow-up with Linda's pulmonologist. The same doctor who'd told us Linda's lungs were "permanently damaged."</p>
+            
+            <p>We walked into his office on a Tuesday morning. Linda was nervous.</p>
+            
+            <p className="italic">"What if the numbers aren't as good as we think?" she whispered.</p>
+            
+            <p>I squeezed her hand. "They will be."</p>
+            
+            <p>The nurse ran the spirometry test. Linda blew into the tube. Once. Twice. Three times.</p>
+            
+            <p className="font-semibold">Then we waited.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Doctor's Reaction */}
+      <section className="py-10 md:py-16 px-4 bg-secondary/30">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>The doctor came in a few minutes later. Holding a printout.</p>
+            
+            <p>He stared at it for a long time. Then looked at Linda. Then back at the printout.</p>
+            
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "Did we recalibrate the machine?" he asked the nurse.
+            </p>
+            
+            <p>She nodded. "Twice this morning."</p>
+            
+            <p>He pulled up the graphs on his computer. Two lines. Side by side.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Results Comparison */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[800px] mx-auto">
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* Before */}
+            <div className="bg-destructive/10 border-2 border-destructive/30 rounded-xl p-6 md:p-8">
+              <h3 className="text-[18px] md:text-[22px] font-bold text-destructive mb-4">Six Months Ago</h3>
+              <p className="text-[16px] md:text-[18px] text-muted-foreground mb-4">Jagged red line. Barely climbing. Flat. Struggling.</p>
+              <p className="text-[36px] md:text-[48px] font-bold text-destructive">58%</p>
+              <p className="text-[16px] md:text-[18px] text-muted-foreground">Stage 3 obstruction</p>
+            </div>
+            
+            {/* After */}
+            <div className="bg-primary/10 border-2 border-primary/30 rounded-xl p-6 md:p-8">
+              <h3 className="text-[18px] md:text-[22px] font-bold text-primary mb-4">TODAY</h3>
+              <p className="text-[16px] md:text-[18px] text-muted-foreground mb-4">Smooth green line. Rising steadily. Strong. Normal.</p>
+              <p className="text-[36px] md:text-[48px] font-bold text-primary">81%</p>
+              <p className="text-[16px] md:text-[18px] text-muted-foreground">Near normal function</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* The Doctor's Response */}
+      <section className="py-10 md:py-16 px-4 bg-primary/5">
+        <div className="max-w-[750px] mx-auto">
+          <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
+            <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+              <p>He stared at the screen. Didn't say anything for a solid ten seconds.</p>
+              
+              <p className="text-[22px] md:text-[28px] font-bold text-primary text-center my-6">
+                "I've never seen improvement like this."
+              </p>
+              
+              <p>He turned to Linda. "What have you been doing differently?"</p>
+              
+              <p>Linda glanced at me. I didn't say anything.</p>
+              
+              <p>She looked back at the doctor. "I've been breathing salt air. From Romania."</p>
+              
+              <p>He raised an eyebrow. "I'm sorry?"</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* The Explanation */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>"There's a village in Romania. Mânzălești. The air is saturated with salt particles. We went there. And when we came home, we got a system that recreates that air."</p>
+            
+            <p>He nodded slowly. Like he was trying to process something that didn't fit into his worldview.</p>
+            
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "Well... whatever you're doing... keep doing it."
+            </p>
+            
+            <p>He adjusted her chart. Reduced her steroid dose. Scheduled her next appointment for six months out instead of three.</p>
+            
+            <p className="italic">And sent us on our way.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Undeniable Truth */}
+      <section className="py-10 md:py-16 px-4 bg-secondary/30">
+        <div className="max-w-[750px] mx-auto text-center">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>He didn't ask WHAT we were using. He didn't ask HOW it worked. He just... moved on.</p>
+            
+            <p>But the results were right there. On his screen. Undeniable.</p>
+            
+            <p className="text-[28px] md:text-[36px] font-bold text-primary mt-8">Linda's lungs were HEALING.</p>
+          </div>
+        </div>
+      </section>
+
+
       <footer className="py-8 md:py-11 px-4 border-t border-border">
         <div className="max-w-[970px] mx-auto text-center">
           {/* Trust Badges */}
