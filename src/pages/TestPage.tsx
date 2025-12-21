@@ -54,17 +54,10 @@ const TestPage = () => {
         <div className="max-w-[970px] mx-auto relative z-10">
           <div className="text-center md:text-left">
             <p className="font-bold text-[28px] md:text-[50px] leading-[36px] md:leading-[64px]">
-              Top NYC Neuroscientist:
+              I Watched My Wife Drown in Our Bedroom at Midnight…
             </p>
-            <p className="font-bold text-[32px] md:text-[57px] leading-[44px] md:leading-[68px] mt-2">
-              <span className="bg-[linear-gradient(to_bottom,transparent_60%,#ffd700_60%)] px-1.5">
-                Do This 8-Second Ear Trick
-              </span>
-            </p>
-            <p className="font-bold text-[32px] md:text-[57px] leading-[44px] md:leading-[68px]">
-              <span className="bg-[linear-gradient(to_bottom,transparent_60%,#ffd700_60%)] px-1.5">
-                For Better Memory..
-              </span>
+            <p className="font-bold text-[22px] md:text-[38px] leading-[30px] md:leading-[48px] mt-4">
+              Then a Collapsed Salt Mine in Romania Led Me to a Village Where Nobody Gets Lung Disease…And Saved Her Life
             </p>
           </div>
           
