@@ -3350,6 +3350,229 @@ const TestPage = () => {
         </div>
       </section>
 
+      {/* What Happens Next Section */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8 text-primary">
+            Here's What Happens Next
+          </h2>
+          
+          <div className="space-y-6 text-[16px] md:text-[20px] leading-relaxed text-foreground">
+            <p className="font-semibold">You're going to make a choice right now.</p>
+            
+            <p>And that choice is going to determine what the next 60 days... and the rest of your life... looks like.</p>
+          </div>
+          
+          {/* Choice 1 */}
+          <div className="bg-muted/50 rounded-xl p-6 md:p-8 mt-8 border-l-4 border-destructive">
+            <h3 className="text-[20px] md:text-[26px] font-bold text-destructive mb-4">CHOICE #1:</h3>
+            <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground">
+              <p>You close this page. Go back to "managing."</p>
+              <p>Keep using your inhaler 6 to 8 times a day. Keep waking up at 3 AM gasping for air. Keep saying "no" to the things you want to say "yes" to.</p>
+              <p className="font-semibold text-destructive">Keep watching your life get smaller. And smaller.</p>
+            </div>
+          </div>
+          
+          {/* Choice 2 */}
+          <div className="bg-primary/10 rounded-xl p-6 md:p-8 mt-6 border-l-4 border-primary">
+            <h3 className="text-[20px] md:text-[26px] font-bold text-primary mb-4">CHOICE #2:</h3>
+            <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground">
+              <p className="font-semibold">You click the button below. Secure your pouches NOW. Before this batch sells out.</p>
+              <p>Try Longevity Salt for 60 days. Risk-free.</p>
+              <p>And give yourself a chance at breathing freely again. At sleeping through the night. At playing with your grandkids without needing a break.</p>
+              <p className="font-bold text-primary">At saying YES to life again.</p>
+            </div>
+          </div>
+          
+          {/* Urgency Message */}
+          <div className="mt-10 space-y-6 text-[16px] md:text-[20px] leading-relaxed text-foreground">
+            <p className="font-semibold text-destructive">Right now, as you read this... your lungs are scarring.</p>
+            
+            <p>Tiny airways hardening. Cilia dying. Mucus cementing.</p>
+            
+            <p className="font-bold">Every hour you delay is permanent damage you can't reverse.</p>
+            
+            <p>Tomorrow morning, you'll wake up with slightly worse lungs than you have right now.</p>
+            
+            <p className="italic">Unless you do something about it.</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold text-primary text-center">Today.</p>
+            
+            <p className="font-semibold">How many more of those days are you willing to sacrifice?</p>
+            
+            <p>I know which choice Linda made.</p>
+            
+            <p>And I know which one you SHOULD make.</p>
+            
+            <p className="italic">But I can't make that decision for you.</p>
+          </div>
+          
+          {/* Final Push */}
+          <div className="bg-primary text-primary-foreground rounded-xl p-6 md:p-10 mt-10 text-center">
+            <p className="text-[18px] md:text-[22px] font-bold mb-4">So stop reading. Stop hesitating.</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold mb-4">Click the button below. Secure your pouches NOW.</p>
+            
+            <p className="text-[16px] md:text-[20px]">Before this batch sells out. Before you spend another night gasping for air. Before you miss another moment with the people you love.</p>
+            
+            <p className="text-[18px] md:text-[22px] font-bold mt-6">You've already wasted enough time struggling to breathe.</p>
+            
+            <p className="text-[24px] md:text-[32px] font-bold mt-4">Don't waste another second.</p>
+          </div>
+          
+          {/* Robert's Sign-off */}
+          <div className="mt-8 text-center">
+            <p className="text-[18px] md:text-[22px] text-foreground italic">I'm rooting for you.</p>
+            <p className="text-[20px] md:text-[24px] font-bold text-primary mt-4">– Robert</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Final Order Options */}
+      <section className="py-10 md:py-16 px-4 bg-primary/5">
+        <div className="max-w-[1100px] mx-auto">
+          <h2 className="text-[24px] md:text-[36px] font-bold text-center text-primary mb-10">
+            Secure Your Longevity Salt Now
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-4 items-stretch">
+            
+            {/* Option 1 - Single Pouch */}
+            <div className="bg-card rounded-xl shadow-lg p-6 md:p-8 flex flex-col items-center text-center border-2 border-border hover:border-primary/50 transition-all duration-300">
+              <h3 className="text-[18px] md:text-[22px] font-bold text-foreground mb-2">ONE LONGEVITY SALT</h3>
+              <p className="text-[18px] md:text-[20px] font-bold text-foreground mb-2">POUCH</p>
+              
+              <p className="text-primary font-bold text-[18px] md:text-[20px] mb-2">50.6% OFF</p>
+              
+              <div className="flex items-center gap-2 mb-6">
+                <span className="text-muted-foreground line-through text-[16px]">$180</span>
+                <span className="text-[28px] md:text-[32px] font-bold text-foreground">$89</span>
+              </div>
+              
+              <div className="w-32 h-32 md:w-40 md:h-40 mb-6 flex items-center justify-center">
+                <img 
+                  src={saltPouchProduct} 
+                  alt="Single Longevity Salt Pouch" 
+                  className="max-w-full max-h-full object-contain"
+                />
+              </div>
+              
+              <div className="bg-primary/10 text-primary px-4 py-2 rounded-full font-bold text-[14px] md:text-[16px] mb-6">
+                ✓ 1 FREE GIFT
+              </div>
+              
+              <button className="w-full bg-[#d4af37] hover:bg-[#c9a22e] text-foreground font-bold py-3 px-6 rounded-full text-[16px] md:text-[18px] transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl">
+                ADD TO CART
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                </svg>
+              </button>
+              
+              <div className="flex items-center justify-center gap-2 mt-4">
+                <img src={clickbankLogo} alt="Payment methods" className="h-4 opacity-60" />
+              </div>
+            </div>
+
+            {/* Option 2 - Best Value (5 Pouches) - Featured */}
+            <div className="bg-primary rounded-xl shadow-2xl p-6 md:p-8 flex flex-col items-center text-center relative transform md:-translate-y-4 md:scale-105 border-4 border-[#d4af37]">
+              <div className="absolute -top-0 left-0 right-0 bg-[#d4af37] py-2 rounded-t-lg">
+                <p className="text-foreground font-black italic text-[18px] md:text-[22px]">BEST VALUE</p>
+                <p className="text-foreground font-black italic text-[16px] md:text-[18px]">BEST SELLING</p>
+              </div>
+              
+              <div className="mt-14 md:mt-16">
+                <h3 className="text-[18px] md:text-[22px] font-bold text-primary-foreground mb-2">5 LONGEVITY SALT POUCHES</h3>
+                
+                <p className="text-[#d4af37] font-bold text-[20px] md:text-[24px] mb-2">65.6% OFF</p>
+                
+                <div className="flex items-center justify-center gap-2 mb-2">
+                  <span className="text-primary-foreground/60 line-through text-[16px]">$180</span>
+                  <span className="text-[28px] md:text-[32px] font-bold text-primary-foreground">$62</span>
+                  <span className="text-primary-foreground/80 text-[14px]">per pouch</span>
+                </div>
+              </div>
+              
+              <div className="w-40 h-40 md:w-48 md:h-48 mb-6 flex items-center justify-center">
+                <img 
+                  src={productBundle} 
+                  alt="5 Longevity Salt Pouches Bundle" 
+                  className="max-w-full max-h-full object-contain"
+                />
+              </div>
+              
+              <div className="space-y-2 mb-6">
+                <div className="bg-[#d4af37] text-foreground px-4 py-2 rounded-full font-bold text-[14px] md:text-[16px]">
+                  ✓ 5 FREE GIFTS
+                </div>
+                <div className="bg-[#d4af37] text-foreground px-4 py-2 rounded-full font-bold text-[14px] md:text-[16px]">
+                  ✓ 2 BONUSES
+                </div>
+                <div className="bg-[#d4af37] text-foreground px-4 py-2 rounded-full font-bold text-[14px] md:text-[16px]">
+                  ✓ FREE SHIPPING
+                </div>
+              </div>
+              
+              <button className="w-full bg-[#d4af37] hover:bg-[#c9a22e] text-foreground font-bold py-4 px-6 rounded-full text-[18px] md:text-[20px] transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl">
+                ADD TO CART
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                </svg>
+              </button>
+              
+              <div className="flex items-center justify-center gap-2 mt-4">
+                <img src={clickbankLogo} alt="Payment methods" className="h-4 opacity-80" />
+              </div>
+              
+              <p className="text-primary-foreground font-bold text-[20px] md:text-[24px] mt-4">TOTAL: $310</p>
+            </div>
+
+            {/* Option 3 - 3 Pouches (Most Popular) */}
+            <div className="bg-card rounded-xl shadow-lg p-6 md:p-8 flex flex-col items-center text-center border-2 border-border hover:border-primary/50 transition-all duration-300">
+              <h3 className="text-[18px] md:text-[22px] font-bold text-foreground mb-2">3 LONGEVITY SALT</h3>
+              <p className="text-[18px] md:text-[20px] font-bold text-foreground mb-2">POUCHES</p>
+              
+              <p className="text-primary font-bold text-[18px] md:text-[20px] mb-2">56.6% OFF</p>
+              
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-muted-foreground line-through text-[16px]">$180</span>
+                <span className="text-[28px] md:text-[32px] font-bold text-foreground">$78</span>
+                <span className="text-muted-foreground text-[14px]">per pouch</span>
+              </div>
+              
+              <div className="w-32 h-32 md:w-40 md:h-40 mb-6 flex items-center justify-center">
+                <img 
+                  src={productBundle} 
+                  alt="3 Longevity Salt Pouches" 
+                  className="max-w-full max-h-full object-contain"
+                />
+              </div>
+              
+              <div className="space-y-2 mb-6">
+                <div className="bg-primary/10 text-primary px-4 py-2 rounded-full font-bold text-[14px] md:text-[16px]">
+                  ✓ 3 FREE GIFTS
+                </div>
+                <div className="bg-primary/10 text-primary px-4 py-2 rounded-full font-bold text-[14px] md:text-[16px]">
+                  ✓ 1 BONUS
+                </div>
+              </div>
+              
+              <button className="w-full bg-[#d4af37] hover:bg-[#c9a22e] text-foreground font-bold py-3 px-6 rounded-full text-[16px] md:text-[18px] transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl">
+                ADD TO CART
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                </svg>
+              </button>
+              
+              <div className="flex items-center justify-center gap-2 mt-4">
+                <img src={clickbankLogo} alt="Payment methods" className="h-4 opacity-60" />
+              </div>
+              
+              <p className="text-foreground font-bold text-[20px] md:text-[24px] mt-4">TOTAL: $234</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="py-8 md:py-11 px-4 border-t border-border">
         <div className="max-w-[970px] mx-auto text-center">
