@@ -3306,6 +3306,50 @@ const TestPage = () => {
         </div>
       </section>
 
+      {/* Linda's Message Section */}
+      <section className="py-10 md:py-16 px-4 bg-primary/5">
+        <div className="max-w-[750px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8 text-primary">
+            What Linda Wanted Me to Tell You
+          </h2>
+          
+          <div className="space-y-6 text-[16px] md:text-[20px] leading-relaxed text-foreground">
+            <p>Linda doesn't like being the "face" of this. She's a private person.</p>
+            
+            <p>But when I told her I was writing this... she asked me to include something.</p>
+            
+            <p className="font-semibold">So here it is. In her words:</p>
+          </div>
+          
+          {/* Linda's Quote Box */}
+          <div className="bg-card rounded-xl p-8 md:p-10 shadow-lg mt-8 border-l-4 border-primary">
+            <div className="space-y-6 text-[16px] md:text-[20px] leading-relaxed text-foreground italic">
+              <p>"If you're reading this... you probably feel the way I used to feel.</p>
+              
+              <p>Like your body is betraying you. Like you're not the person you used to be.</p>
+              
+              <p className="font-semibold">I know what it's like to cry in the bathroom because you don't want to be a burden.</p>
+              
+              <p className="font-semibold">I know what it's like to say 'no' to things you desperately want to say 'yes' to.</p>
+              
+              <p className="text-primary font-bold not-italic">But it doesn't have to be that way.</p>
+              
+              <p>I'm not special. If this worked for me... it can work for you.</p>
+              
+              <p>And if you're on the fence about trying it... just ask yourself this:</p>
+              
+              <p className="text-[20px] md:text-[24px] font-bold text-primary not-italic text-center">What would your life look like if you could breathe freely again?</p>
+              
+              <p className="font-semibold">That's worth trying for.</p>
+              
+              <p className="font-bold">Trust me."</p>
+            </div>
+            
+            <p className="text-[18px] md:text-[22px] font-bold text-primary mt-6 text-right">– Linda</p>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="py-8 md:py-11 px-4 border-t border-border">
         <div className="max-w-[970px] mx-auto text-center">
