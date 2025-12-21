@@ -14,6 +14,7 @@ import eldernCoupleBreathing from "@/assets/elderly-couple-breathing.jpg";
 import elderlyWomanGardening from "@/assets/elderly-woman-gardening.jpg";
 import saltTherapyPouch from "@/assets/salt-therapy-pouch.jpg";
 import elderlyManChoppingWood from "@/assets/elderly-man-chopping-wood.jpg";
+import saltPouchProduct from "@/assets/salt-pouch-product.jpg";
 import brainHippocampus from "@/assets/brain-hippocampus.png";
 import lungsDiagram from "@/assets/lungs-diagram.png";
 import oxygenMaskHospital from "@/assets/oxygen-mask-hospital.webp";
@@ -2119,35 +2120,146 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* Scientific References */}
-      <section className="py-8 md:py-12 px-4 bg-card">
-        <div className="max-w-[970px] mx-auto">
-          <h3 className="text-[20px] md:text-[24px] leading-[30px] md:leading-[34px] font-bold mb-6 mt-10">Scientific References:</h3>
-          <div className="grid md:grid-cols-2 gap-6">
-            <ul className="space-y-4 pl-2">
-              <li className="text-[12px] md:text-[14px] leading-[20px] md:leading-[22px] text-muted-foreground pl-6 relative">
-                <span className="absolute left-0 top-0 w-[25px]">1.</span>
-                Murdock, M. H., Yang, C.-Y., Sun, N., et al. (2024). Multisensory gamma stimulation promotes glymphatic clearance of amyloid. <em>Nature,</em> 627(8002), 149-156.
-              </li>
-              <li className="text-[12px] md:text-[14px] leading-[20px] md:leading-[22px] text-muted-foreground pl-6 relative">
-                <span className="absolute left-0 top-0 w-[25px]">2.</span>
-                Bhardwaj, A., & Nagandla, K. (2021). Intellectual engagement and cognitive ability in later life: a longitudinal study. <em>ScienceDirect.</em>
-              </li>
-              <li className="text-[12px] md:text-[14px] leading-[20px] md:leading-[22px] text-muted-foreground pl-6 relative">
-                <span className="absolute left-0 top-0 w-[25px]">3.</span>
-                Livingston, G., Sommerlad, A., Orgeta, V., et al. (2018). Dementia prevention, intervention, and care. <em>BMJ,</em> 363, k4925.
-              </li>
-            </ul>
-            <ul className="space-y-4 pr-2">
-              <li className="text-[12px] md:text-[14px] leading-[20px] md:leading-[22px] text-muted-foreground pl-6 relative">
-                <span className="absolute left-0 top-0 w-[25px]">4.</span>
-                Massachusetts Institute of Technology News. (2024). Evidence that gamma rhythm stimulation can treat neurological disorders emerging.
-              </li>
-              <li className="text-[12px] md:text-[14px] leading-[20px] md:leading-[22px] text-muted-foreground pl-6 relative">
-                <span className="absolute left-0 top-0 w-[25px]">5.</span>
-                The Picower Institute for Learning and Memory at NASA. 40Hz rhythms fight Alzheimer's at the cellular and molecular level.
-              </li>
-            </ul>
+      {/* The Desperate Email - Part 1 */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
+            The Desperate Email That Led to a Scientific Breakthrough
+          </h2>
+          <p className="text-[20px] md:text-[28px] text-center text-muted-foreground italic mb-8">
+            (And Changed Everything)
+          </p>
+          
+          <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
+          
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>I emailed Dr. Popescu that night.</p>
+            
+            <p>Told her what was happening. How Linda had been doing great... and now she was relapsing.</p>
+            
+            <p className="italic">I probably sounded desperate. (Because I was.)</p>
+            
+            <p className="font-semibold">She responded within hours.</p>
+            
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "You're not the first person this has happened to. I've been working on a solution for this exact problem. Let me call you."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Phone Call */}
+      <section className="py-10 md:py-16 px-4 bg-secondary/30">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>When she called, I could hear the frustration in her voice.</p>
+            
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-6">
+              "I've watched HUNDREDS of patients transform in Mânzălești... only to relapse when they go home."
+            </p>
+            
+            <p className="font-semibold">"I've been trying to solve this problem for 15 years."</p>
+            
+            <p>She explained that she'd tried everything. Salt lamps. (Decorative, but useless.) Dry salt inhalers. (Particles too large.) Nebulizers with saline. (Wet salt, doesn't penetrate deep enough.)</p>
+            
+            <p className="italic">"Nothing worked the way the village air did."</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold text-primary">"Until about 3 years ago."</p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Breakthrough */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>That's when she told me about a material scientist at the University of Bucharest. They'd been working together on something that honestly sounded like science fiction.</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold text-primary">A breathable membrane system.</p>
+            
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "The idea was to create a pouch that holds therapeutic salt from Mânzălești... infused with the same 4 herbs that grow wild on those hillsides. Mint. Sage. Basil. Lavender."
+            </p>
+            
+            <p>"The villagers have been using these herbs for centuries. To soothe breathing and calm inflammation."</p>
+            
+            <p className="font-semibold">"But here's the key: The pouch has a special membrane that allows MICROSCOPIC salt particles to pass through when you breathe."</p>
+            
+            <p>"So you're inhaling the salt... WITHOUT it leaving the pouch."</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Salt Pouch Product Image */}
+      <section className="py-8 md:py-12 px-4 bg-primary/5">
+        <div className="max-w-[500px] mx-auto">
+          <figure className="relative">
+            <div 
+              className="relative overflow-visible mx-auto"
+              style={{
+                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={saltPouchProduct} 
+                alt="The breathable salt therapy pouch with herbs" 
+                className="w-full h-auto rounded-lg"
+              />
+            </div>
+            <figcaption className="text-center mt-4 text-muted-foreground italic text-[16px]">
+              The breathable membrane pouch with Mânzălești salt and healing herbs
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      {/* The Science */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>I was skeptical. "Does it actually work?"</p>
+            
+            <p>She laughed. "It took us 2 years of testing to get it right. But yes. It works."</p>
+            
+            <p className="font-semibold">"We finally landed on a medical-grade polymer membrane with microscopic pores. Engineered at 1 to 5 microns."</p>
+            
+            <p>"The pores let dry salt particles through when you inhale... but keep the salt itself contained."</p>
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works */}
+      <section className="py-10 md:py-16 px-4 bg-primary/5">
+        <div className="max-w-[750px] mx-auto">
+          <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
+            <h3 className="text-[22px] md:text-[28px] font-bold text-primary mb-6 text-center">The Key Discovery</h3>
+            <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+              <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6">
+                "And here's the key: Your body heat activates the process."
+              </p>
+              
+              <p>"At 98.6 degrees Fahrenheit, the salt begins releasing particles through the membrane. Creating the same microscopic aerosol you'd breathe in Mânzălești."</p>
+              
+              <p className="font-semibold">"You can place it in your bedroom and just breathe. Or... if you have a severe case... you can place it directly on your chest while you sleep. The heat makes it even more effective."</p>
+              
+              <p className="text-primary font-bold">"No electricity. No machines. No setup."</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* The Request */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>I couldn't believe what I was hearing. "Can you send me one?"</p>
+            
+            <p>She paused. "There's a problem."</p>
+            
+            <p className="italic">"The salt comes from the Mânzălești region. The deposits are on protected land. Getting export approval is... complicated."</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold text-primary text-center mt-8">"But I can send you one. As a personal favor."</p>
           </div>
         </div>
       </section>
