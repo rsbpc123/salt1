@@ -2013,29 +2013,108 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* Final CTA */}
-      <section className="py-8 md:py-10 px-4 bg-primary">
-        <div className="max-w-[970px] mx-auto text-center text-primary-foreground">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold mb-6">
-            Claim your copy of the Memory Wave now.
+      {/* The Problem At Home - Part 1 */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
+            The Problem We Discovered When We Got Home
           </h2>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            Go ahead, click the button below and complete your checkout to take advantage of today's discount. We'll email it to you immediately. You're always protected by our 100% satisfaction guarantee. So there's really nothing to lose.
-          </p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            And let me be the first to welcome you to the Memory Wave family, and congratulate you on your wise decision to invest in your brighter, safer, healthier future. Thank you very much for watching and God bless.
+          <p className="text-[20px] md:text-[28px] text-center text-muted-foreground italic mb-8">
+            (And Why Everything Almost Fell Apart)
           </p>
           
-          <a href="#" className="block mt-8">
-            <img 
-              src={orderButton} 
-              alt="Order Now" 
-              className="w-full max-w-[400px] mx-auto hover:opacity-90 transition-opacity"
-            />
-          </a>
+          <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
           
-          <div className="bg-[linear-gradient(to_right,transparent,hsl(var(--primary)/0.8)_49%,transparent)] py-3 mx-auto max-w-[700px] mt-8">
-            <p className="text-primary-foreground font-bold text-[18px] md:text-[24px]">NASA Neuroscientist-Recommended…</p>
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>We flew home three weeks later.</p>
+            
+            <p className="italic">I was terrified. Terrified the effects would wear off. That we'd get back to Georgia... and it would all come crashing down.</p>
+            
+            <p className="font-semibold text-primary">But for the first few weeks... Linda was fine. Better than fine.</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold">She was THRIVING.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Thriving Period */}
+      <section className="py-10 md:py-16 px-4 bg-primary/5">
+        <div className="max-w-[750px] mx-auto">
+          <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
+            <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+              <p>She reduced her inhaler use by <span className="font-bold text-primary">80%</span>.</p>
+              
+              <p>Stopped taking steroids altogether.</p>
+              
+              <p>Started going for walks around the neighborhood.</p>
+              
+              <p>Even played with the grandkids in the backyard.</p>
+              
+              <p className="font-semibold mt-6">I thought we'd won. I really did.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* The Return of Symptoms */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>Then... about six weeks after we got home... I heard it.</p>
+            
+            <p>That sound. Faint at first. But unmistakable.</p>
+            
+            <p className="text-[24px] md:text-[32px] font-bold text-destructive">The wheeze.</p>
+            
+            <p>Linda coughed a few times. "Just dry air," she said.</p>
+            
+            <p className="font-semibold">But I knew better.</p>
+            
+            <p>By that afternoon, she was reaching for her inhaler again. And that night... the wheezing was back.</p>
+            
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-destructive pl-6 my-8">
+              Within two weeks, it was like Romania never happened.
+            </p>
+            
+            <p>The shortness of breath. The coughing fits. The sleepless nights. All of it. Came rushing back.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bathroom Scene Image */}
+      <section className="py-8 md:py-12 px-4 bg-secondary/30">
+        <div className="max-w-[500px] mx-auto">
+          <figure className="relative">
+            <div 
+              className="relative overflow-visible mx-auto"
+              style={{
+                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={womanBathroomFloor} 
+                alt="Linda sitting on bathroom floor, crying" 
+                className="w-full h-auto rounded-lg"
+              />
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      {/* The Breakdown */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>One night, I found her in the bathroom again. Sitting on the floor. Crying. Just like before.</p>
+            
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "I thought we fixed it," she sobbed.
+            </p>
+            
+            <p>I held her. And I made another promise.</p>
+            
+            <p className="text-[24px] md:text-[32px] font-bold text-primary text-center mt-8">"We're going to figure this out."</p>
           </div>
         </div>
       </section>
