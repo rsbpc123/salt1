@@ -13,7 +13,7 @@ import stressedSeniorsCollage from "@/assets/stressed-seniors-collage.png";
 import lungCtScan from "@/assets/lung-ct-scan.png";
 import coupleHospitalHallway from "@/assets/couple-hospital-hallway.png";
 import medicationsPile from "@/assets/medications-pile.png";
-import womanBathroomFloor from "@/assets/woman-bathroom-floor.png";
+import womanBathroomFloor from "@/assets/woman-bathroom-crying.png";
 import doctorPhoto from "@/assets/doctor-photo.png";
 import productBundle from "@/assets/product-bundle.png";
 import productDiscount from "@/assets/product-discount.png";
