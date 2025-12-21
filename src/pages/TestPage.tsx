@@ -161,32 +161,22 @@ const TestPage = () => {
         <div className="max-w-[970px] mx-auto">
           {/* White Box - Overlapping into this section */}
           <div className="bg-secondary rounded-[14px] shadow-lg p-6 md:p-8 -mt-4 relative z-10">
-            <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-6">
-              A Tiny Invader..<br/>
-              Scientifically Verified By 5 Studies..<br/>
-              That Targets Brain Cells..
+            <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2">
+              I dialed 911.
             </h2>
             
-            <div className="md:float-right md:ml-4 md:-mr-4 text-center mb-4">
-              <img 
-                src={stressedSeniorsCollage} 
-                alt="Seniors experiencing memory difficulties" 
-                className="w-[200px] md:w-[280px] rounded-lg mx-auto"
-              />
-            </div>
-            
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold mt-8">It attacks brain cells.</p>
-            
-            <ul className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold italic space-y-3 mt-8 ml-6 md:ml-10">
-              <li className="list-disc">You get brain fog</li>
-              <li className="list-disc">Your thinking is fuzzy</li>
-              <li className="list-disc">Your brain even atrophies..</li>
-            </ul>
-            
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">We've missed the boat on cognitive decline..</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">But neuroscience is changing that now..</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">All it takes is an 8-second ritual at-home.</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">It uses your ears.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">The paramedics arrived in 8 minutes. Felt like 8 hours.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">They strapped an oxygen mask to her face. Loaded her onto the stretcher.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">One of them looked at me and shook his head. Not mean. Just... tired.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Like he'd seen us before.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">(He had. Three times that month.)</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Two hours later, a doctor came out.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">"She's stable. You can take her home in a few hours."</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"What happens next time?" I asked.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">He paused. "Keep doing what you're doing. Come back if it gets worse."</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">No solution. No plan.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Just... keep doing what we're doing.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">Except what we were doing WASN'T WORKING.</p>
             
             <div className="clear-both" />
           </div>
