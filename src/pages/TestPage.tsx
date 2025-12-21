@@ -15,6 +15,7 @@ import coupleHospitalHallway from "@/assets/couple-hospital-hallway.png";
 import medicationsPile from "@/assets/medications-pile.png";
 import womanBathroomFloor from "@/assets/woman-bathroom-crying.png";
 import manLaptopNight from "@/assets/man-laptop-night.png";
+import closedMineSign from "@/assets/closed-mine-sign.png";
 import doctorPhoto from "@/assets/doctor-photo.png";
 import productBundle from "@/assets/product-bundle.png";
 import productDiscount from "@/assets/product-discount.png";
@@ -576,42 +577,119 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* Section 8 - The Solution Discovery */}
+      {/* Section 8 - The Salt Mine Discovery */}
       <section className="py-10 px-4 bg-card">
         <div className="max-w-[970px] mx-auto">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
-            The 8-Second Discovery<br/>That Changed Everything..
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2">
+            We Flew 5,000 Miles to a Salt Mine...
           </h2>
+          <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] font-bold text-center text-destructive mb-8">
+            Only to Find THIS
+          </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            That&apos;s when I stumbled on a breakthrough study from the University of Toronto..
+            Three weeks later, we were on a plane to Bucharest. Then a rental car through the Carpathian Mountains.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
-            Scientists had discovered a special brainwave called &ldquo;Gamma&rdquo; that activates your brain&apos;s natural cleaning system.
+            Heading to Praid. Home to the famous Praid Salt Mine.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            Think of it like a power washer for your brain..
+            I was nervous. But hopeful.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
+            Linda squeezed my hand as we drove. "What if this actually works?"
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            When Gamma is activated, your brain&apos;s neural guardians spring into action, clearing away the toxic buildup that causes brain fog and memory problems.
+            "Then we're about to get your life back," I said.
           </p>
           
-          <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-8 text-primary-foreground">
-            <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] font-bold text-center">
-              The problem? Most people&apos;s Gamma waves are dormant after age 50.
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
+            We pulled into the parking lot.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            That's when I saw the sign.
+          </p>
+          
+          {/* Closed Sign Image */}
+          <div className="my-10 text-center relative">
+            <div 
+              className="relative overflow-visible inline-block"
+              style={{
+                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={closedMineSign} 
+                alt="ÎNCHIS - Closed sign at the salt mine" 
+                className="w-[300px] md:w-[400px] mx-auto"
+              />
+            </div>
+          </div>
+          
+          <p className="text-[28px] md:text-[40px] leading-[36px] md:leading-[50px] font-bold text-center text-destructive">
+            ÎNCHIS
+          </p>
+          <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] text-center italic mt-2 mb-8">
+            Closed.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            I walked closer. Another sign. In Romanian and English.
+          </p>
+          
+          <div className="bg-foreground rounded-[10px] p-5 md:p-6 mt-8 text-background">
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic">
+              "Due to severe flooding and structural collapse, the Praid Salt Mine has been permanently closed as of May 2025."
             </p>
           </div>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
-            That&apos;s where the 8-second ear ritual comes in..
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
+            My heart sank.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            By listening to a specially designed soundwave through your ears, you can reactivate your dormant Gamma waves in just 8 seconds.
+            We'd flown 5,000 miles. Spent money we didn't have.
           </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">
+            And now... nothing.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            Linda put her hand on my shoulder. "We tried. That's more than most people do."
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
+            But I could hear it in her voice.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">
+            The defeat.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">
+            The resignation.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            Like she'd already accepted this was how the rest of her life was going to be.
+          </p>
+          
+          {/* Determination Box */}
+          <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-10 text-primary-foreground">
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">
+              And I wasn't ready to accept that.
+            </p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4 font-bold italic">
+              Not yet.
+            </p>
+          </div>
         </div>
       </section>
 
