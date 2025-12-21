@@ -270,9 +270,9 @@ const TestPage = () => {
               Read This!
             </p>
             <img 
-              src={arrowRight} 
+              src={arrowCurveRed} 
               alt="" 
-              className="w-[60px] md:w-[80px] mt-1 rotate-[-30deg]"
+              className="w-[60px] md:w-[80px] mt-1 scale-x-[-1]"
             />
           </div>
           
