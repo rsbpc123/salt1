@@ -193,12 +193,12 @@ const TestPage = () => {
           </div>
           
           {/* Big Headline */}
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center text-primary-foreground py-10">
+          <h2 className="text-[24px] md:text-[38px] leading-[32px] md:leading-[48px] font-bold text-center text-primary-foreground pt-10 pb-2">
             Her Lungs Were Turning to Cement<br/>
             <span className="text-[#ffd700]">(And Nobody Told Us Until It Was Almost Too Late)</span>
           </h2>
 
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] text-primary-foreground mt-8">
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] text-primary-foreground mt-4">
             Two weeks later, Linda saw her pulmonologist.
           </p>
           
