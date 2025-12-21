@@ -16,6 +16,9 @@ import medicationsPile from "@/assets/medications-pile.png";
 import womanBathroomFloor from "@/assets/woman-bathroom-crying.png";
 import manLaptopNight from "@/assets/man-laptop-night.png";
 import closedMineSign from "@/assets/closed-mine-sign.png";
+import romanianCafeInterior from "@/assets/romanian-cafe-interior.png";
+import ioanaRomanianWoman from "@/assets/ioana-romanian-woman.png";
+import oldManChainsaw from "@/assets/old-man-chainsaw.png";
 import doctorPhoto from "@/assets/doctor-photo.png";
 import productBundle from "@/assets/product-bundle.png";
 import productDiscount from "@/assets/product-discount.png";
@@ -693,61 +696,204 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* Section 9 - Testimonial */}
+      {/* Section 9 - The Coffee Shop */}
       <section className="py-10 px-4 bg-secondary">
         <div className="max-w-[970px] mx-auto">
-          <div className="bg-card rounded-[14px] p-6 md:p-8 shadow-lg">
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic">
-              &ldquo;I was skeptical at first, but after just one week of using the Memory Wave, I noticed I could remember names at parties again. After a month, the brain fog that had plagued me for years was completely gone. I feel 20 years younger!&rdquo;
-            </p>
-            <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] mt-4 font-bold">
-              - Margaret T., 67, Tampa, FL
-            </p>
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
+            The Coffee Shop Conversation That Saved Linda's Life
+          </h2>
+          
+          <div className="md:float-right md:ml-6 md:-mr-4 text-center mb-4 relative">
+            <div 
+              className="relative overflow-visible"
+              style={{
+                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={romanianCafeInterior} 
+                alt="Romanian coffee shop interior" 
+                className="w-[260px] md:w-[340px] mx-auto"
+              />
+            </div>
           </div>
           
-          <div className="bg-card rounded-[14px] p-6 md:p-8 shadow-lg mt-6">
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic">
-              &ldquo;My doctor couldn&apos;t believe the change. I went from forgetting where I put my keys every day to remembering entire conversations word for word. The Memory Wave is the real deal.&rdquo;
-            </p>
-            <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] mt-4 font-bold">
-              - Robert J., 72, Phoenix, AZ
-            </p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">We drove into town. Found a small cafe on the main street. Old wooden tables. The smell of strong coffee and fresh bread.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">We ordered and sat down.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Linda looked tired. Not physically. Just... defeated.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">"What do we do now?" she whispered.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I had no answer.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Just that familiar crushing weight in my chest.</p>
+          
+          <div className="clear-both" />
+        </div>
+      </section>
+      
+      {/* Section 9b - Meeting Ioana */}
+      <section className="py-10 px-4 bg-card">
+        <div className="max-w-[970px] mx-auto">
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">That's when an older woman at the next table leaned over.</p>
+          
+          <div className="md:float-left md:mr-6 md:-ml-4 text-center mb-4 mt-8 relative">
+            <div 
+              className="relative overflow-visible"
+              style={{
+                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={ioanaRomanianWoman} 
+                alt="Ioana, the Romanian woman who helped us" 
+                className="w-[240px] md:w-[300px] mx-auto"
+              />
+            </div>
+          </div>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">"English?" she asked. Her accent thick. But clear.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"American," I said.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She smiled. "I'm Ioana."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She gestured toward the window. "You came for the mine?"</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I nodded. "Yeah. But it collapsed."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">She waved her hand dismissively. "The mine. Everyone comes for the mine."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">She shook her head. "But the mine is not special. It's just... underground."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I frowned. "What do you mean?"</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She leaned in closer. "You want salt for breathing, yes?"</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Yeah. My wife has lung problems."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Ioana looked at Linda. Studied her for a moment. Then nodded. <strong>"The mine was good. But there is a better place."</strong></p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda sat up. "Where?"</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">Ioana smiled. "Mânzălești. Small village. About four hours from here."</p>
+          
+          <div className="clear-both" />
+        </div>
+      </section>
+      
+      {/* Section 9c - The YouTube Video */}
+      <section className="py-10 px-4 bg-secondary">
+        <div className="max-w-[970px] mx-auto">
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">She pulled out her phone. Scrolled for a minute. Then turned it toward us.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">It was a YouTube video. The thumbnail showed an old man. Holding an axe. Standing in front of a pile of freshly cut wood.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">The title was in Romanian. But I could make out the number: <strong>101 de ani.</strong></p>
+          
+          <p className="text-[28px] md:text-[40px] leading-[36px] md:leading-[50px] font-bold text-center my-8">101 years old.</p>
+          
+          <div className="my-10 text-center relative">
+            <div 
+              className="relative overflow-visible inline-block"
+              style={{
+                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={oldManChainsaw} 
+                alt="101-year-old Gică Baciu cutting wood with a chainsaw" 
+                className="w-[300px] md:w-[400px] mx-auto"
+              />
+            </div>
+          </div>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She hit play. The video had 96,000 views.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">The old man was cutting wood. With a CHAINSAW. Moving like he was 50. Not 101.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"This is Gică Baciu," Ioana said. "He lives in Mânzălești. Everyone there lives long like this."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda's eyes widened. "Everyone?"</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">Ioana nodded. "Many people. Very old. But still strong."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She swiped to another video. An old woman. Working in her garden. Moving effortlessly.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Then another. A news report. BBC. Showing the village. White hills rising from the valley.</p>
+          
+          <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-10 text-primary-foreground">
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">"That is salt," Ioana said. "On the SURFACE. Not underground like the mine."</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4">I stared at the screen. "How is that possible?"</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4">She shrugged. "The ground is full of salt. So much salt, it comes to the top. The river carries it. The wind blows it."</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4 font-bold italic">"The whole village breathes it. Every day. Their whole lives."</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4 font-bold">"That is why they live so long."</p>
           </div>
         </div>
       </section>
-
-      {/* Section 10 - How It Works */}
+      
+      {/* Section 9d - The Evidence */}
       <section className="py-10 px-4 bg-card">
         <div className="max-w-[970px] mx-auto">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
-            How The Memory Wave<br/>Works In Just 8 Seconds..
-          </h2>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">She showed us more videos. Multiple TV reports. Romanian news channels. National Geographic.</p>
           
-          <div className="space-y-6">
-            <div className="flex gap-4 items-start">
-              <span className="bg-primary text-primary-foreground font-bold text-[20px] md:text-[24px] w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center flex-shrink-0">1</span>
-              <div>
-                <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">Put on any pair of headphones</p>
-                <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] text-muted-foreground mt-2">Regular earbuds or over-ear headphones work perfectly fine.</p>
-              </div>
-            </div>
-            
-            <div className="flex gap-4 items-start">
-              <span className="bg-primary text-primary-foreground font-bold text-[20px] md:text-[24px] w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center flex-shrink-0">2</span>
-              <div>
-                <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">Press play on the Memory Wave audio</p>
-                <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] text-muted-foreground mt-2">Within 8 seconds, the special soundwave begins activating your Gamma brainwaves.</p>
-              </div>
-            </div>
-            
-            <div className="flex gap-4 items-start">
-              <span className="bg-primary text-primary-foreground font-bold text-[20px] md:text-[24px] w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center flex-shrink-0">3</span>
-              <div>
-                <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">Relax for 12 minutes</p>
-                <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] text-muted-foreground mt-2">That&apos;s it! Your brain&apos;s natural cleaning system kicks in, clearing away toxic buildup.</p>
-              </div>
-            </div>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">All about Mânzălești. The village where people live past 100.</p>
+          
+          <div className="bg-foreground rounded-[10px] p-5 md:p-6 mt-8 text-background">
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic">
+              "You can search for it yourself on YouTube," she said. "Mânzălești longevity village. There are dozens of reports. This is real. Documented for years."
+            </p>
           </div>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I looked at Linda. Then back at Ioana.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">Linda leaned forward. "Can we go there?"</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Ioana smiled. "Of course. But..." She paused. "You should talk to Dr. Popescu first. She knows everything about the salt."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Who's Dr. Popescu?"</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"A researcher. From the university. She has been studying Mânzălești for many years."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She pulled out a pen. Scribbled something on a napkin. Slid it across the table.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Her name. Her email. Tell her Ioana sent you."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I looked at the napkin. Then at Ioana. "That's very kind of you. But... why are you going out of your way for us?"</p>
+        </div>
+      </section>
+      
+      {/* Section 9e - Ioana's Story */}
+      <section className="py-10 px-4 bg-secondary">
+        <div className="max-w-[970px] mx-auto">
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic">She smiled sadly. "My husband had lung problems. Like your wife."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"He is gone now. But before he died... he spent time in Mânzălești."</p>
+          
+          <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-10 text-primary-foreground">
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold italic">
+              "It gave him ten more good years."
+            </p>
+          </div>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Her eyes got a little watery. "So when I see people like you... looking for hope..."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She trailed off. Then stood up. Patted Linda's hand.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">"Go to Mânzălești. Breathe the air. You will see."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">And then she left.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I sat there holding the napkin. Staring at the name. <strong>Dr. Elena Popescu.</strong></p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda looked at me. "Robert... should we email her?"</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">I pulled out my phone. "I'm doing it right now."</p>
         </div>
       </section>
 
