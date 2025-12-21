@@ -15,6 +15,7 @@ import elderlyWomanGardening from "@/assets/elderly-woman-gardening.jpg";
 import saltTherapyPouch from "@/assets/salt-therapy-pouch.jpg";
 import elderlyManChoppingWood from "@/assets/elderly-man-chopping-wood.jpg";
 import saltPouchProduct from "@/assets/salt-pouch-product.jpg";
+import saltParticleVisualization from "@/assets/salt-particle-visualization.jpg";
 import brainHippocampus from "@/assets/brain-hippocampus.png";
 import lungsDiagram from "@/assets/lungs-diagram.png";
 import oxygenMaskHospital from "@/assets/oxygen-mask-hospital.webp";
@@ -2264,29 +2265,160 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* P.S. Section */}
-      <section className="py-8 md:py-10 px-4 bg-background">
-        <div className="max-w-[970px] mx-auto">
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mb-6">
-            <strong>P.S.</strong> Remember, the Memory Wave is backed by our iron-clad 90-day money-back guarantee. If you&apos;re not completely satisfied, simply email us for a full refund. No questions asked. You have absolutely nothing to lose.
+      {/* What Happened When Linda Used the Pouch - Part 1 */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
+            What Happened When Linda Used the Pouch
+          </h2>
+          <p className="text-[20px] md:text-[28px] text-center text-muted-foreground italic mb-8">
+            (That Her Pulmonologist Still Can't Explain)
           </p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mb-6">
-            <strong>P.P.S.</strong> The special discount price of just $39 (down from $200) is only available for a limited time. Once this page is taken down, the price will return to normal. Don&apos;t miss your chance to clear your brain fog and sharpen your memory.
-          </p>
+          <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">
-            <strong>P.P.P.S.</strong> Think about where you&apos;ll be 90 days from now. You could still be struggling with brain fog, forgetting names and misplacing your keys... or you could be enjoying crystal-clear thinking and a razor-sharp memory. The choice is yours. Click the button below to get started.
-          </p>
-          
-          <div className="text-center mt-8">
-            <a href="#" className="block">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>Two weeks later, a small package arrived from Romania.</p>
+            
+            <p>Inside was a fabric pouch. About the size of a brick. It felt warm to the touch.</p>
+            
+            <p className="font-semibold">And when I held it up to my nose... I could smell it. That distinct, mineral-rich scent from Mânzălești.</p>
+            
+            <p>There was something ELSE in the box too.</p>
+            
+            <p className="font-semibold text-primary">A small glass ampule.</p>
+            
+            <p>Filled with pinkish-white salt crystals.</p>
+            
+            <p className="italic">I recognized it immediately.</p>
+            
+            <p>The same vial Ana had shown us in the village.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Salt Vial Image */}
+      <section className="py-8 md:py-12 px-4 bg-secondary/30">
+        <div className="max-w-[400px] mx-auto">
+          <figure className="relative">
+            <div 
+              className="relative overflow-visible mx-auto"
+              style={{
+                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
+              }}
+            >
               <img 
-                src={orderButton} 
-                alt="Order Now" 
-                className="w-full max-w-[400px] mx-auto hover:opacity-90 transition-opacity"
+                src={saltParticleVisualization} 
+                alt="Small glass vial filled with pink salt crystals" 
+                className="w-full h-auto rounded-lg"
               />
-            </a>
+            </div>
+            <figcaption className="text-center mt-4 text-muted-foreground italic text-[16px]">
+              The protective salt ampule - a piece of the village
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      {/* The Phone Call About the Vial */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>I called Dr. Popescu.</p>
+            
+            <p>"I got the package. But... what's this?"</p>
+            
+            <p>She laughed. "Ah. That's a tradition here. We don't just USE the salt. We CARRY it."</p>
+            
+            <p className="italic">"Ana gave one to Linda, remember?"</p>
+            
+            <p>"I included one for each of you. Keep it in your pocket. Your purse. Wherever you go."</p>
+            
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "It's... how do I say... a piece of the village. A reminder that you're protected."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Meaning of the Vial */}
+      <section className="py-10 md:py-16 px-4 bg-primary/5">
+        <div className="max-w-[750px] mx-auto">
+          <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
+            <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+              <p>I looked at the vial. "Does it actually DO anything?"</p>
+              
+              <p>She paused. "I don't know if it's placebo. Or energy. Or just HOPE."</p>
+              
+              <p className="font-semibold">"But the villagers believe it works. And honestly? So do I."</p>
+              
+              <p className="italic">"Linda should carry hers. Especially on days when she's struggling."</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Giving Linda the Pouch */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>I brought the pouch to Linda. "Dr. Popescu sent this. She says it'll work like the village air."</p>
+            
+            <p>Linda looked at me. Hopeful. But scared to hope.</p>
+            
+            <p>"Where do I put it?"</p>
+            
+            <p>"On your nightstand. Or on your chest while you sleep."</p>
+            
+            <p>I also handed her the small ampule.</p>
+            
+            <p>She held it in her hand. Smiled.</p>
+            
+            <p className="font-semibold italic">"I remember this."</p>
+            
+            <p>That night, Linda placed the pouch on her nightstand. About a foot from her pillow.</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold text-primary">And from that day on...</p>
+            
+            <p className="font-semibold">She carried the ampule everywhere.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Results Timeline */}
+      <section className="py-10 md:py-16 px-4 bg-secondary/30">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground text-center">
+            <p className="italic">We didn't expect anything. Neither of us.</p>
+            
+            <p className="text-muted-foreground">But...</p>
+          </div>
+          
+          <div className="mt-10 space-y-6">
+            <div className="bg-card rounded-xl p-6 shadow-md">
+              <p className="text-[20px] md:text-[24px] font-semibold">
+                Within <span className="text-primary font-bold">THREE DAYS</span>... her wheezing stopped.
+              </p>
+            </div>
+            
+            <div className="bg-card rounded-xl p-6 shadow-md">
+              <p className="text-[20px] md:text-[24px] font-semibold">
+                Within a <span className="text-primary font-bold">WEEK</span>... she was sleeping through the night again.
+              </p>
+            </div>
+            
+            <div className="bg-card rounded-xl p-6 shadow-md">
+              <p className="text-[20px] md:text-[24px] font-semibold">
+                Within <span className="text-primary font-bold">TWO WEEKS</span>... she was walking around the neighborhood without her inhaler.
+              </p>
+            </div>
+            
+            <div className="bg-primary text-primary-foreground rounded-xl p-6 shadow-lg">
+              <p className="text-[22px] md:text-[28px] font-bold text-center">
+                Within a MONTH... she was better than she'd been even in Romania.
+              </p>
+            </div>
           </div>
         </div>
       </section>
