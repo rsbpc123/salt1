@@ -11,6 +11,8 @@ import romanianVillage from "@/assets/romanian-village.jpg";
 import lungDiagram from "@/assets/lung-diagram.jpg";
 import saltCrystalsCloseup from "@/assets/salt-crystals-closeup.jpg";
 import eldernCoupleBreathing from "@/assets/elderly-couple-breathing.jpg";
+import elderlyWomanGardening from "@/assets/elderly-woman-gardening.jpg";
+import saltTherapyPouch from "@/assets/salt-therapy-pouch.jpg";
 import brainHippocampus from "@/assets/brain-hippocampus.png";
 import lungsDiagram from "@/assets/lungs-diagram.png";
 import oxygenMaskHospital from "@/assets/oxygen-mask-hospital.webp";
@@ -1601,23 +1603,237 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* Customer Support Section */}
-      <section className="py-8 md:py-10 px-4 bg-card">
-        <div className="max-w-[970px] mx-auto">
-          <div className="bg-secondary rounded-[14px] p-6 md:p-8 flex flex-col md:flex-row items-center gap-6">
-            <img 
-              src={customerSupport} 
-              alt="Customer Support" 
-              className="w-[120px] md:w-[150px]"
-            />
-            <div>
-              <h3 className="text-[22px] md:text-[30px] leading-[30px] md:leading-[40px] font-bold mb-3 text-center md:text-left">
-                Questions? Our Friendly Customer Support Is Here To Help
-              </h3>
-              <p className="text-[16px] md:text-[22px] leading-[24px] md:leading-[32px] text-center md:text-left">
-                Email us at support@memorywaveofficial.com and we'll get back to you within 24 hours.
+      {/* 97-Year-Old Woman Section - Part 1 */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
+            The 97-Year-Old Woman Chopping Wood
+          </h2>
+          <p className="text-[20px] md:text-[28px] text-center text-muted-foreground italic mb-8">
+            (And What She Told Us About the Salt)
+          </p>
+          
+          <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
+          
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>Later that morning, Dr. Popescu came by.</p>
+            
+            <p>"How are you feeling?" she asked Linda.</p>
+            
+            <p>"Better. A lot better."</p>
+            
+            <p>Dr. Popescu smiled. "Good. Come with me. I want to show you something."</p>
+            
+            <p>We walked through the village. Down a narrow dirt path. Past a few scattered houses.</p>
+            
+            <p className="font-semibold">Then we came to a small garden.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Elderly Woman Gardening Image */}
+      <section className="py-8 md:py-12 px-4 bg-secondary/30">
+        <div className="max-w-[600px] mx-auto">
+          <figure className="relative">
+            <div 
+              className="relative overflow-visible mx-auto"
+              style={{
+                maskImage: 'radial-gradient(ellipse 90% 85% at center, black 50%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 90% 85% at center, black 50%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={elderlyWomanGardening} 
+                alt="Ana, 97 years old, working in her garden" 
+                className="w-full h-auto rounded-lg"
+              />
+            </div>
+            <figcaption className="text-center mt-4 text-muted-foreground italic text-[16px]">
+              Ana - 97 years old, still working in her garden every morning
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      {/* Meeting Ana */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>An older woman was kneeling in the dirt. Pulling weeds. Moving with steady, practiced motions.</p>
+            
+            <p>Dr. Popescu called out to her in Romanian.</p>
+            
+            <p>The woman looked up. Smiled. Stood up without using her hands.</p>
+            
+            <p>Up close, I could see how old she was. Deeply lined face. Hands weathered from decades of work. But her eyes were bright. Alert.</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold text-primary">"This is Ana," Dr. Popescu said. "She's 97."</p>
+            
+            <p>We shook hands. Her grip was surprisingly strong.</p>
+            
+            <p>Dr. Popescu translated as we talked.</p>
+            
+            <p>"Have you always lived here?" I asked.</p>
+            
+            <p>Ana nodded. Said something in Romanian.</p>
+            
+            <p className="italic">Dr. Popescu translated: "She was born in this house. Her mother was born here, too. Four generations of her family have lived in this valley."</p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Breathing Question */}
+      <section className="py-10 md:py-16 px-4 bg-primary/5">
+        <div className="max-w-[750px] mx-auto">
+          <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
+            <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+              <p>Linda asked, "Have you had any lung problems? Asthma? Breathing issues?"</p>
+              
+              <p>Ana looked confused. Said something to Dr. Popescu.</p>
+              
+              <p>Dr. Popescu smiled. "She says no one in her family has ever had lung problems. Not her. Not her mother. Not her grandmother."</p>
+              
+              <p className="font-semibold">"Never?"</p>
+              
+              <p>Ana shrugged. Said something else.</p>
+              
+              <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-6">
+                Dr. Popescu translated: "She says the salt protects our lungs. We don't get the breathing sickness."
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* The Firewood */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>We talked for a few more minutes. Then Ana gestured toward a pile of freshly chopped firewood.</p>
+            
+            <p>Dr. Popescu laughed. Translated: "She says she chopped that this morning. For winter."</p>
+            
+            <p>I stared at the pile. Then at Ana. "You chopped all that? Today?"</p>
+            
+            <p>Ana nodded. Said something with a grin.</p>
+            
+            <p className="italic">Dr. Popescu translated: "She says her knees used to hurt. But not anymore. She uses warm salt bags on them at night. Old tradition here."</p>
+            
+            <p className="font-semibold text-primary">Linda's eyes widened. "Salt bags?"</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Salt Pouch Image */}
+      <section className="py-8 md:py-12 px-4 bg-secondary/30">
+        <div className="max-w-[500px] mx-auto">
+          <figure className="relative">
+            <div 
+              className="relative overflow-visible mx-auto"
+              style={{
+                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={saltTherapyPouch} 
+                alt="Traditional salt therapy pouch filled with pink salt crystals" 
+                className="w-full h-auto rounded-lg"
+              />
+            </div>
+            <figcaption className="text-center mt-4 text-muted-foreground italic text-[16px]">
+              Traditional salt pouch - used for generations to reduce inflammation
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      {/* The Salt Pouch Gift */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>Ana nodded again. Went inside her house. Came back with a small fabric pouch. Handed it to Linda.</p>
+            
+            <p>It was warm. Filled with coarse salt.</p>
+            
+            <p>Dr. Popescu explained: "The villagers heat these pouches and apply them to sore joints. Knees. Shoulders. Hips. It reduces inflammation."</p>
+            
+            <p>Ana said something else.</p>
+            
+            <p className="italic">Dr. Popescu smiled. "She says you can keep that one. She has many."</p>
+            
+            <p>Linda held the pouch. "Thank you," she whispered.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Tiny Vial */}
+      <section className="py-10 md:py-16 px-4 bg-primary/5">
+        <div className="max-w-[750px] mx-auto">
+          <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
+            <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+              <p>Then Ana reached into her apron.</p>
+              
+              <p>Pulled out something smaller.</p>
+              
+              <p className="font-semibold">A tiny glass vial. No bigger than her thumb.</p>
+              
+              <p className="text-primary font-semibold">Filled with pinkish-white salt crystals.</p>
+              
+              <p>She held it up to the light. Said something in Romanian.</p>
+              
+              <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-6">
+                Dr. Popescu translated: "She says this is different. She doesn't USE this salt. She CARRIES it."
+              </p>
+              
+              <p>"Everywhere she goes. In her pocket. Around her neck. Always."</p>
+              
+              <p>Linda looked confused. "Why?"</p>
+              
+              <p>Ana tapped the vial. Said something else.</p>
+              
+              <p className="font-semibold">Dr. Popescu smiled. "She says it protects her. Keeps the bad energy away. Gives her strength."</p>
+              
+              <p>"It's a tradition here. The villagers have been doing this for generations."</p>
+              
+              <p className="text-[20px] md:text-[24px] italic">"They believe the salt doesn't just heal the body. It protects the SPIRIT."</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* The Gift and Realization */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>Ana handed the vial to Linda.</p>
+            
+            <p>Said something softly.</p>
+            
+            <p className="italic">Dr. Popescu translated: "She says you should carry one too. To keep you strong. To remind you that you're healing."</p>
+            
+            <p>Linda held the vial in her palm. Staring at it.</p>
+            
+            <p>"Thank you," she whispered again.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Walking Away */}
+      <section className="py-10 md:py-16 px-4 bg-secondary/30">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>As we walked away, Dr. Popescu said, "There are dozens of people like her in this village. All in their 90s. Many over 100."</p>
+            
+            <p className="font-semibold">"They don't take medication. They don't go to doctors. They just... live."</p>
+            
+            <p>"And breathe this air every single day."</p>
+            
+            <p>Linda turned to me. "Robert... what if this is real?"</p>
+            
+            <p>I looked back at Ana. Still working in her garden. At 97.</p>
+            
+            <p className="text-[24px] md:text-[32px] font-bold text-primary text-center mt-8">"I think it is," I said.</p>
           </div>
         </div>
       </section>
