@@ -16,7 +16,7 @@ import saltCrystalsJar from "@/assets/salt-crystals-jar.jpg";
 import osmoticHydration from "@/assets/osmotic-hydration.jpg";
 import ionicRestructuring from "@/assets/ionic-restructuring.jpg";
 import restoredClearance from "@/assets/restored-clearance.jpg";
-import eldernCoupleBreathing from "@/assets/elderly-couple-breathing.jpg";
+import lindaSleepingPeaceful from "@/assets/linda-sleeping-peaceful.jpg";
 import elderlyWomanGardening from "@/assets/elderly-woman-gardening.jpg";
 import saltTherapyPouch from "@/assets/salt-therapy-pouch.jpg";
 import elderlyManChoppingWood from "@/assets/elderly-man-chopping-wood.jpg";
@@ -1616,7 +1616,7 @@ const TestPage = () => {
               }}
             >
               <img 
-                src={eldernCoupleBreathing} 
+                src={lindaSleepingPeaceful} 
                 alt="Linda waking up peacefully, breathing clearly" 
                 className="w-full h-auto rounded-lg"
               />
