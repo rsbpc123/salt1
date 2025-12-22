@@ -8,7 +8,7 @@ import drPopescu from "@/assets/dr-popescu.png";
 import saltHillsRomania from "@/assets/salt-hills-romania.jpg";
 import harvardMedicalSchool from "@/assets/harvard-medical-school.png";
 import universityTituMaiorescu from "@/assets/university-titu-maiorescu.jpeg";
-import universityBucharestGeography from "@/assets/university-bucharest-geography.jpeg";
+import facultyGeographyBucharest from "@/assets/faculty-geography-bucharest.png";
 import romanianVillage from "@/assets/romanian-village.jpg";
 import lungDiagram from "@/assets/lung-diagram.jpg";
 import saltCrystalsCloseup from "@/assets/salt-crystals-closeup.jpg";
@@ -141,9 +141,9 @@ const TestPage = () => {
               className="h-12 md:h-16 w-auto mix-blend-multiply"
             />
             <img 
-              src={universityBucharestGeography} 
+              src={facultyGeographyBucharest} 
               alt="Universitatea din București - Facultatea de Geografie" 
-              className="h-12 md:h-16 w-auto bg-white rounded-full p-1"
+              className="h-12 md:h-16 w-auto"
             />
           </div>
         </div>
