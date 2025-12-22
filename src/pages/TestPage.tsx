@@ -26,7 +26,8 @@ import lungCtScan from "@/assets/lung-ct-scan.jpg";
 import coupleHospitalBench from "@/assets/couple-hospital-bench.jpg";
 import medicationsPile from "@/assets/medications-pile.jpg";
 import womanBathroomFloor from "@/assets/woman-bathroom-crying.jpg";
-import manLaptopNight from "@/assets/man-laptop-night.png";
+import manLaptopKitchen from "@/assets/man-laptop-kitchen.jpg";
+import saltMineInterior from "@/assets/salt-mine-interior.jpg";
 import closedMineSign from "@/assets/closed-mine-sign.png";
 import romanianCafeInterior from "@/assets/romanian-cafe-interior.png";
 import ioanaRomanianWoman from "@/assets/ioana-romanian-woman.png";
@@ -514,7 +515,7 @@ const TestPage = () => {
               }}
             >
               <img 
-                src={manLaptopNight} 
+                src={manLaptopKitchen} 
                 alt="Man searching on laptop late at night" 
                 className="w-[260px] md:w-[340px] mx-auto"
               />
@@ -573,6 +574,22 @@ const TestPage = () => {
           </div>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">I'm reading about people who sound EXACTLY like Linda.</p>
+          
+          <div className="md:float-right md:ml-6 md:-mr-4 text-center my-4 relative">
+            <div 
+              className="relative overflow-visible"
+              style={{
+                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={saltMineInterior} 
+                alt="Romanian salt mine interior" 
+                className="w-[260px] md:w-[340px] mx-auto"
+              />
+            </div>
+          </div>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Getting better. Not managing.</p>
           
