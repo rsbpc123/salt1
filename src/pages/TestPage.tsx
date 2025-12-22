@@ -10,6 +10,7 @@ import harvardMedicalSchool from "@/assets/harvard-medical-school.png";
 import universityTituMaiorescu from "@/assets/university-titu-maiorescu.jpeg";
 import facultyGeographyBucharest from "@/assets/faculty-geography-bucharest.png";
 import romanianVillage from "@/assets/romanian-village.jpg";
+import manzalestiVillageChurch from "@/assets/manzalesti-village-church.jpg";
 import lungDiagram from "@/assets/lung-diagram.jpg";
 import saltCrystalsCloseup from "@/assets/salt-crystals-closeup.jpg";
 import eldernCoupleBreathing from "@/assets/elderly-couple-breathing.jpg";
@@ -1141,8 +1142,8 @@ const TestPage = () => {
               }}
             >
               <img 
-                src={romanianVillage} 
-                alt="The village of Mânzălești - small church, dirt square, wooden fences" 
+                src={manzalestiVillageChurch} 
+                alt="Historic wooden church with distinctive towers in the village of Mânzălești, Romania" 
                 className="w-full h-auto rounded-lg"
               />
             </div>
