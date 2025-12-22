@@ -12,7 +12,7 @@ import facultyGeographyBucharest from "@/assets/faculty-geography-bucharest.png"
 import romanianVillage from "@/assets/romanian-village.jpg";
 import manzalestiVillageChurch from "@/assets/manzalesti-village-church.jpg";
 import drPopescuLungDiagram from "@/assets/dr-popescu-lung-diagram.jpg";
-import saltCrystalsCloseup from "@/assets/salt-crystals-closeup.jpg";
+import saltCrystalsJar from "@/assets/salt-crystals-jar.jpg";
 import eldernCoupleBreathing from "@/assets/elderly-couple-breathing.jpg";
 import elderlyWomanGardening from "@/assets/elderly-woman-gardening.jpg";
 import saltTherapyPouch from "@/assets/salt-therapy-pouch.jpg";
@@ -1347,8 +1347,8 @@ const TestPage = () => {
               }}
             >
               <img 
-                src={saltCrystalsCloseup} 
-                alt="Pink salt crystals in a glass jar" 
+                src={saltCrystalsJar} 
+                alt="Hand holding glass jar of ancient salt crystals up to light" 
                 className="w-full h-auto rounded-lg"
               />
             </div>
