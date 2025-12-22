@@ -129,7 +129,7 @@ const TestPage = () => {
           <p className="font-semibold text-[20px] md:text-[24px] leading-[28px] md:leading-[32px] text-center">
             Scientific References:
           </p>
-          <div className="flex justify-between items-center mt-5 px-4 md:px-12 max-w-[800px] mx-auto">
+          <div className="flex justify-center items-center mt-5 gap-8 md:gap-16">
             <img 
               src={harvardMedicalSchool} 
               alt="Harvard Medical School" 
@@ -143,7 +143,7 @@ const TestPage = () => {
             <img 
               src={universityBucharestGeography} 
               alt="Universitatea din București - Facultatea de Geografie" 
-              className="h-12 md:h-16 w-auto mix-blend-multiply"
+              className="h-12 md:h-16 w-auto bg-white rounded-full p-1"
             />
           </div>
         </div>
