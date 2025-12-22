@@ -66,6 +66,7 @@ import customerSupport from "@/assets/customer-support.png";
 import riskfreeSeal from "@/assets/riskfree-seal.png";
 import drPopescuOffice from "@/assets/dr-popescu-office.jpg";
 import coupleWalkingHope from "@/assets/couple-walking-hope.jpg";
+import romanianVillageDrive from "@/assets/romanian-village-drive.jpg";
 
 const TestPage = () => {
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
@@ -1038,6 +1039,14 @@ const TestPage = () => {
             <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
               "This feels like we're in a different century," Linda said.
             </p>
+            
+            <div className="my-8">
+              <img 
+                src={romanianVillageDrive} 
+                alt="View through car windshield of a horse-drawn cart on a muddy road in a Romanian village" 
+                className="w-full h-auto rounded-lg"
+              />
+            </div>
             
             <p>She wasn't wrong.</p>
             
