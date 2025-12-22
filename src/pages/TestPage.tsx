@@ -32,6 +32,7 @@ import closedMineSign from "@/assets/inchis-closed-sign.jpg";
 import coffeeShopCouple from "@/assets/coffee-shop-couple.jpg";
 import ioanaConversation from "@/assets/ioana-conversation.jpg";
 import phoneYoutubeVideo from "@/assets/phone-youtube-video.jpg";
+import napkinElenaPopescu from "@/assets/napkin-elena-popescu.jpg";
 import phoneEmailNotification from "@/assets/phone-email-notification.png";
 import doctorPhoto from "@/assets/doctor-photo.png";
 import productBundle from "@/assets/product-bundle.png";
@@ -922,6 +923,14 @@ const TestPage = () => {
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">And then she left.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I sat there holding the napkin. Staring at the name. <strong>Dr. Elena Popescu.</strong></p>
+          
+          <div className="my-10 text-center">
+            <img 
+              src={napkinElenaPopescu} 
+              alt="Napkin with Dr. Elena Popescu's email written on it" 
+              className="w-[320px] md:w-[450px] mx-auto rounded-lg"
+            />
+          </div>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda looked at me. "Robert... should we email her?"</p>
           
