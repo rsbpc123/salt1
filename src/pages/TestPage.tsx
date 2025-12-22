@@ -1043,38 +1043,18 @@ const TestPage = () => {
             <p className="text-[24px] md:text-[32px] font-bold">Not snow.</p>
             
             <p className="text-[24px] md:text-[32px] font-bold text-primary">Salt.</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Salt Hills Image Section */}
-      <section className="py-8 md:py-12 px-4 bg-secondary/30">
-        <div className="max-w-[900px] mx-auto">
-          <figure className="relative">
-            <div 
-              className="relative overflow-visible mx-auto max-w-[700px]"
-              style={{
-                maskImage: 'radial-gradient(ellipse 90% 85% at center, black 50%, transparent 100%)',
-                WebkitMaskImage: 'radial-gradient(ellipse 90% 85% at center, black 50%, transparent 100%)'
-              }}
-            >
+            
+            <figure className="float-right ml-6 md:ml-10 -mr-4 md:-mr-8 mb-6 w-56 md:w-80 relative">
               <img 
                 src={saltHillsRomania} 
-                alt="White salt hills rising from the Romanian valley" 
+                alt="Couple standing by their car looking at the white salt hills of Romania" 
                 className="w-full h-auto rounded-lg"
               />
-            </div>
-            <figcaption className="text-center mt-4 text-muted-foreground italic text-[16px]">
-              The salt hills of Mânzălești - coating the hillsides like powder
-            </figcaption>
-          </figure>
-        </div>
-      </section>
-
-      {/* Salt Discovery Continuation */}
-      <section className="py-10 md:py-16 px-4 bg-background">
-        <div className="max-w-[750px] mx-auto">
-          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+              <figcaption className="mt-2 text-sm text-muted-foreground italic text-center">
+                The salt hills of Mânzălești - coating the hillsides like powder
+              </figcaption>
+            </figure>
+            
             <p>Coating the hillsides like powder. Sparkling like crushed diamonds in the morning sun.</p>
             
             <p>Linda came up beside me. "Robert... is that...?"</p>
@@ -1087,7 +1067,7 @@ const TestPage = () => {
             
             <p>I turned. A woman got out. Probably in her late 50s. Carrying a weathered leather bag. Warm smile.</p>
             
-            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8 clear-both">
               "Robert? Linda?"
             </p>
             
