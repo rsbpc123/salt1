@@ -1467,14 +1467,14 @@ const TestPage = () => {
       {/* Dr. Popescu Science Section - Part 4: Why Doctors Don't Tell You */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
-          <p className="text-[18px] md:text-[22px] leading-relaxed text-foreground mb-6">She set the jar down.</p>
-          
           <div className="text-[18px] md:text-[22px] leading-relaxed text-foreground">
             <img 
               src={drPopescuOffice} 
               alt="Dr. Popescu in her office" 
               className="float-left mr-6 mb-4 w-[200px] md:w-[280px] rounded-lg shadow-lg"
             />
+            
+            <p className="mb-6">She set the jar down.</p>
             
             <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 mb-6">
               "This is why the air here works when medications don't."
