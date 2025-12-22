@@ -139,22 +139,28 @@ const TestPage = () => {
           <p className="font-semibold text-[20px] md:text-[24px] leading-[28px] md:leading-[32px] text-center">
             Scientific References:
           </p>
-          <div className="flex justify-center items-center mt-5 gap-8 md:gap-16">
-            <img 
-              src={harvardMedicalSchool} 
-              alt="Harvard Medical School" 
-              className="h-12 md:h-16 w-auto mix-blend-multiply"
-            />
-            <img 
-              src={universityTituMaiorescu} 
-              alt="Universitatea Titu Maiorescu" 
-              className="h-12 md:h-16 w-auto mix-blend-multiply"
-            />
-            <img 
-              src={facultyGeographyBucharest} 
-              alt="Universitatea din București - Facultatea de Geografie" 
-              className="h-12 md:h-16 w-auto"
-            />
+          <div className="flex justify-center items-center mt-5 gap-6 md:gap-12">
+            <div className="flex-1 flex justify-center">
+              <img 
+                src={universityTituMaiorescu} 
+                alt="Universitatea Titu Maiorescu" 
+                className="h-12 md:h-16 w-auto mix-blend-multiply"
+              />
+            </div>
+            <div className="flex-1 flex justify-center">
+              <img 
+                src={harvardMedicalSchool} 
+                alt="Harvard Medical School" 
+                className="h-12 md:h-16 w-auto mix-blend-multiply"
+              />
+            </div>
+            <div className="flex-1 flex justify-center">
+              <img 
+                src={facultyGeographyBucharest} 
+                alt="Universitatea din București - Facultatea de Geografie" 
+                className="h-12 md:h-16 w-auto"
+              />
+            </div>
           </div>
         </div>
       </section>
