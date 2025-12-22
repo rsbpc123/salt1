@@ -129,21 +129,21 @@ const TestPage = () => {
           <p className="font-semibold text-[20px] md:text-[24px] leading-[28px] md:leading-[32px] text-center">
             Scientific References:
           </p>
-          <div className="flex justify-center items-center gap-6 md:gap-10 mt-5 flex-wrap">
+          <div className="flex justify-between items-center mt-5 px-4 md:px-12 max-w-[800px] mx-auto">
             <img 
               src={harvardMedicalSchool} 
               alt="Harvard Medical School" 
-              className="h-12 md:h-16 w-auto"
+              className="h-12 md:h-16 w-auto mix-blend-multiply"
             />
             <img 
               src={universityTituMaiorescu} 
               alt="Universitatea Titu Maiorescu" 
-              className="h-12 md:h-16 w-auto"
+              className="h-12 md:h-16 w-auto mix-blend-multiply"
             />
             <img 
               src={universityBucharestGeography} 
               alt="Universitatea din București - Facultatea de Geografie" 
-              className="h-12 md:h-16 w-auto"
+              className="h-12 md:h-16 w-auto mix-blend-multiply"
             />
           </div>
         </div>
