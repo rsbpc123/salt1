@@ -1054,6 +1054,17 @@ const TestPage = () => {
             
             <p className="text-[22px] md:text-[28px] font-bold text-primary">White hills rising from the valley.</p>
             
+            <figure className="float-right ml-6 md:ml-10 -mr-4 md:-mr-8 mb-6 w-72 md:w-[420px] relative">
+              <img 
+                src={saltHillsRomania} 
+                alt="Couple standing by their car looking at the white salt hills of Romania" 
+                className="w-full h-auto rounded-lg"
+              />
+              <figcaption className="mt-2 text-sm text-muted-foreground italic text-center">
+                The salt hills of Mânzălești - coating the hillsides like powder
+              </figcaption>
+            </figure>
+            
             <p>At first, I thought: snow.</p>
             
             <p>But it was May. Too warm.</p>
@@ -1065,17 +1076,6 @@ const TestPage = () => {
             <p className="text-[24px] md:text-[32px] font-bold">Not snow.</p>
             
             <p className="text-[24px] md:text-[32px] font-bold text-primary">Salt.</p>
-            
-            <figure className="float-right ml-6 md:ml-10 -mr-4 md:-mr-8 mb-6 w-56 md:w-80 relative">
-              <img 
-                src={saltHillsRomania} 
-                alt="Couple standing by their car looking at the white salt hills of Romania" 
-                className="w-full h-auto rounded-lg"
-              />
-              <figcaption className="mt-2 text-sm text-muted-foreground italic text-center">
-                The salt hills of Mânzălești - coating the hillsides like powder
-              </figcaption>
-            </figure>
             
             <p>Coating the hillsides like powder. Sparkling like crushed diamonds in the morning sun.</p>
             
