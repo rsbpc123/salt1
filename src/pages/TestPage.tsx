@@ -69,6 +69,7 @@ import coupleWalkingHope from "@/assets/couple-walking-hope.jpg";
 import romanianVillageDrive from "@/assets/romanian-village-drive.jpg";
 import coupleCryingHappy from "@/assets/couple-crying-happy.jpg";
 import anaGardenCarrots from "@/assets/ana-garden-carrots.jpg";
+import anaSaltVial from "@/assets/ana-salt-vial.jpg";
 
 const TestPage = () => {
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
@@ -1887,6 +1888,14 @@ const TestPage = () => {
               <p className="font-semibold">A tiny glass vial. No bigger than her thumb.</p>
               
               <p className="text-primary font-semibold">Filled with pinkish-white salt crystals.</p>
+              
+              <figure className="my-8">
+                <img 
+                  src={anaSaltVial} 
+                  alt="Ana's weathered hands holding a tiny glass vial filled with salt crystals" 
+                  className="w-full h-auto rounded-lg"
+                />
+              </figure>
               
               <p>She held it up to the light. Said something in Romanian.</p>
               
