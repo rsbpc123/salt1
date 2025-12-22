@@ -70,6 +70,7 @@ import romanianVillageDrive from "@/assets/romanian-village-drive.jpg";
 import coupleCryingHappy from "@/assets/couple-crying-happy.jpg";
 import anaGardenCarrots from "@/assets/ana-garden-carrots.jpg";
 import anaSaltVial from "@/assets/ana-salt-vial.jpg";
+import coupleHiking from "@/assets/couple-hiking.jpg";
 
 const TestPage = () => {
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
@@ -1977,6 +1978,14 @@ const TestPage = () => {
             <p>By day 7, she was sleeping through the night. No coughing fits. No waking up at 3 AM struggling to breathe.</p>
             
             <p className="text-[22px] md:text-[28px] font-bold text-primary">By day 10... she wanted to hike.</p>
+            
+            <figure className="mt-8">
+              <img 
+                src={coupleHiking} 
+                alt="Linda and Robert hiking together through green hills at sunset" 
+                className="w-full h-auto rounded-lg"
+              />
+            </figure>
           </div>
         </div>
       </section>
