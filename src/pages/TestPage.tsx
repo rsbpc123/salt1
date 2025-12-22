@@ -68,6 +68,7 @@ import drPopescuOffice from "@/assets/dr-popescu-office.jpg";
 import coupleWalkingHope from "@/assets/couple-walking-hope.jpg";
 import romanianVillageDrive from "@/assets/romanian-village-drive.jpg";
 import coupleCryingHappy from "@/assets/couple-crying-happy.jpg";
+import anaGardenCarrots from "@/assets/ana-garden-carrots.jpg";
 
 const TestPage = () => {
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
@@ -1750,8 +1751,8 @@ const TestPage = () => {
               }}
             >
               <img 
-                src={elderlyWomanGardening} 
-                alt="Ana, 97 years old, working in her garden" 
+                src={anaGardenCarrots} 
+                alt="Ana, 97 years old, working in her garden holding carrots" 
                 className="w-full h-auto rounded-lg"
               />
             </div>
