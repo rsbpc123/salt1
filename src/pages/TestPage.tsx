@@ -6,7 +6,9 @@ import heroBackgroundMobile from "@/assets/hero-background-mobile.jpg";
 import doctorQuote from "@/assets/doctor-quote.png";
 import drPopescu from "@/assets/dr-popescu.png";
 import saltHillsRomania from "@/assets/salt-hills-romania.jpg";
-import institutionLogos from "@/assets/institution-logos.png";
+import harvardMedicalSchool from "@/assets/harvard-medical-school.png";
+import universityTituMaiorescu from "@/assets/university-titu-maiorescu.jpeg";
+import universityBucharestGeography from "@/assets/university-bucharest-geography.jpeg";
 import romanianVillage from "@/assets/romanian-village.jpg";
 import lungDiagram from "@/assets/lung-diagram.jpg";
 import saltCrystalsCloseup from "@/assets/salt-crystals-closeup.jpg";
@@ -125,13 +127,23 @@ const TestPage = () => {
       <section className="bg-muted py-6 md:py-8 px-4">
         <div className="max-w-[970px] mx-auto">
           <p className="font-semibold text-[20px] md:text-[24px] leading-[28px] md:leading-[32px] text-center">
-            Scientific References and Spiritual Studies:
+            Scientific References:
           </p>
-          <div className="flex justify-center items-center mt-5">
+          <div className="flex justify-center items-center gap-6 md:gap-10 mt-5 flex-wrap">
             <img 
-              src={institutionLogos} 
-              alt="Nature Neuro, University of Toronto, JNeurosci" 
-              className="max-w-full h-auto opacity-80"
+              src={harvardMedicalSchool} 
+              alt="Harvard Medical School" 
+              className="h-12 md:h-16 w-auto"
+            />
+            <img 
+              src={universityTituMaiorescu} 
+              alt="Universitatea Titu Maiorescu" 
+              className="h-12 md:h-16 w-auto"
+            />
+            <img 
+              src={universityBucharestGeography} 
+              alt="Universitatea din București - Facultatea de Geografie" 
+              className="h-12 md:h-16 w-auto"
             />
           </div>
         </div>
