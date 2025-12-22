@@ -11,7 +11,7 @@ import universityTituMaiorescu from "@/assets/university-titu-maiorescu.jpeg";
 import facultyGeographyBucharest from "@/assets/faculty-geography-bucharest.png";
 import romanianVillage from "@/assets/romanian-village.jpg";
 import manzalestiVillageChurch from "@/assets/manzalesti-village-church.jpg";
-import lungDiagram from "@/assets/lung-diagram.jpg";
+import drPopescuLungDiagram from "@/assets/dr-popescu-lung-diagram.jpg";
 import saltCrystalsCloseup from "@/assets/salt-crystals-closeup.jpg";
 import eldernCoupleBreathing from "@/assets/elderly-couple-breathing.jpg";
 import elderlyWomanGardening from "@/assets/elderly-woman-gardening.jpg";
@@ -1280,8 +1280,8 @@ const TestPage = () => {
               }}
             >
               <img 
-                src={lungDiagram} 
-                alt="Cross-section of human lungs showing airways with mucus plugs" 
+                src={drPopescuLungDiagram} 
+                alt="Dr. Popescu showing a lung diagram with mucus cement plugs to Robert and Linda" 
                 className="w-full h-auto rounded-lg"
               />
             </div>
