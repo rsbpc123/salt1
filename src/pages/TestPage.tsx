@@ -683,7 +683,7 @@ const TestPage = () => {
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            I walked closer. Another sign. In Romanian and English.
+            I walked closer. Another sign. In English.
           </p>
           
           <div className="bg-foreground rounded-[10px] p-5 md:p-6 mt-8 text-background">
