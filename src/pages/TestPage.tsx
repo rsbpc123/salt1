@@ -36,6 +36,7 @@ import phoneYoutubeVideo from "@/assets/phone-youtube-video.jpg";
 import napkinElenaPopescu from "@/assets/napkin-elena-popescu.jpg";
 import phoneEmailDrPopescu from "@/assets/phone-email-dr-popescu.jpg";
 import phoneEmailNotification from "@/assets/phone-email-notification.png";
+import mariaCottage from "@/assets/maria-cottage.jpg";
 import doctorPhoto from "@/assets/doctor-photo.png";
 import productBundle from "@/assets/product-bundle.png";
 import productDiscount from "@/assets/product-discount.png";
@@ -1171,6 +1172,35 @@ const TestPage = () => {
             <p>Dr. Popescu smiled. "I've arranged something."</p>
             
             <p>She led us down a narrow path. Past a few more houses. Until we reached a small cottage. White walls. Blue shutters. Flowers in the window boxes.</p>
+            
+            <figure className="float-right ml-6 md:ml-10 -mr-4 md:-mr-8 mb-6 w-56 md:w-72 relative">
+              <div className="relative">
+                <div 
+                  className="relative overflow-visible"
+                  style={{
+                    maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
+                    WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
+                  }}
+                >
+                  <img 
+                    src={mariaCottage} 
+                    alt="Maria, a Romanian woman in traditional dress, welcoming visitors to her cottage with blue shutters and flower boxes"
+                    className="w-full h-auto"
+                  />
+                </div>
+                <div 
+                  className="absolute inset-0 -z-10 blur-2xl opacity-30 scale-110"
+                  style={{
+                    backgroundImage: `url(${mariaCottage})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center'
+                  }}
+                />
+              </div>
+              <figcaption className="mt-3 text-sm text-muted-foreground italic text-center">
+                Maria welcomed us warmly to her cottage
+              </figcaption>
+            </figure>
             
             <p>An older woman was standing outside. Probably in her 70s. Wearing a traditional Romanian dress. Smiling warmly.</p>
             
