@@ -4,7 +4,7 @@ import { useState } from "react";
 import heroBackground from "@/assets/hero-background.webp";
 import heroBackgroundMobile from "@/assets/hero-background-mobile.jpg";
 import doctorQuote from "@/assets/doctor-quote.png";
-import drPopescu from "@/assets/dr-popescu.png";
+import drElenaPopescu from "@/assets/dr-elena-popescu.png";
 import saltHillsRomania from "@/assets/salt-hills-romania.jpg";
 import harvardMedicalSchool from "@/assets/harvard-medical-school.png";
 import universityTituMaiorescu from "@/assets/university-titu-maiorescu.jpeg";
@@ -90,8 +90,8 @@ const TestPage = () => {
           <div className="relative mt-7 md:pl-[155px] md:w-[80%]">
             <div className="md:absolute md:left-[-5px] md:top-[-2px] w-[160px] mx-auto md:mx-0 mb-4 md:mb-0">
               <img 
-                src={drPopescu} 
-                alt="Dr. Popescu" 
+                src={drElenaPopescu} 
+                alt="Dr. Elena Popescu" 
                 className="w-[120px] h-[120px] rounded-full mx-auto md:mx-0 object-cover"
               />
             </div>
@@ -1097,7 +1097,7 @@ const TestPage = () => {
               }}
             >
               <img 
-                src={drPopescu} 
+                src={drElenaPopescu} 
                 alt="Dr. Elena Popescu" 
                 className="w-full h-auto"
               />
