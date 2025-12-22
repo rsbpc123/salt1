@@ -22,8 +22,8 @@ import brainHippocampus from "@/assets/brain-hippocampus.png";
 import lungsDiagram from "@/assets/lungs-diagram.png";
 import ambulance911Scene from "@/assets/ambulance-911-scene.jpg";
 import stressedSeniorsCollage from "@/assets/stressed-seniors-collage.png";
-import lungCtScan from "@/assets/lung-ct-scan.png";
-import coupleHospitalHallway from "@/assets/couple-hospital-hallway.png";
+import lungCtScan from "@/assets/lung-ct-scan.jpg";
+import coupleHospitalBench from "@/assets/couple-hospital-bench.jpg";
 import medicationsPile from "@/assets/medications-pile.png";
 import womanBathroomFloor from "@/assets/woman-bathroom-crying.png";
 import manLaptopNight from "@/assets/man-laptop-night.png";
@@ -297,9 +297,9 @@ const TestPage = () => {
                   WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
                 }}
               >
-                <img 
-                  src={coupleHospitalHallway} 
-                  alt="Couple walking silently through hospital hallway" 
+              <img 
+                  src={coupleHospitalBench} 
+                  alt="Couple sitting on bench outside hospital" 
                   className="w-[260px] md:w-[340px]"
                 />
               </div>
