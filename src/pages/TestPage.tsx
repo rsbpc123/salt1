@@ -13,6 +13,9 @@ import romanianVillage from "@/assets/romanian-village.jpg";
 import manzalestiVillageChurch from "@/assets/manzalesti-village-church.jpg";
 import drPopescuLungDiagram from "@/assets/dr-popescu-lung-diagram.jpg";
 import saltCrystalsJar from "@/assets/salt-crystals-jar.jpg";
+import osmoticHydration from "@/assets/osmotic-hydration.jpg";
+import ionicRestructuring from "@/assets/ionic-restructuring.jpg";
+import restoredClearance from "@/assets/restored-clearance.jpg";
 import eldernCoupleBreathing from "@/assets/elderly-couple-breathing.jpg";
 import elderlyWomanGardening from "@/assets/elderly-woman-gardening.jpg";
 import saltTherapyPouch from "@/assets/salt-therapy-pouch.jpg";
@@ -1390,44 +1393,71 @@ const TestPage = () => {
       <section className="py-10 md:py-16 px-4 bg-primary/5">
         <div className="max-w-[750px] mx-auto">
           {/* Step 1 */}
-          <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg mb-8">
-            <div className="flex items-center gap-4 mb-4">
-              <span className="w-12 h-12 md:w-16 md:h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-2xl md:text-3xl font-bold">1</span>
+          <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg mb-8 overflow-hidden">
+            <div className="flex items-center gap-4 mb-6">
+              <span className="w-12 h-12 md:w-16 md:h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-2xl md:text-3xl font-bold shrink-0">1</span>
               <h3 className="text-[22px] md:text-[28px] font-bold text-primary">FIRST... Osmotic Hydration</h3>
             </div>
-            <div className="space-y-4 text-[17px] md:text-[20px] leading-relaxed text-foreground pl-0 md:pl-20">
-              <p>"Salt is hygroscopic. It naturally attracts and pulls water molecules toward it."</p>
-              <p>"When salt particles land on those dense mucus plugs, they immediately start pulling moisture FROM your surrounding lung tissue INTO the plug."</p>
-              <p className="italic text-muted-foreground">"Think of it like pouring water on dried rubber cement before you try to peel it off."</p>
-              <p className="font-semibold">"Within 20-30 minutes, those plugs start to soften and rehydrate."</p>
+            <div className="md:flex md:gap-6">
+              <div className="mb-6 md:mb-0 md:w-2/5 shrink-0">
+                <img 
+                  src={osmoticHydration} 
+                  alt="Salt particles attracting water molecules to soften mucus plugs in airways" 
+                  className="w-full h-auto rounded-lg shadow-md"
+                />
+              </div>
+              <div className="space-y-4 text-[17px] md:text-[20px] leading-relaxed text-foreground">
+                <p>"Salt is hygroscopic. It naturally attracts and pulls water molecules toward it."</p>
+                <p>"When salt particles land on those dense mucus plugs, they immediately start pulling moisture FROM your surrounding lung tissue INTO the plug."</p>
+                <p className="italic text-muted-foreground">"Think of it like pouring water on dried rubber cement before you try to peel it off."</p>
+                <p className="font-semibold">"Within 20-30 minutes, those plugs start to soften and rehydrate."</p>
+              </div>
             </div>
           </div>
 
           {/* Step 2 */}
-          <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg mb-8">
-            <div className="flex items-center gap-4 mb-4">
-              <span className="w-12 h-12 md:w-16 md:h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-2xl md:text-3xl font-bold">2</span>
+          <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg mb-8 overflow-hidden">
+            <div className="flex items-center gap-4 mb-6">
+              <span className="w-12 h-12 md:w-16 md:h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-2xl md:text-3xl font-bold shrink-0">2</span>
               <h3 className="text-[22px] md:text-[28px] font-bold text-primary">SECOND... Ionic Restructuring</h3>
             </div>
-            <div className="space-y-4 text-[17px] md:text-[20px] leading-relaxed text-foreground pl-0 md:pl-20">
-              <p>"Mucus is a complex structure. A charged hydrogel where the ionic environment dramatically affects its viscosity and elasticity."</p>
-              <p>"The mineral salts in THIS salt—magnesium sulfate, polyhalite, iron oxide—literally alter the STRUCTURE of the mucus."</p>
-              <p className="font-semibold">"Making it less sticky. Less rigid. Easier to move."</p>
+            <div className="md:flex md:flex-row-reverse md:gap-6">
+              <div className="mb-6 md:mb-0 md:w-2/5 shrink-0">
+                <img 
+                  src={ionicRestructuring} 
+                  alt="Mineral ions breaking apart mucus molecular structure" 
+                  className="w-full h-auto rounded-lg shadow-md"
+                />
+              </div>
+              <div className="space-y-4 text-[17px] md:text-[20px] leading-relaxed text-foreground">
+                <p>"Mucus is a complex structure. A charged hydrogel where the ionic environment dramatically affects its viscosity and elasticity."</p>
+                <p>"The mineral salts in THIS salt—magnesium sulfate, polyhalite, iron oxide—literally alter the STRUCTURE of the mucus."</p>
+                <p className="font-semibold">"Making it less sticky. Less rigid. Easier to move."</p>
+              </div>
             </div>
           </div>
 
           {/* Step 3 */}
-          <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg">
-            <div className="flex items-center gap-4 mb-4">
-              <span className="w-12 h-12 md:w-16 md:h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-2xl md:text-3xl font-bold">3</span>
+          <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg overflow-hidden">
+            <div className="flex items-center gap-4 mb-6">
+              <span className="w-12 h-12 md:w-16 md:h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-2xl md:text-3xl font-bold shrink-0">3</span>
               <h3 className="text-[22px] md:text-[28px] font-bold text-primary">THIRD... Restored Clearance</h3>
             </div>
-            <div className="space-y-4 text-[17px] md:text-[20px] leading-relaxed text-foreground pl-0 md:pl-20">
-              <p>"Your lungs have tiny hair-like structures called cilia that sweep mucus UP and OUT of your airways."</p>
-              <p>"But chronic inflammation paralyzes them."</p>
-              <p className="italic text-muted-foreground">She showed us a microscopic image. Tiny hairs. Frozen in place.</p>
-              <p>"The salt reactivates those cilia. Gets them moving again."</p>
-              <p className="font-semibold">"So within weeks of consistent exposure, your body can begin clearing plugs that have been stuck for months or years."</p>
+            <div className="md:flex md:gap-6">
+              <div className="mb-6 md:mb-0 md:w-2/5 shrink-0">
+                <img 
+                  src={restoredClearance} 
+                  alt="Microscopic view of paralyzed vs active cilia in airways" 
+                  className="w-full h-auto rounded-lg shadow-md"
+                />
+              </div>
+              <div className="space-y-4 text-[17px] md:text-[20px] leading-relaxed text-foreground">
+                <p>"Your lungs have tiny hair-like structures called cilia that sweep mucus UP and OUT of your airways."</p>
+                <p>"But chronic inflammation paralyzes them."</p>
+                <p className="italic text-muted-foreground">She showed us a microscopic image. Tiny hairs. Frozen in place.</p>
+                <p>"The salt reactivates those cilia. Gets them moving again."</p>
+                <p className="font-semibold">"So within weeks of consistent exposure, your body can begin clearing plugs that have been stuck for months or years."</p>
+              </div>
             </div>
           </div>
         </div>
