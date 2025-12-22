@@ -31,7 +31,7 @@ import saltMineInterior from "@/assets/salt-mine-interior.jpg";
 import closedMineSign from "@/assets/inchis-closed-sign.jpg";
 import coffeeShopCouple from "@/assets/coffee-shop-couple.jpg";
 import ioanaConversation from "@/assets/ioana-conversation.jpg";
-import oldManChainsaw from "@/assets/old-man-chainsaw.png";
+import phoneYoutubeVideo from "@/assets/phone-youtube-video.jpg";
 import phoneEmailNotification from "@/assets/phone-email-notification.png";
 import doctorPhoto from "@/assets/doctor-photo.png";
 import productBundle from "@/assets/product-bundle.png";
@@ -837,20 +837,12 @@ const TestPage = () => {
           
           <p className="text-[28px] md:text-[40px] leading-[36px] md:leading-[50px] font-bold text-center my-8">101 years old.</p>
           
-          <div className="my-10 text-center relative">
-            <div 
-              className="relative overflow-visible inline-block"
-              style={{
-                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
-                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
-              }}
-            >
+          <div className="my-10 text-center">
               <img 
-                src={oldManChainsaw} 
-                alt="101-year-old Gică Baciu cutting wood with a chainsaw" 
-                className="w-[300px] md:w-[400px] mx-auto"
+                src={phoneYoutubeVideo} 
+                alt="Phone showing YouTube video of 101-year-old Gică Baciu with chainsaw" 
+                className="w-[320px] md:w-[450px] mx-auto rounded-lg"
               />
-            </div>
           </div>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She hit play. The video had 96,000 views.</p>
