@@ -70,10 +70,10 @@ const TestPage = () => {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-sm scale-105"
           style={{ backgroundImage: `url(${heroBackground})` }}
         />
-        {/* Mobile background override */}
+        {/* Mobile background override - using same bedroom scene */}
         <div 
           className="absolute inset-0 md:hidden bg-cover bg-center bg-no-repeat blur-sm scale-105"
-          style={{ backgroundImage: `url(${heroBackgroundMobile})` }}
+          style={{ backgroundImage: `url(${heroBackground})` }}
         />
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/50" />
