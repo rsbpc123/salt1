@@ -24,7 +24,7 @@ import ambulance911Scene from "@/assets/ambulance-911-scene.jpg";
 import stressedSeniorsCollage from "@/assets/stressed-seniors-collage.png";
 import lungCtScan from "@/assets/lung-ct-scan.jpg";
 import coupleHospitalBench from "@/assets/couple-hospital-bench.jpg";
-import medicationsPile from "@/assets/medications-pile.png";
+import medicationsPile from "@/assets/medications-pile.jpg";
 import womanBathroomFloor from "@/assets/woman-bathroom-crying.png";
 import manLaptopNight from "@/assets/man-laptop-night.png";
 import closedMineSign from "@/assets/closed-mine-sign.png";
