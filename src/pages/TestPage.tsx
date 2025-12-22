@@ -33,6 +33,7 @@ import coffeeShopCouple from "@/assets/coffee-shop-couple.jpg";
 import ioanaConversation from "@/assets/ioana-conversation.jpg";
 import phoneYoutubeVideo from "@/assets/phone-youtube-video.jpg";
 import napkinElenaPopescu from "@/assets/napkin-elena-popescu.jpg";
+import phoneEmailDrPopescu from "@/assets/phone-email-dr-popescu.jpg";
 import phoneEmailNotification from "@/assets/phone-email-notification.png";
 import doctorPhoto from "@/assets/doctor-photo.png";
 import productBundle from "@/assets/product-bundle.png";
@@ -948,20 +949,12 @@ const TestPage = () => {
             (That Made Us Drive 4 Hours Into the Mountains)
           </p>
           
-          <div className="md:float-right md:ml-6 md:-mr-4 text-center mb-4 relative">
-            <div 
-              className="relative overflow-visible"
-              style={{
-                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
-                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
-              }}
-            >
-              <img 
-                src={phoneEmailNotification} 
-                alt="Phone showing email notification" 
-                className="w-[240px] md:w-[300px] mx-auto"
-              />
-            </div>
+          <div className="my-10 text-center">
+            <img 
+              src={phoneEmailDrPopescu} 
+              alt="Phone showing email from Dr. Elena Popescu" 
+              className="w-[320px] md:w-[450px] mx-auto rounded-lg"
+            />
           </div>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I sent the email right then and there. Explained who we were. Why we came. What we were hoping to find.</p>
