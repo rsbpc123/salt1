@@ -20,7 +20,7 @@ import saltPouchProduct from "@/assets/salt-pouch-product.jpg";
 import saltParticleVisualization from "@/assets/salt-particle-visualization.jpg";
 import brainHippocampus from "@/assets/brain-hippocampus.png";
 import lungsDiagram from "@/assets/lungs-diagram.png";
-import oxygenMaskHospital from "@/assets/oxygen-mask-hospital.webp";
+import ambulance911Scene from "@/assets/ambulance-911-scene.jpg";
 import stressedSeniorsCollage from "@/assets/stressed-seniors-collage.png";
 import lungCtScan from "@/assets/lung-ct-scan.png";
 import coupleHospitalHallway from "@/assets/couple-hospital-hallway.png";
@@ -207,8 +207,8 @@ const TestPage = () => {
                 }}
               >
                 <img 
-                  src={oxygenMaskHospital} 
-                  alt="Oxygen mask on hospital bed" 
+                  src={ambulance911Scene} 
+                  alt="Ambulance paramedics with elderly woman" 
                   className="w-[280px] md:w-[380px] mx-auto"
                 />
               </div>
