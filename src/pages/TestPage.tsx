@@ -67,6 +67,7 @@ import riskfreeSeal from "@/assets/riskfree-seal.png";
 import drPopescuOffice from "@/assets/dr-popescu-office.jpg";
 import coupleWalkingHope from "@/assets/couple-walking-hope.jpg";
 import romanianVillageDrive from "@/assets/romanian-village-drive.jpg";
+import coupleCryingHappy from "@/assets/couple-crying-happy.jpg";
 
 const TestPage = () => {
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
@@ -1697,6 +1698,14 @@ const TestPage = () => {
             <p className="font-semibold italic">"I forgot what this felt like."</p>
             
             <p>I didn't say anything. Because I was crying too.</p>
+            
+            <div className="my-8">
+              <img 
+                src={coupleCryingHappy} 
+                alt="Robert and Linda embracing with tears of joy" 
+                className="w-full h-auto rounded-lg"
+              />
+            </div>
           </div>
         </div>
       </section>
