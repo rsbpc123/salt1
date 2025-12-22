@@ -65,6 +65,7 @@ import orderButton from "@/assets/order-button.png";
 import customerSupport from "@/assets/customer-support.png";
 import riskfreeSeal from "@/assets/riskfree-seal.png";
 import drPopescuOffice from "@/assets/dr-popescu-office.jpg";
+import coupleWalkingHope from "@/assets/couple-walking-hope.jpg";
 
 const TestPage = () => {
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
@@ -1557,6 +1558,12 @@ const TestPage = () => {
             <p className="text-[24px] md:text-[32px] font-bold text-primary mt-8">And for the first time in years...</p>
             
             <p className="text-[28px] md:text-[36px] font-bold">She had hope.</p>
+            
+            <img 
+              src={coupleWalkingHope} 
+              alt="Couple walking together with hope" 
+              className="w-full max-w-[600px] mx-auto rounded-lg shadow-lg mt-8"
+            />
           </div>
         </div>
       </section>
