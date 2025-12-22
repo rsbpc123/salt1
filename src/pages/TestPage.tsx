@@ -28,7 +28,7 @@ import medicationsPile from "@/assets/medications-pile.jpg";
 import womanBathroomFloor from "@/assets/woman-bathroom-crying.jpg";
 import manLaptopKitchen from "@/assets/man-laptop-kitchen.jpg";
 import saltMineInterior from "@/assets/salt-mine-interior.jpg";
-import closedMineSign from "@/assets/closed-mine-sign.png";
+import closedMineSign from "@/assets/inchis-closed-sign.jpg";
 import romanianCafeInterior from "@/assets/romanian-cafe-interior.png";
 import ioanaRomanianWoman from "@/assets/ioana-romanian-woman.png";
 import oldManChainsaw from "@/assets/old-man-chainsaw.png";
