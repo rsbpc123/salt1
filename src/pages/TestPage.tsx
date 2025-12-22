@@ -29,7 +29,7 @@ import womanBathroomFloor from "@/assets/woman-bathroom-crying.jpg";
 import manLaptopKitchen from "@/assets/man-laptop-kitchen.jpg";
 import saltMineInterior from "@/assets/salt-mine-interior.jpg";
 import closedMineSign from "@/assets/inchis-closed-sign.jpg";
-import romanianCafeInterior from "@/assets/romanian-cafe-interior.png";
+import coffeeShopCouple from "@/assets/coffee-shop-couple.jpg";
 import ioanaRomanianWoman from "@/assets/ioana-romanian-woman.png";
 import oldManChainsaw from "@/assets/old-man-chainsaw.png";
 import phoneEmailNotification from "@/assets/phone-email-notification.png";
@@ -752,8 +752,8 @@ const TestPage = () => {
               }}
             >
               <img 
-                src={romanianCafeInterior} 
-                alt="Romanian coffee shop interior" 
+                src={coffeeShopCouple} 
+                alt="Couple having coffee in Romanian cafe" 
                 className="w-[260px] md:w-[340px] mx-auto"
               />
             </div>
