@@ -64,6 +64,7 @@ import questionCollage from "@/assets/question-collage.png";
 import orderButton from "@/assets/order-button.png";
 import customerSupport from "@/assets/customer-support.png";
 import riskfreeSeal from "@/assets/riskfree-seal.png";
+import drPopescuOffice from "@/assets/dr-popescu-office.jpg";
 
 const TestPage = () => {
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
@@ -1466,8 +1467,16 @@ const TestPage = () => {
       {/* Dr. Popescu Science Section - Part 4: Why Doctors Don't Tell You */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
-          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+          <div className="text-[18px] md:text-[22px] leading-relaxed text-foreground">
             <p>She set the jar down.</p>
+            
+            <div className="md:float-left md:mr-6 md:mb-4 my-6 md:my-0">
+              <img 
+                src={drPopescuOffice} 
+                alt="Dr. Popescu in her office" 
+                className="w-full md:w-[280px] rounded-lg shadow-lg"
+              />
+            </div>
             
             <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
               "This is why the air here works when medications don't."
@@ -1475,21 +1484,23 @@ const TestPage = () => {
             
             <p className="font-bold">"The medications only treat symptoms. The salt treats the ROOT CAUSE."</p>
             
-            <p>I leaned back in my chair. Just... processing.</p>
+            <p className="mt-6">I leaned back in my chair. Just... processing.</p>
             
-            <p>"Why doesn't my doctor know about this?" Linda asked.</p>
+            <p className="mt-6">"Why doesn't my doctor know about this?" Linda asked.</p>
             
-            <p>Dr. Popescu smiled sadly.</p>
+            <p className="mt-6">Dr. Popescu smiled sadly.</p>
             
-            <p className="text-[22px] md:text-[28px] font-bold text-destructive">"They DO know. They just don't CARE."</p>
+            <p className="text-[22px] md:text-[28px] font-bold text-destructive mt-6">"They DO know. They just don't CARE."</p>
             
-            <p>"You can't patent salt. Big Pharma can't make billions off a natural mineral."</p>
+            <p className="mt-6">"You can't patent salt. Big Pharma can't make billions off a natural mineral."</p>
             
-            <p>"So they don't fund research on it. They don't teach it in medical school. They certainly don't recommend it."</p>
+            <p className="mt-6">"So they don't fund research on it. They don't teach it in medical school. They certainly don't recommend it."</p>
             
             <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-destructive pl-6 my-8">
               "Instead, they push medications that cost $40–$150 per dose... that you'll need for the rest of your life... and that only treat symptoms. Not the root cause."
             </p>
+            
+            <div className="clear-both" />
           </div>
         </div>
       </section>
