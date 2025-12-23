@@ -79,6 +79,7 @@ import button3Gifts from "@/assets/button-3-gifts.png";
 import button5Gifts from "@/assets/button-5-gifts.png";
 import oximeterPeakFlow from "@/assets/oximeter-peak-flow.jpg";
 import manKneePain from "@/assets/man-knee-pain.jpg";
+import saltHerbsPouch from "@/assets/salt-herbs-pouch.jpg";
 
 const TestPage = () => {
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
@@ -2362,8 +2363,8 @@ const TestPage = () => {
               }}
             >
               <img 
-                src={saltPouchProduct} 
-                alt="The breathable salt therapy pouch with herbs" 
+                src={saltHerbsPouch} 
+                alt="The breathable salt therapy pouch with Mânzălești salt and healing herbs" 
                 className="w-full h-auto rounded-lg"
               />
             </div>
