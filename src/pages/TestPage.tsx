@@ -78,6 +78,7 @@ import button1Gift from "@/assets/button-1-gift.png";
 import button3Gifts from "@/assets/button-3-gifts.png";
 import button5Gifts from "@/assets/button-5-gifts.png";
 import oximeterPeakFlow from "@/assets/oximeter-peak-flow.jpg";
+import manKneePain from "@/assets/man-knee-pain.jpg";
 
 const TestPage = () => {
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
@@ -2127,56 +2128,48 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* Robert's Knee Pain */}
-      <section className="py-10 md:py-16 px-4 bg-background">
-        <div className="max-w-[750px] mx-auto">
-          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p className="font-semibold">But while Linda was getting better... that hike absolutely DESTROYED my knees.</p>
-            
-            <p>Twenty-two years in the Air Force had left them pretty shot.</p>
-            
-            <p>And by the time we got back to the cottage, I could barely walk.</p>
-            
-            <p className="italic">Then I remembered what Ana said about the warm salt bags.</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Salt Bag Solution Image */}
-      <section className="py-8 md:py-12 px-4 bg-secondary/30">
-        <div className="max-w-[600px] mx-auto">
-          <figure className="relative">
-            <div 
-              className="relative overflow-visible mx-auto"
-              style={{
-                maskImage: 'radial-gradient(ellipse 90% 85% at center, black 50%, transparent 100%)',
-                WebkitMaskImage: 'radial-gradient(ellipse 90% 85% at center, black 50%, transparent 100%)'
-              }}
-            >
+      {/* Robert's Knee Pain - Redesigned */}
+      <section className="py-12 md:py-20 px-4 bg-secondary/20">
+        <div className="max-w-[900px] mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+            {/* Image - Left Side */}
+            <div className="order-2 md:order-1">
               <img 
-                src={elderlyManChoppingWood} 
-                alt="Healthy elderly man chopping wood" 
-                className="w-full h-auto rounded-lg"
+                src={manKneePain} 
+                alt="Man sitting in armchair holding his painful knee after hiking" 
+                className="w-full h-auto rounded-2xl shadow-xl"
               />
             </div>
-            <figcaption className="text-center mt-4 text-muted-foreground italic text-[16px]">
-              The villagers stay active well into their 90s
-            </figcaption>
-          </figure>
-        </div>
-      </section>
-
-      {/* The Salt Bag Miracle */}
-      <section className="py-10 md:py-16 px-4 bg-background">
-        <div className="max-w-[750px] mx-auto">
-          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>I grabbed one of the small pouches Maria had given us. Heated it on the stove for a few minutes. Pressed it against my right knee.</p>
             
-            <p className="font-semibold">Within 20 minutes, the throbbing stopped.</p>
-            
-            <p>The next morning? No pain.</p>
-            
-            <p className="text-[24px] md:text-[32px] font-bold text-primary text-center mt-8">First time in years.</p>
+            {/* Content - Right Side */}
+            <div className="order-1 md:order-2 space-y-6">
+              <h3 className="text-[24px] md:text-[32px] font-bold text-primary leading-tight">
+                But While Linda Was Getting Better...
+              </h3>
+              <p className="text-[20px] md:text-[26px] font-semibold text-foreground">
+                That hike absolutely DESTROYED my knees.
+              </p>
+              
+              <div className="space-y-4 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+                <p>Twenty-two years in the Air Force had left them pretty shot.</p>
+                <p>And by the time we got back to the cottage, I could barely walk.</p>
+                <p className="italic text-muted-foreground">Then I remembered what Ana said about the warm salt bags.</p>
+              </div>
+              
+              <div className="bg-card rounded-xl p-6 shadow-lg border-l-4 border-primary mt-6">
+                <p className="text-[18px] md:text-[22px] leading-relaxed">
+                  I grabbed one of the small pouches Maria had given us. Heated it on the stove for a few minutes. Pressed it against my right knee.
+                </p>
+                <p className="font-bold text-primary text-[20px] md:text-[24px] mt-4">
+                  Within 20 minutes, the throbbing stopped.
+                </p>
+                <p className="mt-3">The next morning? <span className="font-bold">No pain.</span></p>
+              </div>
+              
+              <p className="text-[26px] md:text-[34px] font-bold text-primary text-center md:text-left pt-4">
+                First time in years.
+              </p>
+            </div>
           </div>
         </div>
       </section>
