@@ -80,6 +80,7 @@ import button5Gifts from "@/assets/button-5-gifts.png";
 import oximeterPeakFlow from "@/assets/oximeter-peak-flow.jpg";
 import manKneePain from "@/assets/man-knee-pain.jpg";
 import saltHerbsPouch from "@/assets/salt-herbs-pouch.jpg";
+import doctorSpirometryResults from "@/assets/doctor-spirometry-results.jpg";
 
 const TestPage = () => {
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
@@ -2660,8 +2661,28 @@ const TestPage = () => {
 
       {/* The Doctor's Reaction */}
       <section className="py-10 md:py-16 px-4 bg-secondary/30">
-        <div className="max-w-[750px] mx-auto">
-          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+        <div className="max-w-[900px] mx-auto">
+          {/* Featured Image */}
+          <div className="mb-10">
+            <div 
+              className="relative overflow-hidden rounded-2xl shadow-2xl"
+              style={{
+                maskImage: 'radial-gradient(ellipse 95% 90% at center, black 60%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 95% 90% at center, black 60%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={doctorSpirometryResults} 
+                alt="Doctor reviewing spirometry test results with patient, showing dramatic before and after graphs" 
+                className="w-full h-auto"
+              />
+            </div>
+            <p className="text-center text-muted-foreground italic mt-4 text-[16px]">
+              The moment the pulmonologist saw Linda's results
+            </p>
+          </div>
+          
+          <div className="max-w-[750px] mx-auto space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
             <p>The doctor came in a few minutes later. Holding a printout.</p>
             
             <p>He stared at it for a long time. Then looked at Linda. Then back at the printout.</p>
