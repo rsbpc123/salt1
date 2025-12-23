@@ -77,6 +77,7 @@ import product5Pouches from "@/assets/product-5-pouches.png";
 import button1Gift from "@/assets/button-1-gift.png";
 import button3Gifts from "@/assets/button-3-gifts.png";
 import button5Gifts from "@/assets/button-5-gifts.png";
+import oximeterPeakFlow from "@/assets/oximeter-peak-flow.jpg";
 
 const TestPage = () => {
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
@@ -2044,47 +2045,83 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* The Medical Check */}
-      <section className="py-10 md:py-16 px-4 bg-background">
-        <div className="max-w-[750px] mx-auto">
-          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>That afternoon, Dr. Popescu came by with a portable oxygen monitor. "Let's see how you're doing," she said.</p>
+      {/* The Medical Results - Redesigned */}
+      <section className="py-12 md:py-20 px-4 bg-gradient-to-b from-primary/10 to-background">
+        <div className="max-w-[900px] mx-auto">
+          <h3 className="text-[24px] md:text-[36px] leading-tight font-bold text-center mb-4 text-primary">
+            The Numbers That Changed Everything
+          </h3>
+          <p className="text-center text-muted-foreground text-[18px] md:text-[22px] mb-10 max-w-[600px] mx-auto">
+            Dr. Popescu ran her tests that afternoon. The results left us speechless.
+          </p>
+          
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            {/* Stats Cards */}
+            <div className="space-y-6">
+              {/* Oxygen Saturation Card */}
+              <div className="bg-card rounded-2xl p-6 md:p-8 shadow-lg border-l-4 border-primary">
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center">
+                    <span className="text-2xl">🫁</span>
+                  </div>
+                  <div>
+                    <p className="text-[14px] md:text-[16px] text-muted-foreground uppercase tracking-wide font-semibold">Oxygen Saturation</p>
+                    <p className="text-[12px] md:text-[14px] text-muted-foreground">Up from 88%</p>
+                  </div>
+                </div>
+                <div className="flex items-baseline gap-2">
+                  <span className="text-[56px] md:text-[72px] font-bold text-primary leading-none">97</span>
+                  <span className="text-[28px] md:text-[36px] font-bold text-primary">%</span>
+                </div>
+                <div className="mt-4 h-2 bg-muted rounded-full overflow-hidden">
+                  <div className="h-full bg-gradient-to-r from-primary/60 to-primary rounded-full" style={{ width: '97%' }}></div>
+                </div>
+                <p className="text-[14px] text-muted-foreground mt-2">Normal range: 95-100%</p>
+              </div>
+              
+              {/* Peak Flow Card */}
+              <div className="bg-card rounded-2xl p-6 md:p-8 shadow-lg border-l-4 border-primary">
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center">
+                    <span className="text-2xl">💨</span>
+                  </div>
+                  <div>
+                    <p className="text-[14px] md:text-[16px] text-muted-foreground uppercase tracking-wide font-semibold">Peak Flow</p>
+                    <p className="text-[12px] md:text-[14px] text-muted-foreground">Up from 310 L/min</p>
+                  </div>
+                </div>
+                <div className="flex items-baseline gap-2">
+                  <span className="text-[56px] md:text-[72px] font-bold text-primary leading-none">420</span>
+                  <span className="text-[18px] md:text-[22px] font-medium text-muted-foreground self-end mb-3">L/min</span>
+                </div>
+                <div className="mt-4 h-2 bg-muted rounded-full overflow-hidden">
+                  <div className="h-full bg-gradient-to-r from-primary/60 to-primary rounded-full" style={{ width: '84%' }}></div>
+                </div>
+                <p className="text-[14px] text-muted-foreground mt-2">Severe → Borderline normal in 10 days</p>
+              </div>
+            </div>
             
-            <p>She clipped it onto Linda's finger. We waited.</p>
-            
-            <p className="text-[32px] md:text-[44px] font-bold text-primary text-center my-6">97%</p>
-            
-            <p>Dr. Popescu smiled. "Excellent."</p>
-            
-            <p>Linda looked at me. "What was it before?"</p>
-            
-            <p className="font-semibold">"88%," I said quietly.</p>
+            {/* Image */}
+            <div className="relative">
+              <img 
+                src={oximeterPeakFlow} 
+                alt="Pulse oximeter showing 97% oxygen saturation and peak flow meter on rustic wooden table" 
+                className="w-full h-auto rounded-2xl shadow-xl"
+              />
+              <div className="absolute -bottom-4 -right-4 bg-primary text-primary-foreground px-5 py-3 rounded-xl shadow-lg">
+                <p className="text-[14px] md:text-[16px] font-bold">10 Days Later</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </section>
-
-      {/* The Peak Flow Test */}
-      <section className="py-10 md:py-16 px-4 bg-primary/5">
-        <div className="max-w-[750px] mx-auto">
-          <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
-            <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-              <p>Dr. Popescu pulled out a peak flow meter. "Blow into this. As hard as you can."</p>
-              
-              <p>Linda did.</p>
-              
-              <p className="text-[32px] md:text-[44px] font-bold text-primary text-center my-6">420</p>
-              
-              <p>"What was it before?" Dr. Popescu asked.</p>
-              
-              <p className="font-semibold">"310," Linda whispered.</p>
-              
-              <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-6">
-                Dr. Popescu nodded. "You've gone from severe obstruction to borderline normal. In 10 days."
-              </p>
-              
-              <p>Linda started crying. "I'm getting better."</p>
-              
-              <p>Dr. Popescu squeezed her hand. <span className="font-bold text-primary">"Yes. You are."</span></p>
+          
+          {/* Quote */}
+          <div className="mt-12 bg-card rounded-xl p-6 md:p-8 shadow-lg max-w-[700px] mx-auto">
+            <p className="text-[20px] md:text-[26px] italic text-center text-foreground leading-relaxed">
+              "You've gone from severe obstruction to borderline normal. In 10 days."
+            </p>
+            <p className="text-center mt-4 text-primary font-semibold">— Dr. Elena Popescu</p>
+            <div className="mt-6 text-center">
+              <p className="text-[18px] md:text-[22px]">Linda started crying. <span className="font-bold text-primary">"I'm getting better."</span></p>
             </div>
           </div>
         </div>
