@@ -81,6 +81,7 @@ import oximeterPeakFlow from "@/assets/oximeter-peak-flow.jpg";
 import manKneePain from "@/assets/man-knee-pain.jpg";
 import saltHerbsPouch from "@/assets/salt-herbs-pouch.jpg";
 import doctorSpirometryResults from "@/assets/doctor-spirometry-results.jpg";
+import customsReleasedPouch from "@/assets/customs-released-pouch.jpg";
 
 const TestPage = () => {
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
@@ -2821,6 +2822,26 @@ const TestPage = () => {
             <p className="italic">Just ancient salt. Formed 20 million years ago under volcanic pressure.</p>
             
             <p className="font-semibold text-primary">It took months. But we fought through it.</p>
+          </div>
+          
+          {/* Customs Release Image */}
+          <div className="mt-10">
+            <div 
+              className="relative overflow-hidden rounded-xl shadow-xl"
+              style={{
+                maskImage: 'radial-gradient(ellipse 100% 95% at center, black 70%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 100% 95% at center, black 70%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={customsReleasedPouch} 
+                alt="Hands holding the first salt pouch from a package, with US Customs release forms stamped 'RELEASED' on the table" 
+                className="w-full h-auto"
+              />
+            </div>
+            <p className="text-center text-muted-foreground italic mt-4 text-[16px]">
+              The moment we finally received the first approved shipment
+            </p>
           </div>
         </div>
       </section>
