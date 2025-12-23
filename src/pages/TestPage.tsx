@@ -71,6 +71,12 @@ import coupleCryingHappy from "@/assets/couple-crying-happy.jpg";
 import anaGardenCarrots from "@/assets/ana-garden-carrots.jpg";
 import anaSaltVial from "@/assets/ana-salt-vial.jpg";
 import coupleHiking from "@/assets/couple-hiking.jpg";
+import product1Pouch from "@/assets/product-1-pouch.png";
+import product3Pouches from "@/assets/product-3-pouches.png";
+import product5Pouches from "@/assets/product-5-pouches.png";
+import button1Gift from "@/assets/button-1-gift.png";
+import button3Gifts from "@/assets/button-3-gifts.png";
+import button5Gifts from "@/assets/button-5-gifts.png";
 
 const TestPage = () => {
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
@@ -3086,33 +3092,22 @@ const TestPage = () => {
                 <span className="text-[22px] md:text-[26px] font-bold text-[#1a1a1a]">89$</span>
               </div>
               
-              <div className="w-40 h-48 md:w-48 md:h-56 mb-6 flex items-center justify-center">
+              {/* Product Image */}
+              <div className="w-44 h-52 md:w-52 md:h-60 mb-4 flex items-center justify-center">
                 <img 
-                  src={saltPouchProduct} 
+                  src={product1Pouch} 
                   alt="Single Longevity Salt Pouch" 
                   className="max-w-full max-h-full object-contain"
                 />
               </div>
               
-              <div className="flex items-center gap-2 mb-6">
-                <span className="bg-[#c9a227] text-white w-6 h-6 rounded-sm flex items-center justify-center font-bold text-[14px]">✓</span>
-                <span className="bg-[#4a1942] text-[#c9a227] px-4 py-2 font-bold text-[13px] md:text-[15px] uppercase rounded-sm">1 FREE GIFT</span>
-              </div>
-              
-              <button className="bg-[#c9a227] hover:bg-[#b8922a] text-[#4a1942] font-black py-3 px-6 rounded-full text-[15px] md:text-[17px] transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl border-2 border-[#a88a1f] uppercase tracking-wide">
-                <span>ADD TO CART</span>
-                <span className="bg-[#f5ecd3] border-2 border-[#a88a1f] rounded-full w-9 h-9 flex items-center justify-center ml-1">
-                  <svg className="w-5 h-5 text-[#4a1942]" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-                  </svg>
-                </span>
-              </button>
-              
-              <div className="flex items-center justify-center gap-1 mt-4">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/200px-MasterCard_Logo.svg.png" alt="Mastercard" className="h-5 object-contain" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/200px-Visa_Inc._logo.svg.png" alt="Visa" className="h-4 object-contain" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/American_Express_logo_%282018%29.svg/200px-American_Express_logo_%282018%29.svg.png" alt="Amex" className="h-5 object-contain" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Discover_Card_logo.svg/200px-Discover_Card_logo.svg.png" alt="Discover" className="h-4 object-contain" />
+              {/* Button Section Image */}
+              <div className="w-full mb-2">
+                <img 
+                  src={button1Gift} 
+                  alt="1 Free Gift - Add to Cart" 
+                  className="w-full max-w-[220px] mx-auto object-contain cursor-pointer hover:scale-105 transition-transform duration-300"
+                />
               </div>
             </div>
 
@@ -3133,46 +3128,25 @@ const TestPage = () => {
                 <span className="text-white/70 text-[11px] italic">per pouch</span>
               </div>
               
-              <div className="w-52 h-52 md:w-64 md:h-64 mb-6 flex items-center justify-center">
+              {/* Product Image */}
+              <div className="w-56 h-56 md:w-68 md:h-68 mb-4 flex items-center justify-center">
                 <img 
-                  src={productBundle} 
+                  src={product5Pouches} 
                   alt="5 Longevity Salt Pouches Bundle" 
                   className="max-w-full max-h-full object-contain"
                 />
               </div>
               
-              <div className="space-y-2 mb-6 w-full">
-                <div className="flex items-center justify-center gap-2">
-                  <span className="bg-[#c9a227] text-white w-6 h-6 rounded-sm flex items-center justify-center font-bold text-[14px]">✓</span>
-                  <span className="bg-[#4a1942] border border-[#c9a227]/30 text-[#c9a227] px-4 py-2 font-bold text-[13px] md:text-[15px] uppercase rounded-sm">5 FREE GIFTS</span>
-                </div>
-                <div className="flex items-center justify-center gap-2">
-                  <span className="bg-[#c9a227] text-white w-6 h-6 rounded-sm flex items-center justify-center font-bold text-[14px]">✓</span>
-                  <span className="bg-[#4a1942] border border-[#c9a227]/30 text-[#c9a227] px-4 py-2 font-bold text-[13px] md:text-[15px] uppercase rounded-sm">2 BONUSES</span>
-                </div>
-                <div className="flex items-center justify-center gap-2">
-                  <span className="bg-[#c9a227] text-white w-6 h-6 rounded-sm flex items-center justify-center font-bold text-[14px]">✓</span>
-                  <span className="bg-[#4a1942] border border-[#c9a227]/30 text-[#c9a227] px-4 py-2 font-bold text-[13px] md:text-[15px] uppercase rounded-sm">FREE SHIPPING</span>
-                </div>
+              {/* Button Section Image */}
+              <div className="w-full mb-2">
+                <img 
+                  src={button5Gifts} 
+                  alt="5 Free Gifts, 2 Bonuses, Free Shipping - Add to Cart" 
+                  className="w-full max-w-[260px] mx-auto object-contain cursor-pointer hover:scale-105 transition-transform duration-300"
+                />
               </div>
               
-              <button className="bg-[#c9a227] hover:bg-[#b8922a] text-[#4a1942] font-black py-4 px-8 rounded-full text-[17px] md:text-[20px] transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl border-2 border-[#a88a1f] uppercase tracking-wide">
-                <span>ADD TO CART</span>
-                <span className="bg-[#f5ecd3] border-2 border-[#a88a1f] rounded-full w-11 h-11 flex items-center justify-center ml-1">
-                  <svg className="w-6 h-6 text-[#4a1942]" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-                  </svg>
-                </span>
-              </button>
-              
-              <div className="flex items-center justify-center gap-1 mt-4">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/200px-MasterCard_Logo.svg.png" alt="Mastercard" className="h-5 object-contain" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/200px-Visa_Inc._logo.svg.png" alt="Visa" className="h-4 object-contain" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/American_Express_logo_%282018%29.svg/200px-American_Express_logo_%282018%29.svg.png" alt="Amex" className="h-5 object-contain" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Discover_Card_logo.svg/200px-Discover_Card_logo.svg.png" alt="Discover" className="h-4 object-contain" />
-              </div>
-              
-              <p className="text-white font-bold text-[18px] md:text-[22px] mt-4">TOTAL: 310$</p>
+              <p className="text-white font-bold text-[18px] md:text-[22px] mt-2">TOTAL: 310$</p>
             </div>
 
             {/* Option 3 - 3 Pouches */}
@@ -3188,42 +3162,25 @@ const TestPage = () => {
                 <span className="text-gray-500 text-[11px] italic">per pouch</span>
               </div>
               
-              <div className="w-40 h-48 md:w-48 md:h-56 mb-6 flex items-center justify-center">
+              {/* Product Image */}
+              <div className="w-44 h-52 md:w-52 md:h-60 mb-4 flex items-center justify-center">
                 <img 
-                  src={productBundle} 
+                  src={product3Pouches} 
                   alt="3 Longevity Salt Pouches" 
                   className="max-w-full max-h-full object-contain"
                 />
               </div>
               
-              <div className="space-y-2 mb-6">
-                <div className="flex items-center justify-center gap-2">
-                  <span className="bg-[#c9a227] text-white w-6 h-6 rounded-sm flex items-center justify-center font-bold text-[14px]">✓</span>
-                  <span className="bg-[#4a1942] text-[#c9a227] px-4 py-2 font-bold text-[13px] md:text-[15px] uppercase rounded-sm">3 FREE GIFTS</span>
-                </div>
-                <div className="flex items-center justify-center gap-2">
-                  <span className="bg-[#c9a227] text-white w-6 h-6 rounded-sm flex items-center justify-center font-bold text-[14px]">✓</span>
-                  <span className="bg-[#4a1942] text-[#c9a227] px-4 py-2 font-bold text-[13px] md:text-[15px] uppercase rounded-sm">1 BONUS</span>
-                </div>
+              {/* Button Section Image */}
+              <div className="w-full mb-2">
+                <img 
+                  src={button3Gifts} 
+                  alt="3 Free Gifts, 1 Bonus - Add to Cart" 
+                  className="w-full max-w-[220px] mx-auto object-contain cursor-pointer hover:scale-105 transition-transform duration-300"
+                />
               </div>
               
-              <button className="bg-[#c9a227] hover:bg-[#b8922a] text-[#4a1942] font-black py-3 px-6 rounded-full text-[15px] md:text-[17px] transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl border-2 border-[#a88a1f] uppercase tracking-wide">
-                <span>ADD TO CART</span>
-                <span className="bg-[#f5ecd3] border-2 border-[#a88a1f] rounded-full w-9 h-9 flex items-center justify-center ml-1">
-                  <svg className="w-5 h-5 text-[#4a1942]" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-                  </svg>
-                </span>
-              </button>
-              
-              <div className="flex items-center justify-center gap-1 mt-4">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/200px-MasterCard_Logo.svg.png" alt="Mastercard" className="h-5 object-contain" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/200px-Visa_Inc._logo.svg.png" alt="Visa" className="h-4 object-contain" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/American_Express_logo_%282018%29.svg/200px-American_Express_logo_%282018%29.svg.png" alt="Amex" className="h-5 object-contain" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Discover_Card_logo.svg/200px-Discover_Card_logo.svg.png" alt="Discover" className="h-4 object-contain" />
-              </div>
-              
-              <p className="text-[#1a1a1a] font-bold text-[18px] md:text-[22px] mt-4">TOTAL: 234$</p>
+              <p className="text-[#1a1a1a] font-bold text-[18px] md:text-[22px] mt-2">TOTAL: 234$</p>
             </div>
           </div>
           
@@ -3309,182 +3266,109 @@ const TestPage = () => {
             Choose Your Package Below
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-4 items-end">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-4 items-stretch">
             
             {/* Option 1 - Single Pouch */}
-            <div className="bg-[#f5f5f5] rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center border border-gray-300">
-              <h3 className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-1">ONE LONGEVITY SALT</h3>
-              <p className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-4">POUCH</p>
+            <div className="bg-white rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
+              <h3 className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-0">ONE LONGEVITY SALT</h3>
+              <p className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-2">POUCH</p>
               
-              <p className="text-primary font-bold text-[18px] md:text-[20px] mb-2">50.6% OFF</p>
+              <p className="text-[#c9a227] font-bold text-[16px] md:text-[18px] mb-1">50.6% OFF</p>
               
-              <div className="flex items-center gap-2 mb-6">
-                <span className="text-gray-500 line-through text-[16px]">$180</span>
-                <span className="text-[28px] md:text-[32px] font-bold text-[#1a1a1a]">$89</span>
+              <div className="flex items-center gap-2 mb-4">
+                <span className="text-gray-400 line-through text-[14px]">$180$</span>
+                <span className="text-[22px] md:text-[26px] font-bold text-[#1a1a1a]">89$</span>
               </div>
               
-              <div className="w-36 h-36 md:w-44 md:h-44 mb-6 flex items-center justify-center">
+              {/* Product Image */}
+              <div className="w-44 h-52 md:w-52 md:h-60 mb-4 flex items-center justify-center">
                 <img 
-                  src={saltPouchProduct} 
+                  src={product1Pouch} 
                   alt="Single Longevity Salt Pouch" 
                   className="max-w-full max-h-full object-contain"
                 />
               </div>
               
-              <div className="flex items-center gap-2 mb-6">
-                <span className="text-[#c9a227] text-[20px]">✓</span>
-                <span className="bg-primary text-primary-foreground px-4 py-2 font-bold text-[14px] md:text-[16px] uppercase">1 FREE GIFT</span>
-              </div>
-              
-              <button className="w-full bg-[#c9a227] hover:bg-[#b8922a] text-[#4a1942] font-black py-3 px-4 rounded-full text-[16px] md:text-[18px] transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl border-2 border-[#8b6914] uppercase tracking-wide">
-                <span>ADD TO CART</span>
-                <span className="bg-[#c9a227] border-2 border-[#8b6914] rounded-full w-10 h-10 flex items-center justify-center">
-                  <svg className="w-5 h-5 text-[#4a1942]" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-                  </svg>
-                </span>
-              </button>
-              
-              <div className="flex items-center justify-center gap-1 mt-4">
-                <div className="w-8 h-5 bg-[#1a1f71] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[8px] font-bold">VISA</span>
-                </div>
-                <div className="w-8 h-5 bg-[#eb001b] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[6px] font-bold">MC</span>
-                </div>
-                <div className="w-8 h-5 bg-[#006fcf] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[6px] font-bold">AMEX</span>
-                </div>
-                <div className="w-8 h-5 bg-[#ff6000] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[5px] font-bold">DISC</span>
-                </div>
+              {/* Button Section Image */}
+              <div className="w-full mb-2">
+                <img 
+                  src={button1Gift} 
+                  alt="1 Free Gift - Add to Cart" 
+                  className="w-full max-w-[220px] mx-auto object-contain cursor-pointer hover:scale-105 transition-transform duration-300"
+                />
               </div>
             </div>
 
             {/* Option 2 - Best Value (5 Pouches) - Featured */}
-            <div className="bg-gradient-to-b from-[#6b2d5b] to-[#4a1942] rounded-none shadow-2xl p-6 md:p-8 flex flex-col items-center text-center relative border-2 border-[#c9a227]">
-              <div className="mb-4">
-                <p className="text-[#c9a227] font-black italic text-[22px] md:text-[28px] leading-tight">BEST VALUE</p>
-                <p className="text-[#c9a227] font-black italic text-[20px] md:text-[24px] leading-tight">BEST SELLING</p>
+            <div className="bg-gradient-to-b from-[#7a3a6a] to-[#4a1942] rounded-none shadow-2xl p-6 md:p-8 flex flex-col items-center text-center relative">
+              <div className="mb-3">
+                <p className="text-[#c9a227] font-black italic text-[24px] md:text-[30px] leading-tight">BEST VALUE</p>
+                <p className="text-[#c9a227] font-black italic text-[22px] md:text-[28px] leading-tight">BEST SELLING</p>
               </div>
               
-              <h3 className="text-[14px] md:text-[16px] font-bold text-white uppercase tracking-wide mb-2">5 LONGEVITY SALT POUCHES</h3>
+              <h3 className="text-[13px] md:text-[15px] font-bold text-white uppercase tracking-wide mb-2">5 LONGEVITY SALT POUCHES</h3>
               
-              <p className="text-[#c9a227] font-bold text-[20px] md:text-[24px] mb-2">65.6% OFF</p>
+              <p className="text-[#c9a227] font-bold text-[18px] md:text-[22px] mb-1">65.6% OFF</p>
               
               <div className="flex items-center justify-center gap-2 mb-4">
-                <span className="text-white/60 line-through text-[14px]">$180</span>
-                <span className="text-[24px] md:text-[28px] font-bold text-white">$62</span>
-                <span className="text-white/80 text-[12px] italic">per pouch</span>
+                <span className="text-white/50 line-through text-[13px]">$180$</span>
+                <span className="text-[20px] md:text-[24px] font-bold text-white">62$</span>
+                <span className="text-white/70 text-[11px] italic">per pouch</span>
               </div>
               
-              <div className="w-48 h-48 md:w-56 md:h-56 mb-6 flex items-center justify-center">
+              {/* Product Image */}
+              <div className="w-56 h-56 md:w-68 md:h-68 mb-4 flex items-center justify-center">
                 <img 
-                  src={productBundle} 
+                  src={product5Pouches} 
                   alt="5 Longevity Salt Pouches Bundle" 
                   className="max-w-full max-h-full object-contain"
                 />
               </div>
               
-              <div className="space-y-2 mb-6 w-full">
-                <div className="flex items-center justify-center gap-2">
-                  <span className="text-[#c9a227] text-[20px]">✓</span>
-                  <span className="bg-primary text-primary-foreground px-4 py-2 font-bold text-[14px] md:text-[16px] uppercase">5 FREE GIFTS</span>
-                </div>
-                <div className="flex items-center justify-center gap-2">
-                  <span className="text-[#c9a227] text-[20px]">✓</span>
-                  <span className="bg-primary text-primary-foreground px-4 py-2 font-bold text-[14px] md:text-[16px] uppercase">2 BONUSES</span>
-                </div>
-                <div className="flex items-center justify-center gap-2">
-                  <span className="text-[#c9a227] text-[20px]">✓</span>
-                  <span className="bg-primary text-primary-foreground px-4 py-2 font-bold text-[14px] md:text-[16px] uppercase">FREE SHIPPING</span>
-                </div>
+              {/* Button Section Image */}
+              <div className="w-full mb-2">
+                <img 
+                  src={button5Gifts} 
+                  alt="5 Free Gifts, 2 Bonuses, Free Shipping - Add to Cart" 
+                  className="w-full max-w-[260px] mx-auto object-contain cursor-pointer hover:scale-105 transition-transform duration-300"
+                />
               </div>
               
-              <button className="w-full bg-[#c9a227] hover:bg-[#b8922a] text-[#4a1942] font-black py-4 px-5 rounded-full text-[18px] md:text-[20px] transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl border-2 border-[#8b6914] uppercase tracking-wide">
-                <span>ADD TO CART</span>
-                <span className="bg-[#c9a227] border-2 border-[#8b6914] rounded-full w-12 h-12 flex items-center justify-center">
-                  <svg className="w-6 h-6 text-[#4a1942]" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-                  </svg>
-                </span>
-              </button>
-              
-              <div className="flex items-center justify-center gap-1 mt-4">
-                <div className="w-8 h-5 bg-[#1a1f71] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[8px] font-bold">VISA</span>
-                </div>
-                <div className="w-8 h-5 bg-[#eb001b] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[6px] font-bold">MC</span>
-                </div>
-                <div className="w-8 h-5 bg-[#006fcf] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[6px] font-bold">AMEX</span>
-                </div>
-                <div className="w-8 h-5 bg-[#ff6000] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[5px] font-bold">DISC</span>
-                </div>
-              </div>
-              
-              <p className="text-white font-bold text-[18px] md:text-[22px] mt-4">TOTAL: $310</p>
+              <p className="text-white font-bold text-[18px] md:text-[22px] mt-2">TOTAL: 310$</p>
             </div>
 
             {/* Option 3 - 3 Pouches */}
-            <div className="bg-[#f5f5f5] rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center border border-gray-300">
-              <h3 className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-1">3 LONGEVITY SALT</h3>
-              <p className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-4">POUCHES</p>
+            <div className="bg-white rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
+              <h3 className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-0">3 LONGEVITY SALT</h3>
+              <p className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-2">POUCHES</p>
               
-              <p className="text-primary font-bold text-[18px] md:text-[20px] mb-2">56.6% OFF</p>
+              <p className="text-[#c9a227] font-bold text-[16px] md:text-[18px] mb-1">56.6% OFF</p>
               
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-gray-500 line-through text-[14px]">$180</span>
-                <span className="text-[28px] md:text-[32px] font-bold text-[#1a1a1a]">$78</span>
-                <span className="text-gray-500 text-[12px] italic">per pouch</span>
+              <div className="flex items-center gap-2 mb-4">
+                <span className="text-gray-400 line-through text-[14px]">$180$</span>
+                <span className="text-[22px] md:text-[26px] font-bold text-[#1a1a1a]">78$</span>
+                <span className="text-gray-500 text-[11px] italic">per pouch</span>
               </div>
               
-              <div className="w-36 h-36 md:w-44 md:h-44 mb-6 flex items-center justify-center">
+              {/* Product Image */}
+              <div className="w-44 h-52 md:w-52 md:h-60 mb-4 flex items-center justify-center">
                 <img 
-                  src={productBundle} 
+                  src={product3Pouches} 
                   alt="3 Longevity Salt Pouches" 
                   className="max-w-full max-h-full object-contain"
                 />
               </div>
               
-              <div className="space-y-2 mb-6">
-                <div className="flex items-center justify-center gap-2">
-                  <span className="text-[#c9a227] text-[20px]">✓</span>
-                  <span className="bg-primary text-primary-foreground px-4 py-2 font-bold text-[14px] md:text-[16px] uppercase">3 FREE GIFTS</span>
-                </div>
-                <div className="flex items-center justify-center gap-2">
-                  <span className="text-[#c9a227] text-[20px]">✓</span>
-                  <span className="bg-primary text-primary-foreground px-4 py-2 font-bold text-[14px] md:text-[16px] uppercase">1 BONUS</span>
-                </div>
+              {/* Button Section Image */}
+              <div className="w-full mb-2">
+                <img 
+                  src={button3Gifts} 
+                  alt="3 Free Gifts, 1 Bonus - Add to Cart" 
+                  className="w-full max-w-[220px] mx-auto object-contain cursor-pointer hover:scale-105 transition-transform duration-300"
+                />
               </div>
               
-              <button className="w-full bg-[#c9a227] hover:bg-[#b8922a] text-[#4a1942] font-black py-3 px-4 rounded-full text-[16px] md:text-[18px] transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl border-2 border-[#8b6914] uppercase tracking-wide">
-                <span>ADD TO CART</span>
-                <span className="bg-[#c9a227] border-2 border-[#8b6914] rounded-full w-10 h-10 flex items-center justify-center">
-                  <svg className="w-5 h-5 text-[#4a1942]" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-                  </svg>
-                </span>
-              </button>
-              
-              <div className="flex items-center justify-center gap-1 mt-4">
-                <div className="w-8 h-5 bg-[#1a1f71] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[8px] font-bold">VISA</span>
-                </div>
-                <div className="w-8 h-5 bg-[#eb001b] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[6px] font-bold">MC</span>
-                </div>
-                <div className="w-8 h-5 bg-[#006fcf] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[6px] font-bold">AMEX</span>
-                </div>
-                <div className="w-8 h-5 bg-[#ff6000] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[5px] font-bold">DISC</span>
-                </div>
-              </div>
-              
-              <p className="text-[#1a1a1a] font-bold text-[18px] md:text-[22px] mt-4">TOTAL: $234</p>
+              <p className="text-[#1a1a1a] font-bold text-[18px] md:text-[22px] mt-2">TOTAL: 234$</p>
             </div>
           </div>
         </div>
@@ -3634,182 +3518,109 @@ const TestPage = () => {
             Secure Your Longevity Salt Now
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-4 items-end">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-4 items-stretch">
             
             {/* Option 1 - Single Pouch */}
-            <div className="bg-[#f5f5f5] rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center border border-gray-300">
-              <h3 className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-1">ONE LONGEVITY SALT</h3>
-              <p className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-4">POUCH</p>
+            <div className="bg-white rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
+              <h3 className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-0">ONE LONGEVITY SALT</h3>
+              <p className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-2">POUCH</p>
               
-              <p className="text-primary font-bold text-[18px] md:text-[20px] mb-2">50.6% OFF</p>
+              <p className="text-[#c9a227] font-bold text-[16px] md:text-[18px] mb-1">50.6% OFF</p>
               
-              <div className="flex items-center gap-2 mb-6">
-                <span className="text-gray-500 line-through text-[16px]">$180</span>
-                <span className="text-[28px] md:text-[32px] font-bold text-[#1a1a1a]">$89</span>
+              <div className="flex items-center gap-2 mb-4">
+                <span className="text-gray-400 line-through text-[14px]">$180$</span>
+                <span className="text-[22px] md:text-[26px] font-bold text-[#1a1a1a]">89$</span>
               </div>
               
-              <div className="w-36 h-36 md:w-44 md:h-44 mb-6 flex items-center justify-center">
+              {/* Product Image */}
+              <div className="w-44 h-52 md:w-52 md:h-60 mb-4 flex items-center justify-center">
                 <img 
-                  src={saltPouchProduct} 
+                  src={product1Pouch} 
                   alt="Single Longevity Salt Pouch" 
                   className="max-w-full max-h-full object-contain"
                 />
               </div>
               
-              <div className="flex items-center gap-2 mb-6">
-                <span className="text-[#c9a227] text-[20px]">✓</span>
-                <span className="bg-primary text-primary-foreground px-4 py-2 font-bold text-[14px] md:text-[16px] uppercase">1 FREE GIFT</span>
-              </div>
-              
-              <button className="w-full bg-[#c9a227] hover:bg-[#b8922a] text-[#4a1942] font-black py-3 px-4 rounded-full text-[16px] md:text-[18px] transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl border-2 border-[#8b6914] uppercase tracking-wide">
-                <span>ADD TO CART</span>
-                <span className="bg-[#c9a227] border-2 border-[#8b6914] rounded-full w-10 h-10 flex items-center justify-center">
-                  <svg className="w-5 h-5 text-[#4a1942]" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-                  </svg>
-                </span>
-              </button>
-              
-              <div className="flex items-center justify-center gap-1 mt-4">
-                <div className="w-8 h-5 bg-[#1a1f71] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[8px] font-bold">VISA</span>
-                </div>
-                <div className="w-8 h-5 bg-[#eb001b] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[6px] font-bold">MC</span>
-                </div>
-                <div className="w-8 h-5 bg-[#006fcf] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[6px] font-bold">AMEX</span>
-                </div>
-                <div className="w-8 h-5 bg-[#ff6000] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[5px] font-bold">DISC</span>
-                </div>
+              {/* Button Section Image */}
+              <div className="w-full mb-2">
+                <img 
+                  src={button1Gift} 
+                  alt="1 Free Gift - Add to Cart" 
+                  className="w-full max-w-[220px] mx-auto object-contain cursor-pointer hover:scale-105 transition-transform duration-300"
+                />
               </div>
             </div>
 
             {/* Option 2 - Best Value (5 Pouches) - Featured */}
-            <div className="bg-gradient-to-b from-[#6b2d5b] to-[#4a1942] rounded-none shadow-2xl p-6 md:p-8 flex flex-col items-center text-center relative border-2 border-[#c9a227]">
-              <div className="mb-4">
-                <p className="text-[#c9a227] font-black italic text-[22px] md:text-[28px] leading-tight">BEST VALUE</p>
-                <p className="text-[#c9a227] font-black italic text-[20px] md:text-[24px] leading-tight">BEST SELLING</p>
+            <div className="bg-gradient-to-b from-[#7a3a6a] to-[#4a1942] rounded-none shadow-2xl p-6 md:p-8 flex flex-col items-center text-center relative">
+              <div className="mb-3">
+                <p className="text-[#c9a227] font-black italic text-[24px] md:text-[30px] leading-tight">BEST VALUE</p>
+                <p className="text-[#c9a227] font-black italic text-[22px] md:text-[28px] leading-tight">BEST SELLING</p>
               </div>
               
-              <h3 className="text-[14px] md:text-[16px] font-bold text-white uppercase tracking-wide mb-2">5 LONGEVITY SALT POUCHES</h3>
+              <h3 className="text-[13px] md:text-[15px] font-bold text-white uppercase tracking-wide mb-2">5 LONGEVITY SALT POUCHES</h3>
               
-              <p className="text-[#c9a227] font-bold text-[20px] md:text-[24px] mb-2">65.6% OFF</p>
+              <p className="text-[#c9a227] font-bold text-[18px] md:text-[22px] mb-1">65.6% OFF</p>
               
               <div className="flex items-center justify-center gap-2 mb-4">
-                <span className="text-white/60 line-through text-[14px]">$180</span>
-                <span className="text-[24px] md:text-[28px] font-bold text-white">$62</span>
-                <span className="text-white/80 text-[12px] italic">per pouch</span>
+                <span className="text-white/50 line-through text-[13px]">$180$</span>
+                <span className="text-[20px] md:text-[24px] font-bold text-white">62$</span>
+                <span className="text-white/70 text-[11px] italic">per pouch</span>
               </div>
               
-              <div className="w-48 h-48 md:w-56 md:h-56 mb-6 flex items-center justify-center">
+              {/* Product Image */}
+              <div className="w-56 h-56 md:w-68 md:h-68 mb-4 flex items-center justify-center">
                 <img 
-                  src={productBundle} 
+                  src={product5Pouches} 
                   alt="5 Longevity Salt Pouches Bundle" 
                   className="max-w-full max-h-full object-contain"
                 />
               </div>
               
-              <div className="space-y-2 mb-6 w-full">
-                <div className="flex items-center justify-center gap-2">
-                  <span className="text-[#c9a227] text-[20px]">✓</span>
-                  <span className="bg-primary text-primary-foreground px-4 py-2 font-bold text-[14px] md:text-[16px] uppercase">5 FREE GIFTS</span>
-                </div>
-                <div className="flex items-center justify-center gap-2">
-                  <span className="text-[#c9a227] text-[20px]">✓</span>
-                  <span className="bg-primary text-primary-foreground px-4 py-2 font-bold text-[14px] md:text-[16px] uppercase">2 BONUSES</span>
-                </div>
-                <div className="flex items-center justify-center gap-2">
-                  <span className="text-[#c9a227] text-[20px]">✓</span>
-                  <span className="bg-primary text-primary-foreground px-4 py-2 font-bold text-[14px] md:text-[16px] uppercase">FREE SHIPPING</span>
-                </div>
+              {/* Button Section Image */}
+              <div className="w-full mb-2">
+                <img 
+                  src={button5Gifts} 
+                  alt="5 Free Gifts, 2 Bonuses, Free Shipping - Add to Cart" 
+                  className="w-full max-w-[260px] mx-auto object-contain cursor-pointer hover:scale-105 transition-transform duration-300"
+                />
               </div>
               
-              <button className="w-full bg-[#c9a227] hover:bg-[#b8922a] text-[#4a1942] font-black py-4 px-5 rounded-full text-[18px] md:text-[20px] transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl border-2 border-[#8b6914] uppercase tracking-wide">
-                <span>ADD TO CART</span>
-                <span className="bg-[#c9a227] border-2 border-[#8b6914] rounded-full w-12 h-12 flex items-center justify-center">
-                  <svg className="w-6 h-6 text-[#4a1942]" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-                  </svg>
-                </span>
-              </button>
-              
-              <div className="flex items-center justify-center gap-1 mt-4">
-                <div className="w-8 h-5 bg-[#1a1f71] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[8px] font-bold">VISA</span>
-                </div>
-                <div className="w-8 h-5 bg-[#eb001b] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[6px] font-bold">MC</span>
-                </div>
-                <div className="w-8 h-5 bg-[#006fcf] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[6px] font-bold">AMEX</span>
-                </div>
-                <div className="w-8 h-5 bg-[#ff6000] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[5px] font-bold">DISC</span>
-                </div>
-              </div>
-              
-              <p className="text-white font-bold text-[18px] md:text-[22px] mt-4">TOTAL: $310</p>
+              <p className="text-white font-bold text-[18px] md:text-[22px] mt-2">TOTAL: 310$</p>
             </div>
 
             {/* Option 3 - 3 Pouches */}
-            <div className="bg-[#f5f5f5] rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center border border-gray-300">
-              <h3 className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-1">3 LONGEVITY SALT</h3>
-              <p className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-4">POUCHES</p>
+            <div className="bg-white rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
+              <h3 className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-0">3 LONGEVITY SALT</h3>
+              <p className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-2">POUCHES</p>
               
-              <p className="text-primary font-bold text-[18px] md:text-[20px] mb-2">56.6% OFF</p>
+              <p className="text-[#c9a227] font-bold text-[16px] md:text-[18px] mb-1">56.6% OFF</p>
               
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-gray-500 line-through text-[14px]">$180</span>
-                <span className="text-[28px] md:text-[32px] font-bold text-[#1a1a1a]">$78</span>
-                <span className="text-gray-500 text-[12px] italic">per pouch</span>
+              <div className="flex items-center gap-2 mb-4">
+                <span className="text-gray-400 line-through text-[14px]">$180$</span>
+                <span className="text-[22px] md:text-[26px] font-bold text-[#1a1a1a]">78$</span>
+                <span className="text-gray-500 text-[11px] italic">per pouch</span>
               </div>
               
-              <div className="w-36 h-36 md:w-44 md:h-44 mb-6 flex items-center justify-center">
+              {/* Product Image */}
+              <div className="w-44 h-52 md:w-52 md:h-60 mb-4 flex items-center justify-center">
                 <img 
-                  src={productBundle} 
+                  src={product3Pouches} 
                   alt="3 Longevity Salt Pouches" 
                   className="max-w-full max-h-full object-contain"
                 />
               </div>
               
-              <div className="space-y-2 mb-6">
-                <div className="flex items-center justify-center gap-2">
-                  <span className="text-[#c9a227] text-[20px]">✓</span>
-                  <span className="bg-primary text-primary-foreground px-4 py-2 font-bold text-[14px] md:text-[16px] uppercase">3 FREE GIFTS</span>
-                </div>
-                <div className="flex items-center justify-center gap-2">
-                  <span className="text-[#c9a227] text-[20px]">✓</span>
-                  <span className="bg-primary text-primary-foreground px-4 py-2 font-bold text-[14px] md:text-[16px] uppercase">1 BONUS</span>
-                </div>
+              {/* Button Section Image */}
+              <div className="w-full mb-2">
+                <img 
+                  src={button3Gifts} 
+                  alt="3 Free Gifts, 1 Bonus - Add to Cart" 
+                  className="w-full max-w-[220px] mx-auto object-contain cursor-pointer hover:scale-105 transition-transform duration-300"
+                />
               </div>
               
-              <button className="w-full bg-[#c9a227] hover:bg-[#b8922a] text-[#4a1942] font-black py-3 px-4 rounded-full text-[16px] md:text-[18px] transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl border-2 border-[#8b6914] uppercase tracking-wide">
-                <span>ADD TO CART</span>
-                <span className="bg-[#c9a227] border-2 border-[#8b6914] rounded-full w-10 h-10 flex items-center justify-center">
-                  <svg className="w-5 h-5 text-[#4a1942]" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-                  </svg>
-                </span>
-              </button>
-              
-              <div className="flex items-center justify-center gap-1 mt-4">
-                <div className="w-8 h-5 bg-[#1a1f71] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[8px] font-bold">VISA</span>
-                </div>
-                <div className="w-8 h-5 bg-[#eb001b] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[6px] font-bold">MC</span>
-                </div>
-                <div className="w-8 h-5 bg-[#006fcf] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[6px] font-bold">AMEX</span>
-                </div>
-                <div className="w-8 h-5 bg-[#ff6000] rounded-sm flex items-center justify-center">
-                  <span className="text-white text-[5px] font-bold">DISC</span>
-                </div>
-              </div>
-              
-              <p className="text-[#1a1a1a] font-bold text-[18px] md:text-[22px] mt-4">TOTAL: $234</p>
+              <p className="text-[#1a1a1a] font-bold text-[18px] md:text-[22px] mt-2">TOTAL: 234$</p>
             </div>
           </div>
         </div>
