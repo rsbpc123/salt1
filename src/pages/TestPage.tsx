@@ -2885,37 +2885,47 @@ const TestPage = () => {
       </section>
 
       {/* Product Reveal */}
-      <section className="py-10 md:py-16 px-4 bg-primary/5">
-        <div className="max-w-[750px] mx-auto">
-          <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg text-center">
-            <h3 className="text-[28px] md:text-[36px] font-bold text-primary mb-6">We call it Longevity Salt.</h3>
+      <section className="py-12 md:py-20 px-4 bg-gradient-to-b from-primary/10 via-primary/5 to-background">
+        <div className="max-w-[900px] mx-auto">
+          <h3 className="text-[32px] md:text-[44px] font-bold text-primary text-center mb-4">We call it Longevity Salt.</h3>
+          
+          <p className="text-center text-[18px] md:text-[22px] text-muted-foreground mb-10">
+            Because that's what it gave Linda. Not just more years. But the ability to LIVE those years fully.
+          </p>
+          
+          {/* Product Image Showcase */}
+          <div className="bg-card rounded-2xl p-8 md:p-12 shadow-2xl mb-10">
+            <div className="flex justify-center mb-8">
+              <img 
+                src={productBundle} 
+                alt="Longevity Salt pouches - the complete collection from Mânzălești, Romania" 
+                className="max-w-full h-auto max-h-[400px] object-contain drop-shadow-xl hover:scale-105 transition-transform duration-500"
+              />
+            </div>
             
-            <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground text-left">
-              <p>Because that's what it gave Linda. Not just more years. But the ability to LIVE those years fully.</p>
+            <div className="text-center space-y-4">
+              <p className="font-semibold text-[20px] md:text-[24px] text-foreground">
+                Without fear. Without gasping. Without being a prisoner to her lungs.
+              </p>
               
-              <p className="font-semibold">Without fear. Without gasping. Without being a prisoner to her lungs.</p>
-              
-              <p className="text-[22px] md:text-[28px] font-bold text-primary text-center mt-8">And now... for the first time... it's available in the United States.</p>
+              <p className="text-[24px] md:text-[32px] font-bold text-primary">
+                And now... for the first time... it's available in the United States.
+              </p>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Scarcity Notice */}
-      <section className="py-10 md:py-16 px-4 bg-background">
-        <div className="max-w-[750px] mx-auto">
-          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p className="font-semibold text-destructive text-center text-[22px] md:text-[28px]">In limited quantities.</p>
+          
+          {/* Scarcity Notice */}
+          <div className="bg-destructive/10 border-2 border-destructive/30 rounded-xl p-6 md:p-8 text-center">
+            <p className="font-bold text-destructive text-[24px] md:text-[32px] mb-4">In limited quantities.</p>
             
-            <p>Because this salt only exists in ONE place on Earth. The Mânzălești region.</p>
+            <div className="space-y-3 text-[16px] md:text-[20px] text-foreground">
+              <p>Because this salt only exists in <span className="font-semibold">ONE place on Earth</span>. The Mânzălești region.</p>
+              <p>And the deposits are on protected land.</p>
+              <p className="italic text-muted-foreground">We can only secure small batches through Dr. Popescu's university connections.</p>
+              <p className="font-semibold">When they're gone... we have to wait.</p>
+            </div>
             
-            <p>And the deposits are on protected land.</p>
-            
-            <p className="italic">We can only secure small batches through Dr. Popescu's university connections.</p>
-            
-            <p className="font-semibold">When they're gone... we have to wait.</p>
-            
-            <p className="text-[22px] md:text-[28px] font-bold text-primary text-center mt-8">But it's here. And it works.</p>
+            <p className="text-[22px] md:text-[28px] font-bold text-primary mt-6">But it's here. And it works.</p>
           </div>
         </div>
       </section>
