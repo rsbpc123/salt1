@@ -2547,37 +2547,85 @@ const TestPage = () => {
       </section>
 
       {/* The Results Timeline */}
-      <section className="py-10 md:py-16 px-4 bg-secondary/30">
-        <div className="max-w-[750px] mx-auto">
-          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground text-center">
-            <p className="italic">We didn't expect anything. Neither of us.</p>
-            
-            <p className="text-muted-foreground">But...</p>
+      <section className="py-12 md:py-20 px-4 bg-gradient-to-b from-secondary/30 via-primary/5 to-secondary/30">
+        <div className="max-w-[900px] mx-auto">
+          <div className="text-center mb-12">
+            <p className="text-[22px] md:text-[28px] italic text-muted-foreground">We didn't expect anything. Neither of us.</p>
+            <p className="text-[32px] md:text-[44px] font-bold text-primary mt-4">But...</p>
           </div>
           
-          <div className="mt-10 space-y-6">
-            <div className="bg-card rounded-xl p-6 shadow-md">
-              <p className="text-[20px] md:text-[24px] font-semibold">
-                Within <span className="text-primary font-bold">THREE DAYS</span>... her wheezing stopped.
-              </p>
-            </div>
+          {/* Timeline */}
+          <div className="relative">
+            {/* Vertical Line */}
+            <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-gradient-to-b from-primary/30 via-primary to-primary/30 h-full rounded-full" />
             
-            <div className="bg-card rounded-xl p-6 shadow-md">
-              <p className="text-[20px] md:text-[24px] font-semibold">
-                Within a <span className="text-primary font-bold">WEEK</span>... she was sleeping through the night again.
-              </p>
-            </div>
-            
-            <div className="bg-card rounded-xl p-6 shadow-md">
-              <p className="text-[20px] md:text-[24px] font-semibold">
-                Within <span className="text-primary font-bold">TWO WEEKS</span>... she was walking around the neighborhood without her inhaler.
-              </p>
-            </div>
-            
-            <div className="bg-primary text-primary-foreground rounded-xl p-6 shadow-lg">
-              <p className="text-[22px] md:text-[28px] font-bold text-center">
-                Within a MONTH... she was better than she'd been even in Romania.
-              </p>
+            {/* Timeline Items */}
+            <div className="space-y-8 md:space-y-12">
+              {/* Day 3 */}
+              <div className="relative flex items-center">
+                <div className="w-1/2 pr-8 md:pr-12 text-right">
+                  <div className="inline-block bg-primary text-primary-foreground px-4 py-2 rounded-full font-bold text-[18px] md:text-[22px]">
+                    3 DAYS
+                  </div>
+                </div>
+                <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-primary rounded-full border-4 border-background shadow-lg z-10" />
+                <div className="w-1/2 pl-8 md:pl-12">
+                  <div className="bg-card rounded-xl p-5 md:p-6 shadow-lg border-l-4 border-primary">
+                    <p className="text-[18px] md:text-[22px] font-semibold">Her wheezing <span className="text-primary">stopped</span>.</p>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Week 1 */}
+              <div className="relative flex items-center">
+                <div className="w-1/2 pr-8 md:pr-12 text-right">
+                  <div className="bg-card rounded-xl p-5 md:p-6 shadow-lg border-r-4 border-primary">
+                    <p className="text-[18px] md:text-[22px] font-semibold">Sleeping through the night <span className="text-primary">again</span>.</p>
+                  </div>
+                </div>
+                <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-primary rounded-full border-4 border-background shadow-lg z-10" />
+                <div className="w-1/2 pl-8 md:pl-12">
+                  <div className="inline-block bg-primary text-primary-foreground px-4 py-2 rounded-full font-bold text-[18px] md:text-[22px]">
+                    1 WEEK
+                  </div>
+                </div>
+              </div>
+              
+              {/* Week 2 */}
+              <div className="relative flex items-center">
+                <div className="w-1/2 pr-8 md:pr-12 text-right">
+                  <div className="inline-block bg-primary text-primary-foreground px-4 py-2 rounded-full font-bold text-[18px] md:text-[22px]">
+                    2 WEEKS
+                  </div>
+                </div>
+                <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-primary rounded-full border-4 border-background shadow-lg z-10" />
+                <div className="w-1/2 pl-8 md:pl-12">
+                  <div className="bg-card rounded-xl p-5 md:p-6 shadow-lg border-l-4 border-primary">
+                    <p className="text-[18px] md:text-[22px] font-semibold">Walking the neighborhood <span className="text-primary">without her inhaler</span>.</p>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Month 1 - Featured */}
+              <div className="relative flex items-center pt-4">
+                <div className="w-full">
+                  <div className="absolute left-1/2 transform -translate-x-1/2 w-10 h-10 bg-primary rounded-full border-4 border-background shadow-xl z-10 flex items-center justify-center">
+                    <span className="text-primary-foreground text-lg">★</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="relative">
+                <div className="bg-gradient-to-r from-primary via-primary to-primary/80 rounded-2xl p-8 md:p-10 shadow-2xl text-center mx-4 md:mx-12">
+                  <div className="inline-block bg-background/20 backdrop-blur-sm px-6 py-2 rounded-full font-bold text-[20px] md:text-[26px] text-primary-foreground mb-4">
+                    1 MONTH
+                  </div>
+                  <p className="text-[22px] md:text-[32px] font-bold text-primary-foreground leading-tight">
+                    Better than she'd been<br/>
+                    <span className="text-[#ffd700]">even in Romania.</span>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
