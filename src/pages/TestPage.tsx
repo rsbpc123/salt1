@@ -2897,8 +2897,8 @@ const TestPage = () => {
           <div className="bg-card rounded-2xl p-8 md:p-12 shadow-2xl mb-10">
             <div className="flex justify-center mb-8">
               <img 
-                src={productBundle} 
-                alt="Longevity Salt pouches - the complete collection from Mânzălești, Romania" 
+                src={saltPouchProduct} 
+                alt="Longevity Salt pouch with Mânzălești salt crystals, lavender and healing herbs" 
                 className="max-w-full h-auto max-h-[400px] object-contain drop-shadow-xl hover:scale-105 transition-transform duration-500"
               />
             </div>
