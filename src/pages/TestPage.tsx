@@ -82,6 +82,7 @@ import manKneePain from "@/assets/man-knee-pain.jpg";
 import saltHerbsPouch from "@/assets/salt-herbs-pouch.jpg";
 import doctorSpirometryResults from "@/assets/doctor-spirometry-results.jpg";
 import customsReleasedPouch from "@/assets/customs-released-pouch.jpg";
+import romaniaExportPaperwork from "@/assets/romania-export-paperwork.jpg";
 
 const TestPage = () => {
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
@@ -2801,6 +2802,26 @@ const TestPage = () => {
             <p>Dr. Popescu leveraged her university connections. Worked with the local government.</p>
             
             <p className="font-semibold">And after MONTHS of negotiating... they approved limited export permits. For wellness purposes only.</p>
+          </div>
+          
+          {/* Export Paperwork Image */}
+          <div className="mt-10">
+            <div 
+              className="relative overflow-hidden rounded-xl shadow-xl"
+              style={{
+                maskImage: 'radial-gradient(ellipse 100% 95% at center, black 70%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 100% 95% at center, black 70%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={romaniaExportPaperwork} 
+                alt="Desk covered with Romanian government export paperwork, UNESCO Geopark maps, mineral analysis reports, and pending approval stamps" 
+                className="w-full h-auto"
+              />
+            </div>
+            <p className="text-center text-muted-foreground italic mt-4 text-[16px]">
+              Months of bureaucracy: Romanian export permits, UNESCO Geopark documentation, and mineral analysis reports
+            </p>
           </div>
         </div>
       </section>
