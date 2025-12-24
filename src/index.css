@@ -43,14 +43,14 @@ All colors MUST be HSL.
     --vsl-highlight: 266 70% 30%;         /* Deep violet for highlights */
     --vsl-highlight-fg: 0 0% 100%;        /* White text on highlights */
     --vsl-content-box: 0 0% 100%;         /* White content boxes */
-    --vsl-checkmark: 320 38% 31%;         /* Deep magenta checkmarks #6f3260 */
+    --vsl-checkmark: 313 36% 34%;         /* Deep magenta checkmarks #763868 */
     --vsl-secondary-bg: 40 40% 92%;       /* Warm cream sections */
     
     --trust-bg: 40 40% 92%;
-    --headline-gradient: linear-gradient(135deg, hsl(320, 38%, 38%), hsl(320, 38%, 24%));
-    --emphasis-color: 320 38% 31%;         /* Deep magenta emphasis #6f3260 */
+    --headline-gradient: linear-gradient(135deg, hsl(313, 36%, 40%), hsl(313, 36%, 26%));
+    --emphasis-color: 313 36% 34%;         /* Deep magenta emphasis #763868 */
     --story-bg: 40 40% 92%;
-    --scientific-bg: 320 38% 25%;
+    --scientific-bg: 313 36% 28%;
     
     /* Typography - Lora serif font */
     --font-display: 'Lora', serif;
