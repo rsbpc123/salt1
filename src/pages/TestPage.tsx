@@ -2939,7 +2939,7 @@ const TestPage = () => {
                 <img 
                   src={testimonialMargaret} 
                   alt="Margaret T., 67, from Tulsa, OK" 
-                  className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover flex-shrink-0"
+                  className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover flex-shrink-0 border-2 border-primary/20 shadow-md"
                 />
                 <div>
                   <p className="font-bold text-[18px] md:text-[22px] text-primary">Margaret T., 67</p>
@@ -2967,7 +2967,7 @@ const TestPage = () => {
                 <img 
                   src={testimonialPatricia} 
                   alt="Patricia H., 61, from Charleston, SC" 
-                  className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover flex-shrink-0"
+                  className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover flex-shrink-0 border-2 border-primary/20 shadow-md"
                 />
                 <div>
                   <p className="font-bold text-[18px] md:text-[22px] text-primary">Patricia H., 61</p>
@@ -2992,7 +2992,7 @@ const TestPage = () => {
                 <img 
                   src={testimonialJames} 
                   alt="James R., 72, from Asheville, NC" 
-                  className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover flex-shrink-0"
+                  className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover flex-shrink-0 border-2 border-primary/20 shadow-md"
                 />
                 <div>
                   <p className="font-bold text-[18px] md:text-[22px] text-primary">James R., 72</p>
@@ -3017,7 +3017,7 @@ const TestPage = () => {
                 <img 
                   src={testimonialDavid} 
                   alt="David S., 55, from Atlanta, GA" 
-                  className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover flex-shrink-0"
+                  className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover flex-shrink-0 border-2 border-primary/20 shadow-md"
                 />
                 <div>
                   <p className="font-bold text-[18px] md:text-[22px] text-primary">David S., 55</p>
@@ -3042,7 +3042,7 @@ const TestPage = () => {
                 <img 
                   src={testimonialCarol} 
                   alt="Carol D., 59, from Knoxville, TN" 
-                  className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover flex-shrink-0"
+                  className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover flex-shrink-0 border-2 border-primary/20 shadow-md"
                 />
                 <div>
                   <p className="font-bold text-[18px] md:text-[22px] text-primary">Carol D., 59</p>
