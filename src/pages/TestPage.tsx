@@ -2700,26 +2700,14 @@ const TestPage = () => {
         </div>
       </section>
 
-      {/* The Results Comparison */}
+      {/* The Results Comparison - Image */}
       <section className="py-10 md:py-16 px-4 bg-background">
-        <div className="max-w-[800px] mx-auto">
-          <div className="grid md:grid-cols-2 gap-6">
-            {/* Before */}
-            <div className="bg-destructive/10 border-2 border-destructive/30 rounded-xl p-6 md:p-8">
-              <h3 className="text-[18px] md:text-[22px] font-bold text-destructive mb-4">Six Months Ago</h3>
-              <p className="text-[16px] md:text-[18px] text-muted-foreground mb-4">Jagged red line. Barely climbing. Flat. Struggling.</p>
-              <p className="text-[36px] md:text-[48px] font-bold text-destructive">58%</p>
-              <p className="text-[16px] md:text-[18px] text-muted-foreground">Stage 3 obstruction</p>
-            </div>
-            
-            {/* After */}
-            <div className="bg-primary/10 border-2 border-primary/30 rounded-xl p-6 md:p-8">
-              <h3 className="text-[18px] md:text-[22px] font-bold text-primary mb-4">TODAY</h3>
-              <p className="text-[16px] md:text-[18px] text-muted-foreground mb-4">Smooth green line. Rising steadily. Strong. Normal.</p>
-              <p className="text-[36px] md:text-[48px] font-bold text-primary">81%</p>
-              <p className="text-[16px] md:text-[18px] text-muted-foreground">Near normal function</p>
-            </div>
-          </div>
+        <div className="max-w-[900px] mx-auto">
+          <img 
+            src={doctorSpirometryResults} 
+            alt="Doctor's computer showing spirometry results - Six months ago: 58% Stage 3 Obstruction vs Today: 81% Near Normal Function" 
+            className="w-full rounded-xl shadow-lg"
+          />
         </div>
       </section>
 
