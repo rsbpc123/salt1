@@ -78,6 +78,7 @@ import button1Gift from "@/assets/button-1-gift.png";
 import button3Gifts from "@/assets/button-3-gifts.png";
 import button5Gifts from "@/assets/button-5-gifts.png";
 import oximeterPeakFlow from "@/assets/oximeter-peak-flow.jpg";
+import spirometerScreen from "@/assets/spirometer-screen.jpg";
 import manKneePain from "@/assets/man-knee-pain.jpg";
 import saltHerbsPouch from "@/assets/salt-herbs-pouch.jpg";
 import doctorSpirometryResults from "@/assets/doctor-spirometry-results.jpg";
@@ -2704,7 +2705,7 @@ const TestPage = () => {
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[900px] mx-auto">
           <img 
-            src={doctorSpirometryResults} 
+            src={spirometerScreen} 
             alt="Doctor's computer showing spirometry results - Six months ago: 58% Stage 3 Obstruction vs Today: 81% Near Normal Function" 
             className="w-full rounded-xl shadow-lg"
           />
