@@ -80,6 +80,11 @@ import button5Gifts from "@/assets/button-5-gifts.png";
 import oximeterPeakFlow from "@/assets/oximeter-peak-flow.jpg";
 import spirometerScreen from "@/assets/spirometer-screen.jpg";
 import longevitySaltProduct from "@/assets/longevity-salt-product.png";
+import testimonialMargaret from "@/assets/testimonial-margaret.jpg";
+import testimonialPatricia from "@/assets/testimonial-patricia.jpg";
+import testimonialJames from "@/assets/testimonial-james.jpg";
+import testimonialDavid from "@/assets/testimonial-david.jpg";
+import testimonialCarol from "@/assets/testimonial-carol.jpg";
 import manKneePain from "@/assets/man-knee-pain.jpg";
 import saltHerbsPouch from "@/assets/salt-herbs-pouch.jpg";
 import doctorSpirometryResults from "@/assets/doctor-spirometry-results.jpg";
@@ -2930,9 +2935,16 @@ const TestPage = () => {
           <div className="space-y-8">
             {/* Testimonial 1 - Margaret */}
             <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg">
-              <div className="mb-4">
-                <p className="font-bold text-[18px] md:text-[22px] text-primary">Margaret T., 67</p>
-                <p className="text-muted-foreground text-[14px] md:text-[16px]">Tulsa, OK | Stage 3 COPD</p>
+              <div className="flex items-start gap-4 mb-4">
+                <img 
+                  src={testimonialMargaret} 
+                  alt="Margaret T., 67, from Tulsa, OK" 
+                  className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover flex-shrink-0"
+                />
+                <div>
+                  <p className="font-bold text-[18px] md:text-[22px] text-primary">Margaret T., 67</p>
+                  <p className="text-muted-foreground text-[14px] md:text-[16px]">Tulsa, OK | Stage 3 COPD</p>
+                </div>
               </div>
               <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground italic">
                 <p>"I've had COPD for 12 years. Stage 3. Five medications. Oxygen saturation at 84%.</p>
@@ -2951,9 +2963,16 @@ const TestPage = () => {
 
             {/* Testimonial 2 - Patricia */}
             <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg">
-              <div className="mb-4">
-                <p className="font-bold text-[18px] md:text-[22px] text-primary">Patricia H., 61</p>
-                <p className="text-muted-foreground text-[14px] md:text-[16px]">Charleston, SC | Oxygen-Dependent COPD</p>
+              <div className="flex items-start gap-4 mb-4">
+                <img 
+                  src={testimonialPatricia} 
+                  alt="Patricia H., 61, from Charleston, SC" 
+                  className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover flex-shrink-0"
+                />
+                <div>
+                  <p className="font-bold text-[18px] md:text-[22px] text-primary">Patricia H., 61</p>
+                  <p className="text-muted-foreground text-[14px] md:text-[16px]">Charleston, SC | Oxygen-Dependent COPD</p>
+                </div>
               </div>
               <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground italic">
                 <p>"For the last 5 years, I couldn't go ANYWHERE without my portable oxygen tank.</p>
@@ -2969,9 +2988,16 @@ const TestPage = () => {
 
             {/* Testimonial 3 - James */}
             <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg">
-              <div className="mb-4">
-                <p className="font-bold text-[18px] md:text-[22px] text-primary">James R., 72</p>
-                <p className="text-muted-foreground text-[14px] md:text-[16px]">Asheville, NC | Stage 3 COPD + Fibrosis</p>
+              <div className="flex items-start gap-4 mb-4">
+                <img 
+                  src={testimonialJames} 
+                  alt="James R., 72, from Asheville, NC" 
+                  className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover flex-shrink-0"
+                />
+                <div>
+                  <p className="font-bold text-[18px] md:text-[22px] text-primary">James R., 72</p>
+                  <p className="text-muted-foreground text-[14px] md:text-[16px]">Asheville, NC | Stage 3 COPD + Fibrosis</p>
+                </div>
               </div>
               <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground italic">
                 <p>"Stage 3 COPD. Pulmonary fibrosis. The doctors told me my lungs were done. That I'd be on oxygen for the rest of my life.</p>
@@ -2987,9 +3013,16 @@ const TestPage = () => {
 
             {/* Testimonial 4 - David */}
             <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg">
-              <div className="mb-4">
-                <p className="font-bold text-[18px] md:text-[22px] text-primary">David S., 55</p>
-                <p className="text-muted-foreground text-[14px] md:text-[16px]">Atlanta, GA | Severe Asthma</p>
+              <div className="flex items-start gap-4 mb-4">
+                <img 
+                  src={testimonialDavid} 
+                  alt="David S., 55, from Atlanta, GA" 
+                  className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover flex-shrink-0"
+                />
+                <div>
+                  <p className="font-bold text-[18px] md:text-[22px] text-primary">David S., 55</p>
+                  <p className="text-muted-foreground text-[14px] md:text-[16px]">Atlanta, GA | Severe Asthma</p>
+                </div>
               </div>
               <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground italic">
                 <p>"I was using my rescue inhaler 6 to 8 times a day. EVERY day. For three years.</p>
@@ -3005,9 +3038,16 @@ const TestPage = () => {
 
             {/* Testimonial 5 - Carol */}
             <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg">
-              <div className="mb-4">
-                <p className="font-bold text-[18px] md:text-[22px] text-primary">Carol D., 59</p>
-                <p className="text-muted-foreground text-[14px] md:text-[16px]">Knoxville, TN | Chronic Bronchitis</p>
+              <div className="flex items-start gap-4 mb-4">
+                <img 
+                  src={testimonialCarol} 
+                  alt="Carol D., 59, from Knoxville, TN" 
+                  className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover flex-shrink-0"
+                />
+                <div>
+                  <p className="font-bold text-[18px] md:text-[22px] text-primary">Carol D., 59</p>
+                  <p className="text-muted-foreground text-[14px] md:text-[16px]">Knoxville, TN | Chronic Bronchitis</p>
+                </div>
               </div>
               <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground italic">
                 <p>"I went to a salt cave therapy center near my house. For three weeks, I felt AMAZING. Then I stopped going.</p>
