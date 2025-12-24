@@ -27,7 +27,7 @@ import lungsDiagram from "@/assets/lungs-diagram.png";
 import ambulance911Scene from "@/assets/ambulance-911-scene.jpg";
 import stressedSeniorsCollage from "@/assets/stressed-seniors-collage.png";
 import lungCtScan from "@/assets/lung-ct-scan.jpg";
-import coupleHospitalBench from "@/assets/couple-hospital-bench.jpg";
+import coupleHospitalBench from "@/assets/couple-hospital-bench-new.jpg";
 import medicationsPile from "@/assets/medications-pile.jpg";
 import womanBathroomFloor from "@/assets/woman-bathroom-crying.jpg";
 import manLaptopKitchen from "@/assets/man-laptop-kitchen.jpg";
