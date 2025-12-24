@@ -89,6 +89,7 @@ import manKneePain from "@/assets/man-knee-pain.jpg";
 import saltHerbsPouch from "@/assets/salt-herbs-pouch.jpg";
 import doctorSpirometryResults from "@/assets/doctor-spirometry-results.jpg";
 import saltPouchWhite from "@/assets/salt-pouch-white.png";
+import saltAmpule from "@/assets/salt-ampule.png";
 import customsReleasedPouch from "@/assets/customs-released-pouch.jpg";
 import romaniaExportPaperwork from "@/assets/romania-export-paperwork.jpg";
 
@@ -3123,6 +3124,14 @@ const TestPage = () => {
             <div className="flex items-center gap-3 mb-6">
               <span className="text-[28px] md:text-[36px]">→</span>
               <h3 className="text-[22px] md:text-[28px] font-bold text-primary">The Longevity Salt Ampule – Your Timeless Energy Shield</h3>
+            </div>
+            
+            <div className="flex justify-center mb-8">
+              <img 
+                src={saltAmpule} 
+                alt="Longevity Salt Ampule - glass vial with sacred Romanian salt" 
+                className="w-32 md:w-40 h-auto object-contain"
+              />
             </div>
             
             <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground">
