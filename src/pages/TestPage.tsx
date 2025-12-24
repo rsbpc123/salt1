@@ -88,6 +88,7 @@ import testimonialCarol from "@/assets/testimonial-carol.jpg";
 import manKneePain from "@/assets/man-knee-pain.jpg";
 import saltHerbsPouch from "@/assets/salt-herbs-pouch.jpg";
 import doctorSpirometryResults from "@/assets/doctor-spirometry-results.jpg";
+import saltPouchWhite from "@/assets/salt-pouch-white.png";
 import customsReleasedPouch from "@/assets/customs-released-pouch.jpg";
 import romaniaExportPaperwork from "@/assets/romania-export-paperwork.jpg";
 
@@ -3083,6 +3084,14 @@ const TestPage = () => {
             <div className="flex items-center gap-3 mb-6">
               <span className="text-[28px] md:text-[36px]">→</span>
               <h3 className="text-[22px] md:text-[28px] font-bold text-primary">Your Longevity Salt Pouch</h3>
+            </div>
+            
+            <div className="flex justify-center mb-8">
+              <img 
+                src={saltPouchWhite} 
+                alt="Longevity Salt Pouch - authentic Romanian salt therapy" 
+                className="w-48 md:w-64 h-auto object-contain"
+              />
             </div>
             
             <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground">
