@@ -79,6 +79,7 @@ import button3Gifts from "@/assets/button-3-gifts.png";
 import button5Gifts from "@/assets/button-5-gifts.png";
 import oximeterPeakFlow from "@/assets/oximeter-peak-flow.jpg";
 import spirometerScreen from "@/assets/spirometer-screen.jpg";
+import longevitySaltProduct from "@/assets/longevity-salt-product.png";
 import manKneePain from "@/assets/man-knee-pain.jpg";
 import saltHerbsPouch from "@/assets/salt-herbs-pouch.jpg";
 import doctorSpirometryResults from "@/assets/doctor-spirometry-results.jpg";
@@ -2886,7 +2887,7 @@ const TestPage = () => {
           <div className="bg-card rounded-2xl p-8 md:p-12 shadow-2xl mb-10">
             <div className="flex justify-center mb-8">
               <img 
-                src={saltPouchProduct} 
+                src={longevitySaltProduct} 
                 alt="Longevity Salt pouch with Mânzălești salt crystals, lavender and healing herbs" 
                 className="max-w-full h-auto max-h-[400px] object-contain drop-shadow-xl hover:scale-105 transition-transform duration-500"
               />
