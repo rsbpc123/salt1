@@ -30,7 +30,7 @@ import lungCtScan from "@/assets/lung-ct-scan.jpg";
 import coupleHospitalBench from "@/assets/couple-hospital-bench-new.jpg";
 import medicationsPile from "@/assets/medications-pile.jpg";
 import womanBathroomFloor from "@/assets/woman-bathroom-crying.jpg";
-import manLaptopKitchen from "@/assets/man-laptop-kitchen.jpg";
+import manLaptopKitchen from "@/assets/robert-laptop-kitchen.jpg";
 import saltMineInterior from "@/assets/salt-mine-interior.jpg";
 import closedMineSign from "@/assets/inchis-closed-sign.jpg";
 import coffeeShopCouple from "@/assets/coffee-shop-couple.jpg";
