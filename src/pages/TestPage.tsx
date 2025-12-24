@@ -65,7 +65,7 @@ import orderButton from "@/assets/order-button.png";
 import customerSupport from "@/assets/customer-support.png";
 import riskfreeSeal from "@/assets/riskfree-seal.png";
 import drPopescuOffice from "@/assets/dr-popescu-office.jpg";
-import coupleWalkingHope from "@/assets/couple-walking-hope.jpg";
+import coupleWalkingHope from "@/assets/robert-linda-walking.jpg";
 import romanianVillageDrive from "@/assets/romanian-village-drive.jpg";
 import coupleCryingHappy from "@/assets/couple-crying-happy.jpg";
 import anaGardenCarrots from "@/assets/ana-garden-carrots.jpg";
