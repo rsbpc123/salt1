@@ -3264,7 +3264,7 @@ const TestPage = () => {
             </div>
 
             {/* Option 2 - Best Value (5 Pouches) - Featured */}
-            <div className="bg-gradient-to-b from-[#7a3a6a] to-[#4a1942] rounded-none shadow-2xl p-6 md:p-8 flex flex-col items-center text-center relative">
+            <div className="bg-gradient-to-b from-[#5a1e9a] to-[#461682] rounded-none shadow-2xl p-6 md:p-8 flex flex-col items-center text-center relative">
               <div className="mb-3">
                 <p className="text-[#c9a227] font-black italic text-[24px] md:text-[30px] leading-tight">BEST VALUE</p>
                 <p className="text-[#c9a227] font-black italic text-[22px] md:text-[28px] leading-tight">BEST SELLING</p>
@@ -3452,7 +3452,7 @@ const TestPage = () => {
             </div>
 
             {/* Option 2 - Best Value (5 Pouches) - Featured */}
-            <div className="bg-gradient-to-b from-[#7a3a6a] to-[#4a1942] rounded-none shadow-2xl p-6 md:p-8 flex flex-col items-center text-center relative">
+            <div className="bg-gradient-to-b from-[#5a1e9a] to-[#461682] rounded-none shadow-2xl p-6 md:p-8 flex flex-col items-center text-center relative">
               <div className="mb-3">
                 <p className="text-[#c9a227] font-black italic text-[24px] md:text-[30px] leading-tight">BEST VALUE</p>
                 <p className="text-[#c9a227] font-black italic text-[22px] md:text-[28px] leading-tight">BEST SELLING</p>
@@ -3704,7 +3704,7 @@ const TestPage = () => {
             </div>
 
             {/* Option 2 - Best Value (5 Pouches) - Featured */}
-            <div className="bg-gradient-to-b from-[#7a3a6a] to-[#4a1942] rounded-none shadow-2xl p-6 md:p-8 flex flex-col items-center text-center relative">
+            <div className="bg-gradient-to-b from-[#5a1e9a] to-[#461682] rounded-none shadow-2xl p-6 md:p-8 flex flex-col items-center text-center relative">
               <div className="mb-3">
                 <p className="text-[#c9a227] font-black italic text-[24px] md:text-[30px] leading-tight">BEST VALUE</p>
                 <p className="text-[#c9a227] font-black italic text-[22px] md:text-[28px] leading-tight">BEST SELLING</p>
