@@ -3852,12 +3852,12 @@ const TestPage = () => {
           </div>
           
           <div className="flex justify-center gap-0">
-            <a href="#" className="text-[14px] md:text-[20px] leading-[14px] md:leading-[20px] text-foreground px-3 md:px-4 border-r border-foreground last:border-r-0 hover:underline">Privacy Policy</a>
-            <a href="#" className="text-[14px] md:text-[20px] leading-[14px] md:leading-[20px] text-foreground px-3 md:px-4 border-r border-foreground last:border-r-0 hover:underline">Terms & Conditions</a>
-            <a href="#" className="text-[14px] md:text-[20px] leading-[14px] md:leading-[20px] text-foreground px-3 md:px-4 hover:underline">Contact Us</a>
+            <span className="text-[14px] md:text-[20px] leading-[14px] md:leading-[20px] text-foreground px-3 md:px-4 border-r border-foreground">Privacy Policy</span>
+            <span className="text-[14px] md:text-[20px] leading-[14px] md:leading-[20px] text-foreground px-3 md:px-4 border-r border-foreground">Terms & Conditions</span>
+            <span className="text-[14px] md:text-[20px] leading-[14px] md:leading-[20px] text-foreground px-3 md:px-4">Contact Us</span>
           </div>
           <p className="text-[14px] md:text-[20px] leading-[24px] md:leading-[30px] text-foreground mt-3">
-            Copyright © 2024 Memory Wave. All Rights Reserved.
+            Copyright © 2025 Longevity Salt. All Rights Reserved.
           </p>
         </div>
       </footer>
