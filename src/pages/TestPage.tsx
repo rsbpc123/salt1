@@ -3221,7 +3221,7 @@ const TestPage = () => {
               <p>A guided breathing exercise designed by Dr. Popescu and used by over 10,000 patients across Europe. It retrains your diaphragm to expel trapped mucus and restore deep lung capacity.</p>
             </div>
             
-            <div className="mt-6 flex flex-wrap items-center gap-4">
+            <div className="mt-6 flex flex-col items-center gap-4">
               <span className="text-muted-foreground line-through text-[16px]">Retail Value: $38</span>
               <span className="bg-primary text-primary-foreground px-4 py-2 rounded-full font-bold">✓ FREE GIFT (Exclusively with the 5-Pack Bundle)</span>
             </div>
