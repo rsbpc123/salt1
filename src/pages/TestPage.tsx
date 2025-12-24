@@ -3214,18 +3214,16 @@ const TestPage = () => {
           <div className="bg-card rounded-xl p-6 md:p-10 shadow-lg border-l-4 border-primary">
             <div className="flex items-center gap-3 mb-6">
               <span className="text-[28px] md:text-[36px]">→</span>
-              <h3 className="text-[22px] md:text-[28px] font-bold text-primary">The 5-Minute Respiratory Reset Audio Guide</h3>
+              <h3 className="text-[22px] md:text-[28px] font-bold text-primary">The 5-Minute "Respiratory Reset" Audio Guide</h3>
             </div>
             
             <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground">
-              <p>A guided breathing exercise designed by Dr. Popescu. Used by over 10,000 respiratory patients across Europe.</p>
-              
-              <p>Helps expel trapped mucus and restore lung capacity.</p>
+              <p>A guided breathing exercise designed by Dr. Popescu and used by over 10,000 patients across Europe. It retrains your diaphragm to expel trapped mucus and restore deep lung capacity.</p>
             </div>
             
             <div className="mt-6 flex flex-wrap items-center gap-4">
               <span className="text-muted-foreground line-through text-[16px]">Retail Value: $38</span>
-              <span className="bg-primary text-primary-foreground px-4 py-2 rounded-full font-bold">✓ Yours FREE when you order today</span>
+              <span className="bg-primary text-primary-foreground px-4 py-2 rounded-full font-bold">✓ FREE GIFT (Exclusively with the 5-Pack Bundle)</span>
             </div>
           </div>
         </div>
