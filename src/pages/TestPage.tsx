@@ -47,6 +47,7 @@ import bonusMemorySaver from "@/assets/bonus-memory-saver.png";
 import bonusGroceryGuide from "@/assets/bonus-grocery-guide.png";
 import bonusEnergyButton from "@/assets/bonus-energy-button.png";
 import moneyBackGuarantee from "@/assets/money-back-guarantee.png";
+import personalFavorPackage from "@/assets/personal-favor-package.jpg";
 import arrowCurveRed from "@/assets/arrow-curve-red.png";
 import arrowDownLeft from "@/assets/arrow-down-left.png";
 import arrowDecorative from "@/assets/arrow-decorative.jpg";
@@ -2438,6 +2439,23 @@ const TestPage = () => {
             <p className="italic">"The salt comes from the Mânzălești region. The deposits are on protected land. Getting export approval is... complicated."</p>
             
             <p className="text-[22px] md:text-[28px] font-bold text-primary text-center mt-8">"But I can send you one. As a personal favor."</p>
+          </div>
+          
+          {/* Personal Favor Package Image */}
+          <div className="mt-10">
+            <div 
+              className="relative overflow-hidden rounded-xl shadow-xl"
+              style={{
+                maskImage: 'radial-gradient(ellipse 100% 95% at center, black 70%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 100% 95% at center, black 70%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={personalFavorPackage} 
+                alt="Hands opening a package from Romania containing the salt therapy pouch" 
+                className="w-full h-auto"
+              />
+            </div>
           </div>
         </div>
       </section>
