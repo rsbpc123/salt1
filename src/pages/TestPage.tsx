@@ -703,10 +703,6 @@ const TestPage = () => {
             We pulled into the parking lot.
           </p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
-            We pulled into the parking lot.
-          </p>
-          
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
             That's when I saw the sign.
           </p>
