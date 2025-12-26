@@ -2296,7 +2296,7 @@ const TestPage = () => {
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
-            The Desperate Email That Led to a Scientific Breakthrough
+            The Phone Call That Led to a Scientific Breakthrough
           </h2>
           
           <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
