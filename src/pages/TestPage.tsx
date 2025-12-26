@@ -3053,15 +3053,13 @@ const TestPage = () => {
                 </div>
               </div>
               <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground italic">
-                <p>"I went to a salt cave therapy center near my house. For three weeks, I felt AMAZING. Then I stopped going.</p>
-                <p>Within a month, I was back where I started.</p>
-                <p>Then I found Longevity Salt.</p>
-                <p>Now I don't have to leave my house. The pouch sits on my nightstand.</p>
-                <p>And I'm FINALLY sleeping through the night again."</p>
+                <p>"I was at my wit's end. Every morning at 4 AM, I'd wake up coughing so hard I thought I was going to throw up.</p>
+                <p>I tried everything. Expensive air purifiers. Humidifiers. Sleeping propped up on three pillows. Nothing stopped the coughing fits.</p>
+                <p>Then I found Longevity Salt. I put the pouch on my nightstand three weeks ago. And I haven't woken up coughing ONCE since then. I'm FINALLY sleeping through the night."</p>
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
                 <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Chronic bronchitis</span>
-                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Relapsed after stopping treatment</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Tried purifiers & humidifiers (failed)</span>
                 <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Sleeping through the night</span>
               </div>
             </div>
