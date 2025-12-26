@@ -3608,7 +3608,9 @@ const TestPage = () => {
           </h2>
           
           <div className="space-y-6 text-[16px] md:text-[20px] leading-relaxed text-foreground">
-            <p>Linda doesn't like being the "face" of this. She's a private person.</p>
+            <p>Linda doesn't like being the "face" of this.</p>
+            
+            <p>She's a private person.</p>
             
             <p>But when I told her I was writing this... she asked me to include something.</p>
             
@@ -3663,7 +3665,7 @@ const TestPage = () => {
             <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground">
               <p>You close this page. Go back to "managing."</p>
               <p>Keep using your inhaler 6 to 8 times a day. Keep waking up at 3 AM gasping for air. Keep saying "no" to the things you want to say "yes" to.</p>
-              <p className="font-semibold text-destructive">Keep watching your life get smaller. And smaller.</p>
+              <p className="font-semibold text-destructive">Keep watching your life get smaller.</p>
             </div>
           </div>
           
@@ -3673,7 +3675,8 @@ const TestPage = () => {
             <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground">
               <p className="font-semibold">You click the button below. Secure your pouches NOW. Before this batch sells out.</p>
               <p>Try Longevity Salt for 60 days. Risk-free.</p>
-              <p>And give yourself a chance at breathing freely again. At sleeping through the night. At playing with your grandkids without needing a break.</p>
+              <p>And give yourself a chance at breathing freely again.</p>
+              <p>At sleeping through the night. At playing with your grandkids without needing a break.</p>
               <p className="font-bold text-primary">At saying YES to life again.</p>
             </div>
           </div>
