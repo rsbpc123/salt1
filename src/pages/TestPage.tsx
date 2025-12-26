@@ -3242,7 +3242,7 @@ const TestPage = () => {
             
             <div className="mt-6 flex flex-wrap items-center gap-4">
               <span className="text-muted-foreground line-through text-[16px]">Retail Value: $38</span>
-              <span className="bg-primary text-primary-foreground px-4 py-2 rounded-full font-bold">✓ Yours FREE when you order today</span>
+              <span className="bg-primary text-primary-foreground px-4 py-2 rounded-full font-bold">✓ Yours FREE with 5-Pouch Orders</span>
             </div>
           </div>
         </div>
