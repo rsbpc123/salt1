@@ -120,7 +120,10 @@ const TestPage = () => {
               I Watched My Wife Drown in Our Bedroom at Midnight…
             </p>
             <p className="font-bold text-[22px] md:text-[38px] leading-[30px] md:leading-[48px] mt-4">
-              Then a Collapsed Salt Mine in Romania Led Me to a Village Where Nobody Gets Lung Disease…And Saved Her Life
+              Then a Collapsed Salt Mine in Romania Led Me to a Village Where Nobody Gets Lung Disease…
+            </p>
+            <p className="font-bold text-[22px] md:text-[38px] leading-[30px] md:leading-[48px] mt-4">
+              And Finally Let Her Breathe Again
             </p>
           </div>
           
