@@ -466,7 +466,7 @@ const TestPage = () => {
       <section className="py-10 px-4 bg-card text-card-foreground">
         <div className="max-w-[970px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
-            The Night I Found Her Crying in the Bathroom
+            The Night I Found Her Crying on the Bathroom Floor
           </h2>
           
           <div className="md:float-right md:ml-6 md:-mr-4 text-center mb-4 relative">
@@ -487,13 +487,17 @@ const TestPage = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">It was a Tuesday.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda's sister invited us to Thanksgiving. Linda said she had a cold.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda's sister invited us to Thanksgiving.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda said she had a cold.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">But she didn't.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">She just didn't want her family to see her like this.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">That night, I woke up around 2 AM. Linda wasn't in bed.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">That night, I woke up around 2 AM.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda wasn't in bed.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I found her in the bathroom. Sitting on the floor. Crying.</p>
           
@@ -531,9 +535,6 @@ const TestPage = () => {
             </p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4">
               I don't care what it takes.
-            </p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4">
-              I don't care if I have to fly to the other side of the world.
             </p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4 font-bold italic">
               I'm going to find a way.
@@ -581,7 +582,9 @@ const TestPage = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I was about to close the laptop.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">Then I saw it. A research paper from some Romanian medical institute.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">Then I saw it.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">A research paper from some Romanian medical institute.</p>
           
           <div className="bg-card rounded-[14px] p-5 md:p-6 mt-8 border-l-4 border-primary">
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold italic">
@@ -591,7 +594,9 @@ const TestPage = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8"><strong>Halotherapy.</strong> Breathing microscopic salt particles.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Sounded weird. But the study had REAL results.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Sounded weird.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">But the study had REAL results.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">People with COPD seeing improvements in lung function. Reduced coughing. Better oxygen saturation.</p>
           
@@ -603,7 +608,9 @@ const TestPage = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">There's this place in Romania. The Praid Salt Mine.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">For over a CENTURY, people with severe lung problems traveled there. From all over Europe. To go down into the mine and just... breathe.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">For over a CENTURY, people with severe lung problems traveled there from all over Europe.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">To go down into the mine and just... breathe.</p>
           
           {/* Results Box */}
           <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-10 text-primary-foreground">
@@ -644,7 +651,7 @@ const TestPage = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">"Do you really think this could work?" she asked.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I took a breath. "I don't know. But we need to find out."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"I don't know. But we need to find out."</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She nodded. "Okay. Let's go."</p>
           
@@ -656,7 +663,7 @@ const TestPage = () => {
               The mine that saved all those people?
             </p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4 font-bold">
-              It was about to collapse.
+              It had just collapsed.
             </p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4 font-bold italic">
               And we were about to fly 5,000 miles... for nothing.
@@ -676,7 +683,11 @@ const TestPage = () => {
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            Three weeks later, we were on a plane to Bucharest. Then a rental car through the Carpathian Mountains.
+            Three weeks later, we were on a plane to Bucharest.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            Then a rental car through the Carpathian Mountains.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
@@ -687,12 +698,8 @@ const TestPage = () => {
             I was nervous. But hopeful.
           </p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
-            Linda squeezed my hand as we drove. "What if this actually works?"
-          </p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            "Then we're about to get your life back," I said.
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
+            We pulled into the parking lot.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
@@ -728,7 +735,7 @@ const TestPage = () => {
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            I walked closer. Another sign. In English.
+            I walked closer. Another sign. In Romanian and English.
           </p>
           
           <div className="bg-foreground rounded-[10px] p-5 md:p-6 mt-8 text-background">
@@ -750,7 +757,11 @@ const TestPage = () => {
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            Linda put her hand on my shoulder. "We tried. That's more than most people do."
+            Linda put her hand on my shoulder.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            "We tried. That's more than most people do."
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
@@ -761,23 +772,13 @@ const TestPage = () => {
             The defeat.
           </p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">
-            The resignation.
-          </p>
-          
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
             Like she'd already accepted this was how the rest of her life was going to be.
           </p>
           
-          {/* Determination Box */}
-          <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-10 text-primary-foreground">
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">
-              And I wasn't ready to accept that.
-            </p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4 font-bold italic">
-              Not yet.
-            </p>
-          </div>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
+            And I wasn't ready to accept that.
+          </p>
         </div>
       </section>
 
@@ -804,17 +805,13 @@ const TestPage = () => {
             </div>
           </div>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">We drove into town. Found a small cafe on the main street. Old wooden tables. The smell of strong coffee and fresh bread.</p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">We ordered and sat down.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">We drove into town. Found a small cafe on the main street.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Linda looked tired. Not physically. Just... defeated.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">"What do we do now?" she whispered.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I had no answer.</p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Just that familiar crushing weight in my chest.</p>
           
           <div className="clear-both" />
         </div>
@@ -851,17 +848,23 @@ const TestPage = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I nodded. "Yeah. But it collapsed."</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">She waved her hand dismissively. "The mine. Everyone comes for the mine."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">She waved her hand dismissively.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"The mine. Everyone comes for the mine."</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">She shook her head. "But the mine is not special. It's just... underground."</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I frowned. "What do you mean?"</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She leaned in closer. "You want salt for breathing, yes?"</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She leaned in closer.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"You want salt for breathing, yes?"</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Yeah. My wife has lung problems."</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Ioana looked at Linda. Studied her for a moment. Then nodded. <strong>"The mine was good. But there is a better place."</strong></p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Ioana looked at Linda. Studied her. Then nodded.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">"The mine was good. But there is a better place."</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda sat up. "Where?"</p>
           
@@ -874,9 +877,11 @@ const TestPage = () => {
       {/* Section 9c - The YouTube Video */}
       <section className="py-10 px-4 bg-secondary">
         <div className="max-w-[970px] mx-auto">
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">She pulled out her phone. Scrolled for a minute. Then turned it toward us.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">She pulled out her phone. Scrolled. Then turned it toward us.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">It was a YouTube video. The thumbnail showed an old man. Holding an axe. Standing in front of a pile of freshly cut wood.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">It was a YouTube video.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">The thumbnail showed an old man. Holding an axe. Standing in front of freshly cut wood.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">The title was in Romanian. But I could make out the number: <strong>101 de ani.</strong></p>
           
@@ -892,7 +897,9 @@ const TestPage = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She hit play. The video had 96,000 views.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">The old man was cutting wood. With a CHAINSAW. Moving like he was 50. Not 101.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">The old man was cutting wood. With a CHAINSAW.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Moving like he was 50. Not 101.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"This is Gică Baciu," Ioana said. "He lives in Mânzălești. Everyone there lives long like this."</p>
           
@@ -900,9 +907,9 @@ const TestPage = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">Ioana nodded. "Many people. Very old. But still strong."</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She swiped to another video. An old woman. Working in her garden. Moving effortlessly.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She swiped to another video. An old woman. Working in her garden.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Then another. A news report. BBC. Showing the village. White hills rising from the valley.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Then another. A BBC news report. Showing the village. White hills rising from the valley.</p>
           
           <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-10 text-primary-foreground">
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">"That is salt," Ioana said. "On the SURFACE. Not underground like the mine."</p>
@@ -917,38 +924,42 @@ const TestPage = () => {
       {/* Section 9d - The Evidence */}
       <section className="py-10 px-4 bg-card">
         <div className="max-w-[970px] mx-auto">
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">She showed us more videos. Multiple TV reports. Romanian news channels. National Geographic.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">She showed us more videos. Romanian news channels. National Geographic.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">All about Mânzălești. The village where people live past 100.</p>
           
           <div className="bg-foreground rounded-[10px] p-5 md:p-6 mt-8 text-background">
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic">
-              "You can search for it yourself on YouTube," she said. "Mânzălești longevity village. There are dozens of reports. This is real. Documented for years."
+              "You can search it yourself," she said. "Mânzălești longevity village. There are dozens of reports."
             </p>
           </div>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I looked at Linda. Then back at Ioana.</p>
-          
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">Linda leaned forward. "Can we go there?"</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Ioana smiled. "Of course. But..." She paused. "You should talk to Dr. Popescu first. She knows everything about the salt."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Ioana smiled. "Of course. But..."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She paused. "You should talk to Dr. Popescu first. She knows everything about the salt."</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Who's Dr. Popescu?"</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"A researcher. From the university. She has been studying Mânzălești for many years."</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She pulled out a pen. Scribbled something on a napkin. Slid it across the table.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She pulled out a pen. Scribbled on a napkin. Slid it across the table.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Her name. Her email. Tell her Ioana sent you."</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I looked at the napkin. Then at Ioana. "That's very kind of you. But... why are you going out of your way for us?"</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I looked at the napkin. Then at Ioana.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Why are you going out of your way for us?"</p>
         </div>
       </section>
       
       {/* Section 9e - Ioana's Story */}
       <section className="py-10 px-4 bg-secondary">
         <div className="max-w-[970px] mx-auto">
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic">She smiled sadly. "My husband had lung problems. Like your wife."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic">She smiled sadly.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"My husband had lung problems. Like your wife."</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"He is gone now. But before he died... he spent time in Mânzălești."</p>
           
@@ -958,7 +969,9 @@ const TestPage = () => {
             </p>
           </div>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Her eyes got a little watery. "So when I see people like you... looking for hope..."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Her eyes got watery.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"So when I see people like you... looking for hope..."</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She trailed off. Then stood up. Patted Linda's hand.</p>
           
@@ -966,7 +979,9 @@ const TestPage = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">And then she left.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I sat there holding the napkin. Staring at the name. <strong>Dr. Elena Popescu.</strong></p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I sat there holding the napkin.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">Dr. Elena Popescu.</p>
           
           <div className="my-10 text-center">
             <img 
@@ -976,7 +991,7 @@ const TestPage = () => {
             />
           </div>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda looked at me. "Robert... should we email her?"</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda looked at me. "Should we email her?"</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">I pulled out my phone. "I'm doing it right now."</p>
         </div>
