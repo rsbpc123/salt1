@@ -1618,9 +1618,7 @@ const TestPage = () => {
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
             <p>The first two days were... underwhelming.</p>
             
-            <p>We walked around the village. Met some locals. (None of whom spoke English.)</p>
-            
-            <p>Looked at the salt-covered hills. Breathed.</p>
+            <p>We walked around the village. Met some locals. Looked at the salt-covered hills. Breathed.</p>
             
             <p className="italic">And that was it.</p>
             
@@ -1668,7 +1666,9 @@ const TestPage = () => {
             
             <p className="text-[22px] md:text-[28px] font-bold text-primary">I didn't hear the wheeze.</p>
             
-            <p>That rattling sound that had been part of our mornings for YEARS. It was... gone.</p>
+            <p>That rattling sound that had been part of our mornings for YEARS.</p>
+            
+            <p>It was... gone.</p>
             
             <p>I sat up. Watched her chest rise and fall. Smooth. Steady. Quiet.</p>
             
@@ -1682,9 +1682,9 @@ const TestPage = () => {
         <div className="max-w-[750px] mx-auto">
           <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
             <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-              <p>She opened her eyes. "Morning," she said.</p>
+              <p>She opened her eyes. "Morning."</p>
               
-              <p>Her voice was clear. Not strained. Not tight. <span className="font-bold">Clear.</span></p>
+              <p>Her voice was clear. Not strained. <span className="font-bold">Clear.</span></p>
               
               <p>"How do you feel?" I asked.</p>
               
@@ -1716,7 +1716,9 @@ const TestPage = () => {
             
             <p className="font-semibold italic">"I forgot what this felt like."</p>
             
-            <p>I didn't say anything. Because I was crying too.</p>
+            <p>I didn't say anything.</p>
+            
+            <p>Because I was crying too.</p>
             
             <div className="my-8">
               <img 
@@ -1748,9 +1750,9 @@ const TestPage = () => {
             
             <p>"Better. A lot better."</p>
             
-            <p>Dr. Popescu smiled. "Good. Come with me. I want to show you something."</p>
+            <p>Dr. Popescu smiled. "Good. Come with me."</p>
             
-            <p>We walked through the village. Down a narrow dirt path. Past a few scattered houses.</p>
+            <p>We walked through the village. Down a narrow dirt path.</p>
             
             <p className="font-semibold">Then we came to a small garden.</p>
           </div>
@@ -1774,9 +1776,6 @@ const TestPage = () => {
                 className="w-full h-auto rounded-lg"
               />
             </div>
-            <figcaption className="text-center mt-4 text-muted-foreground italic text-[16px]">
-              Ana - 97 years old, still working in her garden every morning
-            </figcaption>
           </figure>
         </div>
       </section>
@@ -1785,13 +1784,17 @@ const TestPage = () => {
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>An older woman was kneeling in the dirt. Pulling weeds. Moving with steady, practiced motions.</p>
+            <p>An older woman was kneeling in the dirt. Pulling weeds.</p>
             
             <p>Dr. Popescu called out to her in Romanian.</p>
             
             <p>The woman looked up. Smiled. Stood up without using her hands.</p>
             
-            <p>Up close, I could see how old she was. Deeply lined face. Hands weathered from decades of work. But her eyes were bright. Alert.</p>
+            <p>Up close, I could see how old she was.</p>
+            
+            <p>Deeply lined face. Hands weathered from decades of work.</p>
+            
+            <p>But her eyes were bright. Alert.</p>
             
             <p className="text-[22px] md:text-[28px] font-bold text-primary">"This is Ana," Dr. Popescu said. "She's 97."</p>
             
@@ -1803,7 +1806,7 @@ const TestPage = () => {
             
             <p>Ana nodded. Said something in Romanian.</p>
             
-            <p className="italic">Dr. Popescu translated: "She was born in this house. Her mother was born here, too. Four generations of her family have lived in this valley."</p>
+            <p className="italic">Dr. Popescu translated: "She was born in this house. Her mother was born here, too."</p>
           </div>
         </div>
       </section>
@@ -1817,14 +1820,14 @@ const TestPage = () => {
               
               <p>Ana looked confused. Said something to Dr. Popescu.</p>
               
-              <p>Dr. Popescu smiled. "She says no one in her family has ever had lung problems. Not her. Not her mother. Not her grandmother."</p>
+              <p>Dr. Popescu smiled. "She says no one in her family has ever had lung problems."</p>
               
               <p className="font-semibold">"Never?"</p>
               
               <p>Ana shrugged. Said something else.</p>
               
               <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-6">
-                Dr. Popescu translated: "She says the salt protects our lungs. We don't get the breathing sickness."
+                Dr. Popescu translated: "She says the salt protects our lungs."
               </p>
             </div>
           </div>
@@ -1835,15 +1838,17 @@ const TestPage = () => {
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>We talked for a few more minutes. Then Ana gestured toward a pile of freshly chopped firewood.</p>
+            <p>We talked for a few more minutes.</p>
             
-            <p>Dr. Popescu laughed. Translated: "She says she chopped that this morning. For winter."</p>
+            <p>Then Ana gestured toward a pile of freshly chopped firewood.</p>
+            
+            <p>Dr. Popescu laughed. Translated: "She says she chopped that this morning."</p>
             
             <p>I stared at the pile. Then at Ana. "You chopped all that? Today?"</p>
             
             <p>Ana nodded. Said something with a grin.</p>
             
-            <p className="italic">Dr. Popescu translated: "She says her knees used to hurt. But not anymore. She uses warm salt bags on them at night. Old tradition here."</p>
+            <p className="italic">Dr. Popescu translated: "She says her knees used to hurt. But not anymore. She uses warm salt bags on them at night."</p>
             
             <p className="font-semibold text-primary">Linda's eyes widened. "Salt bags?"</p>
           </div>
@@ -1867,9 +1872,6 @@ const TestPage = () => {
                 className="w-full h-auto rounded-lg"
               />
             </div>
-            <figcaption className="text-center mt-4 text-muted-foreground italic text-[16px]">
-              Traditional salt pouch - used for generations to reduce inflammation
-            </figcaption>
           </figure>
         </div>
       </section>
@@ -1878,17 +1880,17 @@ const TestPage = () => {
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>Ana nodded again. Went inside her house. Came back with a small fabric pouch. Handed it to Linda.</p>
+            <p>Ana nodded. Went inside. Came back with a small fabric pouch. Handed it to Linda.</p>
             
             <p>It was warm. Filled with coarse salt.</p>
             
-            <p>Dr. Popescu explained: "The villagers heat these pouches and apply them to sore joints. Knees. Shoulders. Hips. It reduces inflammation."</p>
+            <p>Dr. Popescu explained: "The villagers heat these and apply them to sore joints. It reduces inflammation."</p>
             
             <p>Ana said something else.</p>
             
-            <p className="italic">Dr. Popescu smiled. "She says you can keep that one. She has many."</p>
+            <p className="italic">Dr. Popescu smiled. "She says you can keep that one."</p>
             
-            <p>Linda held the pouch. "Thank you," she whispered.</p>
+            <p>Linda held the pouch. "Thank you."</p>
           </div>
         </div>
       </section>
@@ -1914,13 +1916,13 @@ const TestPage = () => {
                 />
               </figure>
               
-              <p>She held it up to the light. Said something in Romanian.</p>
+              <p>She held it up. Said something in Romanian.</p>
               
               <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-6">
                 Dr. Popescu translated: "She says this is different. She doesn't USE this salt. She CARRIES it."
               </p>
               
-              <p>"Everywhere she goes. In her pocket. Around her neck. Always."</p>
+              <p>"Everywhere. In her pocket. Around her neck. Always."</p>
               
               <p>Linda looked confused. "Why?"</p>
               
@@ -1930,7 +1932,7 @@ const TestPage = () => {
               
               <p>"It's a tradition here. The villagers have been doing this for generations."</p>
               
-              <p className="text-[20px] md:text-[24px] italic">"They believe the salt doesn't just heal the body. It protects the SPIRIT."</p>
+              
             </div>
           </div>
         </div>
@@ -1946,9 +1948,9 @@ const TestPage = () => {
             
             <p className="italic">Dr. Popescu translated: "She says you should carry one too. To keep you strong. To remind you that you're healing."</p>
             
-            <p>Linda held the vial in her palm. Staring at it.</p>
+            <p>Linda held the vial in her palm.</p>
             
-            <p>"Thank you," she whispered again.</p>
+            <p>"Thank you," she whispered.</p>
           </div>
         </div>
       </section>
@@ -1975,12 +1977,9 @@ const TestPage = () => {
       {/* Day 10 Transformation Section */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8 text-primary">
             By Day 10, Linda Did Something She Hasn't Done in 5 Years
           </h2>
-          <p className="text-[20px] md:text-[28px] text-center text-muted-foreground italic mb-8">
-            (And I Cried Like a Baby Watching Her)
-          </p>
           
           <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
           
@@ -1991,7 +1990,7 @@ const TestPage = () => {
             
             <p>By day 5, she was walking around the village without stopping to catch her breath.</p>
             
-            <p>By day 7, she was sleeping through the night. No coughing fits. No waking up at 3 AM struggling to breathe.</p>
+            <p>By day 7, she was sleeping through the night.</p>
             
             <p className="text-[22px] md:text-[28px] font-bold text-primary">By day 10... she wanted to hike.</p>
             
@@ -2010,11 +2009,11 @@ const TestPage = () => {
       <section className="py-10 md:py-16 px-4 bg-secondary/30">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>There's this trail near the village. About 3 miles. Moderate incline. Nothing crazy.</p>
+            <p>There's this trail near the village. About 3 miles. Moderate incline.</p>
             
             <p>But for Linda? It might as well have been Everest.</p>
             
-            <p className="italic">Six months earlier, she couldn't walk to the mailbox without stopping halfway.</p>
+            <p className="italic">Six months earlier, she couldn't walk to the mailbox.</p>
             
             <p className="font-semibold">And now... she wanted to hike.</p>
             
@@ -2024,11 +2023,11 @@ const TestPage = () => {
             
             <p>We started walking. Slowly at first.</p>
             
-            <p>I kept waiting for her to stop. To catch her breath. To say she needed a break.</p>
+            <p>I kept waiting for her to stop. To say she needed a break.</p>
             
             <p className="font-semibold text-primary">But she didn't.</p>
             
-            <p>She just... kept going. One foot in front of the other. Breathing. ACTUALLY breathing.</p>
+            <p>She just... kept going. One foot in front of the other. Breathing.</p>
           </div>
         </div>
       </section>
@@ -2038,7 +2037,9 @@ const TestPage = () => {
         <div className="max-w-[750px] mx-auto">
           <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
             <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-              <p>About halfway up, she stopped. Not because she was tired. But because she wanted to look at the view.</p>
+              <p>About halfway up, she stopped. Not because she was tired.</p>
+              
+              <p>But because she wanted to look at the view.</p>
               
               <p className="italic">The mountains stretched out in front of us. Green and gold and endless. The white salt hills sparkling in the distance.</p>
               
@@ -2185,19 +2186,18 @@ const TestPage = () => {
       {/* The Problem At Home - Part 1 */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8 text-primary">
             The Problem We Discovered When We Got Home
           </h2>
-          <p className="text-[20px] md:text-[28px] text-center text-muted-foreground italic mb-8">
-            (And Why Everything Almost Fell Apart)
-          </p>
           
           <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
           
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
             <p>We flew home three weeks later.</p>
             
-            <p className="italic">I was terrified. Terrified the effects would wear off. That we'd get back to Georgia... and it would all come crashing down.</p>
+            <p className="italic">I was terrified.</p>
+            
+            <p>Terrified the effects would wear off.</p>
             
             <p className="font-semibold text-primary">But for the first few weeks... Linda was fine. Better than fine.</p>
             
@@ -2211,15 +2211,11 @@ const TestPage = () => {
         <div className="max-w-[750px] mx-auto">
           <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
             <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-              <p>She reduced her inhaler use by <span className="font-bold text-primary">80%</span>.</p>
+              <p>She reduced her inhaler use by <span className="font-bold text-primary">80%</span>. Stopped taking steroids altogether. Started going for walks around the neighborhood.</p>
               
-              <p>Stopped taking steroids altogether.</p>
+              <p>Even played with the grandkids.</p>
               
-              <p>Started going for walks around the neighborhood.</p>
-              
-              <p>Even played with the grandkids in the backyard.</p>
-              
-              <p className="font-semibold mt-6">I thought we'd won. I really did.</p>
+              <p className="font-semibold mt-6">I thought we'd won.</p>
             </div>
           </div>
         </div>
@@ -2231,7 +2227,9 @@ const TestPage = () => {
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
             <p>Then... about six weeks after we got home... I heard it.</p>
             
-            <p>That sound. Faint at first. But unmistakable.</p>
+            <p>That sound.</p>
+            
+            <p>Faint at first. But unmistakable.</p>
             
             <p className="text-[24px] md:text-[32px] font-bold text-destructive">The wheeze.</p>
             
@@ -2239,13 +2237,17 @@ const TestPage = () => {
             
             <p className="font-semibold">But I knew better.</p>
             
-            <p>By that afternoon, she was reaching for her inhaler again. And that night... the wheezing was back.</p>
+            <p>By that afternoon, she was reaching for her inhaler again.</p>
+            
+            <p>That night... the wheezing was back.</p>
             
             <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-destructive pl-6 my-8">
               Within two weeks, it was like Romania never happened.
             </p>
             
-            <p>The shortness of breath. The coughing fits. The sleepless nights. All of it. Came rushing back.</p>
+            <p>The shortness of breath. The coughing fits. The sleepless nights.</p>
+            
+            <p>All of it. Came rushing back.</p>
           </div>
         </div>
       </section>
@@ -2281,7 +2283,9 @@ const TestPage = () => {
               "I thought we fixed it," she sobbed.
             </p>
             
-            <p>I held her. And I made another promise.</p>
+            <p>I held her.</p>
+            
+            <p>And I made another promise.</p>
             
             <p className="text-[24px] md:text-[32px] font-bold text-primary text-center mt-8">"We're going to figure this out."</p>
           </div>
@@ -2294,18 +2298,13 @@ const TestPage = () => {
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
             The Desperate Email That Led to a Scientific Breakthrough
           </h2>
-          <p className="text-[20px] md:text-[28px] text-center text-muted-foreground italic mb-8">
-            (And Changed Everything)
-          </p>
           
           <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
           
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
             <p>I emailed Dr. Popescu that night.</p>
             
-            <p>Told her what was happening. How Linda had been doing great... and now she was relapsing.</p>
-            
-            <p className="italic">I probably sounded desperate. (Because I was.)</p>
+            <p>Told her what was happening.</p>
             
             <p className="font-semibold">She responded within hours.</p>
             
@@ -2328,7 +2327,13 @@ const TestPage = () => {
             
             <p className="font-semibold">"I've been trying to solve this problem for 15 years."</p>
             
-            <p>She explained that she'd tried everything. Salt lamps. (Decorative, but useless.) Dry salt inhalers. (Particles too large.) Nebulizers with saline. (Wet salt, doesn't penetrate deep enough.)</p>
+            <p>She explained that she'd tried everything.</p>
+            
+            <p>Salt lamps. (Decorative, but useless.)</p>
+            
+            <p>Dry salt inhalers. (Particles too large.)</p>
+            
+            <p>Nebulizers with saline. (Wet salt, doesn't penetrate deep enough.)</p>
             
             <p className="italic">"Nothing worked the way the village air did."</p>
             
@@ -2341,7 +2346,9 @@ const TestPage = () => {
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>That's when she told me about a material scientist at the University of Bucharest. They'd been working together on something that honestly sounded like science fiction.</p>
+            <p>That's when she told me about a material scientist at the University of Bucharest.</p>
+            
+            <p>They'd been working together on something that sounded like science fiction.</p>
             
             <p className="text-[22px] md:text-[28px] font-bold text-primary">A breathable membrane system.</p>
             
@@ -2349,7 +2356,9 @@ const TestPage = () => {
               "The idea was to create a pouch that holds therapeutic salt from Mânzălești... infused with the same 4 herbs that grow wild on those hillsides. Mint. Sage. Basil. Lavender."
             </p>
             
-            <p>"The villagers have been using these herbs for centuries. To soothe breathing and calm inflammation."</p>
+            <p>"The villagers have been using these herbs for centuries."</p>
+            
+            <p className="font-semibold">"But here's the important part: The pouch has a special membrane that allows MICROSCOPIC salt particles to pass through when you breathe."</p>
             
             <p className="font-semibold">"But here's the key: The pouch has a special membrane that allows MICROSCOPIC salt particles to pass through when you breathe."</p>
             
@@ -2388,9 +2397,9 @@ const TestPage = () => {
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
             <p>I was skeptical. "Does it actually work?"</p>
             
-            <p>She laughed. "It took us 2 years of testing to get it right. But yes. It works."</p>
+            <p>She laughed. "It took us 2 years of testing. But yes. It works."</p>
             
-            <p className="font-semibold">"We finally landed on a medical-grade polymer membrane with microscopic pores. Engineered at 1 to 5 microns."</p>
+            <p className="font-semibold">"We landed on a therapeutic-grade polymer membrane with microscopic pores. Engineered at 1 to 5 microns."</p>
             
             <p>"The pores let dry salt particles through when you inhale... but keep the salt itself contained."</p>
           </div>
@@ -2401,15 +2410,16 @@ const TestPage = () => {
       <section className="py-10 md:py-16 px-4 bg-primary/5">
         <div className="max-w-[750px] mx-auto">
           <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
-            <h3 className="text-[22px] md:text-[28px] font-bold text-primary mb-6 text-center">The Key Discovery</h3>
             <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
               <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6">
-                "And here's the key: Your body heat activates the process."
+                "And your body heat activates the process."
               </p>
               
-              <p>"At 98.6 degrees Fahrenheit, the salt begins releasing particles through the membrane. Creating the same microscopic aerosol you'd breathe in Mânzălești."</p>
+              <p>"The membrane is designed to be breathable at room temperature, releasing a steady stream of micro-particles into the air around your bed."</p>
               
-              <p className="font-semibold">"You can place it in your bedroom and just breathe. Or... if you have a severe case... you can place it directly on your chest while you sleep. The heat makes it even more effective."</p>
+              <p>"However, when placed near body heat (like under your pillow or on your chest), the salt ions become hyper-active."</p>
+              
+              <p className="font-semibold">"This 'Turbo-Charge' effect increases the particle output by nearly 300%, delivering a concentrated dose exactly when you need it most."</p>
               
               <p className="text-primary font-bold">"No electricity. No machines. No setup."</p>
             </div>
@@ -2435,21 +2445,22 @@ const TestPage = () => {
       {/* What Happened When Linda Used the Pouch - Part 1 */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8 text-primary">
             What Happened When Linda Used the Pouch
           </h2>
-          <p className="text-[20px] md:text-[28px] text-center text-muted-foreground italic mb-8">
-            (That Her Pulmonologist Still Can't Explain)
-          </p>
           
           <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
           
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
             <p>Two weeks later, a small package arrived from Romania.</p>
             
-            <p>Inside was a fabric pouch. About the size of a brick. It felt warm to the touch.</p>
+            <p>Inside was a fabric pouch. About the size of a brick.</p>
             
-            <p className="font-semibold">And when I held it up to my nose... I could smell it. That distinct, mineral-rich scent from Mânzălești.</p>
+            <p>It felt warm to the touch.</p>
+            
+            <p className="font-semibold">And when I held it up to my nose... I could smell it.</p>
+            
+            <p>That distinct, mineral-rich scent from Mânzălești.</p>
             
             <p>There was something ELSE in the box too.</p>
             
@@ -2459,7 +2470,7 @@ const TestPage = () => {
             
             <p className="italic">I recognized it immediately.</p>
             
-            <p>The same vial Ana had shown us in the village.</p>
+            <p>The same vial Ana had shown us.</p>
           </div>
         </div>
       </section>
@@ -2481,9 +2492,6 @@ const TestPage = () => {
                 className="w-full h-auto rounded-lg"
               />
             </div>
-            <figcaption className="text-center mt-4 text-muted-foreground italic text-[16px]">
-              The protective salt ampule - a piece of the village
-            </figcaption>
           </figure>
         </div>
       </section>
@@ -2519,8 +2527,6 @@ const TestPage = () => {
               <p>She paused. "I don't know if it's placebo. Or energy. Or just HOPE."</p>
               
               <p className="font-semibold">"But the villagers believe it works. And honestly? So do I."</p>
-              
-              <p className="italic">"Linda should carry hers. Especially on days when she's struggling."</p>
             </div>
           </div>
         </div>
@@ -2544,7 +2550,7 @@ const TestPage = () => {
             
             <p className="font-semibold italic">"I remember this."</p>
             
-            <p>That night, Linda placed the pouch on her nightstand. About a foot from her pillow.</p>
+            <p>That night, Linda placed the pouch on her nightstand.</p>
             
             <p className="text-[22px] md:text-[28px] font-bold text-primary">And from that day on...</p>
             
