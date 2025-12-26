@@ -3005,7 +3005,7 @@ const TestPage = () => {
               <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground italic">
                 <p>"Stage 3 COPD. Pulmonary fibrosis. The doctors told me my lungs were done. That I'd be on oxygen for the rest of my life.</p>
                 <p>Two months in, my oxygen saturation went from 88% to 94%.</p>
-                <p>Now I'm off oxygen completely.</p>
+                <p>I've gained a level of freedom I haven't felt in years.</p>
                 <p>And I'm hiking again."</p>
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
@@ -3054,8 +3054,7 @@ const TestPage = () => {
               </div>
               <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground italic">
                 <p>"I went to a salt cave therapy center near my house. For three weeks, I felt AMAZING. Then I stopped going.</p>
-                <p>Within a month, I was back where I started. Waking up at 4 AM coughing so hard I'd throw up.</p>
-                <p>I thought I'd imagined the whole thing.</p>
+                <p>Within a month, I was back where I started.</p>
                 <p>Then I found Longevity Salt.</p>
                 <p>Now I don't have to leave my house. The pouch sits on my nightstand.</p>
                 <p>And I'm FINALLY sleeping through the night again."</p>
@@ -3101,7 +3100,7 @@ const TestPage = () => {
               
               <p>Infused with the exact same 4 ancient herbs that grow wild on those hillsides. <span className="font-semibold">Mint. Sage. Basil. Lavender.</span></p>
               
-              <p>Encased in a medical-grade breathable membrane that releases microscopic salt particles when activated by your body heat.</p>
+              <p>Encased in a therapeutic-grade breathable membrane that releases microscopic salt particles when activated by your body heat.</p>
               
               <p className="font-semibold text-primary">No electricity. No machines. No setup.</p>
               
@@ -3226,12 +3225,14 @@ const TestPage = () => {
             </div>
             
             <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground">
-              <p>A guided breathing exercise designed by Dr. Popescu and used by over 10,000 patients across Europe. It retrains your diaphragm to expel trapped mucus and restore deep lung capacity.</p>
+              <p>A guided breathing exercise designed by Dr. Popescu.</p>
+              <p>Used by over 10,000 respiratory patients across Europe.</p>
+              <p>Helps expel trapped mucus and restore lung capacity.</p>
             </div>
             
-            <div className="mt-6 flex flex-col items-center gap-4">
+            <div className="mt-6 flex flex-wrap items-center gap-4">
               <span className="text-muted-foreground line-through text-[16px]">Retail Value: $38</span>
-              <span className="bg-primary text-primary-foreground px-4 py-2 rounded-full font-bold">✓ FREE GIFT (Exclusively with the 5-Pack Bundle)</span>
+              <span className="bg-primary text-primary-foreground px-4 py-2 rounded-full font-bold">✓ Yours FREE when you order today</span>
             </div>
           </div>
         </div>
@@ -3270,6 +3271,18 @@ const TestPage = () => {
             <p>So you're looking at close to <span className="font-bold text-primary">$10,000</span>... just to TRY what Linda and I experienced.</p>
             
             <p>Compared to THAT... $300 per pouch would be a steal.</p>
+            
+            <p className="font-semibold">When you look at the other alternatives, the choice becomes even clearer.</p>
+            
+            <p>You could keep spending $120 a month on rescue inhalers that only mask the symptoms.</p>
+            
+            <p>You could spend $80 a month on those trendy "lung cleaning drops" or pills, which most doctors will tell you is a waste of money because the ingredients get destroyed by your stomach acid before they ever reach your lungs.</p>
+            
+            <p className="font-semibold text-primary">OR...</p>
+            
+            <p>You can pay a one-time fee for a solution that works directly where the problem is:</p>
+            
+            <p className="font-bold text-primary text-[20px] md:text-[24px]">In the air you breathe.</p>
             
             <p className="font-semibold text-primary">But I'm not pricing this for maximum profit.</p>
             
