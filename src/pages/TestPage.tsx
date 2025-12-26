@@ -2357,8 +2357,6 @@ const TestPage = () => {
             
             <p className="font-semibold">"But here's the important part: The pouch has a special membrane that allows MICROSCOPIC salt particles to pass through when you breathe."</p>
             
-            <p className="font-semibold">"But here's the key: The pouch has a special membrane that allows MICROSCOPIC salt particles to pass through when you breathe."</p>
-            
             <p>"So you're inhaling the salt... WITHOUT it leaving the pouch."</p>
           </div>
         </div>
