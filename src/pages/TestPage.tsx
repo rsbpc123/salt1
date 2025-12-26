@@ -1001,7 +1001,7 @@ const TestPage = () => {
       <section className="py-10 px-4 bg-card">
         <div className="max-w-[970px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2">
-            What a Romanian Researcher Told Us Over Email
+            What a Romanian Researcher Told Us
           </h2>
           <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] font-bold text-center text-primary mb-8">
             (That Made Us Drive 4 Hours Into the Mountains)
@@ -1015,11 +1015,11 @@ const TestPage = () => {
             />
           </div>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I sent the email right then and there. Explained who we were. Why we came. What we were hoping to find.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I sent the email right there.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">I didn't expect a response. At least not right away.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Explained who we were. Why we came. What we were hoping to find.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">But two hours later... my phone buzzed.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">Two hours later... my phone buzzed.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">An email from Dr. Elena Popescu.</p>
           
@@ -1031,19 +1031,15 @@ const TestPage = () => {
             
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">I'm so glad you reached out.</p>
             
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">The Praid mine was a wonderful therapeutic environment. But you're right to be disappointed it collapsed.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold">I've been researching Mânzălești for over 15 years. I've documented over 40 residents over 90 years old. Out of just 2,000 people.</p>
             
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold">I've been researching the Mânzălești village for over 15 years. I've documented over 40 residents over 90 years old. Out of just 2,000 people.</p>
-            
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">And what I've found there is far more powerful than anything that happened in the mine.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">What I've found there is far more powerful than anything that happened in the mine.</p>
             
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">The mine was therapeutic. But Mânzălești? It's NATURAL. The salt is everywhere. In the soil. The water. The AIR.</p>
             
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold">The people there don't just visit the salt for a few hours. They LIVE in it. Breathe it. Every day. For their entire lives.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold">The people there don't just visit the salt. They LIVE in it. Breathe it. Every day. For their entire lives.</p>
             
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 italic">And the results speak for themselves.</p>
-            
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">If you're willing to make the drive, I'd be happy to meet you there tomorrow. I can show you the village. Introduce you to some of the residents. And explain exactly why the air in Mânzălești might be able to help Linda.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">If you're willing to make the drive, I'd be happy to meet you there tomorrow. I can show you the village and explain exactly why the air might help Linda.</p>
             
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">Let me know.</p>
             
@@ -1052,7 +1048,7 @@ const TestPage = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I read the email out loud to Linda.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">She looked at me and without hesitation said, "Let's go."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">She looked at me. "Let's go."</p>
         </div>
       </section>
 
@@ -1066,7 +1062,7 @@ const TestPage = () => {
           <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
           
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>We left before sunrise. Dr. Popescu's directions sitting on the dashboard.</p>
+            <p>We left before sunrise.</p>
             
             <p>For the first hour, everything looked normal. Small towns. Gas stations. Road signs.</p>
             
@@ -1074,11 +1070,9 @@ const TestPage = () => {
             
             <p>The towns got smaller.</p>
             
-            <p className="font-semibold italic">And I started to feel it.</p>
+            <p>We passed villages that looked like they hadn't changed in 100 years.</p>
             
-            <p>That strange mix of hope and terror.</p>
-            
-            <p>We passed villages that looked like they hadn't changed in 100 years. Wooden houses. Horse-drawn carts. Fields worked by hand.</p>
+            <p>Wooden houses. Horse-drawn carts. Fields worked by hand.</p>
             
             <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
               "This feels like we're in a different century," Linda said.
@@ -1094,7 +1088,9 @@ const TestPage = () => {
             
             <p>She wasn't wrong.</p>
             
-            <p>Another hour passed. Then... I saw them.</p>
+            <p>Another hour passed.</p>
+            
+            <p>Then... I saw them.</p>
             
             <p className="text-[22px] md:text-[28px] font-bold text-primary">White hills rising from the valley.</p>
             
@@ -1102,9 +1098,7 @@ const TestPage = () => {
             
             <p>But it was May. Too warm.</p>
             
-            <p>I pulled over. Got out.</p>
-            
-            <p>Walked closer.</p>
+            <p>I pulled over. Got out. Walked closer.</p>
             
             <p className="text-[24px] md:text-[32px] font-bold">Not snow.</p>
             
@@ -1116,22 +1110,21 @@ const TestPage = () => {
                 alt="Couple standing by their car looking at the white salt hills of Romania" 
                 className="w-full h-auto rounded-lg"
               />
-              <figcaption className="mt-2 text-sm text-muted-foreground italic text-center">
-                The salt hills of Mânzălești - coating the hillsides like powder
-              </figcaption>
             </figure>
             
-            <p>Coating the hillsides like powder. Sparkling like crushed diamonds in the morning sun.</p>
+            <p>Coating the hillsides like powder. Sparkling in the morning sun.</p>
             
             <p>Linda came up beside me. "Robert... is that...?"</p>
             
             <p>"Yeah," I said quietly. "That's salt."</p>
             
-            <p>We stood there for a minute. Just staring at these hills. Covered in salt. Out in the open. Not underground. Not in a mine. Just... there.</p>
+            <p>We stood there. Just staring.</p>
             
             <p>Then I heard a car pull up behind us.</p>
             
-            <p>I turned. A woman got out. Probably in her late 50s. Carrying a weathered leather bag. Warm smile.</p>
+            <p>I turned.</p>
+            
+            <p>A woman got out. Probably in her late 50s. Warm smile.</p>
             
             <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8 clear-both">
               "Robert? Linda?"
@@ -1159,9 +1152,6 @@ const TestPage = () => {
                 className="w-full h-auto"
               />
             </div>
-            <figcaption className="text-center mt-4 text-muted-foreground italic text-[16px]">
-              Dr. Elena Popescu - researcher who has studied Mânzălești for over 15 years
-            </figcaption>
           </figure>
         </div>
       </section>
@@ -1176,19 +1166,11 @@ const TestPage = () => {
           <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
           
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>Dr. Popescu shook our hands. Then looked back toward the white hills. "Beautiful, isn't it?"</p>
-            
-            <p>Linda nodded. "I've never seen anything like it."</p>
-            
-            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
-              "Most people haven't," Dr. Popescu said. "This is one of the only places on Earth where salt deposits rise to the surface like this."
-            </p>
-            
-            <p>She gestured for us to follow her. "Come. Let me show you the village."</p>
+            <p>Dr. Popescu gestured for us to follow her.</p>
             
             <p>We got back in our cars. Followed her down a winding dirt road.</p>
             
-            <p>Through fields dotted with those white salt formations. Past wooden fences. Grazing sheep. Old women in headscarves tending gardens.</p>
+            <p>Through fields dotted with white salt formations. Past wooden fences. Grazing sheep. Old women in headscarves tending gardens.</p>
             
             <p className="font-semibold">Then we reached the village center.</p>
           </div>
@@ -1223,19 +1205,13 @@ const TestPage = () => {
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>A small church. A general store. A handful of houses scattered around a dirt square.</p>
+            <p>A small church. A general store. A handful of houses around a dirt square.</p>
             
             <p className="italic">Simple. Quiet. Untouched by time.</p>
             
-            <p>Dr. Popescu parked. We pulled up beside her. "This is Mânzălești," she said.</p>
+            <p>Dr. Popescu parked. "This is Mânzălești."</p>
             
-            <p>I looked around. It felt like we'd stepped into a different era. No paved roads. No power lines. Just... simplicity.</p>
-            
-            <p>Linda grabbed my hand. "Robert... where are we going to stay?"</p>
-            
-            <p>Dr. Popescu smiled. "I've arranged something."</p>
-            
-            <p>She led us down a narrow path. Past a few more houses. Until we reached a small cottage. White walls. Blue shutters. Flowers in the window boxes.</p>
+            <p>She led us down a narrow path to a small cottage. White walls. Blue shutters. Flowers in the window boxes.</p>
             
             <figure className="float-right ml-6 md:ml-10 -mr-4 md:-mr-8 mb-6 w-56 md:w-72 relative">
               <div className="relative">
@@ -1272,21 +1248,23 @@ const TestPage = () => {
               "This is Maria," Dr. Popescu said. "She's agreed to rent you her guest house for as long as you need."
             </p>
             
-            <p>Maria said something in Romanian. Dr. Popescu translated. "She says welcome. And she's happy you're here."</p>
+            <p>Maria walked over to Linda. Took both her hands. Said something.</p>
             
-            <p>Maria walked over to Linda. Took both her hands. Said something else.</p>
+            <p>Dr. Popescu translated. "She says her sister had breathing problems, too. The air here helped her."</p>
             
-            <p>Dr. Popescu translated again. "She says her sister had breathing problems, too. The air here helped her."</p>
+            <p>Linda's eyes welled up. "Thank you."</p>
             
-            <p>Linda's eyes welled up a little. "Thank you," she said.</p>
+            <p>Maria squeezed her hands. Then led us to a smaller building in the back.</p>
             
-            <p>Maria squeezed her hands. Then led us around the side of the main house. To a smaller building in the back.</p>
+            <p>Inside was simple. One bedroom. Small kitchen. Bathroom.</p>
             
-            <p>Inside was simple. One bedroom. Small kitchen. Bathroom. But it was clean. Comfortable.</p>
+            <p>But it was clean. Comfortable.</p>
             
             <p className="font-semibold italic">And honestly? It felt... peaceful.</p>
             
-            <p>Dr. Popescu stood in the doorway. "I'll let you get settled. Get some rest tonight."</p>
+            <p>Dr. Popescu stood in the doorway.</p>
+            
+            <p>"I'll let you get settled. Get some rest tonight."</p>
             
             <p>She paused. "Tomorrow morning, come by my office. It's just down the road. I want to show you something."</p>
             
@@ -1311,13 +1289,15 @@ const TestPage = () => {
           <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
           
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>The next morning, we walked down the dirt road to a small building near the village center.</p>
+            <p>The next morning, we walked to a small building near the village center.</p>
             
             <p className="italic">A hand-painted sign out front read: Dr. Elena Popescu - Research Office</p>
             
-            <p>She was waiting for us at the door. "Come in, come in."</p>
+            <p>She was waiting at the door. "Come in."</p>
             
-            <p>Inside was a single room. Shelves lined with books. A desk covered in papers. And on the walls... diagrams. Charts. Photos of lungs.</p>
+            <p>Inside was a single room. Shelves lined with books. A desk covered in papers.</p>
+            
+            <p>And on the walls... diagrams. Charts. Photos of lungs.</p>
             
             <p>She gestured toward two chairs. "Sit. I want to explain something."</p>
             
@@ -1327,7 +1307,7 @@ const TestPage = () => {
             
             <p>It was a cross-section of human lungs. Airways branching like tree roots.</p>
             
-            <p className="font-semibold">But some of them were... clogged. Thick white plugs blocking the passages.</p>
+            <p className="font-semibold">But some were... clogged. Thick white plugs blocking the passages.</p>
           </div>
         </div>
       </section>
@@ -1360,7 +1340,7 @@ const TestPage = () => {
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>Linda leaned forward. Staring at the image.</p>
+            <p>Linda leaned forward.</p>
             
             <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
               "Your lungs aren't just inflamed," Dr. Popescu continued. "They're DROWNING."
@@ -1372,13 +1352,13 @@ const TestPage = () => {
             
             <p>She tapped the diagram.</p>
             
-            <p className="text-[22px] md:text-[28px] font-bold text-primary">"What you're looking at are what I call Mucus Cement Plugs."</p>
+            <p className="text-[22px] md:text-[28px] font-bold text-primary">"What you're looking at are Mucus Cement Plugs."</p>
             
             <p className="italic">"Dense. Rubbery. Obstructive."</p>
             
-            <p>"They can persist in the same airways for YEARS if they're not cleared."</p>
+            <p>"They can stay in the same airways for YEARS if they're not cleared."</p>
             
-            <p>Linda's hand went to her throat. Like she could feel it.</p>
+            <p>Linda's hand went to her throat.</p>
             
             <p>"Your medications try to open the airways by relaxing the muscles around them. But they completely ignore the PLUG blocking them."</p>
             
@@ -1427,7 +1407,7 @@ const TestPage = () => {
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>She walked over to a shelf. Pulled down a small glass jar filled with pinkish-white crystals.</p>
+            <p>She walked to a shelf. Pulled down a small glass jar filled with pinkish-white crystals.</p>
             
             <p className="font-semibold">"This isn't table salt."</p>
             
@@ -1468,10 +1448,10 @@ const TestPage = () => {
                 />
               </div>
               <div className="space-y-4 text-[17px] md:text-[20px] leading-relaxed text-foreground">
-                <p>"Salt is hygroscopic. It naturally attracts and pulls water molecules toward it."</p>
+                <p>"Salt is hygroscopic. It pulls water molecules toward it."</p>
                 <p>"When salt particles land on those dense mucus plugs, they immediately start pulling moisture FROM your surrounding lung tissue INTO the plug."</p>
-                <p className="italic text-muted-foreground">"Think of it like pouring water on dried rubber cement before you try to peel it off."</p>
-                <p className="font-semibold">"Within 20-30 minutes, those plugs start to soften and rehydrate."</p>
+                <p className="italic text-muted-foreground">"Like pouring water on dried rubber cement before you peel it off."</p>
+                <p className="font-semibold">"Within 20 to 30 minutes, those plugs start to soften."</p>
               </div>
             </div>
           </div>
@@ -1491,7 +1471,7 @@ const TestPage = () => {
                 />
               </div>
               <div className="space-y-4 text-[17px] md:text-[20px] leading-relaxed text-foreground">
-                <p>"Mucus is a complex structure. A charged hydrogel where the ionic environment dramatically affects its viscosity and elasticity."</p>
+                <p>"Mucus is a charged hydrogel. The ionic environment dramatically affects its viscosity."</p>
                 <p>"The mineral salts in THIS salt—magnesium sulfate, polyhalite, iron oxide—literally alter the STRUCTURE of the mucus."</p>
                 <p className="font-semibold">"Making it less sticky. Less rigid. Easier to move."</p>
               </div>
@@ -1513,11 +1493,11 @@ const TestPage = () => {
                 />
               </div>
               <div className="space-y-4 text-[17px] md:text-[20px] leading-relaxed text-foreground">
-                <p>"Your lungs have tiny hair-like structures called cilia that sweep mucus UP and OUT of your airways."</p>
+                <p>"Your lungs have tiny hair-like structures called cilia that sweep mucus UP and OUT."</p>
                 <p>"But chronic inflammation paralyzes them."</p>
                 <p className="italic text-muted-foreground">She showed us a microscopic image. Tiny hairs. Frozen in place.</p>
                 <p>"The salt reactivates those cilia. Gets them moving again."</p>
-                <p className="font-semibold">"So within weeks of consistent exposure, your body can begin clearing plugs that have been stuck for months or years."</p>
+                <p className="font-semibold">"So within weeks, your body can begin clearing plugs that have been stuck for months or years."</p>
               </div>
             </div>
           </div>
@@ -1542,7 +1522,7 @@ const TestPage = () => {
             
             <p className="font-bold mb-6">"The medications only treat symptoms. The salt treats the ROOT CAUSE."</p>
             
-            <p className="mb-6">I leaned back in my chair. Just... processing.</p>
+            <p className="mb-6">I leaned back. Just... processing.</p>
             
             <p className="mb-6">"Why doesn't my doctor know about this?" Linda asked.</p>
             
@@ -1555,7 +1535,7 @@ const TestPage = () => {
             <p className="mb-6">"So they don't fund research on it. They don't teach it in medical school. They certainly don't recommend it."</p>
             
             <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-destructive pl-6 my-8">
-              "Instead, they push medications that cost $40–$150 per dose... that you'll need for the rest of your life... and that only treat symptoms. Not the root cause."
+              "Instead, they push medications that cost $40 to $150 per dose... that you'll need for the rest of your life... and that only treat symptoms."
             </p>
             
             <div className="clear-both" />
@@ -1567,7 +1547,7 @@ const TestPage = () => {
       <section className="py-10 md:py-16 px-4 bg-secondary/30">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>She walked back to her desk. Picked up a thermos and a small audio device.</p>
+            <p>She walked to her desk. Picked up a thermos and a small audio device.</p>
             
             <p className="font-semibold">"This is what I give all my patients."</p>
             
@@ -1586,8 +1566,6 @@ const TestPage = () => {
             <p className="font-semibold">"And this is a guided breathing exercise. Five minutes. Every morning."</p>
             
             <p>"It helps expel the trapped mucus and restore your lung capacity."</p>
-            
-            <p>"We use it with all our patients here. I want you to take it home with you."</p>
             
             <p>She handed it to Linda.</p>
             
@@ -1612,11 +1590,9 @@ const TestPage = () => {
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
             <p>We walked out of that office in a daze.</p>
             
-            <p>Linda held the thermos in one hand. The audio device in the other.</p>
-            
             <p className="text-[24px] md:text-[32px] font-bold text-primary mt-8">And for the first time in years...</p>
             
-            <p className="text-[28px] md:text-[36px] font-bold">She had hope.</p>
+            <p className="text-[28px] md:text-[36px] font-bold">Linda had hope.</p>
             
             <img 
               src={coupleWalkingHope} 
