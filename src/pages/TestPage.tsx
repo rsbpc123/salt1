@@ -263,13 +263,15 @@ const TestPage = () => {
             
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">The paramedics arrived in 8 minutes. Felt like 8 hours.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">They strapped an oxygen mask to her face. Loaded her onto the stretcher.</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">One of them looked at me and shook his head. Not mean. Just... tired.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">One of them looked at me and shook his head.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Not mean. Just... tired.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Like he'd seen us before.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">(He had. Three times that month.)</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Two hours later, a doctor came out.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">"She's stable. You can take her home in a few hours."</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"What happens next time?" I asked.</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">He paused. "Keep doing what you're doing. Come back if it gets worse."</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">He paused.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Keep doing what you're doing. Come back if it gets worse."</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">No solution. No plan.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Just... keep doing what we're doing.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">Except what we were doing WASN'T WORKING.</p>
@@ -319,7 +321,8 @@ const TestPage = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Can you fix it?"</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">He shook his head. "Once the scarring sets in... no. We can only try to slow it down."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">He shook his head.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Once the scarring sets in... no. We can only try to slow it down."</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">My stomach dropped.</p>
           
@@ -330,7 +333,7 @@ const TestPage = () => {
           {/* Devastating Quote Box */}
           <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-10 text-primary-foreground relative overflow-hidden">
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">
-              "If we can't get the inflammation under control... maybe 18 to 24 months before the damage severely impacts her quality of life."
+              "If we can't get the inflammation under control... maybe 18 to 24 months before this severely impacts her quality of life."
             </p>
           </div>
           
@@ -359,17 +362,6 @@ const TestPage = () => {
             </div>
           </div>
           
-          {/* Read This Callout - positioned at bottom right, pointing down to next section */}
-          <div className="hidden md:flex flex-col items-center absolute right-10 -bottom-16">
-            <p className="text-[#ff0000] text-[22px] md:text-[30px] leading-[22px] md:leading-[30px] text-center" style={{ fontFamily: "'Permanent Marker', cursive" }}>
-              Read This!
-            </p>
-            <img 
-              src={arrowCurveRed} 
-              alt="" 
-              className="w-[60px] md:w-[80px] mt-1 scale-x-[-1]"
-            />
-          </div>
         </div>
       </section>
 
@@ -401,7 +393,10 @@ const TestPage = () => {
           </div>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            Linda wasn't reckless. She did EVERYTHING they told her.
+            Linda wasn't reckless.
+          </p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            She did EVERYTHING they told her.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
@@ -417,11 +412,11 @@ const TestPage = () => {
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            We did the Prednisone rounds. That awful steroid that made her gain 15 pounds and gave her insomnia.
+            Prednisone rounds. That awful steroid that made her gain 15 pounds and gave her insomnia.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            Bought a $400 HEPA air purifier. Ripped out the carpets. Tried breathing exercises.
+            A $400 HEPA air purifier. Ripped out the carpets. Breathing exercises.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
@@ -432,10 +427,14 @@ const TestPage = () => {
             None of it made a difference.
           </p>
           
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            Every doctor said the same thing:
+          </p>
+          
           {/* Doctor Quote Box */}
           <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-10 text-primary-foreground">
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">
-              Every doctor said the same thing: <strong>"This is just something you'll have to manage."</strong>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">
+              "This is just something you'll have to manage."
             </p>
           </div>
           
