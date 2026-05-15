@@ -26,14 +26,14 @@ const HeroSection = () => {
           </p>
           <p className="font-bold text-[32px] md:text-[57px] leading-[44px] md:leading-[68px] mt-2">
             <span className="bg-[linear-gradient(to_bottom,transparent_60%,#ffd700_60%)] px-1.5">
-              (She Was 200 Miles From The Nearest Ocean)
+              (We Live 200 Miles From the Ocean)
             </span>
           </p>
         </div>
 
         {/* Subtitle */}
         <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 text-center md:text-left">
-          Then I Found a Romanian Village Where 97-Year-Olds Chop Wood With PERFECT Lungs… And Haven't Touched an Inhaler in Their Lives
+          Then I Found a Romanian Village Where 97-Year-Olds Chop Wood... With Lungs Their Doctors Said Were "Permanently Destroyed"
         </p>
         
         {/* Feature Box */}

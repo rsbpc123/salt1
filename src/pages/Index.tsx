@@ -121,13 +121,13 @@ const Index = () => {
               I Watched My Wife Drown in Our Bedroom at Midnight
             </p>
             <p className="font-bold text-[22px] md:text-[38px] leading-[30px] md:leading-[48px] mt-4">
-              (She Was 200 Miles From The Nearest Ocean)
+              (We Live 200 Miles From the Ocean)
             </p>
             <p className="font-bold text-[22px] md:text-[38px] leading-[30px] md:leading-[48px] mt-4">
-              Then I Found a Romanian Village Where 97-Year-Olds Chop Wood With PERFECT Lungs...
+              Then I Found a Romanian Village Where 97-Year-Olds Chop Wood...
             </p>
             <p className="font-bold text-[22px] md:text-[38px] leading-[30px] md:leading-[48px] mt-4">
-              And Haven't Touched an Inhaler in Their Lives
+              With Lungs Their Doctors Said Were "Permanently Destroyed"
             </p>
           </div>
           
