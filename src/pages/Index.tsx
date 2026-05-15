@@ -222,16 +222,13 @@ const Index = () => {
           </p>
           
           <p className="text-[22px] md:text-[32px] leading-[30px] md:leading-[42px] font-bold mb-8">
-            Sitting Right Next to Me in Our Bed
+            Sitting right next to me. In our bed.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">It was just past midnight when I heard it.</p>
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">That sound.</p>
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda wasn't breathing.</p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Her chest heaving. Lips turning blue. Clutching her throat like someone had their hands around it.</p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">Drowning.</p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">In our bedroom.</p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">200 miles from the nearest ocean.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Chest heaving. Lips turning blue. Clutching her throat like someone had their hands around it.</p>
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I grabbed her inhaler. Shook it. Jammed it into her mouth.</p>
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">"Breathe, baby. Please."</p>
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Two puffs.</p>
