@@ -290,14 +290,6 @@ const Index = () => {
             Two Weeks Later, a Doctor Showed Us Linda's Lungs
           </h2>
 
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] text-primary-foreground mt-4">
-            Two weeks later, Linda saw her pulmonologist.
-          </p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] text-primary-foreground mt-8">
-            He pulled up a CT scan. White patches scattered throughout her lungs.
-          </p>
-          
           <div className="clear-both pb-10" />
         </div>
       </section>
