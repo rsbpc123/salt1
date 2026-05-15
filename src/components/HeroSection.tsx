@@ -22,18 +22,18 @@ const HeroSection = () => {
       <div className="max-w-[970px] mx-auto relative z-10">
         <div className="text-center md:text-left">
           <p className="font-bold text-[28px] md:text-[50px] leading-[36px] md:leading-[64px]">
-            I Watched My Wife Drown
+            I Watched My Wife Drown in Our Bedroom at Midnight
           </p>
           <p className="font-bold text-[32px] md:text-[57px] leading-[44px] md:leading-[68px] mt-2">
             <span className="bg-[linear-gradient(to_bottom,transparent_60%,#ffd700_60%)] px-1.5">
-              in Our Bedroom at Midnight…
+              (She Was 200 Miles From The Nearest Ocean)
             </span>
           </p>
         </div>
-        
+
         {/* Subtitle */}
         <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 text-center md:text-left">
-          Then a Collapsed Salt Mine in Romania Led Me to a Village Where Nobody Gets Lung Disease… And Saved Her Life
+          Then I Found a Romanian Village Where 97-Year-Olds Chop Wood With PERFECT Lungs… And Haven't Touched an Inhaler in Their Lives
         </p>
         
         {/* Feature Box */}
