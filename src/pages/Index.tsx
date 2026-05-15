@@ -118,13 +118,16 @@ const Index = () => {
         <div className="max-w-[970px] mx-auto relative z-10">
           <div className="text-center md:text-left">
             <p className="font-bold text-[28px] md:text-[50px] leading-[36px] md:leading-[64px]">
-              I Watched My Wife Drown in Our Bedroom at Midnight…
+              I Watched My Wife Drown in Our Bedroom at Midnight
             </p>
             <p className="font-bold text-[22px] md:text-[38px] leading-[30px] md:leading-[48px] mt-4">
-              Then a Collapsed Salt Mine in Romania Led Me to a Village Where Nobody Gets Lung Disease…
+              (She Was 200 Miles From The Nearest Ocean)
             </p>
             <p className="font-bold text-[22px] md:text-[38px] leading-[30px] md:leading-[48px] mt-4">
-              And Finally Let Her Breathe Again
+              Then I Found a Romanian Village Where 97-Year-Olds Chop Wood With PERFECT Lungs...
+            </p>
+            <p className="font-bold text-[22px] md:text-[38px] leading-[30px] md:leading-[48px] mt-4">
+              And Haven't Touched an Inhaler in Their Lives
             </p>
           </div>
           
