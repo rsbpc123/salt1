@@ -316,21 +316,26 @@ const Index = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">"This is fibrosis," he said. "Scar tissue. Your airways are hardening."</p>
           
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I asked the question that was choking me.</p>
+          
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Can you fix it?"</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">He shook his head.</p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Once the scarring sets in... no. We can only try to slow it down."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Once the scarring sets in... no."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"We can try to slow it down. But we can't reverse it."</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">My stomach dropped.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">"How long do we have?"</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">"How long does she have?"</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">He looked at Linda. Then back at me.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">He looked at Linda. Then at me.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"If we can't control the inflammation..."</p>
           
           {/* Devastating Quote Box */}
           <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-10 text-primary-foreground relative overflow-hidden">
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">
-              "If we can't get the inflammation under control... maybe 18 to 24 months before this severely impacts her quality of life."
+              "Maybe 18 months before this gets really bad."
             </p>
           </div>
           
@@ -353,9 +358,12 @@ const Index = () => {
             </div>
             <div className="flex flex-col justify-center">
               <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic">Linda started crying.</p>
-              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">We walked out in silence.</p>
-              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold italic">And for the first time in our 40-year marriage...</p>
-              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold text-destructive">I didn't know what to say to her.</p>
+              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">We walked out.</p>
+              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">In silence.</p>
+              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold italic">For the first time in 40 years...</p>
+              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold text-destructive">I had nothing to say to her.</p>
+              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold text-destructive">Because I didn't know how to fix this.</p>
+              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold text-destructive">And watching her die slowly? That wasn't something I was willing to accept.</p>
             </div>
           </div>
           
