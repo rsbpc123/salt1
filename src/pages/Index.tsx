@@ -222,16 +222,13 @@ const Index = () => {
           </p>
           
           <p className="text-[22px] md:text-[32px] leading-[30px] md:leading-[42px] font-bold mb-8">
-            Sitting Right Next to Me in Our Bed
+            Sitting right next to me. In our bed.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">It was just past midnight when I heard it.</p>
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">That sound.</p>
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda wasn't breathing.</p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Her chest heaving. Lips turning blue. Clutching her throat like someone had their hands around it.</p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">Drowning.</p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">In our bedroom.</p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">200 miles from the nearest ocean.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Chest heaving. Lips turning blue. Clutching her throat like someone had their hands around it.</p>
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I grabbed her inhaler. Shook it. Jammed it into her mouth.</p>
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">"Breathe, baby. Please."</p>
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Two puffs.</p>
@@ -269,24 +266,21 @@ const Index = () => {
             
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">The paramedics arrived in 8 minutes.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Felt like 8 hours.</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">They strapped an oxygen mask to her face. Loaded her onto the stretcher.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">One of them looked at me and shook his head.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Not mean.</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Just... tired.</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Like he'd seen this before.</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">(He had. Three times that month.)</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Just tired.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Like he'd seen this three times already that week.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Two hours later, a doctor came out.</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">"She's stable. You can take her home in a few hours."</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I asked him the question I already knew the answer to.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">"She's stable. You can take her home."</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I asked the question I already knew the answer to.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"What happens next time?"</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">He paused.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">He looked at his clipboard.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Keep doing what you're doing. Come back if it gets worse."</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">No solution.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">No plan.</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Just... keep doing what we're doing.</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">Except what we were doing wasn't WORKING.</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">And Linda's lungs?</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">They were turning to cement.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Just... keep drowning.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">Except Linda's lungs were already turning to cement.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">And I was running out of time to save her.</p>
             
             <div className="clear-both" />
           </div>
