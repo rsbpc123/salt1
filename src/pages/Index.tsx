@@ -267,20 +267,26 @@ const Index = () => {
               </div>
             </div>
             
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">The paramedics arrived in 8 minutes. Felt like 8 hours.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">The paramedics arrived in 8 minutes.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Felt like 8 hours.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">They strapped an oxygen mask to her face. Loaded her onto the stretcher.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">One of them looked at me and shook his head.</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Not mean. Just... tired.</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Like he'd seen us before.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Not mean.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Just... tired.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Like he'd seen this before.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">(He had. Three times that month.)</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Two hours later, a doctor came out.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">"She's stable. You can take her home in a few hours."</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"What happens next time?" I asked.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I asked him the question I already knew the answer to.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"What happens next time?"</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">He paused.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Keep doing what you're doing. Come back if it gets worse."</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">No solution. No plan.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">No solution.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">No plan.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Just... keep doing what we're doing.</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">Except what we were doing WASN'T WORKING.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">Except what we were doing wasn't WORKING.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">And Linda's lungs?</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">They were turning to cement.</p>
             
             <div className="clear-both" />
           </div>
