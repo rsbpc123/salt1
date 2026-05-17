@@ -3048,7 +3048,7 @@ const Index = () => {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-10 md:py-16 px-4 bg-primary/5">
+      <section id="order-section" className="py-10 md:py-16 px-4 bg-primary/5">
         <div className="max-w-[900px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-4 text-primary">
             Here's How Much This Costs
