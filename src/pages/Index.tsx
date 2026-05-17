@@ -1988,6 +1988,83 @@ const Index = () => {
         </div>
       </section>
 
+      {/* The Question I Knew You'd Ask */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
+            The Question I Knew You'd Ask.
+          </h2>
+
+          <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
+
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>I asked Dr. Popescu the question I knew you'd ask too.</p>
+
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "How can one pouch in a bedroom do what an entire village does?"
+            </p>
+
+            <p>She smiled.</p>
+
+            <p className="italic">Like she'd been waiting for it.</p>
+
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "That's the question that confused me for years. Until I realized I had it backwards."
+            </p>
+
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "The villagers don't breathe HIGH concentrations of salt. They breathe LOW concentrations CONSTANTLY. Every breath, asleep or awake, for their entire lives. That's the actual secret."
+            </p>
+
+            <p className="text-[22px] md:text-[28px] font-bold text-primary">"It's not the intensity. It's the consistency."</p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Air Quality Reading */}
+      <section className="py-10 md:py-16 px-4 bg-secondary/30">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>She pulled up an air quality reading on her laptop.</p>
+
+            <p>Showed me the particle density in Linda's bedroom in Romania.</p>
+
+            <p>Then in the bedroom of one of her early testers in Bucharest.</p>
+
+            <p>Who had been using a prototype pouch for six weeks.</p>
+
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "The tester's bedroom is at 73% of the village average. For eight hours. Every night."
+            </p>
+
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "That's what we built the pouch to do. You don't need to live in the village. You need to bring the air into the room where you sleep."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Realization */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p className="font-semibold">That's when it clicked.</p>
+
+            <p>The medications had been trying to force change in 20 minutes.</p>
+
+            <p className="font-semibold">The salt was doing the opposite.</p>
+
+            <p>Letting the body do what it already knew how to do.</p>
+
+            <p className="italic">Slowly.</p>
+
+            <p className="italic">Quietly.</p>
+
+            <p className="italic">While Linda slept.</p>
+          </div>
+        </div>
+      </section>
+
       {/* What Happened When Linda Used the Pouch - Part 1 */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
