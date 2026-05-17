@@ -526,8 +526,6 @@ const Index = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Because what was I supposed to say?</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Her lungs were getting WORSE. Not better.</p>
-          
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">The medications weren't working.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">The doctors had given up.</p>
@@ -541,9 +539,6 @@ const Index = () => {
             </p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4">
               I don't care what it takes.
-            </p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4 font-bold italic">
-              I'm going to find a way.
             </p>
           </div>
           
