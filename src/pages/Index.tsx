@@ -1438,23 +1438,27 @@ const Index = () => {
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>I woke up around 7 AM. Linda was still asleep next to me.</p>
+            <p>I woke up around 7 AM.</p>
+            
+            <p>Linda was still asleep next to me.</p>
             
             <p className="font-semibold">But something was different.</p>
             
-            <p>I couldn't figure out what it was at first.</p>
+            <p>I couldn't figure out what at first.</p>
             
             <p>Then I realized.</p>
             
             <p className="text-[22px] md:text-[28px] font-bold text-primary">I didn't hear the wheeze.</p>
             
-            <p>That rattling sound that had been part of our mornings for YEARS.</p>
+            <p>That rattling sound that had been part of our mornings for three years.</p>
             
-            <p>It was... gone.</p>
+            <p>Gone.</p>
             
-            <p>I sat up. Watched her chest rise and fall. Smooth. Steady. Quiet.</p>
+            <p>I sat up.</p>
             
-            <p className="italic">No struggle. No gasping. Just... breathing.</p>
+            <p>Watched her chest rise and fall.</p>
+            
+            <p className="italic">Smooth. Steady. Quiet.</p>
           </div>
         </div>
       </section>
