@@ -2873,7 +2873,6 @@ const Index = () => {
             <div id="pkg-5" className="scroll-mt-24 bg-gradient-to-b from-[#5a1e9a] to-[#461682] rounded-none shadow-2xl p-6 md:p-8 flex flex-col items-center text-center relative">
               <div className="mb-3">
                 <p className="text-[#c9a227] font-black italic text-[24px] md:text-[30px] leading-tight">BEST VALUE</p>
-                <p className="text-[#c9a227] font-black italic text-[22px] md:text-[28px] leading-tight">BEST SELLING</p>
               </div>
               
               <h3 className="text-[13px] md:text-[15px] font-bold text-white uppercase tracking-wide mb-2">5 LONGEVITY SALT POUCHES</h3>
@@ -3062,7 +3061,6 @@ const Index = () => {
             <div className="bg-gradient-to-b from-[#5a1e9a] to-[#461682] rounded-none shadow-2xl p-6 md:p-8 flex flex-col items-center text-center relative">
               <div className="mb-3">
                 <p className="text-[#c9a227] font-black italic text-[24px] md:text-[30px] leading-tight">BEST VALUE</p>
-                <p className="text-[#c9a227] font-black italic text-[22px] md:text-[28px] leading-tight">BEST SELLING</p>
               </div>
               
               <h3 className="text-[13px] md:text-[15px] font-bold text-white uppercase tracking-wide mb-2">5 LONGEVITY SALT POUCHES</h3>
@@ -3315,7 +3313,6 @@ const Index = () => {
             <div className="bg-gradient-to-b from-[#5a1e9a] to-[#461682] rounded-none shadow-2xl p-6 md:p-8 flex flex-col items-center text-center relative">
               <div className="mb-3">
                 <p className="text-[#c9a227] font-black italic text-[24px] md:text-[30px] leading-tight">BEST VALUE</p>
-                <p className="text-[#c9a227] font-black italic text-[22px] md:text-[28px] leading-tight">BEST SELLING</p>
               </div>
               
               <h3 className="text-[13px] md:text-[15px] font-bold text-white uppercase tracking-wide mb-2">5 LONGEVITY SALT POUCHES</h3>
