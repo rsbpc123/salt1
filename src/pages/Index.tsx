@@ -38,7 +38,7 @@ import ioanaConversation from "@/assets/ioana-conversation.jpg";
 import phoneYoutubeVideo from "@/assets/phone-youtube-video.jpg";
 import napkinElenaPopescu from "@/assets/napkin-elena-popescu.jpg";
 import phoneEmailNotification from "@/assets/phone-email-notification.png";
-import mariaCottage from "@/assets/maria-cottage.jpg";
+
 import doctorPhoto from "@/assets/doctor-photo.png";
 import productBundle from "@/assets/product-bundle.png";
 import productDiscount from "@/assets/product-discount.png";
@@ -64,7 +64,7 @@ import questionCollage from "@/assets/question-collage.png";
 import orderButton from "@/assets/order-button.png";
 import customerSupport from "@/assets/customer-support.png";
 import riskfreeSeal from "@/assets/riskfree-seal.png";
-import drPopescuOffice from "@/assets/dr-popescu-office.jpg";
+
 import coupleWalkingHope from "@/assets/robert-linda-walking.jpg";
 import romanianVillageDrive from "@/assets/romanian-village-drive.jpg";
 import coupleCryingHappy from "@/assets/couple-crying-happy.jpg";
