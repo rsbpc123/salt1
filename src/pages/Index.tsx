@@ -1502,13 +1502,9 @@ const Index = () => {
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>She sat up. Took another breath. Deeper this time.</p>
+            <p>She started crying.</p>
             
-            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
-              "Robert, I don't feel like I'm suffocating."
-            </p>
-            
-            <p>She started crying. Happy tears.</p>
+            <p>Happy tears.</p>
             
             <p className="font-semibold italic">"I forgot what this felt like."</p>
             
