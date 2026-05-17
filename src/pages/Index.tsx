@@ -1391,27 +1391,24 @@ const Index = () => {
       {/* Day 3 Breakthrough Section */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
-            Day 3: The Morning Linda Woke Up Without Wheezing
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8 text-primary">
+            Day 3: The Morning Linda Woke Up Without Wheezing.
           </h2>
-          <p className="text-[20px] md:text-[28px] text-center text-muted-foreground italic mb-8">
-            (For the First Time in 3 Years)
-          </p>
           
           <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
           
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
             <p>The first two days were... underwhelming.</p>
             
-            <p>We walked around the village. Met some locals. Looked at the salt-covered hills. Breathed.</p>
+            <p>We walked around the village.</p>
             
-            <p className="italic">And that was it.</p>
+            <p>Met some locals.</p>
             
-            <p>Linda said she felt "okay." Not better. Not worse. Just... okay.</p>
+            <p>Breathed.</p>
             
-            <p className="font-semibold">I started to think we'd made a mistake.</p>
+            <p className="italic">That was it.</p>
             
-            <p className="text-[22px] md:text-[28px] font-bold text-primary mt-8">Then... day 3.</p>
+            <p className="text-[22px] md:text-[28px] font-bold text-primary mt-8">Then day 3.</p>
           </div>
         </div>
       </section>
@@ -1441,23 +1438,27 @@ const Index = () => {
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>I woke up around 7 AM. Linda was still asleep next to me.</p>
+            <p>I woke up around 7 AM.</p>
+            
+            <p>Linda was still asleep next to me.</p>
             
             <p className="font-semibold">But something was different.</p>
             
-            <p>I couldn't figure out what it was at first.</p>
+            <p>I couldn't figure out what at first.</p>
             
             <p>Then I realized.</p>
             
             <p className="text-[22px] md:text-[28px] font-bold text-primary">I didn't hear the wheeze.</p>
             
-            <p>That rattling sound that had been part of our mornings for YEARS.</p>
+            <p>That rattling sound that had been part of our mornings for three years.</p>
             
-            <p>It was... gone.</p>
+            <p>Gone.</p>
             
-            <p>I sat up. Watched her chest rise and fall. Smooth. Steady. Quiet.</p>
+            <p>I sat up.</p>
             
-            <p className="italic">No struggle. No gasping. Just... breathing.</p>
+            <p>Watched her chest rise and fall.</p>
+            
+            <p className="italic">Smooth. Steady. Quiet.</p>
           </div>
         </div>
       </section>
@@ -1467,21 +1468,31 @@ const Index = () => {
         <div className="max-w-[750px] mx-auto">
           <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
             <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-              <p>She opened her eyes. "Morning."</p>
+              <p>She opened her eyes.</p>
               
-              <p>Her voice was clear. Not strained. <span className="font-bold">Clear.</span></p>
+              <p>"Morning."</p>
               
-              <p>"How do you feel?" I asked.</p>
+              <p>Her voice was clear.</p>
               
-              <p>She paused. Took a deep breath. All the way in. Held it. Then let it out slowly.</p>
+              <p>Not strained.</p>
+              
+              <p className="font-bold">Clear.</p>
+              
+              <p>"How do you feel?"</p>
+              
+              <p>She paused.</p>
+              
+              <p>Took a deep breath.</p>
+              
+              <p>All the way in.</p>
+              
+              <p>Held it.</p>
+              
+              <p>Let it out slowly.</p>
               
               <p className="font-semibold">Her eyes widened.</p>
               
               <p className="text-[24px] md:text-[32px] font-bold text-primary text-center my-8">"I can breathe," she whispered.</p>
-              
-              <p>Not "I'm breathing okay." Not "I'm managing."</p>
-              
-              <p className="text-[26px] md:text-[34px] font-bold text-center">"I can BREATHE."</p>
             </div>
           </div>
         </div>
@@ -1491,13 +1502,9 @@ const Index = () => {
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>She sat up. Took another breath. Deeper this time.</p>
+            <p>She started crying.</p>
             
-            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
-              "Robert, I don't feel like I'm suffocating."
-            </p>
-            
-            <p>She started crying. Happy tears.</p>
+            <p>Happy tears.</p>
             
             <p className="font-semibold italic">"I forgot what this felt like."</p>
             
