@@ -2948,26 +2948,26 @@ const Index = () => {
               WHICH OPTION IS RIGHT FOR YOU?
             </p>
 
-            <div className="flex items-start gap-3">
-              <span className="text-[24px] text-primary leading-none">→</span>
+            <a href="#pkg-3" className="flex items-start gap-3 group">
+              <span className="text-[24px] text-primary leading-none group-hover:translate-x-1 transition-transform">→</span>
               <p className="text-[16px] md:text-[20px] text-foreground">
-                <span className="font-bold">If you want what Linda has... get three pouches.</span> Bedroom. Living room. Wherever else you spend your day. This is the minimum that gets you the around-the-clock coverage that actually changes things.
+                <span className="font-bold group-hover:underline">If you want what Linda has... get three pouches.</span> Bedroom. Living room. Wherever else you spend your day. This is the minimum that gets you the around-the-clock coverage that actually changes things.
               </p>
-            </div>
+            </a>
 
-            <div className="flex items-start gap-3">
-              <span className="text-[24px] text-primary leading-none">→</span>
+            <a href="#pkg-5" className="flex items-start gap-3 group">
+              <span className="text-[24px] text-primary leading-none group-hover:translate-x-1 transition-transform">→</span>
               <p className="text-[16px] md:text-[20px] text-foreground">
-                <span className="font-bold">If you want what Linda's sister got... get five pouches.</span> Full home coverage. Lowest per-pouch price we offer. Enough supply for the next 2 to 3 years, plus extras for any family member who needs it. <span className="italic">This is the smart play for almost everyone reading this.</span>
+                <span className="font-bold group-hover:underline">If you want what Linda's sister got... get five pouches.</span> Full home coverage. Lowest per-pouch price we offer. Enough supply for the next 2 to 3 years, plus extras for any family member who needs it. <span className="italic">This is the smart play for almost everyone reading this.</span>
               </p>
-            </div>
+            </a>
 
-            <div className="flex items-start gap-3">
-              <span className="text-[24px] text-primary leading-none">→</span>
+            <a href="#pkg-1" className="flex items-start gap-3 group">
+              <span className="text-[24px] text-primary leading-none group-hover:translate-x-1 transition-transform">→</span>
               <p className="text-[16px] md:text-[20px] text-foreground">
-                <span className="font-bold">If you genuinely can't swing either today... one pouch in the bedroom is better than zero.</span> Start there. Feel the difference. Add more once you do.
+                <span className="font-bold group-hover:underline">If you genuinely can't swing either today... one pouch in the bedroom is better than zero.</span> Start there. Feel the difference. Add more once you do.
               </p>
-            </div>
+            </a>
 
             <p className="text-[20px] md:text-[24px] text-primary font-bold mt-8 text-center">
               And just so you know... you're taking ZERO risk here:
