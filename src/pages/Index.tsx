@@ -3257,15 +3257,15 @@ const Index = () => {
           {/* P.S. Section */}
           <div className="mt-10 space-y-6 text-[14px] md:text-[18px] leading-relaxed text-foreground">
             <p>
-              <span className="font-bold text-primary">P.S.</span> Remember... you're protected by our 60-day money-back guarantee. If Longevity Salt doesn't help you breathe easier... you get a full refund. No questions asked. Keep the pouches. Keep everything. You have nothing to lose... <span className="font-semibold">except the mucus drowning your lungs.</span>
+              <span className="font-bold text-primary">P.S.</span> Remember, you're protected by our 60-day money-back guarantee. If Longevity Salt doesn't help you breathe easier, you get a full refund. No questions asked. Keep the pouches. Keep the bonuses. Keep everything. <span className="font-semibold">You have nothing to lose.</span>
             </p>
-            
+
             <p>
-              <span className="font-bold text-primary">P.P.S.</span> This batch won't last. The last shipment sold out in 11 days. If you close this page now, you might not see this offer again. The next time you check... we might be <span className="font-bold text-destructive">SOLD OUT</span>. And you'll be on a waitlist for 2 to 3 MONTHS. Don't let that happen. <span className="font-semibold">Secure your spot NOW</span> while we still have pouches available.
+              <span className="font-bold text-primary">P.P.S.</span> This batch won't last. Our last shipment sold out in 11 days. If you close this page now, you might end up on a waitlist for the next batch, which could be <span className="font-bold text-destructive">2 to 3 months</span> away. <span className="font-semibold">Don't let that happen.</span>
             </p>
-            
+
             <p>
-              <span className="font-bold text-primary">P.P.P.S.</span> Don't just take my word for it. Search <span className="font-semibold">"Mânzălești longevity village"</span> on YouTube right now. You'll find dozens of TV reports. BBC. National Geographic. Romanian news channels. All documenting this village where people live past 100. This isn't made up. <span className="font-bold">This is REAL.</span> And now you can bring it home.
+              <span className="font-bold text-primary">P.P.P.S.</span> Don't just take my word for it. Search <span className="font-semibold">"Mânzălești longevity village"</span> on YouTube. You'll find BBC reports. National Geographic features. Romanian news coverage. All documenting a village where people live past 100. <span className="font-bold">This is real.</span> And now you can bring a piece of it home.
             </p>
           </div>
         </div>
