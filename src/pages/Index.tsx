@@ -781,11 +781,19 @@ const Index = () => {
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
-            Heading to Praid. Home to the famous Praid Salt Mine.
+            Heading to Praid.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            I was nervous. But hopeful.
+            Home of the famous salt mine.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            I was nervous.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            But hopeful.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
