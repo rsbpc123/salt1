@@ -1888,75 +1888,59 @@ const Index = () => {
         </div>
       </section>
 
-      {/* The Desperate Email - Part 1 */}
+      {/* The Call That Led To A Breakthrough */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
-            The Phone Call That Led to a Scientific Breakthrough
+            The Call That Led To A Breakthrough.
           </h2>
-          
+
           <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
-          
+
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
             <p>I emailed Dr. Popescu that night.</p>
-            
-            <p>Told her what was happening.</p>
-            
+
             <p className="font-semibold">She responded within hours.</p>
-            
+
             <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
-              "You're not the first person this has happened to. I've been working on a solution for this exact problem. Let me call you."
+              "You're not the first person this has happened to. I've watched hundreds of patients transform in Mânzălești, only to relapse when they go home. I've been trying to solve this exact problem for 15 years."
             </p>
           </div>
         </div>
       </section>
 
-      {/* The Phone Call */}
+      {/* What She Tried */}
       <section className="py-10 md:py-16 px-4 bg-secondary/30">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>When she called, I could hear the frustration in her voice.</p>
-            
-            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-6">
-              "I've watched HUNDREDS of patients transform in Mânzălești... only to relapse when they go home."
-            </p>
-            
-            <p className="font-semibold">"I've been trying to solve this problem for 15 years."</p>
-            
-            <p>She explained that she'd tried everything.</p>
-            
-            <p>Salt lamps. (Decorative, but useless.)</p>
-            
+            <p>She'd tried everything.</p>
+
+            <p>Salt lamps. (Decorative. Useless.)</p>
+
             <p>Dry salt inhalers. (Particles too large.)</p>
-            
-            <p>Nebulizers with saline. (Wet salt, doesn't penetrate deep enough.)</p>
-            
+
+            <p>Nebulizers with saline. (Doesn't penetrate deep enough.)</p>
+
             <p className="italic">"Nothing worked the way the village air did."</p>
-            
-            <p className="text-[22px] md:text-[28px] font-bold text-primary">"Until about 3 years ago."</p>
+
+            <p className="text-[22px] md:text-[28px] font-bold text-primary">"Until about three years ago."</p>
           </div>
         </div>
       </section>
 
-      {/* The Breakthrough */}
+      {/* The Membrane */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>That's when she told me about a material scientist at the University of Bucharest.</p>
-            
-            <p>They'd been working together on something that sounded like science fiction.</p>
-            
+            <p>That's when she told me about her work with a material scientist at the University of Bucharest.</p>
+
             <p className="text-[22px] md:text-[28px] font-bold text-primary">A breathable membrane system.</p>
-            
+
             <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
-              "The idea was to create a pouch that holds therapeutic salt from Mânzălești... infused with the same 4 herbs that grow wild on those hillsides. Mint. Sage. Basil. Lavender."
+              "The idea was to create a pouch that holds therapeutic salt from Mânzălești, infused with the same four herbs that grow wild on those hillsides. Mint. Sage. Basil. Lavender. The villagers have used these herbs for centuries."
             </p>
-            
-            <p>"The villagers have been using these herbs for centuries."</p>
-            
-            <p className="font-semibold">"But here's the important part: The pouch has a special membrane that allows MICROSCOPIC salt particles to pass through when you breathe."</p>
-            
-            <p>"So you're inhaling the salt... WITHOUT it leaving the pouch."</p>
+
+            <p className="font-semibold">"The pouch has a special membrane that lets microscopic salt particles pass through when you breathe near it. So you're inhaling the salt without it leaving the pouch."</p>
           </div>
         </div>
       </section>
@@ -1965,16 +1949,16 @@ const Index = () => {
       <section className="py-8 md:py-12 px-4 bg-primary/5">
         <div className="max-w-[500px] mx-auto">
           <figure className="relative">
-            <div 
+            <div
               className="relative overflow-visible mx-auto"
               style={{
                 maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
                 WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
               }}
             >
-              <img 
-                src={saltHerbsPouch} 
-                alt="The breathable salt therapy pouch with Mânzălești salt and healing herbs" 
+              <img
+                src={saltHerbsPouch}
+                alt="The breathable salt therapy pouch with Mânzălești salt and healing herbs"
                 className="w-full h-auto rounded-lg"
               />
             </div>
@@ -1985,70 +1969,21 @@ const Index = () => {
         </div>
       </section>
 
-      {/* The Science */}
-      <section className="py-10 md:py-16 px-4 bg-background">
-        <div className="max-w-[750px] mx-auto">
-          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>I was skeptical. "Does it actually work?"</p>
-            
-            <p>She laughed. "It took us 2 years of testing. But yes. It works."</p>
-            
-            <p className="font-semibold">"We landed on a therapeutic-grade polymer membrane with microscopic pores. Engineered at 1 to 5 microns."</p>
-            
-            <p>"The pores let dry salt particles through when you inhale... but keep the salt itself contained."</p>
-          </div>
-        </div>
-      </section>
-
       {/* How It Works */}
-      <section className="py-10 md:py-16 px-4 bg-primary/5">
-        <div className="max-w-[750px] mx-auto">
-          <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
-            <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-              <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6">
-                "And your body heat activates the process."
-              </p>
-              
-              <p>"The membrane is designed to be breathable at room temperature, releasing a steady stream of micro-particles into the air around your bed."</p>
-              
-              <p>"However, when placed near body heat (like under your pillow or on your chest), the salt ions become hyper-active."</p>
-              
-              <p className="font-semibold">"This 'Turbo-Charge' effect increases the particle output by nearly 300%, delivering a concentrated dose exactly when you need it most."</p>
-              
-              <p className="text-primary font-bold">"No electricity. No machines. No setup."</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* The Request */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>I couldn't believe what I was hearing. "Can you send me one?"</p>
-            
-            <p>She paused. "There's a problem."</p>
-            
-            <p className="italic">"The salt comes from the Mânzălești region. The deposits are on protected land. Getting export approval is... complicated."</p>
-            
-            <p className="text-[22px] md:text-[28px] font-bold text-primary text-center mt-8">"But I can send you one. As a personal favor."</p>
-          </div>
-          
-          {/* Personal Favor Package Image */}
-          <div className="mt-10">
-            <div 
-              className="relative overflow-hidden rounded-xl shadow-xl"
-              style={{
-                maskImage: 'radial-gradient(ellipse 100% 95% at center, black 70%, transparent 100%)',
-                WebkitMaskImage: 'radial-gradient(ellipse 100% 95% at center, black 70%, transparent 100%)'
-              }}
-            >
-              <img 
-                src={personalFavorPackage} 
-                alt="Hands opening a package from Romania containing the salt therapy pouch" 
-                className="w-full h-auto"
-              />
-            </div>
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "It took us two years of testing. But it works."
+            </p>
+
+            <p className="font-semibold">"The pores are engineered at 1 to 5 microns. The membrane releases a steady stream of micro-particles into the air around your bed. When placed near your body heat, like under your pillow or on your nightstand, the salt ions become more active. A natural concentration effect."</p>
+
+            <p className="text-primary font-bold">"No electricity. No machines. No setup."</p>
+
+            <p>I was hopeful.</p>
+
+            <p className="font-semibold">But I was also skeptical.</p>
           </div>
         </div>
       </section>
