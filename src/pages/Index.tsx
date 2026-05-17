@@ -2231,28 +2231,30 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Spirometry Test Section - Part 1 */}
+      {/* Spirometry Test Section */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
-            The Spirometry Test That Made Her Pulmonologist Question His Own Equipment
+            The Spirometry Test That Made Linda's Pulmonologist Recalibrate His Machine.
           </h2>
-          
+
           <div className="h-1 w-24 bg-primary mx-auto mb-10 mt-8"></div>
-          
+
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p className="font-semibold">I needed proof. Real, clinical proof.</p>
-            
-            <p>So I scheduled a follow-up with Linda's pulmonologist. The same doctor who'd told us Linda's lungs were "permanently damaged."</p>
-            
-            <p>We walked into his office on a Tuesday morning. Linda was nervous.</p>
-            
-            <p className="italic">"What if the numbers aren't as good as we think?" she whispered.</p>
-            
-            <p>I squeezed her hand. "They will be."</p>
-            
-            <p>The nurse ran the spirometry test. Linda blew into the tube. Once. Twice. Three times.</p>
-            
+            <p className="font-semibold">I needed independent proof.</p>
+
+            <p>So I scheduled a follow-up with Linda's pulmonologist.</p>
+
+            <p>The same doctor who'd told us Linda's lungs were "permanently damaged."</p>
+
+            <p>We walked into his office on a Tuesday morning.</p>
+
+            <p>The nurse ran the test.</p>
+
+            <p>Linda blew into the tube.</p>
+
+            <p>Once. Twice. Three times.</p>
+
             <p className="font-semibold">Then we waited.</p>
           </div>
         </div>
@@ -2263,16 +2265,16 @@ const Index = () => {
         <div className="max-w-[900px] mx-auto">
           {/* Featured Image */}
           <div className="mb-10">
-            <div 
+            <div
               className="relative overflow-hidden rounded-2xl shadow-2xl"
               style={{
                 maskImage: 'radial-gradient(ellipse 95% 90% at center, black 60%, transparent 100%)',
                 WebkitMaskImage: 'radial-gradient(ellipse 95% 90% at center, black 60%, transparent 100%)'
               }}
             >
-              <img 
-                src={doctorSpirometryResults} 
-                alt="Doctor reviewing spirometry test results with patient, showing dramatic before and after graphs" 
+              <img
+                src={doctorSpirometryResults}
+                alt="Doctor reviewing spirometry test results with patient, showing dramatic before and after graphs"
                 className="w-full h-auto"
               />
             </div>
@@ -2280,19 +2282,31 @@ const Index = () => {
               The moment the pulmonologist saw Linda's results
             </p>
           </div>
-          
+
           <div className="max-w-[750px] mx-auto space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>The doctor came in a few minutes later. Holding a printout.</p>
-            
-            <p>He stared at it for a long time. Then looked at Linda. Then back at the printout.</p>
-            
+            <p>The doctor came in.</p>
+
+            <p>Holding the printout.</p>
+
+            <p>He stared at it for a long time.</p>
+
+            <p>Then at Linda.</p>
+
+            <p>Then back at the printout.</p>
+
             <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
-              "Did we recalibrate the machine?" he asked the nurse.
+              "Did we recalibrate the machine this morning?" he asked the nurse.
             </p>
-            
-            <p>She nodded. "Twice this morning."</p>
-            
-            <p>He pulled up the graphs on his computer. Two lines. Side by side.</p>
+
+            <p>"Twice," she said.</p>
+
+            <p>He pulled up the graphs on his computer.</p>
+
+            <p>Two lines side by side.</p>
+
+            <p>Linda's measurements from six months ago.</p>
+
+            <p>And today.</p>
           </div>
         </div>
       </section>
@@ -2300,9 +2314,9 @@ const Index = () => {
       {/* The Results Comparison - Image */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[900px] mx-auto">
-          <img 
-            src={spirometerScreen} 
-            alt="Doctor's computer showing spirometry results - Six months ago: 58% Stage 3 Obstruction vs Today: 81% Near Normal Function" 
+          <img
+            src={spirometerScreen}
+            alt="Doctor's computer showing spirometry results - Six months ago: 58% Stage 3 Obstruction vs Today: 81% Near Normal Function"
             className="w-full rounded-xl shadow-lg"
           />
         </div>
@@ -2313,19 +2327,23 @@ const Index = () => {
         <div className="max-w-[750px] mx-auto">
           <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
             <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-              <p>He stared at the screen. Didn't say anything for a solid ten seconds.</p>
-              
-              <p className="text-[22px] md:text-[28px] font-bold text-primary text-center my-6">
-                "I've never seen improvement like this."
+              <p>He stared at the screen.</p>
+
+              <p>Didn't say anything for a long moment.</p>
+
+              <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+                "I've never seen numbers like this from a follow-up. What have you been doing differently?"
               </p>
-              
-              <p>He turned to Linda. "What have you been doing differently?"</p>
-              
-              <p>Linda glanced at me. I didn't say anything.</p>
-              
-              <p>She looked back at the doctor. "I've been breathing salt air. From Romania."</p>
-              
-              <p>He raised an eyebrow. "I'm sorry?"</p>
+
+              <p>Linda glanced at me.</p>
+
+              <p>I didn't say anything.</p>
+
+              <p>"I've been breathing salt air," she said. "From Romania."</p>
+
+              <p>He raised an eyebrow.</p>
+
+              <p>"I'm sorry?"</p>
             </div>
           </div>
         </div>
@@ -2335,30 +2353,30 @@ const Index = () => {
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>"There's a village in Romania. Mânzălești. The air is saturated with salt particles. We went there. And when we came home, we got a system that recreates that air."</p>
-            
-            <p>He nodded slowly. Like he was trying to process something that didn't fit into his worldview.</p>
-            
-            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
-              "Well... whatever you're doing... keep doing it."
-            </p>
-            
-            <p>He adjusted her chart. Reduced her steroid dose. Scheduled her next appointment for six months out instead of three.</p>
-            
-            <p className="italic">And sent us on our way.</p>
+            <p>"There's a village in Romania where the air is saturated with salt particles. We went there. And when we came home, we got a system that recreates that air."</p>
+
+            <p>He nodded slowly.</p>
+
+            <p>He didn't change her chart that day.</p>
+
+            <p>He just looked at the numbers and said, "Whatever you're doing, keep doing it."</p>
           </div>
         </div>
       </section>
 
       {/* The Undeniable Truth */}
       <section className="py-10 md:py-16 px-4 bg-secondary/30">
-        <div className="max-w-[750px] mx-auto text-center">
+        <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>He didn't ask WHAT we were using. He didn't ask HOW it worked. He just... moved on.</p>
-            
-            <p>But the results were right there. On his screen. Undeniable.</p>
-            
-            <p className="text-[28px] md:text-[36px] font-bold text-primary mt-8">Linda's lungs were HEALING.</p>
+            <p>He didn't ask what we were using.</p>
+
+            <p>He didn't ask how it worked.</p>
+
+            <p className="font-semibold">He just... moved on.</p>
+
+            <p>But the results were right there on his screen.</p>
+
+            <p className="font-semibold">Undeniable.</p>
           </div>
         </div>
       </section>
