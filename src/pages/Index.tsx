@@ -2994,25 +2994,25 @@ const Index = () => {
             
             <div className="space-y-6 text-[16px] md:text-[20px] leading-relaxed text-foreground text-left">
               <p className="font-semibold">Here's the deal.</p>
-              
+
               <p>Use Longevity Salt for 60 days.</p>
-              
-              <p>If you don't feel a SIGNIFICANT improvement in your breathing... if you're not sleeping better... if you're not using your inhaler less...</p>
-              
+
+              <p>If you don't feel a significant improvement in your breathing, your sleep, or your day-to-day energy...</p>
+
               <p className="font-bold text-primary">Just contact us.</p>
-              
+
               <p className="font-bold">We'll refund every penny.</p>
-              
-              <p>You don't even need to return the pouches. Keep them. Keep the bonuses. Keep everything.</p>
-              
-              <p className="italic">If you don't feel a difference... just send one email and we'll process your refund.</p>
-              
+
+              <p>You don't even need to return the pouches.</p>
+
+              <p>Keep them. Keep the bonuses. Keep everything.</p>
+
               <p className="font-semibold text-primary">No hoops. No hassle. No questions.</p>
-              
+
               <p>Because I'm not interested in keeping your money if this doesn't work for you.</p>
-              
+
               <p className="font-bold">I only want it if Longevity Salt changes your life the way it changed Linda's.</p>
-              
+
               <p className="text-[20px] md:text-[24px] font-bold text-primary text-center mt-8">Fair?</p>
             </div>
           </div>
