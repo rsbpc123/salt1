@@ -2781,50 +2781,54 @@ const Index = () => {
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-4 text-primary">
             Here's How Much This Costs
           </h2>
-          <p className="text-[20px] md:text-[28px] text-center text-foreground mb-10">
-            (And Why Most Companies Would Charge 3X More)
-          </p>
-          
-          <div className="space-y-6 text-[16px] md:text-[20px] leading-relaxed text-foreground max-w-[750px] mx-auto mb-12">
-            <p>If I were running this like a typical health company... I'd probably charge $300 per pouch.</p>
-            
+          <div className="space-y-6 text-[16px] md:text-[20px] leading-relaxed text-foreground max-w-[750px] mx-auto mb-12 mt-6">
+            <p>Linda's medications were costing us <span className="font-bold text-primary">$1,200 a month</span>.</p>
+
+            <p><span className="font-bold">$14,400</span> a year.</p>
+
+            <p><span className="font-bold">$72,000</span> over the five years she'd been "managing" a condition the doctors said couldn't be fixed.</p>
+
+            <p className="font-semibold">And none of it was working.</p>
+
+            <p>Longevity Salt is a <span className="font-bold text-primary">one-time purchase</span>.</p>
+
+            <p>That you place in the rooms where you actually live.</p>
+
+            <p>And use for as long as it keeps working.</p>
+
+            <p>If I were running this like a typical health company, I'd charge $300 a pouch.</p>
+
             <p>And people would still buy it.</p>
-            
+
             <p className="font-semibold">Because what's the alternative?</p>
-            
-            <p>Flying to Romania costs $1,500 round trip. Staying there for a month? Another $3,000 to $5,000.</p>
-            
-            <p>So you're looking at close to <span className="font-bold text-primary">$10,000</span>... just to TRY what Linda and I experienced.</p>
-            
-            <p>Compared to THAT... $300 per pouch would be a steal.</p>
-            
-            <p className="font-semibold">When you look at the other alternatives, the choice becomes even clearer.</p>
-            
-            <p>You could keep spending $120 a month on rescue inhalers that only mask the symptoms.</p>
-            
-            <p>You could spend $80 a month on those trendy "lung cleaning drops" or pills, which most doctors will tell you is a waste of money because the ingredients get destroyed by your stomach acid before they ever reach your lungs.</p>
-            
-            <p className="font-semibold text-primary">OR...</p>
-            
-            <p>You can pay a one-time fee for a solution that works directly where the problem is:</p>
-            
-            <p className="font-bold text-primary text-[20px] md:text-[24px]">In the air you breathe.</p>
-            
+
             <p className="font-semibold text-primary">But I'm not pricing this for maximum profit.</p>
-            
-            <p className="font-bold">I'm pricing it so ANYONE who needs it can afford it.</p>
-            
-            <p>Which is why your first Longevity Salt pouch is just <span className="font-bold text-primary text-[22px] md:text-[28px]">$89</span>.</p>
-            
-            <p>That's over 50% off the regular retail price of $180.</p>
-            
-            <p className="italic">Less than $3 per day.</p>
-            
-            <p>About what you'd spend on a latte.</p>
-            
-            <p className="font-bold text-destructive">Except this might actually save your life.</p>
-            
-            <p className="font-semibold">And if you want full coverage... bedroom, living room, office... you can save even MORE.</p>
+
+            <p className="font-bold">I'm pricing it so anyone who needs it can afford full coverage.</p>
+
+            <p className="italic">That last phrase matters more than you think.</p>
+
+            <p>Remember what Dr. Popescu said?</p>
+
+            <p className="font-bold text-primary text-[20px] md:text-[24px]">It's not the intensity. It's the consistency.</p>
+
+            <p>The villagers in Mânzălești don't breathe salt air in just one room.</p>
+
+            <p>They breathe it everywhere. All day. Every day. For their entire lives.</p>
+
+            <p>That's why their results compound over time.</p>
+
+            <p>One pouch covers your bedroom for the eight hours you sleep.</p>
+
+            <p>But you spend the other sixteen hours of your day somewhere.</p>
+
+            <p>The living room. The kitchen. The chair where you read.</p>
+
+            <p>If you're only treating one room, you're getting <span className="font-bold">one-third</span> of the exposure the villagers get.</p>
+
+            <p className="font-semibold">Which is why we built our packages around full-home coverage, not one-room coverage.</p>
+
+            <p className="font-bold text-primary text-[20px] md:text-[24px]">Here's what to consider.</p>
           </div>
         </div>
       </section>
@@ -2939,32 +2943,33 @@ const Index = () => {
           </div>
           
           {/* Benefit Callouts */}
-          <div className="mt-12 space-y-4 max-w-[750px] mx-auto text-center">
-            <div className="flex items-center gap-3 justify-center">
-              <span className="text-[24px]">→</span>
+          <div className="mt-12 space-y-5 max-w-[750px] mx-auto">
+            <p className="text-[20px] md:text-[26px] font-bold text-primary text-center mb-6">
+              WHICH OPTION IS RIGHT FOR YOU?
+            </p>
+
+            <div className="flex items-start gap-3">
+              <span className="text-[24px] text-primary leading-none">→</span>
               <p className="text-[16px] md:text-[20px] text-foreground">
-                <span className="font-bold">Get 3 pouches for just $78 each.</span> <span className="text-primary font-semibold">(MOST POPULAR)</span>
+                <span className="font-bold">If you want what Linda has... get three pouches.</span> Bedroom. Living room. Wherever else you spend your day. This is the minimum that gets you the around-the-clock coverage that actually changes things.
               </p>
             </div>
-            <p className="text-[14px] md:text-[18px] text-muted-foreground italic">
-              This is what Linda uses. One for the bedroom. One for the living room. One for travel.
-            </p>
-            
-            <div className="flex items-center gap-3 justify-center mt-6">
-              <span className="text-[24px]">→</span>
+
+            <div className="flex items-start gap-3">
+              <span className="text-[24px] text-primary leading-none">→</span>
               <p className="text-[16px] md:text-[20px] text-foreground">
-                <span className="font-bold">Or get 5 pouches for just $62 each.</span> <span className="text-primary font-semibold">(BEST VALUE)</span>
+                <span className="font-bold">If you want what Linda's sister got... get five pouches.</span> Full home coverage. Lowest per-pouch price we offer. Enough supply for the next 2 to 3 years, plus extras for any family member who needs it. <span className="italic">This is the smart play for almost everyone reading this.</span>
               </p>
             </div>
-            <p className="text-[14px] md:text-[18px] text-muted-foreground italic">
-              Stock up now. Because once this batch sells out, it could be MONTHS before we get more.
-            </p>
-            
-            <p className="text-[18px] md:text-[22px] text-foreground font-semibold mt-8">
-              That's less than <span className="text-primary font-bold">$2 per day</span>. To breathe easier. Sleep better. And get your life back.
-            </p>
-            
-            <p className="text-[20px] md:text-[24px] text-primary font-bold mt-6">
+
+            <div className="flex items-start gap-3">
+              <span className="text-[24px] text-primary leading-none">→</span>
+              <p className="text-[16px] md:text-[20px] text-foreground">
+                <span className="font-bold">If you genuinely can't swing either today... one pouch in the bedroom is better than zero.</span> Start there. Feel the difference. Add more once you do.
+              </p>
+            </div>
+
+            <p className="text-[20px] md:text-[24px] text-primary font-bold mt-8 text-center">
               And just so you know... you're taking ZERO risk here:
             </p>
           </div>
