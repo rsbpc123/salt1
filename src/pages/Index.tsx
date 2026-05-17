@@ -2943,32 +2943,33 @@ const Index = () => {
           </div>
           
           {/* Benefit Callouts */}
-          <div className="mt-12 space-y-4 max-w-[750px] mx-auto text-center">
-            <div className="flex items-center gap-3 justify-center">
-              <span className="text-[24px]">→</span>
+          <div className="mt-12 space-y-5 max-w-[750px] mx-auto">
+            <p className="text-[20px] md:text-[26px] font-bold text-primary text-center mb-6">
+              WHICH OPTION IS RIGHT FOR YOU?
+            </p>
+
+            <div className="flex items-start gap-3">
+              <span className="text-[24px] text-primary leading-none">→</span>
               <p className="text-[16px] md:text-[20px] text-foreground">
-                <span className="font-bold">Get 3 pouches for just $78 each.</span> <span className="text-primary font-semibold">(MOST POPULAR)</span>
+                <span className="font-bold">If you want what Linda has... get three pouches.</span> Bedroom. Living room. Wherever else you spend your day. This is the minimum that gets you the around-the-clock coverage that actually changes things.
               </p>
             </div>
-            <p className="text-[14px] md:text-[18px] text-muted-foreground italic">
-              This is what Linda uses. One for the bedroom. One for the living room. One for travel.
-            </p>
-            
-            <div className="flex items-center gap-3 justify-center mt-6">
-              <span className="text-[24px]">→</span>
+
+            <div className="flex items-start gap-3">
+              <span className="text-[24px] text-primary leading-none">→</span>
               <p className="text-[16px] md:text-[20px] text-foreground">
-                <span className="font-bold">Or get 5 pouches for just $62 each.</span> <span className="text-primary font-semibold">(BEST VALUE)</span>
+                <span className="font-bold">If you want what Linda's sister got... get five pouches.</span> Full home coverage. Lowest per-pouch price we offer. Enough supply for the next 2 to 3 years, plus extras for any family member who needs it. <span className="italic">This is the smart play for almost everyone reading this.</span>
               </p>
             </div>
-            <p className="text-[14px] md:text-[18px] text-muted-foreground italic">
-              Stock up now. Because once this batch sells out, it could be MONTHS before we get more.
-            </p>
-            
-            <p className="text-[18px] md:text-[22px] text-foreground font-semibold mt-8">
-              That's less than <span className="text-primary font-bold">$2 per day</span>. To breathe easier. Sleep better. And get your life back.
-            </p>
-            
-            <p className="text-[20px] md:text-[24px] text-primary font-bold mt-6">
+
+            <div className="flex items-start gap-3">
+              <span className="text-[24px] text-primary leading-none">→</span>
+              <p className="text-[16px] md:text-[20px] text-foreground">
+                <span className="font-bold">If you genuinely can't swing either today... one pouch in the bedroom is better than zero.</span> Start there. Feel the difference. Add more once you do.
+              </p>
+            </div>
+
+            <p className="text-[20px] md:text-[24px] text-primary font-bold mt-8 text-center">
               And just so you know... you're taking ZERO risk here:
             </p>
           </div>
