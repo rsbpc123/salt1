@@ -640,7 +640,7 @@ const Index = () => {
       <section className="py-10 px-4 bg-secondary">
         <div className="max-w-[970px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
-            The Late-Night Google Search That Changed Everything
+            The Late-Night Search That Changed Everything.
           </h2>
           
           <div className="md:float-left md:mr-6 md:-ml-4 text-center mb-4 relative">
@@ -663,60 +663,61 @@ const Index = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda was finally asleep upstairs.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I was at the kitchen table. Googling.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I was at the kitchen table.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">"Natural asthma remedies." "COPD cure." "How to reverse lung fibrosis."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Googling.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">"Natural asthma remedies." "COPD treatments." "How to reverse lung damage."</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Most of it was garbage.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Essential oils. Breathing apps. Supplements that did nothing.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Essential oils.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Breathing apps.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Supplements that did nothing.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I was about to close the laptop.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">Then I saw it.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">A research paper from some Romanian medical institute.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">A research paper from a Romanian medical institute.</p>
           
           <div className="bg-card rounded-[14px] p-5 md:p-6 mt-8 border-l-4 border-primary">
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold italic">
-              "Long-term efficacy of halotherapy in chronic obstructive pulmonary disease."
+              "Long-term efficacy of halotherapy in chronic respiratory conditions."
             </p>
           </div>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8"><strong>Halotherapy.</strong> Breathing microscopic salt particles.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8"><strong>Halotherapy.</strong></p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Breathing microscopic salt particles.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Sounded weird.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">But the study had REAL results.</p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">People with COPD seeing improvements in lung function. Reduced coughing. Better oxygen saturation.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">But the study had real results.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">I kept reading.</p>
           
           <div className="clear-both" />
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Turns out, halotherapy started in actual salt MINES. Deep underground in Eastern Europe.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Halotherapy started in actual salt mines.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">There's this place in Romania. The Praid Salt Mine.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Deep underground in Eastern Europe.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">For over a CENTURY, people with severe lung problems traveled there from all over Europe.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">There's a place in Romania called the Praid Salt Mine.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">For over a century, people with severe lung problems traveled there from all over Europe.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">To go down into the mine and just... breathe.</p>
           
-          {/* Results Box */}
-          <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-10 text-primary-foreground">
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">
-              People with Stage 3 COPD seeing their oxygen levels jump from 88% to 96%.
-            </p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4">
-              People on oxygen tanks for YEARS... breathing freely.
-            </p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4 font-bold">
-              Over 50% reduced their medications. Some stopped entirely.
-            </p>
-          </div>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">The studies described people whose oxygen levels improved.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">I'm reading about people who sound EXACTLY like Linda.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">People who reduced their medications.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Some who stopped them entirely.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I was reading about people who sounded exactly like Linda.</p>
           
           <div className="md:float-right md:ml-6 md:-mr-4 text-center my-4 relative">
             <div 
@@ -734,9 +735,11 @@ const Index = () => {
             </div>
           </div>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Getting better. Not managing.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Getting better.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-primary text-[24px] md:text-[32px]">BETTER.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Not managing.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Better.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">The next morning, I showed Linda everything.</p>
           
@@ -744,17 +747,16 @@ const Index = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"I don't know. But we need to find out."</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She nodded. "Okay. Let's go."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She nodded.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">But here's what I didn't know yet...</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Okay. Let's go."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">But here's what I didn't know yet.</p>
           
           {/* Cliffhanger Box */}
           <div className="bg-foreground rounded-[10px] p-5 md:p-6 mt-10 text-background">
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">
-              The mine that saved all those people?
-            </p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4 font-bold">
-              It had just collapsed.
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">
+              The mine that had saved all those people had just collapsed.
             </p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4 font-bold italic">
               And we were about to fly 5,000 miles... for nothing.
