@@ -1088,6 +1088,22 @@ const Index = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">"Robert? Linda? I'm Dr. Elena Popescu. Welcome to Mânzălești."</p>
           
+          <figure className="mt-10 relative">
+            <div 
+              className="relative overflow-visible mx-auto max-w-[400px]"
+              style={{
+                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
+              }}
+            >
+              <img 
+                src={drElenaPopescu} 
+                alt="Dr. Elena Popescu" 
+                className="w-full h-auto"
+              />
+            </div>
+          </figure>
+          
         </div>
       </section>
 
