@@ -2065,35 +2065,43 @@ const Index = () => {
         </div>
       </section>
 
-      {/* What Happened When Linda Used the Pouch - Part 1 */}
+      {/* What Happened When The Pouch Arrived */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8 text-primary">
-            What Happened When Linda Used the Pouch
+            What Happened When The Pouch Arrived.
           </h2>
-          
+
           <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
-          
+
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
             <p>Two weeks later, a small package arrived from Romania.</p>
-            
-            <p>Inside was a fabric pouch. About the size of a brick.</p>
-            
-            <p>It felt warm to the touch.</p>
-            
-            <p className="font-semibold">And when I held it up to my nose... I could smell it.</p>
-            
-            <p>That distinct, mineral-rich scent from Mânzălești.</p>
-            
-            <p>There was something ELSE in the box too.</p>
-            
+
+            <p>Inside was a fabric pouch.</p>
+
+            <p>About the size of a brick.</p>
+
+            <p>It felt warm.</p>
+
+            <p className="font-semibold">And when I held it up to my nose, I could smell it.</p>
+
+            <p>That mineral-rich scent from Mânzălești.</p>
+
+            <p>There was something else in the box too.</p>
+
             <p className="font-semibold text-primary">A small glass ampule.</p>
-            
+
             <p>Filled with pinkish-white salt crystals.</p>
-            
+
             <p className="italic">I recognized it immediately.</p>
-            
-            <p>The same vial Ana had shown us.</p>
+
+            <p>The same kind Ana had given Linda.</p>
+
+            <p>A note from Dr. Popescu.</p>
+
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "A small keepsake from the village. Linda will know what to do with it."
+            </p>
           </div>
         </div>
       </section>
@@ -2102,16 +2110,16 @@ const Index = () => {
       <section className="py-8 md:py-12 px-4 bg-secondary/30">
         <div className="max-w-[400px] mx-auto">
           <figure className="relative">
-            <div 
+            <div
               className="relative overflow-visible mx-auto"
               style={{
                 maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
                 WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
               }}
             >
-              <img 
-                src={saltParticleVisualization} 
-                alt="Small glass vial filled with pink salt crystals" 
+              <img
+                src={saltParticleVisualization}
+                alt="Small glass vial filled with pink salt crystals"
                 className="w-full h-auto rounded-lg"
               />
             </div>
@@ -2119,65 +2127,21 @@ const Index = () => {
         </div>
       </section>
 
-      {/* The Phone Call About the Vial */}
-      <section className="py-10 md:py-16 px-4 bg-background">
-        <div className="max-w-[750px] mx-auto">
-          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>I called Dr. Popescu.</p>
-            
-            <p>"I got the package. But... what's this?"</p>
-            
-            <p>She laughed. "Ah. That's a tradition here. We don't just USE the salt. We CARRY it."</p>
-            
-            <p className="italic">"Ana gave one to Linda, remember?"</p>
-            
-            <p>"I included one for each of you. Keep it in your pocket. Your purse. Wherever you go."</p>
-            
-            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
-              "It's... how do I say... a piece of the village. A reminder that you're protected."
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* The Meaning of the Vial */}
-      <section className="py-10 md:py-16 px-4 bg-primary/5">
-        <div className="max-w-[750px] mx-auto">
-          <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
-            <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-              <p>I looked at the vial. "Does it actually DO anything?"</p>
-              
-              <p>She paused. "I don't know if it's placebo. Or energy. Or just HOPE."</p>
-              
-              <p className="font-semibold">"But the villagers believe it works. And honestly? So do I."</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Giving Linda the Pouch */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>I brought the pouch to Linda. "Dr. Popescu sent this. She says it'll work like the village air."</p>
-            
-            <p>Linda looked at me. Hopeful. But scared to hope.</p>
-            
+            <p>I brought the pouch to Linda.</p>
+
             <p>"Where do I put it?"</p>
-            
+
             <p>"On your nightstand. Or on your chest while you sleep."</p>
-            
-            <p>I also handed her the small ampule.</p>
-            
-            <p>She held it in her hand. Smiled.</p>
-            
-            <p className="font-semibold italic">"I remember this."</p>
-            
+
             <p>That night, Linda placed the pouch on her nightstand.</p>
-            
-            <p className="text-[22px] md:text-[28px] font-bold text-primary">And from that day on...</p>
-            
-            <p className="font-semibold">She carried the ampule everywhere.</p>
+
+            <p className="italic">Slipped the ampule into her purse.</p>
+
+            <p className="italic">The way Ana had carried hers.</p>
           </div>
         </div>
       </section>
@@ -2189,12 +2153,12 @@ const Index = () => {
             <p className="text-[22px] md:text-[28px] italic text-muted-foreground">We didn't expect anything. Neither of us.</p>
             <p className="text-[32px] md:text-[44px] font-bold text-primary mt-4">But...</p>
           </div>
-          
+
           {/* Timeline */}
           <div className="relative">
             {/* Vertical Line */}
             <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-gradient-to-b from-primary/30 via-primary to-primary/30 h-full rounded-full" />
-            
+
             {/* Timeline Items */}
             <div className="space-y-8 md:space-y-12">
               {/* Day 3 */}
@@ -2207,16 +2171,16 @@ const Index = () => {
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-primary rounded-full border-4 border-background shadow-lg z-10" />
                 <div className="w-1/2 pl-8 md:pl-12">
                   <div className="bg-card rounded-xl p-5 md:p-6 shadow-lg border-l-4 border-primary">
-                    <p className="text-[18px] md:text-[22px] font-semibold">Her wheezing <span className="text-primary">stopped</span>.</p>
+                    <p className="text-[18px] md:text-[22px] font-semibold">Her wheezing stopped.</p>
                   </div>
                 </div>
               </div>
-              
+
               {/* Week 1 */}
               <div className="relative flex items-center">
                 <div className="w-1/2 pr-8 md:pr-12 text-right">
                   <div className="bg-card rounded-xl p-5 md:p-6 shadow-lg border-r-4 border-primary">
-                    <p className="text-[18px] md:text-[22px] font-semibold">Sleeping through the night <span className="text-primary">again</span>.</p>
+                    <p className="text-[18px] md:text-[22px] font-semibold">Sleeping through the night again.</p>
                   </div>
                 </div>
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-primary rounded-full border-4 border-background shadow-lg z-10" />
@@ -2226,7 +2190,7 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-              
+
               {/* Week 2 */}
               <div className="relative flex items-center">
                 <div className="w-1/2 pr-8 md:pr-12 text-right">
@@ -2237,11 +2201,11 @@ const Index = () => {
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-primary rounded-full border-4 border-background shadow-lg z-10" />
                 <div className="w-1/2 pl-8 md:pl-12">
                   <div className="bg-card rounded-xl p-5 md:p-6 shadow-lg border-l-4 border-primary">
-                    <p className="text-[18px] md:text-[22px] font-semibold">Walking the neighborhood <span className="text-primary">without her inhaler</span>.</p>
+                    <p className="text-[18px] md:text-[22px] font-semibold">Walking the neighborhood without reaching for her inhaler.</p>
                   </div>
                 </div>
               </div>
-              
+
               {/* Month 1 - Featured */}
               <div className="relative flex items-center pt-4">
                 <div className="w-full">
@@ -2250,7 +2214,7 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="relative">
                 <div className="bg-gradient-to-r from-primary via-primary to-primary/80 rounded-2xl p-8 md:p-10 shadow-2xl text-center mx-4 md:mx-12">
                   <div className="inline-block bg-background/20 backdrop-blur-sm px-6 py-2 rounded-full font-bold text-[20px] md:text-[26px] text-primary-foreground mb-4">
