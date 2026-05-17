@@ -430,7 +430,7 @@ const Index = () => {
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            Every doctor said the same thing:
+            And every doctor said the same thing.
           </p>
           
           {/* Doctor Quote Box */}
@@ -441,7 +441,7 @@ const Index = () => {
           </div>
           
           <p className="text-[28px] md:text-[40px] leading-[36px] md:leading-[50px] mt-10 font-bold text-center">
-            MANAGE.
+            Manage.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
