@@ -283,9 +283,6 @@ const Index = () => {
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">No solution.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">No plan.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Just... keep drowning.</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">Except Linda's lungs were already turning to cement.</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">And I was running out of time to save her.</p>
-            
             <div className="clear-both" />
           </div>
           
