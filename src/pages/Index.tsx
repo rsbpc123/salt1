@@ -2839,7 +2839,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-4 items-stretch">
             
             {/* Option 1 - Single Pouch */}
-            <div className="bg-white rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
+            <div id="pkg-1" className="scroll-mt-24 bg-white rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
               <h3 className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-0">ONE LONGEVITY SALT</h3>
               <p className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-2">POUCH</p>
               
