@@ -1468,21 +1468,31 @@ const Index = () => {
         <div className="max-w-[750px] mx-auto">
           <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
             <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-              <p>She opened her eyes. "Morning."</p>
+              <p>She opened her eyes.</p>
               
-              <p>Her voice was clear. Not strained. <span className="font-bold">Clear.</span></p>
+              <p>"Morning."</p>
               
-              <p>"How do you feel?" I asked.</p>
+              <p>Her voice was clear.</p>
               
-              <p>She paused. Took a deep breath. All the way in. Held it. Then let it out slowly.</p>
+              <p>Not strained.</p>
+              
+              <p className="font-bold">Clear.</p>
+              
+              <p>"How do you feel?"</p>
+              
+              <p>She paused.</p>
+              
+              <p>Took a deep breath.</p>
+              
+              <p>All the way in.</p>
+              
+              <p>Held it.</p>
+              
+              <p>Let it out slowly.</p>
               
               <p className="font-semibold">Her eyes widened.</p>
               
               <p className="text-[24px] md:text-[32px] font-bold text-primary text-center my-8">"I can breathe," she whispered.</p>
-              
-              <p>Not "I'm breathing okay." Not "I'm managing."</p>
-              
-              <p className="text-[26px] md:text-[34px] font-bold text-center">"I can BREATHE."</p>
             </div>
           </div>
         </div>
