@@ -2590,7 +2590,7 @@ const Index = () => {
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
                 <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Sleeping through the night</span>
-                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Husband back in bedroom</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Husband back in their bedroom</span>
               </div>
             </div>
           </div>
