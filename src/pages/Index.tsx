@@ -37,7 +37,6 @@ import coffeeShopCouple from "@/assets/coffee-shop-couple.jpg";
 import ioanaConversation from "@/assets/ioana-conversation.jpg";
 import phoneYoutubeVideo from "@/assets/phone-youtube-video.jpg";
 import napkinElenaPopescu from "@/assets/napkin-elena-popescu.jpg";
-import phoneEmailDrPopescu from "@/assets/phone-email-dr-popescu.jpg";
 import phoneEmailNotification from "@/assets/phone-email-notification.png";
 import mariaCottage from "@/assets/maria-cottage.jpg";
 import doctorPhoto from "@/assets/doctor-photo.png";
@@ -1028,159 +1027,67 @@ const Index = () => {
       {/* Section 10 - Dr. Popescu Email */}
       <section className="py-10 px-4 bg-card">
         <div className="max-w-[970px] mx-auto">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2">
-            What a Romanian Researcher Told Us
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
+            The Email That Sent Us Into The Mountains.
           </h2>
-          <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] font-bold text-center text-primary mb-8">
-            (That Made Us Drive 4 Hours Into the Mountains)
-          </p>
           
-          <div className="my-10 text-center">
-            <img 
-              src={phoneEmailDrPopescu} 
-              alt="Phone showing email from Dr. Elena Popescu" 
-              className="w-[320px] md:w-[450px] mx-auto rounded-lg"
-            />
-          </div>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I emailed Dr. Popescu from the cafe.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I sent the email right there.</p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Explained who we were. Why we came. What we were hoping to find.</p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">Two hours later... my phone buzzed.</p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">An email from Dr. Elena Popescu.</p>
-          
-          <div className="clear-both" />
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">Two hours later, my phone buzzed.</p>
           
           {/* Email Box */}
           <div className="bg-secondary rounded-[14px] p-6 md:p-8 mt-10 border-l-4 border-primary">
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic">"Dear Robert and Linda,</p>
             
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">I'm so glad you reached out.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">I'm glad you reached out.</p>
             
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold">I've been researching Mânzălești for over 15 years. I've documented over 40 residents over 90 years old. Out of just 2,000 people.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold">I've been researching Mânzălești for over 15 years. I've documented over 40 residents who are over 90 years old. Out of just 2,000 people.</p>
             
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">What I've found there is far more powerful than anything that happened in the mine.</p>
             
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">The mine was therapeutic. But Mânzălești? It's NATURAL. The salt is everywhere. In the soil. The water. The AIR.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">The mine was therapeutic. But Mânzălești is natural. The salt is in the soil. The water. The air. The people don't just visit it. They live in it. Every breath. Every day. Their whole lives.</p>
             
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold">The people there don't just visit the salt. They LIVE in it. Breathe it. Every day. For their entire lives.</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold">Meet me there tomorrow. I'll show you.</p>
             
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">If you're willing to make the drive, I'd be happy to meet you there tomorrow. I can show you the village and explain exactly why the air might help Linda.</p>
-            
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">Let me know.</p>
-            
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold">– Dr. Elena Popescu"</p>
+            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold">Dr. Elena Popescu"</p>
           </div>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I read the email out loud to Linda.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">We left the next morning.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">She looked at me. "Let's go."</p>
-        </div>
-      </section>
-
-      {/* The 4-Hour Drive Section */}
-      <section className="py-10 md:py-16 px-4 bg-background">
-        <div className="max-w-[750px] mx-auto">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-4 text-primary">
-            The 4-Hour Drive That Felt Like Traveling Back in Time
-          </h2>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Four hours through villages that looked like they hadn't changed in 100 years.</p>
           
-          <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Wooden houses.</p>
           
-          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>We left before sunrise.</p>
-            
-            <p>For the first hour, everything looked normal. Small towns. Gas stations. Road signs.</p>
-            
-            <p>Then the road narrowed.</p>
-            
-            <p>The towns got smaller.</p>
-            
-            <p>We passed villages that looked like they hadn't changed in 100 years.</p>
-            
-            <p>Wooden houses. Horse-drawn carts. Fields worked by hand.</p>
-            
-            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
-              "This feels like we're in a different century," Linda said.
-            </p>
-            
-            <div className="my-8">
-              <img 
-                src={romanianVillageDrive} 
-                alt="View through car windshield of a horse-drawn cart on a muddy road in a Romanian village" 
-                className="w-full h-auto rounded-lg"
-              />
-            </div>
-            
-            <p>She wasn't wrong.</p>
-            
-            <p>Another hour passed.</p>
-            
-            <p>Then... I saw them.</p>
-            
-            <p className="text-[22px] md:text-[28px] font-bold text-primary">White hills rising from the valley.</p>
-            
-            <p>At first, I thought: snow.</p>
-            
-            <p>But it was May. Too warm.</p>
-            
-            <p>I pulled over. Got out. Walked closer.</p>
-            
-            <p className="text-[24px] md:text-[32px] font-bold">Not snow.</p>
-            
-            <p className="text-[24px] md:text-[32px] font-bold text-primary">Salt.</p>
-            
-            <figure className="float-right ml-6 md:ml-10 -mr-4 md:-mr-8 mb-6 w-72 md:w-[420px] relative">
-              <img 
-                src={saltHillsRomania} 
-                alt="Couple standing by their car looking at the white salt hills of Romania" 
-                className="w-full h-auto rounded-lg"
-              />
-            </figure>
-            
-            <p>Coating the hillsides like powder. Sparkling in the morning sun.</p>
-            
-            <p>Linda came up beside me. "Robert... is that...?"</p>
-            
-            <p>"Yeah," I said quietly. "That's salt."</p>
-            
-            <p>We stood there. Just staring.</p>
-            
-            <p>Then I heard a car pull up behind us.</p>
-            
-            <p>I turned.</p>
-            
-            <p>A woman got out. Probably in her late 50s. Warm smile.</p>
-            
-            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8 clear-both">
-              "Robert? Linda?"
-            </p>
-            
-            <p>I nodded.</p>
-            
-            <p>She walked over. Extended her hand.</p>
-            
-            <p className="text-[22px] md:text-[28px] font-bold text-primary">"I'm Dr. Elena Popescu. Welcome to Mânzălești."</p>
-          </div>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Horse-drawn carts.</p>
           
-          {/* Dr. Popescu Image */}
-          <figure className="mt-10 relative">
-            <div 
-              className="relative overflow-visible mx-auto max-w-[400px]"
-              style={{
-                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
-                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
-              }}
-            >
-              <img 
-                src={drElenaPopescu} 
-                alt="Dr. Elena Popescu" 
-                className="w-full h-auto"
-              />
-            </div>
-          </figure>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Fields worked by hand.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Then I saw them.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">White hills rising from the valley.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Coating the hillsides like powder.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Sparkling in the morning sun.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda came up beside me.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">"Robert... is that...?"</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Yeah."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"That's salt."</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">We stood there. Just staring.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">A small car pulled up behind us.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">A woman in her late 50s got out.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Warm smile. Sharp eyes.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">"Robert? Linda? I'm Dr. Elena Popescu. Welcome to Mânzălești."</p>
+          
         </div>
       </section>
 
