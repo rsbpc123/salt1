@@ -288,7 +288,7 @@ const Index = () => {
           
           {/* Big Headline */}
           <h2 className="text-[24px] md:text-[38px] leading-[32px] md:leading-[48px] font-bold text-center text-primary-foreground pt-10 pb-2">
-            Two Weeks Later, a Doctor Showed Us Linda's Lungs
+            Two Weeks Later, A Doctor Showed Us Linda's Lungs.
           </h2>
 
           <div className="clear-both pb-10" />
