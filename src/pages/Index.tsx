@@ -768,12 +768,9 @@ const Index = () => {
       {/* Section 8 - The Salt Mine Discovery */}
       <section className="py-10 px-4 bg-card">
         <div className="max-w-[970px] mx-auto">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2">
-            We Flew 5,000 Miles to a Salt Mine...
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
+            We Flew 5,000 Miles To A Salt Mine That No Longer Existed.
           </h2>
-          <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] font-bold text-center text-destructive mb-8">
-            Only to Find THIS
-          </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
             Three weeks later, we were on a plane to Bucharest.
@@ -784,11 +781,19 @@ const Index = () => {
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
-            Heading to Praid. Home to the famous Praid Salt Mine.
+            Heading to Praid.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            I was nervous. But hopeful.
+            Home of the famous salt mine.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            I was nervous.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            But hopeful.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
@@ -816,15 +821,20 @@ const Index = () => {
             </div>
           </div>
           
-          <p className="text-[28px] md:text-[40px] leading-[36px] md:leading-[50px] font-bold text-center text-destructive">
-            ÎNCHIS
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">
+            ÎNCHIS.
           </p>
-          <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] text-center italic mt-2 mb-8">
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
             Closed.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            I walked closer. Another sign. In Romanian and English.
+            I walked closer.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            Another sign in Romanian and English.
           </p>
           
           <div className="bg-foreground rounded-[10px] p-5 md:p-6 mt-8 text-background">
@@ -838,7 +848,11 @@ const Index = () => {
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            We'd flown 5,000 miles. Spent money we didn't have.
+            We'd flown 5,000 miles.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            Spent money we didn't have.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">
