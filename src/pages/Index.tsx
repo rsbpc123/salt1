@@ -78,7 +78,7 @@ import button1Gift from "@/assets/button-1-gift.png";
 import button3Gifts from "@/assets/button-3-gifts.png";
 import button5Gifts from "@/assets/button-5-gifts.png";
 import oximeterPeakFlow from "@/assets/oximeter-peak-flow.jpg";
-import spirometerScreen from "@/assets/spirometer-screen.jpg";
+import spirometerScreen from "@/assets/spirometer-comparison.webp";
 
 import testimonialMargaret from "@/assets/testimonial-margaret.jpg";
 import testimonialPatricia from "@/assets/testimonial-patricia.jpg";
