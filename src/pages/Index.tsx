@@ -83,7 +83,6 @@ import longevitySaltProduct from "@/assets/longevity-salt-product.png";
 import testimonialMargaret from "@/assets/testimonial-margaret.jpg";
 import testimonialPatricia from "@/assets/testimonial-patricia.jpg";
 import testimonialJames from "@/assets/testimonial-james.jpg";
-import testimonialDavid from "@/assets/testimonial-david.jpg";
 import testimonialCarol from "@/assets/testimonial-carol.jpg";
 import manKneePain from "@/assets/man-knee-pain.jpg";
 import saltHerbsPouch from "@/assets/salt-herbs-pouch.jpg";
@@ -2549,135 +2548,95 @@ const Index = () => {
       <section className="py-10 md:py-16 px-4 bg-secondary/30">
         <div className="max-w-[900px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-10 text-primary">
-            Here's What REAL People Are Saying
+            Real People. Real Lives. Real Change.
           </h2>
           
           <div className="space-y-8">
             {/* Testimonial 1 - Margaret */}
             <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg">
               <div className="flex items-start gap-4 mb-4">
-                <img 
-                  src={testimonialMargaret} 
-                  alt="Margaret T., 67, from Tulsa, OK" 
+                <img
+                  src={testimonialMargaret}
+                  alt="Margaret T., 67, from Tulsa, OK"
                   className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover flex-shrink-0 border-2 border-primary/20 shadow-md"
                 />
                 <div>
                   <p className="font-bold text-[18px] md:text-[22px] text-primary">Margaret T., 67</p>
-                  <p className="text-muted-foreground text-[14px] md:text-[16px]">Tulsa, OK | Stage 3 COPD</p>
+                  <p className="text-muted-foreground text-[14px] md:text-[16px]">Tulsa, OK</p>
                 </div>
               </div>
               <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground italic">
-                <p>"I've had COPD for 12 years. Stage 3. Five medications. Oxygen saturation at 84%.</p>
-                <p>My daughter bought me one of these pouches.</p>
-                <p>Three weeks later, I was sleeping through the night.</p>
-                <p>My pulmonologist ran a spirometry test and said my lung function improved by 19%.</p>
-                <p>Oxygen saturation jumped to 93%.</p>
-                <p>I'm down to TWO medications now."</p>
+                <p>"For 12 years I'd wake up at 3 in the morning, every morning, reaching for my inhaler in the dark. My husband stopped sleeping in the same room because he couldn't take watching me struggle. My daughter bought me one of these pouches as a Mother's Day gift. I honestly didn't expect anything. Three weeks in, I slept through to 8 AM for the first time I can remember. I cried when I called to tell my daughter. My husband is back in our bed."</p>
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
-                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ FEV1: +19% improvement</span>
-                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ O2 Saturation: 84% → 93%</span>
-                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Medications: 5 → 2</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Sleeping through to 8 AM</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Husband back in same room</span>
               </div>
             </div>
 
             {/* Testimonial 2 - Patricia */}
             <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg">
               <div className="flex items-start gap-4 mb-4">
-                <img 
-                  src={testimonialPatricia} 
-                  alt="Patricia H., 61, from Charleston, SC" 
+                <img
+                  src={testimonialPatricia}
+                  alt="Patricia H., 61, from Charleston, SC"
                   className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover flex-shrink-0 border-2 border-primary/20 shadow-md"
                 />
                 <div>
                   <p className="font-bold text-[18px] md:text-[22px] text-primary">Patricia H., 61</p>
-                  <p className="text-muted-foreground text-[14px] md:text-[16px]">Charleston, SC | Oxygen-Dependent COPD</p>
+                  <p className="text-muted-foreground text-[14px] md:text-[16px]">Charleston, SC</p>
                 </div>
               </div>
               <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground italic">
-                <p>"For the last 5 years, I couldn't go ANYWHERE without my portable oxygen tank.</p>
-                <p>My daughter's wedding was coming up and I was terrified.</p>
-                <p>A friend told me about Longevity Salt.</p>
-                <p>Six weeks later... I walked her down that aisle breathing on my own."</p>
+                <p>"For five years I couldn't go anywhere without my portable oxygen tank. My daughter was getting married and I'd already told her I'd watch the ceremony from the back row so I wouldn't ruin the photos. A friend told me about Longevity Salt. I started using it eight weeks before the wedding. I walked her down that aisle. No tank. I still can't believe it happened."</p>
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
                 <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ On oxygen for 5 years</span>
-                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Off oxygen after 6 weeks</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Walked daughter down the aisle</span>
               </div>
             </div>
 
             {/* Testimonial 3 - James */}
             <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg">
               <div className="flex items-start gap-4 mb-4">
-                <img 
-                  src={testimonialJames} 
-                  alt="James R., 72, from Asheville, NC" 
+                <img
+                  src={testimonialJames}
+                  alt="James R., 72, from Asheville, NC"
                   className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover flex-shrink-0 border-2 border-primary/20 shadow-md"
                 />
                 <div>
                   <p className="font-bold text-[18px] md:text-[22px] text-primary">James R., 72</p>
-                  <p className="text-muted-foreground text-[14px] md:text-[16px]">Asheville, NC | Stage 3 COPD + Fibrosis</p>
+                  <p className="text-muted-foreground text-[14px] md:text-[16px]">Asheville, NC</p>
                 </div>
               </div>
               <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground italic">
-                <p>"Stage 3 COPD. Pulmonary fibrosis. The doctors told me my lungs were done. That I'd be on oxygen for the rest of my life.</p>
-                <p>Two months in, my oxygen saturation went from 88% to 94%.</p>
-                <p>I've gained a level of freedom I haven't felt in years.</p>
-                <p>And I'm hiking again."</p>
+                <p>"I'd been told the damage was permanent. That I should expect to be on supplemental oxygen the rest of my life. My grandson kept asking me to take him hiking like I used to, and I kept telling him maybe next year. Two months after I started using the pouch on my nightstand, we did three miles up at Craggy Gardens. We took our time. He held my hand on the way down. That was the part that got me."</p>
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
-                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ O2 Saturation: 88% → 94%</span>
-                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Off oxygen after 8 weeks</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Off supplemental oxygen after 8 weeks</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Hiking again at Craggy Gardens</span>
               </div>
             </div>
 
-            {/* Testimonial 4 - David */}
+            {/* Testimonial 4 - Carol */}
             <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg">
               <div className="flex items-start gap-4 mb-4">
-                <img 
-                  src={testimonialDavid} 
-                  alt="David S., 55, from Atlanta, GA" 
-                  className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover flex-shrink-0 border-2 border-primary/20 shadow-md"
-                />
-                <div>
-                  <p className="font-bold text-[18px] md:text-[22px] text-primary">David S., 55</p>
-                  <p className="text-muted-foreground text-[14px] md:text-[16px]">Atlanta, GA | Severe Asthma</p>
-                </div>
-              </div>
-              <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground italic">
-                <p>"I was using my rescue inhaler 6 to 8 times a day. EVERY day. For three years.</p>
-                <p>Eight weeks after getting the pouch, I'm down to using my inhaler maybe once or twice a WEEK.</p>
-                <p>My peak flow went from 280 to 450."</p>
-              </div>
-              <div className="mt-6 flex flex-wrap gap-3">
-                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Severe asthma</span>
-                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Inhaler use: 6-8x/day → 1-2x/week</span>
-                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Peak flow: 280 → 450</span>
-              </div>
-            </div>
-
-            {/* Testimonial 5 - Carol */}
-            <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg">
-              <div className="flex items-start gap-4 mb-4">
-                <img 
-                  src={testimonialCarol} 
-                  alt="Carol D., 59, from Knoxville, TN" 
+                <img
+                  src={testimonialCarol}
+                  alt="Carol D., 59, from Knoxville, TN"
                   className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover flex-shrink-0 border-2 border-primary/20 shadow-md"
                 />
                 <div>
                   <p className="font-bold text-[18px] md:text-[22px] text-primary">Carol D., 59</p>
-                  <p className="text-muted-foreground text-[14px] md:text-[16px]">Knoxville, TN | Chronic Bronchitis</p>
+                  <p className="text-muted-foreground text-[14px] md:text-[16px]">Knoxville, TN</p>
                 </div>
               </div>
               <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground italic">
-                <p>"I was at my wit's end. Every morning at 4 AM, I'd wake up coughing so hard I thought I was going to throw up.</p>
-                <p>I tried everything. Expensive air purifiers. Humidifiers. Sleeping propped up on three pillows. Nothing stopped the coughing fits.</p>
-                <p>Then I found Longevity Salt. I put the pouch on my nightstand three weeks ago. And I haven't woken up coughing ONCE since then. I'm FINALLY sleeping through the night."</p>
+                <p>"Every morning at 4 AM I'd wake up coughing so hard I thought I was going to throw up. My husband had moved to the spare room two years earlier because he wasn't sleeping. I ordered the pouch not really believing it would do anything. Three weeks later I realized I'd slept through the entire night. My husband is back in our bedroom."</p>
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
-                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Chronic bronchitis</span>
-                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Tried purifiers & humidifiers (failed)</span>
                 <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Sleeping through the night</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Husband back in bedroom</span>
               </div>
             </div>
           </div>
