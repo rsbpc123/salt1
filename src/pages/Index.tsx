@@ -821,15 +821,20 @@ const Index = () => {
             </div>
           </div>
           
-          <p className="text-[28px] md:text-[40px] leading-[36px] md:leading-[50px] font-bold text-center text-destructive">
-            ÎNCHIS
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">
+            ÎNCHIS.
           </p>
-          <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] text-center italic mt-2 mb-8">
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
             Closed.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            I walked closer. Another sign. In Romanian and English.
+            I walked closer.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            Another sign in Romanian and English.
           </p>
           
           <div className="bg-foreground rounded-[10px] p-5 md:p-6 mt-8 text-background">
@@ -843,7 +848,11 @@ const Index = () => {
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            We'd flown 5,000 miles. Spent money we didn't have.
+            We'd flown 5,000 miles.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            Spent money we didn't have.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">
