@@ -2601,44 +2601,51 @@ const Index = () => {
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[800px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-10 text-primary">
-            Here's Exactly What You're Getting Today
+            Here's Exactly What You Get Today.
           </h2>
-          
+
           <p className="text-[18px] md:text-[22px] text-center text-foreground mb-12">
-            When you order Longevity Salt today... here's what shows up at your door:
+            When you order Longevity Salt today, here's what shows up at your door.
           </p>
-          
+
           {/* Main Product - The Pouch */}
           <div className="bg-card rounded-xl p-6 md:p-10 shadow-lg mb-8 border-2 border-primary">
             <div className="flex items-center gap-3 mb-6">
               <span className="text-[28px] md:text-[36px]">→</span>
               <h3 className="text-[22px] md:text-[28px] font-bold text-primary">Your Longevity Salt Pouch</h3>
             </div>
-            
+
             <div className="flex justify-center mb-8">
-              <img 
-                src={saltPouchWhite} 
-                alt="Longevity Salt Pouch - authentic Romanian salt therapy" 
+              <img
+                src={saltPouchWhite}
+                alt="Longevity Salt Pouch - authentic Romanian salt therapy"
                 className="w-48 md:w-64 h-auto object-contain"
               />
             </div>
-            
+
             <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground">
-              <p>Hand-filled with authentic salt from the Mânzălești region in Romania. The SAME salt that covers the hills where centenarians live past 100.</p>
-              
-              <p>Infused with the exact same 4 ancient herbs that grow wild on those hillsides. <span className="font-semibold">Mint. Sage. Basil. Lavender.</span></p>
-              
+              <p>Hand-filled with authentic salt from the Mânzălești region in Romania.</p>
+
+              <p>The same salt that covers the hills where centenarians like Ana have lived their entire lives.</p>
+
+              <p>Infused with the four ancient herbs that grow wild on those hillsides.</p>
+
+              <p className="font-semibold">Mint. Sage. Basil. Lavender.</p>
+
               <p>Encased in a therapeutic-grade breathable membrane that releases microscopic salt particles when activated by your body heat.</p>
-              
-              <p className="font-semibold text-primary">No electricity. No machines. No setup.</p>
-              
-              <p>Just place it in your bedroom... or on your chest while you sleep... and breathe.</p>
-              
+
+              <p className="font-semibold text-primary">No electricity.</p>
+
+              <p className="font-semibold text-primary">No machines.</p>
+
+              <p className="font-semibold text-primary">No setup.</p>
+
+              <p>Place it on your nightstand. Or on your chest while you sleep.</p>
+
               <div className="bg-secondary/50 rounded-lg p-4 mt-6">
-                <p className="font-semibold">Each pouch is calibrated to cover approximately 215 square feet.</p>
-                <p className="text-muted-foreground mt-2">That's about the size of a standard master bedroom.</p>
-                <p className="text-muted-foreground mt-2">For larger spaces, like a living room around 430 square feet, you'll want two pouches.</p>
-                <p className="text-[14px] italic text-muted-foreground mt-4">Dr. Popescu measured this herself. Based on actual air quality readings from the village.</p>
+                <p className="font-semibold">Each pouch is calibrated to cover approximately 215 square feet, the size of a standard master bedroom.</p>
+                <p className="text-muted-foreground mt-2">For larger spaces, you may want two.</p>
+                <p className="text-muted-foreground mt-2">Each pouch maintains its therapeutic output for approximately 6 to 9 months under normal use, depending on room size and humidity. Most of our customers keep a fresh pouch in the bedroom and rotate older ones into less-used rooms before replacement.</p>
               </div>
             </div>
           </div>
@@ -2651,54 +2658,42 @@ const Index = () => {
           <div className="bg-card rounded-xl p-6 md:p-10 shadow-lg border-l-4 border-primary">
             <div className="flex items-center gap-3 mb-6">
               <span className="text-[28px] md:text-[36px]">→</span>
-              <h3 className="text-[22px] md:text-[28px] font-bold text-primary">The Longevity Salt Ampule – Your Timeless Energy Shield</h3>
+              <h3 className="text-[22px] md:text-[28px] font-bold text-primary">Bonus #1: Your Mânzălești Keepsake Ampule</h3>
             </div>
-            
+
             <div className="flex justify-center mb-8">
-              <img 
-                src={saltAmpule} 
-                alt="Longevity Salt Ampule - glass vial with sacred Romanian salt" 
+              <img
+                src={saltAmpule}
+                alt="Longevity Salt Ampule - glass vial with sacred Romanian salt"
                 className="w-32 md:w-40 h-auto object-contain"
               />
             </div>
-            
+
             <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground">
-              <p>When Dr. Popescu sent us our first shipment of Longevity Salt... she included something ELSE. Something I didn't expect.</p>
-              
-              <p className="font-semibold">A small glass ampule.</p>
-              
-              <p>Filled with the SAME sacred salt from the Mânzălești region. The same salt that covers the hills where centenarians live past 100.</p>
-              
-              <p className="font-semibold text-primary">But this isn't for breathing. It's for CARRYING.</p>
-              
-              <p>See, in Romania, salt isn't just used for health. It's carried. As a protector. A purifier. An energy shield.</p>
-              
-              <div className="bg-secondary/50 rounded-lg p-4 my-6 italic">
-                <p>I met a 97-year-old woman in the village. Ana. She was chopping wood like she was in her 40s.</p>
-                <p className="mt-2">And when I asked her HOW... she showed me a small vial around her neck. Filled with salt from the mine.</p>
-                <p className="mt-2">She said it kept her strong. Kept the bad energy away.</p>
-              </div>
-              
-              <p>At first, I thought it was just superstition. But Linda? She carries hers everywhere. And she SWEARS it helps.</p>
-              
-              <p>She says it keeps her calm. Grounded. Like... the weight of her illness isn't crushing her anymore.</p>
-              
-              <p>Now... I'm a logical guy. I don't usually believe in this kind of stuff. But I've seen what this salt can do. It cleared Linda's lungs. It healed my knee.</p>
-              
-              <p className="font-semibold">So why WOULDN'T it protect our energy too?</p>
-              
-              <p>That's why I'm including one for you. A small glass ampule filled with the SAME sacred salt.</p>
-              
-              <p>You can carry it in your pocket. Your purse. Keep it on your desk. Or next to your bed.</p>
-              
-              <p className="italic">It's a piece of the village. A reminder that you're protected. That you're HEALING.</p>
-              
-              <p className="font-bold text-primary">And that this salt is MORE than just a lung remedy. It's a LIFE remedy.</p>
+              <p>A small glass vial filled with the same authentic salt that covers the hills outside Ana's cottage.</p>
+
+              <p>In Mânzălești, carrying a small ampule of salt is a tradition that goes back generations.</p>
+
+              <p>Grandmothers give them to their grandchildren.</p>
+
+              <p>Husbands give them to their wives.</p>
+
+              <p>A small reminder that they come from this valley.</p>
+
+              <p>That they're connected to the air that keeps them strong.</p>
+
+              <p>Linda carries hers in her purse.</p>
+
+              <p>I keep mine on my desk.</p>
+
+              <p>When you order today, you'll get one too.</p>
+
+              <p className="italic">A small piece of the village you can take with you.</p>
             </div>
-            
+
             <div className="mt-6 flex flex-wrap items-center gap-4">
               <span className="text-muted-foreground line-through text-[16px]">Retail Value: $47</span>
-              <span className="bg-primary text-primary-foreground px-4 py-2 rounded-full font-bold">✓ Yours FREE when you order today</span>
+              <span className="bg-primary text-primary-foreground px-4 py-2 rounded-full font-bold">Yours free with every order</span>
             </div>
           </div>
         </div>
@@ -2710,26 +2705,28 @@ const Index = () => {
           <div className="bg-card rounded-xl p-6 md:p-10 shadow-lg border-l-4 border-primary">
             <div className="flex items-center gap-3 mb-6">
               <span className="text-[28px] md:text-[36px]">→</span>
-              <h3 className="text-[22px] md:text-[28px] font-bold text-primary">Dr. Popescu's Traditional Longevity Tea Recipe</h3>
+              <h3 className="text-[22px] md:text-[28px] font-bold text-primary">Bonus #2: Dr. Popescu's Traditional Longevity Tea Recipe</h3>
             </div>
-            
+
             <div className="flex justify-center mb-8">
-              <img 
-                src={teaRecipesBonus} 
-                alt="Traditional Longevity Tea Recipes book" 
+              <img
+                src={teaRecipesBonus}
+                alt="Traditional Longevity Tea Recipes book"
                 className="w-32 md:w-40 h-auto object-contain"
               />
             </div>
-            
+
             <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground">
               <p>The same tea Dr. Popescu brought to our rental that first night in Romania.</p>
-              
-              <p>A blend of <span className="font-semibold">thyme, rosemary, and eucalyptus</span> that helps thin mucus from the INSIDE... while the salt works from the OUTSIDE.</p>
+
+              <p>Thyme. Rosemary. Eucalyptus.</p>
+
+              <p>Helps thin mucus from the inside while the salt works from the outside.</p>
             </div>
-            
+
             <div className="mt-6 flex flex-wrap items-center gap-4">
               <span className="text-muted-foreground line-through text-[16px]">Retail Value: $27</span>
-              <span className="bg-primary text-primary-foreground px-4 py-2 rounded-full font-bold">✓ Yours FREE when you order today</span>
+              <span className="bg-primary text-primary-foreground px-4 py-2 rounded-full font-bold">Yours free</span>
             </div>
           </div>
         </div>
@@ -2741,26 +2738,28 @@ const Index = () => {
           <div className="bg-card rounded-xl p-6 md:p-10 shadow-lg border-l-4 border-primary">
             <div className="flex items-center gap-3 mb-6">
               <span className="text-[28px] md:text-[36px]">→</span>
-              <h3 className="text-[22px] md:text-[28px] font-bold text-primary">The 5-Minute "Respiratory Reset" Audio Guide</h3>
+              <h3 className="text-[22px] md:text-[28px] font-bold text-primary">Bonus #3: The 5-Minute Respiratory Reset Audio Guide</h3>
             </div>
-            
+
             <div className="flex justify-center mb-8">
-              <img 
-                src={respiratoryResetAudio} 
-                alt="5-Minute Respiratory Reset Audio Guide on phone with headphones" 
+              <img
+                src={respiratoryResetAudio}
+                alt="5-Minute Respiratory Reset Audio Guide on phone with headphones"
                 className="w-full max-w-md h-auto object-contain rounded-lg"
               />
             </div>
-            
+
             <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground">
               <p>A guided breathing exercise designed by Dr. Popescu.</p>
-              <p>Used by over 10,000 respiratory patients across Europe.</p>
-              <p>Helps expel trapped mucus and restore lung capacity.</p>
+
+              <p>Used by over 10,000 people across Europe.</p>
+
+              <p>Helps your body expel trapped mucus and restore lung capacity.</p>
             </div>
-            
+
             <div className="mt-6 flex flex-wrap items-center gap-4">
               <span className="text-muted-foreground line-through text-[16px]">Retail Value: $38</span>
-              <span className="bg-primary text-primary-foreground px-4 py-2 rounded-full font-bold">✓ Yours FREE with 5-Pouch Orders</span>
+              <span className="bg-primary text-primary-foreground px-4 py-2 rounded-full font-bold">Yours free with 3-pouch and 5-pouch orders</span>
             </div>
           </div>
         </div>
@@ -2770,9 +2769,8 @@ const Index = () => {
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[600px] mx-auto text-center">
           <div className="bg-primary text-primary-foreground rounded-xl p-8 md:p-12 shadow-lg">
-            <p className="text-[18px] md:text-[22px] mb-4">Total Bonus Value:</p>
-            <p className="text-[48px] md:text-[64px] font-bold">$112</p>
-            <p className="text-[20px] md:text-[24px] mt-4 font-semibold">All yours. Free. When you order today.</p>
+            <p className="text-[18px] md:text-[22px] mb-4">Total Bonus Value: $112</p>
+            <p className="text-[20px] md:text-[24px] font-semibold">All yours free when you order today.</p>
           </div>
         </div>
       </section>
