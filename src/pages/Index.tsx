@@ -2523,8 +2523,8 @@ const Index = () => {
                 <p>"For 12 years I'd wake up at 3 in the morning, every morning, reaching for my inhaler in the dark. My husband stopped sleeping in the same room because he couldn't take watching me struggle. My daughter bought me one of these pouches as a Mother's Day gift. I honestly didn't expect anything. Three weeks in, I slept through to 8 AM for the first time I can remember. I cried when I called to tell my daughter. My husband is back in our bed."</p>
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
-                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Sleeping through to 8 AM</span>
-                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Husband back in same room</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Sleeping through the night</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Husband back in their bedroom</span>
               </div>
             </div>
 
@@ -2545,8 +2545,8 @@ const Index = () => {
                 <p>"For five years I couldn't go anywhere without my portable oxygen tank. My daughter was getting married and I'd already told her I'd watch the ceremony from the back row so I wouldn't ruin the photos. A friend told me about Longevity Salt. I started using it eight weeks before the wedding. I walked her down that aisle. No tank. I still can't believe it happened."</p>
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
-                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ On oxygen for 5 years</span>
-                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Walked daughter down the aisle</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Sleeping easier</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Walked her daughter down the aisle</span>
               </div>
             </div>
 
@@ -2567,8 +2567,8 @@ const Index = () => {
                 <p>"I'd been told the damage was permanent. That I should expect to be on supplemental oxygen the rest of my life. My grandson kept asking me to take him hiking like I used to, and I kept telling him maybe next year. Two months after I started using the pouch on my nightstand, we did three miles up at Craggy Gardens. We took our time. He held my hand on the way down. That was the part that got me."</p>
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
-                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Off supplemental oxygen after 8 weeks</span>
                 <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Hiking again at Craggy Gardens</span>
+                <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-[14px] md:text-[16px] font-semibold">✓ Held his grandson's hand on the way down</span>
               </div>
             </div>
 
