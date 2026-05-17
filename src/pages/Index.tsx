@@ -10,7 +10,7 @@ import harvardMedicalSchool from "@/assets/harvard-medical-school.png";
 import universityTituMaiorescu from "@/assets/university-titu-maiorescu.jpeg";
 import facultyGeographyBucharest from "@/assets/faculty-geography-bucharest.png";
 import romanianVillage from "@/assets/romanian-village.jpg";
-import manzalestiVillageChurch from "@/assets/manzalesti-village-church.jpg";
+
 import drPopescuLungDiagram from "@/assets/dr-popescu-lung-diagram.jpg";
 import saltCrystalsJar from "@/assets/salt-crystals-jar.jpg";
 import osmoticHydration from "@/assets/osmotic-hydration.jpg";
@@ -38,7 +38,7 @@ import ioanaConversation from "@/assets/ioana-conversation.jpg";
 import phoneYoutubeVideo from "@/assets/phone-youtube-video.jpg";
 import napkinElenaPopescu from "@/assets/napkin-elena-popescu.jpg";
 import phoneEmailNotification from "@/assets/phone-email-notification.png";
-import mariaCottage from "@/assets/maria-cottage.jpg";
+
 import doctorPhoto from "@/assets/doctor-photo.png";
 import productBundle from "@/assets/product-bundle.png";
 import productDiscount from "@/assets/product-discount.png";
@@ -64,7 +64,7 @@ import questionCollage from "@/assets/question-collage.png";
 import orderButton from "@/assets/order-button.png";
 import customerSupport from "@/assets/customer-support.png";
 import riskfreeSeal from "@/assets/riskfree-seal.png";
-import drPopescuOffice from "@/assets/dr-popescu-office.jpg";
+
 import coupleWalkingHope from "@/assets/robert-linda-walking.jpg";
 import romanianVillageDrive from "@/assets/romanian-village-drive.jpg";
 import coupleCryingHappy from "@/assets/couple-crying-happy.jpg";
@@ -1107,158 +1107,35 @@ const Index = () => {
         </div>
       </section>
 
-      {/* What We Found in the Village Section */}
+      {/* Dr. Popescu's Office - Intro */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-4 text-primary">
-            What We Found in the Village Where People Live Past 100
+            What Dr. Popescu Showed Us About Linda's Lungs.
           </h2>
           
           <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
           
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>Dr. Popescu gestured for us to follow her.</p>
+            <p>The next morning, we walked to her research office on the edge of the village.</p>
             
-            <p>We got back in our cars. Followed her down a winding dirt road.</p>
+            <p>A single room.</p>
             
-            <p>Through fields dotted with white salt formations. Past wooden fences. Grazing sheep. Old women in headscarves tending gardens.</p>
+            <p>Shelves lined with books and papers.</p>
             
-            <p className="font-semibold">Then we reached the village center.</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Village Image Section */}
-      <section className="py-8 md:py-12 px-4 bg-secondary/30">
-        <div className="max-w-[900px] mx-auto">
-          <figure className="relative">
-            <div 
-              className="relative overflow-visible mx-auto max-w-[700px]"
-              style={{
-                maskImage: 'radial-gradient(ellipse 90% 85% at center, black 50%, transparent 100%)',
-                WebkitMaskImage: 'radial-gradient(ellipse 90% 85% at center, black 50%, transparent 100%)'
-              }}
-            >
-              <img 
-                src={manzalestiVillageChurch} 
-                alt="Historic wooden church with distinctive towers in the village of Mânzălești, Romania" 
-                className="w-full h-auto rounded-lg"
-              />
-            </div>
-            <figcaption className="text-center mt-4 text-muted-foreground italic text-[16px]">
-              Mânzălești - simple, quiet, untouched by time
-            </figcaption>
-          </figure>
-        </div>
-      </section>
-
-      {/* Village Story Continuation */}
-      <section className="py-10 md:py-16 px-4 bg-background">
-        <div className="max-w-[750px] mx-auto">
-          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>A small church. A general store. A handful of houses around a dirt square.</p>
+            <p>Diagrams of lungs on the walls.</p>
             
-            <p className="italic">Simple. Quiet. Untouched by time.</p>
+            <p>She motioned us to sit.</p>
             
-            <p>Dr. Popescu parked. "This is Mânzălești."</p>
+            <p>Pulled out a laminated diagram.</p>
             
-            <p>She led us down a narrow path to a small cottage. White walls. Blue shutters. Flowers in the window boxes.</p>
+            <p>A cross-section of human lungs.</p>
             
-            <figure className="float-right ml-6 md:ml-10 -mr-4 md:-mr-8 mb-6 w-56 md:w-72 relative">
-              <div className="relative">
-                <div 
-                  className="relative overflow-visible"
-                  style={{
-                    maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
-                    WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
-                  }}
-                >
-                  <img 
-                    src={mariaCottage} 
-                    alt="Maria, a Romanian woman in traditional dress, welcoming visitors to her cottage with blue shutters and flower boxes"
-                    className="w-full h-auto"
-                  />
-                </div>
-                <div 
-                  className="absolute inset-0 -z-10 blur-2xl opacity-30 scale-110"
-                  style={{
-                    backgroundImage: `url(${mariaCottage})`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center'
-                  }}
-                />
-              </div>
-              <figcaption className="mt-3 text-sm text-muted-foreground italic text-center">
-                Maria welcomed us warmly to her cottage
-              </figcaption>
-            </figure>
+            <p>Airways branching like tree roots.</p>
             
-            <p>An older woman was standing outside. Probably in her 70s. Wearing a traditional Romanian dress. Smiling warmly.</p>
+            <p className="font-semibold">But some were clogged.</p>
             
-            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
-              "This is Maria," Dr. Popescu said. "She's agreed to rent you her guest house for as long as you need."
-            </p>
-            
-            <p>Maria walked over to Linda. Took both her hands. Said something.</p>
-            
-            <p>Dr. Popescu translated. "She says her sister had breathing problems, too. The air here helped her."</p>
-            
-            <p>Linda's eyes welled up. "Thank you."</p>
-            
-            <p>Maria squeezed her hands. Then led us to a smaller building in the back.</p>
-            
-            <p>Inside was simple. One bedroom. Small kitchen. Bathroom.</p>
-            
-            <p>But it was clean. Comfortable.</p>
-            
-            <p className="font-semibold italic">And honestly? It felt... peaceful.</p>
-            
-            <p>Dr. Popescu stood in the doorway.</p>
-            
-            <p>"I'll let you get settled. Get some rest tonight."</p>
-            
-            <p>She paused. "Tomorrow morning, come by my office. It's just down the road. I want to show you something."</p>
-            
-            <p>"What?" I asked.</p>
-            
-            <p className="text-[22px] md:text-[28px] font-bold text-primary">She smiled. "Why this place actually works."</p>
-          </div>
-        </div>
-      </section>
-
-
-      {/* Dr. Popescu Science Section - Part 1 */}
-      <section className="py-10 md:py-16 px-4 bg-background">
-        <div className="max-w-[750px] mx-auto">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
-            Dr. Popescu Showed Us EXACTLY How This Works
-          </h2>
-          <p className="text-[20px] md:text-[28px] text-center text-muted-foreground italic mb-8">
-            (And Why Your Doctor Will Never Tell You)
-          </p>
-          
-          <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
-          
-          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>The next morning, we walked to a small building near the village center.</p>
-            
-            <p className="italic">A hand-painted sign out front read: Dr. Elena Popescu - Research Office</p>
-            
-            <p>She was waiting at the door. "Come in."</p>
-            
-            <p>Inside was a single room. Shelves lined with books. A desk covered in papers.</p>
-            
-            <p>And on the walls... diagrams. Charts. Photos of lungs.</p>
-            
-            <p>She gestured toward two chairs. "Sit. I want to explain something."</p>
-            
-            <p>Linda and I sat down.</p>
-            
-            <p>Dr. Popescu pulled out a laminated diagram. Showed it to us.</p>
-            
-            <p>It was a cross-section of human lungs. Airways branching like tree roots.</p>
-            
-            <p className="font-semibold">But some were... clogged. Thick white plugs blocking the passages.</p>
+            <p className="font-semibold">Thick white plugs blocking the passages.</p>
           </div>
         </div>
       </section>
@@ -1287,19 +1164,15 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Dr. Popescu Science Section - Part 2: The Problem */}
+      {/* The Diagnosis */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
             <p>Linda leaned forward.</p>
             
             <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
-              "Your lungs aren't just inflamed," Dr. Popescu continued. "They're DROWNING."
+              "Your lungs aren't just inflamed. They're drowning. The inflammation causes your body to produce excess mucus. Thick, sticky mucus that traps bacteria and irritants. And over time, that mucus doesn't just sit there. It hardens."
             </p>
-            
-            <p>"The inflammation causes your body to produce excess mucus. Thick, sticky mucus that traps bacteria and irritants."</p>
-            
-            <p className="font-semibold">"And over time... that mucus doesn't just sit there. It HARDENS."</p>
             
             <p>She tapped the diagram.</p>
             
@@ -1307,23 +1180,23 @@ const Index = () => {
             
             <p className="italic">"Dense. Rubbery. Obstructive."</p>
             
-            <p>"They can stay in the same airways for YEARS if they're not cleared."</p>
+            <p>"They can stay in the same airways for years if they're not cleared."</p>
             
             <p>Linda's hand went to her throat.</p>
             
-            <p>"Your medications try to open the airways by relaxing the muscles around them. But they completely ignore the PLUG blocking them."</p>
-            
-            <p>Dr. Popescu looked at us.</p>
+            <p>"Your medications try to open the airways by relaxing the muscles around them. But they completely ignore the plug blocking them."</p>
             
             <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-destructive pl-6 my-8">
-              "So you're essentially trying to inflate a balloon that's already full of thick, sticky glue."
+              "You're essentially trying to inflate a balloon that's already full of glue."
             </p>
             
             <p className="font-bold text-[22px] md:text-[26px]">"That's why nothing works."</p>
             
-            <p>I leaned forward. "So how do you get rid of them?"</p>
+            <p>I leaned forward.</p>
             
-            <p className="text-primary font-semibold text-[20px] md:text-[24px]">Dr. Popescu smiled.</p>
+            <p>"So how do you get rid of them?"</p>
+            
+            <p className="text-primary font-semibold text-[20px] md:text-[24px]">She smiled.</p>
             
             <p className="text-[24px] md:text-[32px] font-bold text-primary">"That's where the salt comes in."</p>
           </div>
@@ -1348,47 +1221,43 @@ const Index = () => {
               />
             </div>
             <figcaption className="text-center mt-4 text-muted-foreground italic text-[16px]">
-              Ancient salt crystals formed 22 million years ago
+              Mineral-dense salt from the hills outside the village
             </figcaption>
           </figure>
         </div>
       </section>
 
-      {/* Dr. Popescu Science Section - Part 3: The Salt */}
+      {/* The Salt Explanation */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>She walked to a shelf. Pulled down a small glass jar filled with pinkish-white crystals.</p>
+            <p>She walked to a shelf.</p>
             
-            <p className="font-semibold">"This isn't table salt."</p>
+            <p>Pulled down a small glass jar filled with pinkish-white crystals.</p>
             
-            <p>She held the jar up to the light.</p>
+            <p>Held it up to the light.</p>
             
-            <p className="italic">"It was formed 22 million years ago under intense volcanic pressure and heat."</p>
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "This is salt from the hills outside. Not table salt. Mineral-dense salt laid down by an ancient sea, then concentrated by millions of years of pressure underground. Today it sits at the surface of this valley. And the people here breathe it. Every breath. Their whole lives."
+            </p>
             
-            <p>"The minerals got BAKED into the salt."</p>
+            <p>She poured a small amount onto a piece of paper.</p>
             
-            <p>"Creating compounds that don't exist in regular sodium chloride."</p>
+            <p>Faint rose and gray streaks ran through the crystals.</p>
             
-            <p>She unscrewed the lid. Poured a small amount onto a piece of paper.</p>
-            
-            <p className="font-semibold text-primary">"Kieserite. Polyhalite. Iron oxide."</p>
-            
-            <p>She pointed to the faint rose and gray streaks running through the crystals.</p>
-            
-            <p className="text-[20px] md:text-[24px] font-bold">"When you breathe in microscopic particles of THIS salt... three things happen."</p>
+            <p className="text-[20px] md:text-[24px] font-bold">"When microscopic particles of this salt are inhaled, three things happen."</p>
           </div>
         </div>
       </section>
 
-      {/* The Three Steps */}
+      {/* The Three Phases */}
       <section className="py-10 md:py-16 px-4 bg-primary/5">
         <div className="max-w-[750px] mx-auto">
-          {/* Step 1 */}
+          {/* Phase 1 */}
           <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg mb-8 overflow-hidden">
             <div className="flex items-center gap-4 mb-6">
               <span className="w-12 h-12 md:w-16 md:h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-2xl md:text-3xl font-bold shrink-0">1</span>
-              <h3 className="text-[22px] md:text-[28px] font-bold text-primary">FIRST... Osmotic Hydration</h3>
+              <h3 className="text-[22px] md:text-[28px] font-bold text-primary">PHASE 1: OSMOTIC HYDRATION</h3>
             </div>
             <div className="md:flex md:gap-6">
               <div className="mb-6 md:mb-0 md:w-2/5 shrink-0">
@@ -1399,19 +1268,18 @@ const Index = () => {
                 />
               </div>
               <div className="space-y-4 text-[17px] md:text-[20px] leading-relaxed text-foreground">
-                <p>"Salt is hygroscopic. It pulls water molecules toward it."</p>
-                <p>"When salt particles land on those dense mucus plugs, they immediately start pulling moisture FROM your surrounding lung tissue INTO the plug."</p>
+                <p>"Salt is hygroscopic. It pulls water molecules toward it. When salt particles land on those dense mucus plugs, they start pulling moisture from the surrounding tissue into the plug."</p>
                 <p className="italic text-muted-foreground">"Like pouring water on dried rubber cement before you peel it off."</p>
                 <p className="font-semibold">"Within 20 to 30 minutes, those plugs start to soften."</p>
               </div>
             </div>
           </div>
 
-          {/* Step 2 */}
+          {/* Phase 2 */}
           <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg mb-8 overflow-hidden">
             <div className="flex items-center gap-4 mb-6">
               <span className="w-12 h-12 md:w-16 md:h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-2xl md:text-3xl font-bold shrink-0">2</span>
-              <h3 className="text-[22px] md:text-[28px] font-bold text-primary">SECOND... Ionic Restructuring</h3>
+              <h3 className="text-[22px] md:text-[28px] font-bold text-primary">PHASE 2: IONIC RESTRUCTURING</h3>
             </div>
             <div className="md:flex md:flex-row-reverse md:gap-6">
               <div className="mb-6 md:mb-0 md:w-2/5 shrink-0">
@@ -1422,18 +1290,17 @@ const Index = () => {
                 />
               </div>
               <div className="space-y-4 text-[17px] md:text-[20px] leading-relaxed text-foreground">
-                <p>"Mucus is a charged hydrogel. The ionic environment dramatically affects its viscosity."</p>
-                <p>"The mineral salts in THIS salt—magnesium sulfate, polyhalite, iron oxide—literally alter the STRUCTURE of the mucus."</p>
-                <p className="font-semibold">"Making it less sticky. Less rigid. Easier to move."</p>
+                <p>"Mucus is a charged hydrogel. The minerals in this salt, the magnesium sulfate, the polyhalite, the iron oxide, literally alter the structure of the mucus."</p>
+                <p className="font-semibold">"Less sticky. Less rigid. Easier to move."</p>
               </div>
             </div>
           </div>
 
-          {/* Step 3 */}
+          {/* Phase 3 */}
           <div className="bg-card rounded-xl p-6 md:p-8 shadow-lg overflow-hidden">
             <div className="flex items-center gap-4 mb-6">
               <span className="w-12 h-12 md:w-16 md:h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-2xl md:text-3xl font-bold shrink-0">3</span>
-              <h3 className="text-[22px] md:text-[28px] font-bold text-primary">THIRD... Restored Clearance</h3>
+              <h3 className="text-[22px] md:text-[28px] font-bold text-primary">PHASE 3: RESTORED CLEARANCE</h3>
             </div>
             <div className="md:flex md:gap-6">
               <div className="mb-6 md:mb-0 md:w-2/5 shrink-0">
@@ -1444,93 +1311,53 @@ const Index = () => {
                 />
               </div>
               <div className="space-y-4 text-[17px] md:text-[20px] leading-relaxed text-foreground">
-                <p>"Your lungs have tiny hair-like structures called cilia that sweep mucus UP and OUT."</p>
-                <p>"But chronic inflammation paralyzes them."</p>
-                <p className="italic text-muted-foreground">She showed us a microscopic image. Tiny hairs. Frozen in place.</p>
-                <p>"The salt reactivates those cilia. Gets them moving again."</p>
-                <p className="font-semibold">"So within weeks, your body can begin clearing plugs that have been stuck for months or years."</p>
+                <p>"Your lungs have tiny hair-like structures called cilia that sweep mucus up and out. But chronic inflammation paralyzes them."</p>
+                <p>"The salt reactivates them."</p>
+                <p className="font-semibold">"So your body can finally clear plugs that have been stuck for months or years."</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Dr. Popescu Science Section - Part 4: Why Doctors Don't Tell You */}
+      {/* Why Doctors Don't Tell You */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
-          <div className="text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <img 
-              src={drPopescuOffice} 
-              alt="Dr. Popescu in her office" 
-              className="float-left mr-6 mb-4 w-[200px] md:w-[280px] rounded-lg shadow-lg"
-            />
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>She set the jar down.</p>
             
-            <p className="mb-6">She set the jar down.</p>
-            
-            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 mb-6">
-              "This is why the air here works when medications don't."
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "This is why the air here works when medications don't. Medications only mute the symptom. The salt addresses the root cause."
             </p>
             
-            <p className="font-bold mb-6">"The medications only treat symptoms. The salt treats the ROOT CAUSE."</p>
+            <p>I leaned back. Just... processing.</p>
             
-            <p className="mb-6">I leaned back. Just... processing.</p>
+            <p>"Why doesn't my doctor know about this?" Linda asked.</p>
             
-            <p className="mb-6">"Why doesn't my doctor know about this?" Linda asked.</p>
-            
-            <p className="mb-6">Dr. Popescu smiled sadly.</p>
-            
-            <p className="text-[22px] md:text-[28px] font-bold text-destructive mb-6">"They DO know. They just don't CARE."</p>
-            
-            <p className="mb-6">"You can't patent salt. Big Pharma can't make billions off a natural mineral."</p>
-            
-            <p className="mb-6">"So they don't fund research on it. They don't teach it in medical school. They certainly don't recommend it."</p>
+            <p>Her smile turned a little sad.</p>
             
             <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-destructive pl-6 my-8">
-              "Instead, they push medications that cost $40 to $150 per dose... that you'll need for the rest of your life... and that only treat symptoms."
+              "They know. They just don't care. You can't patent salt. No pharmaceutical company can build a $40 billion product on a mineral that exists in a Romanian valley. So they don't fund the research. They don't teach it in medical school. They don't recommend it. Instead, they push medications that cost you $40 to $150 per dose, that you'll need for the rest of your life, and that only mute the symptom."
             </p>
-            
-            <div className="clear-both" />
           </div>
         </div>
       </section>
 
-      {/* Dr. Popescu Science Section - Part 5: The Gift */}
+      {/* The Gift */}
       <section className="py-10 md:py-16 px-4 bg-secondary/30">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>She walked to her desk. Picked up a thermos and a small audio device.</p>
+            <p>She handed Linda a thermos.</p>
             
-            <p className="font-semibold">"This is what I give all my patients."</p>
+            <p className="italic">"Thyme. Rosemary. Eucalyptus. My grandmother's recipe. It helps thin the mucus from the inside while the salt works from the outside."</p>
             
-            <p>She handed Linda the thermos.</p>
+            <p>Then a small audio device.</p>
             
-            <p className="italic">"Thyme, rosemary, eucalyptus. It helps thin the mucus from the INSIDE... while the salt works from the OUTSIDE."</p>
+            <p className="italic">"A guided breathing exercise. Five minutes. Every morning. It helps your body expel the trapped mucus and restore lung capacity."</p>
             
-            <p>Linda unscrewed the top. Took a sip.</p>
+            <p>She closed her notebook.</p>
             
-            <p>"It's good."</p>
-            
-            <p>"My grandmother's recipe," Dr. Popescu said with a smile.</p>
-            
-            <p>Then she held up the audio device.</p>
-            
-            <p className="font-semibold">"And this is a guided breathing exercise. Five minutes. Every morning."</p>
-            
-            <p>"It helps expel the trapped mucus and restore your lung capacity."</p>
-            
-            <p>She handed it to Linda.</p>
-            
-            <p className="italic">"For the next few days... just breathe the air. Drink the tea. Do the exercise."</p>
-            
-            <p className="font-bold">"That's it."</p>
-            
-            <p>Linda looked at me. Then back at Dr. Popescu.</p>
-            
-            <p>"Thank you," she whispered.</p>
-            
-            <p>Dr. Popescu squeezed her hand.</p>
-            
-            <p className="text-[22px] md:text-[28px] font-bold text-primary">"You're going to be okay. I promise."</p>
+            <p className="font-semibold">"For the next two weeks... just breathe the air. Drink the tea. Do the exercise. That's it."</p>
           </div>
         </div>
       </section>
