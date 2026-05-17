@@ -79,7 +79,7 @@ import button3Gifts from "@/assets/button-3-gifts.png";
 import button5Gifts from "@/assets/button-5-gifts.png";
 import oximeterPeakFlow from "@/assets/oximeter-peak-flow.jpg";
 import spirometerScreen from "@/assets/spirometer-screen.jpg";
-import longevitySaltProduct from "@/assets/longevity-salt-product.png";
+
 import testimonialMargaret from "@/assets/testimonial-margaret.jpg";
 import testimonialPatricia from "@/assets/testimonial-patricia.jpg";
 import testimonialJames from "@/assets/testimonial-james.jpg";
@@ -2498,52 +2498,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-      {/* Product Reveal */}
-      <section className="py-12 md:py-20 px-4 bg-gradient-to-b from-primary/10 via-primary/5 to-background">
-        <div className="max-w-[900px] mx-auto">
-          <h3 className="text-[32px] md:text-[44px] font-bold text-primary text-center mb-4">We call it Longevity Salt.</h3>
-          
-          <p className="text-center text-[18px] md:text-[22px] text-muted-foreground mb-10">
-            Because that's what it gave Linda. Not just more years. But the ability to LIVE those years fully.
-          </p>
-          
-          {/* Product Image Showcase */}
-          <div className="bg-card rounded-2xl p-8 md:p-12 shadow-2xl mb-10">
-            <div className="flex justify-center mb-8">
-              <img 
-                src={longevitySaltProduct} 
-                alt="Longevity Salt pouch with Mânzălești salt crystals, lavender and healing herbs" 
-                className="max-w-full h-auto max-h-[400px] object-contain drop-shadow-xl hover:scale-105 transition-transform duration-500"
-              />
-            </div>
-            
-            <div className="text-center space-y-4">
-              <p className="font-semibold text-[20px] md:text-[24px] text-foreground">
-                Without fear. Without gasping. Without being a prisoner to her lungs.
-              </p>
-              
-              <p className="text-[24px] md:text-[32px] font-bold text-primary">
-                And now... for the first time... it's available in the United States.
-              </p>
-            </div>
-          </div>
-          
-          {/* Scarcity Notice */}
-          <div className="bg-destructive/10 border-2 border-destructive/30 rounded-xl p-6 md:p-8 text-center">
-            <p className="font-bold text-destructive text-[24px] md:text-[32px] mb-4">In limited quantities.</p>
-            
-            <div className="space-y-3 text-[16px] md:text-[20px] text-foreground">
-              <p>Because this salt only exists in <span className="font-semibold">ONE place on Earth</span>. The Mânzălești region.</p>
-              <p>And the deposits are on protected land.</p>
-              <p className="italic text-muted-foreground">We can only secure small batches through Dr. Popescu's university connections.</p>
-              <p className="font-semibold">When they're gone... we have to wait.</p>
-            </div>
-            
-            <p className="text-[22px] md:text-[28px] font-bold text-primary mt-6">But it's here. And it works.</p>
-          </div>
-        </div>
-      </section>
-
       {/* Testimonials Section */}
       <section className="py-10 md:py-16 px-4 bg-secondary/30">
         <div className="max-w-[900px] mx-auto">
