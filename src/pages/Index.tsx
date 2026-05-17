@@ -2836,10 +2836,10 @@ const Index = () => {
       {/* Order Options */}
       <section className="py-10 md:py-16 px-4 bg-[#e8e8e8]">
         <div className="max-w-[1100px] mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-4 items-stretch">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-6 items-center">
             
             {/* Option 1 - Single Pouch */}
-            <div id="pkg-1" className="scroll-mt-24 bg-white rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
+            <div id="pkg-1" className="order-3 md:order-3 scroll-mt-24 bg-white rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
               <h3 className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-0">ONE LONGEVITY SALT</h3>
               <p className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-2">POUCH</p>
               
@@ -2870,7 +2870,7 @@ const Index = () => {
             </div>
 
             {/* Option 2 - Best Value (5 Pouches) - Featured */}
-            <div id="pkg-5" className="scroll-mt-24 bg-gradient-to-b from-[#5a1e9a] to-[#461682] rounded-none shadow-2xl p-6 md:p-8 flex flex-col items-center text-center relative">
+            <div id="pkg-5" className="order-2 md:order-2 md:scale-105 md:z-10 scroll-mt-24 bg-gradient-to-b from-[#5a1e9a] to-[#461682] rounded-none shadow-2xl p-6 md:p-8 flex flex-col items-center text-center relative">
               <div className="mb-3">
                 <p className="text-[#c9a227] font-black italic text-[24px] md:text-[30px] leading-tight">BEST VALUE</p>
               </div>
@@ -2907,7 +2907,7 @@ const Index = () => {
             </div>
 
             {/* Option 3 - 3 Pouches */}
-            <div id="pkg-3" className="scroll-mt-24 bg-white rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
+            <div id="pkg-3" className="order-1 md:order-1 scroll-mt-24 bg-white rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
               <h3 className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-0">3 LONGEVITY SALT</h3>
               <p className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-2">POUCHES</p>
               
@@ -3024,10 +3024,10 @@ const Index = () => {
             Choose Your Package Below
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-4 items-stretch">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-6 items-center">
             
             {/* Option 1 - Single Pouch */}
-            <div className="bg-white rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
+            <div className="order-3 md:order-3 bg-white rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
               <h3 className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-0">ONE LONGEVITY SALT</h3>
               <p className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-2">POUCH</p>
               
@@ -3058,7 +3058,7 @@ const Index = () => {
             </div>
 
             {/* Option 2 - Best Value (5 Pouches) - Featured */}
-            <div className="bg-gradient-to-b from-[#5a1e9a] to-[#461682] rounded-none shadow-2xl p-6 md:p-8 flex flex-col items-center text-center relative">
+            <div className="order-2 md:order-2 md:scale-105 md:z-10 bg-gradient-to-b from-[#5a1e9a] to-[#461682] rounded-none shadow-2xl p-6 md:p-8 flex flex-col items-center text-center relative">
               <div className="mb-3">
                 <p className="text-[#c9a227] font-black italic text-[24px] md:text-[30px] leading-tight">BEST VALUE</p>
               </div>
@@ -3095,7 +3095,7 @@ const Index = () => {
             </div>
 
             {/* Option 3 - 3 Pouches */}
-            <div className="bg-white rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
+            <div className="order-1 md:order-1 bg-white rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
               <h3 className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-0">3 LONGEVITY SALT</h3>
               <p className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-2">POUCHES</p>
               
@@ -3276,10 +3276,10 @@ const Index = () => {
             Secure Your Longevity Salt Now
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-4 items-stretch">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-6 items-center">
             
             {/* Option 1 - Single Pouch */}
-            <div className="bg-white rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
+            <div className="order-3 md:order-3 bg-white rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
               <h3 className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-0">ONE LONGEVITY SALT</h3>
               <p className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-2">POUCH</p>
               
@@ -3310,7 +3310,7 @@ const Index = () => {
             </div>
 
             {/* Option 2 - Best Value (5 Pouches) - Featured */}
-            <div className="bg-gradient-to-b from-[#5a1e9a] to-[#461682] rounded-none shadow-2xl p-6 md:p-8 flex flex-col items-center text-center relative">
+            <div className="order-2 md:order-2 md:scale-105 md:z-10 bg-gradient-to-b from-[#5a1e9a] to-[#461682] rounded-none shadow-2xl p-6 md:p-8 flex flex-col items-center text-center relative">
               <div className="mb-3">
                 <p className="text-[#c9a227] font-black italic text-[24px] md:text-[30px] leading-tight">BEST VALUE</p>
               </div>
@@ -3347,7 +3347,7 @@ const Index = () => {
             </div>
 
             {/* Option 3 - 3 Pouches */}
-            <div className="bg-white rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
+            <div className="order-1 md:order-1 bg-white rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
               <h3 className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-0">3 LONGEVITY SALT</h3>
               <p className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-2">POUCHES</p>
               
