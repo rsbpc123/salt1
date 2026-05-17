@@ -768,12 +768,9 @@ const Index = () => {
       {/* Section 8 - The Salt Mine Discovery */}
       <section className="py-10 px-4 bg-card">
         <div className="max-w-[970px] mx-auto">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2">
-            We Flew 5,000 Miles to a Salt Mine...
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
+            We Flew 5,000 Miles To A Salt Mine That No Longer Existed.
           </h2>
-          <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] font-bold text-center text-destructive mb-8">
-            Only to Find THIS
-          </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
             Three weeks later, we were on a plane to Bucharest.
