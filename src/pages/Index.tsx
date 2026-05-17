@@ -331,14 +331,13 @@ const Index = () => {
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">He looked at Linda.</p>
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Then at me.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"If we can't control the inflammation..."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"If we can't control the inflammation... maybe 18 months before this gets really bad."</p>
           
-          {/* Devastating Quote Box */}
-          <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-10 text-primary-foreground relative overflow-hidden">
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">
-              "Maybe 18 months before this gets really bad."
-            </p>
-          </div>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I swallowed.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"And after that?"</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">He didn't answer.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Just closed her file.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">That silence said everything.</p>
           
           {/* Side by side layout */}
           <div className="flex flex-col md:flex-row gap-6 mt-8 items-start">
@@ -359,12 +358,11 @@ const Index = () => {
             </div>
             <div className="flex flex-col justify-center">
               <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic">Linda started crying.</p>
-              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">We walked out.</p>
-              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">In silence.</p>
-              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold italic">For the first time in 40 years...</p>
-              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold text-destructive">I had nothing to say to her.</p>
+              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6">We walked out without a word.</p>
+              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold text-destructive">For the first time in 40 years, I had nothing to say to her.</p>
               <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold text-destructive">Because I didn't know how to fix this.</p>
-              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold text-destructive">And watching her die slowly? That wasn't something I was willing to accept.</p>
+              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold text-destructive">And watching her die slowly?</p>
+              <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-6 font-bold text-destructive">That wasn't something I was willing to accept.</p>
             </div>
           </div>
           
