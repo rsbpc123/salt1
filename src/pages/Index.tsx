@@ -37,7 +37,6 @@ import coffeeShopCouple from "@/assets/coffee-shop-couple.jpg";
 import ioanaConversation from "@/assets/ioana-conversation.jpg";
 import phoneYoutubeVideo from "@/assets/phone-youtube-video.jpg";
 import napkinElenaPopescu from "@/assets/napkin-elena-popescu.jpg";
-import phoneEmailDrPopescu from "@/assets/phone-email-dr-popescu.jpg";
 import phoneEmailNotification from "@/assets/phone-email-notification.png";
 import mariaCottage from "@/assets/maria-cottage.jpg";
 import doctorPhoto from "@/assets/doctor-photo.png";
