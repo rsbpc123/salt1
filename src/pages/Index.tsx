@@ -1526,27 +1526,30 @@ const Index = () => {
       {/* 97-Year-Old Woman Section - Part 1 */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
-          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
-            The 97-Year-Old Woman Chopping Wood
+          <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8 text-primary">
+            The 97-Year-Old Who Made Us Believe.
           </h2>
-          <p className="text-[20px] md:text-[28px] text-center text-muted-foreground italic mb-8">
-            (And What She Told Us About the Salt)
-          </p>
           
           <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
           
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>Later that morning, Dr. Popescu came by.</p>
+            <p>Later that morning, Dr. Popescu took us down a narrow dirt path.</p>
             
-            <p>"How are you feeling?" she asked Linda.</p>
+            <p>Through fields dotted with white salt formations.</p>
             
-            <p>"Better. A lot better."</p>
+            <p>To a small garden behind a stone cottage.</p>
             
-            <p>Dr. Popescu smiled. "Good. Come with me."</p>
+            <p>An older woman was kneeling in the dirt.</p>
             
-            <p>We walked through the village. Down a narrow dirt path.</p>
+            <p>Pulling weeds.</p>
             
-            <p className="font-semibold">Then we came to a small garden.</p>
+            <p>Dr. Popescu called out to her in Romanian.</p>
+            
+            <p>The woman looked up.</p>
+            
+            <p className="font-semibold">Stood without using her hands.</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold text-primary">"This is Ana," Dr. Popescu said. "She's 97."</p>
           </div>
         </div>
       </section>
@@ -1576,113 +1579,37 @@ const Index = () => {
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>An older woman was kneeling in the dirt. Pulling weeds.</p>
-            
-            <p>Dr. Popescu called out to her in Romanian.</p>
-            
-            <p>The woman looked up. Smiled. Stood up without using her hands.</p>
-            
             <p>Up close, I could see how old she was.</p>
             
-            <p>Deeply lined face. Hands weathered from decades of work.</p>
+            <p>Deeply lined face.</p>
             
-            <p>But her eyes were bright. Alert.</p>
+            <p>Hands weathered from decades of work.</p>
             
-            <p className="text-[22px] md:text-[28px] font-bold text-primary">"This is Ana," Dr. Popescu said. "She's 97."</p>
+            <p>But her eyes were bright.</p>
             
-            <p>We shook hands. Her grip was surprisingly strong.</p>
+            <p className="font-semibold">Her grip was surprisingly strong.</p>
             
-            <p>Dr. Popescu translated as we talked.</p>
+            <p>"Has anyone in your family ever had asthma?" Linda asked.</p>
             
-            <p>"Have you always lived here?" I asked.</p>
+            <p>Dr. Popescu translated.</p>
             
-            <p>Ana nodded. Said something in Romanian.</p>
+            <p>Ana looked confused.</p>
             
-            <p className="italic">Dr. Popescu translated: "She was born in this house. Her mother was born here, too."</p>
-          </div>
-        </div>
-      </section>
-
-      {/* The Breathing Question */}
-      <section className="py-10 md:py-16 px-4 bg-primary/5">
-        <div className="max-w-[750px] mx-auto">
-          <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
-            <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-              <p>Linda asked, "Have you had any lung problems? Asthma? Breathing issues?"</p>
-              
-              <p>Ana looked confused. Said something to Dr. Popescu.</p>
-              
-              <p>Dr. Popescu smiled. "She says no one in her family has ever had lung problems."</p>
-              
-              <p className="font-semibold">"Never?"</p>
-              
-              <p>Ana shrugged. Said something else.</p>
-              
-              <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-6">
-                Dr. Popescu translated: "She says the salt protects our lungs."
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* The Firewood */}
-      <section className="py-10 md:py-16 px-4 bg-background">
-        <div className="max-w-[750px] mx-auto">
-          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>We talked for a few more minutes.</p>
+            <p>Said something back.</p>
             
-            <p>Then Ana gestured toward a pile of freshly chopped firewood.</p>
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-6">
+              Dr. Popescu smiled. "She says no. Not her. Not her mother. Not her grandmother. She says the salt protects our lungs."
+            </p>
             
-            <p>Dr. Popescu laughed. Translated: "She says she chopped that this morning."</p>
+            <p>Ana gestured at a pile of freshly chopped firewood.</p>
             
-            <p>I stared at the pile. Then at Ana. "You chopped all that? Today?"</p>
+            <p>Said something with a grin.</p>
             
-            <p>Ana nodded. Said something with a grin.</p>
+            <p className="font-semibold">Dr. Popescu laughed. "She chopped that this morning."</p>
             
-            <p className="italic">Dr. Popescu translated: "She says her knees used to hurt. But not anymore. She uses warm salt bags on them at night."</p>
+            <p>I stared at the pile.</p>
             
-            <p className="font-semibold text-primary">Linda's eyes widened. "Salt bags?"</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Salt Pouch Image */}
-      <section className="py-8 md:py-12 px-4 bg-secondary/30">
-        <div className="max-w-[500px] mx-auto">
-          <figure className="relative">
-            <div 
-              className="relative overflow-visible mx-auto"
-              style={{
-                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
-                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
-              }}
-            >
-              <img 
-                src={saltTherapyPouch} 
-                alt="Traditional salt therapy pouch filled with pink salt crystals" 
-                className="w-full h-auto rounded-lg"
-              />
-            </div>
-          </figure>
-        </div>
-      </section>
-
-      {/* The Salt Pouch Gift */}
-      <section className="py-10 md:py-16 px-4 bg-background">
-        <div className="max-w-[750px] mx-auto">
-          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>Ana nodded. Went inside. Came back with a small fabric pouch. Handed it to Linda.</p>
-            
-            <p>It was warm. Filled with coarse salt.</p>
-            
-            <p>Dr. Popescu explained: "The villagers heat these and apply them to sore joints. It reduces inflammation."</p>
-            
-            <p>Ana said something else.</p>
-            
-            <p className="italic">Dr. Popescu smiled. "She says you can keep that one."</p>
-            
-            <p>Linda held the pouch. "Thank you."</p>
+            <p>Then at Ana.</p>
           </div>
         </div>
       </section>
@@ -1692,11 +1619,11 @@ const Index = () => {
         <div className="max-w-[750px] mx-auto">
           <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
             <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-              <p>Then Ana reached into her apron.</p>
+              <p>Before we left, Ana went inside.</p>
               
-              <p>Pulled out something smaller.</p>
+              <p>Came back holding something small.</p>
               
-              <p className="font-semibold">A tiny glass vial. No bigger than her thumb.</p>
+              <p className="font-semibold">A tiny glass vial.</p>
               
               <p className="text-primary font-semibold">Filled with pinkish-white salt crystals.</p>
               
@@ -1708,60 +1635,20 @@ const Index = () => {
                 />
               </figure>
               
-              <p>She held it up. Said something in Romanian.</p>
+              <p>She handed it to Linda.</p>
+              
+              <p>Said something quietly.</p>
+              
+              <p>Dr. Popescu translated.</p>
               
               <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-6">
-                Dr. Popescu translated: "She says this is different. She doesn't USE this salt. She CARRIES it."
+                "It's a tradition here. In Mânzălești, grandmothers give their grandchildren a small ampule of salt. Husbands give it to their wives. A reminder that they come from this valley. From the air that keeps them strong."
               </p>
               
-              <p>"Everywhere. In her pocket. Around her neck. Always."</p>
+              <p>Linda held the vial in her palm.</p>
               
-              <p>Linda looked confused. "Why?"</p>
-              
-              <p>Ana tapped the vial. Said something else.</p>
-              
-              <p className="font-semibold">Dr. Popescu smiled. "She says it protects her. Keeps the bad energy away. Gives her strength."</p>
-              
-              <p>"It's a tradition here. The villagers have been doing this for generations."</p>
-              
-              
+              <p className="text-[24px] md:text-[32px] font-bold text-primary text-center mt-8">"Thank you," she whispered.</p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* The Gift and Realization */}
-      <section className="py-10 md:py-16 px-4 bg-background">
-        <div className="max-w-[750px] mx-auto">
-          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>Ana handed the vial to Linda.</p>
-            
-            <p>Said something softly.</p>
-            
-            <p className="italic">Dr. Popescu translated: "She says you should carry one too. To keep you strong. To remind you that you're healing."</p>
-            
-            <p>Linda held the vial in her palm.</p>
-            
-            <p>"Thank you," she whispered.</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Walking Away */}
-      <section className="py-10 md:py-16 px-4 bg-secondary/30">
-        <div className="max-w-[750px] mx-auto">
-          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>As we walked away, Dr. Popescu said, "There are dozens of people like her in this village. All in their 90s. Many over 100."</p>
-            
-            <p className="font-semibold">"They don't take medication. They don't go to doctors. They just... live."</p>
-            
-            <p>"And breathe this air every single day."</p>
-            
-            <p>Linda turned to me. "Robert... what if this is real?"</p>
-            
-            <p>I looked back at Ana. Still working in her garden. At 97.</p>
-            
-            <p className="text-[24px] md:text-[32px] font-bold text-primary text-center mt-8">"I think it is," I said.</p>
           </div>
         </div>
       </section>
