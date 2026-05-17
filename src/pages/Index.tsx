@@ -889,7 +889,7 @@ const Index = () => {
       <section className="py-10 px-4 bg-secondary">
         <div className="max-w-[970px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
-            The Coffee Shop Conversation That Saved Linda's Life
+            The Stranger In A Coffee Shop Who Saved Linda's Life.
           </h2>
           
           <div className="md:float-right md:ml-6 md:-mr-4 text-center mb-4 relative">
@@ -908,195 +908,120 @@ const Index = () => {
             </div>
           </div>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">We drove into town. Found a small cafe on the main street.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">We drove into town.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Linda looked tired. Not physically. Just... defeated.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Found a small cafe on the main street.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda looked tired.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Not physically.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Defeated.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">"What do we do now?" she whispered.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I had no answer.</p>
           
-          <div className="clear-both" />
-        </div>
-      </section>
-      
-      {/* Section 9b - Meeting Ioana */}
-      <section className="py-10 px-4 bg-card">
-        <div className="max-w-[970px] mx-auto">
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold">That's when an older woman at the next table leaned over.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">That's when an older woman at the next table leaned over.</p>
           
-          <div className="md:float-left md:mr-6 md:-ml-4 text-center mb-4 mt-8 relative">
-            <div 
-              className="relative overflow-visible"
-              style={{
-                maskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)',
-                WebkitMaskImage: 'radial-gradient(ellipse 85% 80% at center, black 40%, transparent 100%)'
-              }}
-            >
-              <img 
-                src={ioanaConversation} 
-                alt="Ioana speaking with couple in Romanian cafe" 
-                className="w-[280px] md:w-[340px] mx-auto"
-              />
-            </div>
-          </div>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">"English?" she asked.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">"English?" she asked. Her accent thick. But clear.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Her accent was thick. But clear.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"American," I said.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"American."</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She smiled. "I'm Ioana."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She smiled.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She gestured toward the window. "You came for the mine?"</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">"I'm Ioana. You came for the mine, yes?"</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I nodded. "Yeah. But it collapsed."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I nodded.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">She waved her hand dismissively.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"It collapsed."</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"The mine. Everyone comes for the mine."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She waved her hand.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">She shook her head. "But the mine is not special. It's just... underground."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">"The mine. Everyone comes for the mine. But the mine is not special. It's just... underground."</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I frowned. "What do you mean?"</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I frowned.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"What do you mean?"</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She leaned in closer.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"You want salt for breathing, yes?"</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">"You want salt for breathing, yes?"</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Yeah. My wife has lung problems."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Yes. For my wife."</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Ioana looked at Linda. Studied her. Then nodded.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She studied Linda.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">"The mine was good. But there is a better place."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Then nodded.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda sat up. "Where?"</p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">Ioana smiled. "Mânzălești. Small village. About four hours from here."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">"There is a better place. Mânzălești. Small village. About four hours from here."</p>
           
           <div className="clear-both" />
-        </div>
-      </section>
-      
-      {/* Section 9c - The YouTube Video */}
-      <section className="py-10 px-4 bg-secondary">
-        <div className="max-w-[970px] mx-auto">
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">She pulled out her phone. Scrolled. Then turned it toward us.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">It was a YouTube video.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She pulled out her phone.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">The thumbnail showed an old man. Holding an axe. Standing in front of freshly cut wood.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Showed us a YouTube video.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">The title was in Romanian. But I could make out the number: <strong>101 de ani.</strong></p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">The thumbnail showed an old man.</p>
           
-          <p className="text-[28px] md:text-[40px] leading-[36px] md:leading-[50px] font-bold text-center my-8">101 years old.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Holding an axe.</p>
           
-          <div className="my-10 text-center">
-              <img 
-                src={phoneYoutubeVideo} 
-                alt="Phone showing YouTube video of 101-year-old Gică Baciu with chainsaw" 
-                className="w-[320px] md:w-[450px] mx-auto rounded-lg"
-              />
-          </div>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Standing in front of freshly cut wood.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She hit play. The video had 96,000 views.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">The title was in Romanian.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">The old man was cutting wood. With a CHAINSAW.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">But I could make out the number.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">101 de ani.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">101 years old.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She hit play.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">The old man was cutting wood with a chainsaw.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Moving like he was 50. Not 101.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"This is Gică Baciu," Ioana said. "He lives in Mânzălești. Everyone there lives long like this."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">"This is Gică Baciu," she said. "He lives in Mânzălești. Many people there live very long. Very strong."</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda's eyes widened. "Everyone?"</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She swiped to another video.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">Ioana nodded. "Many people. Very old. But still strong."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">An old woman working in her garden.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She swiped to another video. An old woman. Working in her garden.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Then a BBC news report.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Then another. A BBC news report. Showing the village. White hills rising from the valley.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">White hills rising from the valley.</p>
           
-          <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-10 text-primary-foreground">
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">"That is salt," Ioana said. "On the SURFACE. Not underground like the mine."</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4">I stared at the screen. "How is that possible?"</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4">She shrugged. "The ground is full of salt. So much salt, it comes to the top. The river carries it. The wind blows it."</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4 font-bold italic">"The whole village breathes it. Every day. Their whole lives."</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4 font-bold">"That is why they live so long."</p>
-          </div>
-        </div>
-      </section>
-      
-      {/* Section 9d - The Evidence */}
-      <section className="py-10 px-4 bg-card">
-        <div className="max-w-[970px] mx-auto">
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">She showed us more videos. Romanian news channels. National Geographic.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">"That is salt. On the SURFACE. Not underground like the mine. The ground is full of salt. So much salt, it comes to the top. The river carries it. The wind blows it. The whole village breathes it. Their whole lives. That is why they live so long."</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">All about Mânzălești. The village where people live past 100.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda leaned forward.</p>
           
-          <div className="bg-foreground rounded-[10px] p-5 md:p-6 mt-8 text-background">
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic">
-              "You can search it yourself," she said. "Mânzălești longevity village. There are dozens of reports."
-            </p>
-          </div>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Can we go there?"</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">Linda leaned forward. "Can we go there?"</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Ioana smiled.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Ioana smiled. "Of course. But..."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">"You should email Dr. Popescu first. She knows everything about the salt."</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She paused. "You should talk to Dr. Popescu first. She knows everything about the salt."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She wrote a name and an email on a napkin.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Who's Dr. Popescu?"</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Slid it across the table.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"A researcher. From the university. She has been studying Mânzălești for many years."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">"Tell her Ioana sent you."</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She pulled out a pen. Scribbled on a napkin. Slid it across the table.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Why are you helping us?"</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Her name. Her email. Tell her Ioana sent you."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She smiled sadly.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I looked at the napkin. Then at Ioana.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">"My husband had lung problems. Like your wife. He is gone now. But before he died, he spent time in Mânzălești. It gave him ten more good years."</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Why are you going out of your way for us?"</p>
-        </div>
-      </section>
-      
-      {/* Section 9e - Ioana's Story */}
-      <section className="py-10 px-4 bg-secondary">
-        <div className="max-w-[970px] mx-auto">
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] italic">She smiled sadly.</p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"My husband had lung problems. Like your wife."</p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"He is gone now. But before he died... he spent time in Mânzălești."</p>
-          
-          <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-10 text-primary-foreground">
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] font-bold italic">
-              "It gave him ten more good years."
-            </p>
-          </div>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Her eyes got watery.</p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"So when I see people like you... looking for hope..."</p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">She trailed off. Then stood up. Patted Linda's hand.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Her eyes got watery.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">"Go to Mânzălești. Breathe the air. You will see."</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">And then she left.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I sat there holding the napkin.</p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">Dr. Elena Popescu.</p>
-          
-          <div className="my-10 text-center">
-            <img 
-              src={napkinElenaPopescu} 
-              alt="Napkin with Dr. Elena Popescu's email written on it" 
-              className="w-[320px] md:w-[450px] mx-auto rounded-lg"
-            />
-          </div>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda looked at me. "Should we email her?"</p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">I pulled out my phone. "I'm doing it right now."</p>
         </div>
       </section>
 
