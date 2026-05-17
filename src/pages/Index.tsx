@@ -489,7 +489,7 @@ const Index = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">It was a Tuesday.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda's sister invited us to Thanksgiving.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda's sister had invited us to Thanksgiving.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda said she had a cold.</p>
           
@@ -501,7 +501,11 @@ const Index = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda wasn't in bed.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I found her in the bathroom. Sitting on the floor. Crying.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I found her in the bathroom.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Sitting on the floor.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Crying.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">"I don't want to be that person anymore," she whispered.</p>
           
@@ -514,7 +518,7 @@ const Index = () => {
           {/* Emotional Quote Box */}
           <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-10 text-primary-foreground">
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">
-              "I used to RUN, Robert. I used to play with the grandkids. And now I can't even walk to the mailbox without feeling like I'm dying."
+              "I used to RUN, Robert. I used to play with the grandkids. And now I can't walk to the mailbox without feeling like I'm dying."
             </p>
           </div>
           
