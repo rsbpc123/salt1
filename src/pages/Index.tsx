@@ -10,7 +10,7 @@ import harvardMedicalSchool from "@/assets/harvard-medical-school.png";
 import universityTituMaiorescu from "@/assets/university-titu-maiorescu.jpeg";
 import facultyGeographyBucharest from "@/assets/faculty-geography-bucharest.png";
 import romanianVillage from "@/assets/romanian-village.jpg";
-import manzalestiVillageChurch from "@/assets/manzalesti-village-church.jpg";
+
 import drPopescuLungDiagram from "@/assets/dr-popescu-lung-diagram.jpg";
 import saltCrystalsJar from "@/assets/salt-crystals-jar.jpg";
 import osmoticHydration from "@/assets/osmotic-hydration.jpg";
