@@ -456,6 +456,10 @@ const Index = () => {
             Managing our life shrinking smaller and smaller.
           </p>
           
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
+            That word started to feel like a death sentence.
+          </p>
+          
           <div className="clear-both" />
         </div>
       </section>
