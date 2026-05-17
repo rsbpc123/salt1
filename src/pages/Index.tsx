@@ -319,17 +319,17 @@ const Index = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I asked the question that was choking me.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Can you fix it?"</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Can you reverse it?"</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">He shook his head.</p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Once the scarring sets in... no."</p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"We can try to slow it down. But we can't reverse it."</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"Once the scarring sets in... no. We can try to slow it down. That's it."</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">My stomach dropped.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">"How long does she have?"</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">He looked at Linda. Then at me.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">He looked at Linda.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Then at me.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">"If we can't control the inflammation..."</p>
           
