@@ -396,31 +396,29 @@ const Index = () => {
             </div>
           </div>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            Linda wasn't reckless.
-          </p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            She did EVERYTHING they told her.
-          </p>
-          
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
-            Six different inhalers over three years. Five medications just to breathe.
+            Six different inhalers over three years.
+          </p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
+            Five medications just to breathe.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
-            We were spending $1,200 a month on prescriptions. Even WITH insurance.
+            $1,200 a month on prescriptions.
           </p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">
-            And she was still drowning.
-          </p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            Prednisone rounds. That awful steroid that made her gain 15 pounds and gave her insomnia.
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
+            Even with insurance.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            A $400 HEPA air purifier. Ripped out the carpets. Breathing exercises.
+            Prednisone rounds that made her gain 15 pounds and stole her sleep.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            A $400 HEPA air purifier.
+          </p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            Ripped out the carpets.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
