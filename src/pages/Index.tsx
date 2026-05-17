@@ -1788,11 +1788,11 @@ const Index = () => {
         </div>
       </section>
 
-      {/* The Problem At Home - Part 1 */}
+      {/* The Problem At Home */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8 text-primary">
-            The Problem We Discovered When We Got Home
+            The Problem We Discovered When We Got Home.
           </h2>
           
           <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
@@ -1804,55 +1804,65 @@ const Index = () => {
             
             <p>Terrified the effects would wear off.</p>
             
-            <p className="font-semibold text-primary">But for the first few weeks... Linda was fine. Better than fine.</p>
+            <p>But for the first few weeks, Linda was fine.</p>
             
-            <p className="text-[22px] md:text-[28px] font-bold">She was THRIVING.</p>
-          </div>
-        </div>
-      </section>
-
-      {/* The Thriving Period */}
-      <section className="py-10 md:py-16 px-4 bg-primary/5">
-        <div className="max-w-[750px] mx-auto">
-          <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
-            <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-              <p>She reduced her inhaler use by <span className="font-bold text-primary">80%</span>. Stopped taking steroids altogether. Started going for walks around the neighborhood.</p>
-              
-              <p>Even played with the grandkids.</p>
-              
-              <p className="font-semibold mt-6">I thought we'd won.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* The Return of Symptoms */}
-      <section className="py-10 md:py-16 px-4 bg-background">
-        <div className="max-w-[750px] mx-auto">
-          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>Then... about six weeks after we got home... I heard it.</p>
+            <p>Better than fine.</p>
+            
+            <p className="text-[22px] md:text-[28px] font-bold">She was thriving.</p>
+            
+            <p>She reduced her inhaler use dramatically.</p>
+            
+            <p>Walked the neighborhood.</p>
+            
+            <p>Played with the grandkids.</p>
+            
+            <p className="font-semibold">I thought we'd won.</p>
+            
+            <p>Then about six weeks after we got home... I heard it.</p>
             
             <p>That sound.</p>
             
-            <p>Faint at first. But unmistakable.</p>
+            <p>Faint at first.</p>
+            
+            <p>But unmistakable.</p>
             
             <p className="text-[24px] md:text-[32px] font-bold text-destructive">The wheeze.</p>
             
-            <p>Linda coughed a few times. "Just dry air," she said.</p>
+            <p>Linda coughed a few times.</p>
+            
+            <p>"Just dry air," she said.</p>
             
             <p className="font-semibold">But I knew better.</p>
-            
-            <p>By that afternoon, she was reaching for her inhaler again.</p>
-            
-            <p>That night... the wheezing was back.</p>
             
             <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-destructive pl-6 my-8">
               Within two weeks, it was like Romania never happened.
             </p>
             
-            <p>The shortness of breath. The coughing fits. The sleepless nights.</p>
+            <p>The shortness of breath.</p>
             
-            <p>All of it. Came rushing back.</p>
+            <p>The coughing fits.</p>
+            
+            <p>The sleepless nights.</p>
+            
+            <p>All of it. Back.</p>
+            
+            <p>One night, I found her in the bathroom again.</p>
+            
+            <p>Sitting on the floor.</p>
+            
+            <p>Crying.</p>
+            
+            <p>Just like before.</p>
+            
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "I thought we fixed it," she sobbed.
+            </p>
+            
+            <p>I held her.</p>
+            
+            <p>And I made another promise.</p>
+            
+            <p className="text-[24px] md:text-[32px] font-bold text-primary text-center mt-8">"We're going to figure this out."</p>
           </div>
         </div>
       </section>
@@ -1875,25 +1885,6 @@ const Index = () => {
               />
             </div>
           </figure>
-        </div>
-      </section>
-
-      {/* The Breakdown */}
-      <section className="py-10 md:py-16 px-4 bg-background">
-        <div className="max-w-[750px] mx-auto">
-          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>One night, I found her in the bathroom again. Sitting on the floor. Crying. Just like before.</p>
-            
-            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
-              "I thought we fixed it," she sobbed.
-            </p>
-            
-            <p>I held her.</p>
-            
-            <p>And I made another promise.</p>
-            
-            <p className="text-[24px] md:text-[32px] font-bold text-primary text-center mt-8">"We're going to figure this out."</p>
-          </div>
         </div>
       </section>
 
