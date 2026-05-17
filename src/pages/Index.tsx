@@ -2381,44 +2381,51 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Bringing Mânzălești to America - Part 1 */}
+      {/* Why We Had To Bring This Home */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2 text-primary">
-            How We're Bringing Mânzălești to America
+            Why We Had To Bring This Home.
           </h2>
-          <p className="text-[20px] md:text-[28px] text-center text-muted-foreground italic mb-8">
-            (And Why It Took 6 MONTHS of Fighting Through Red Tape)
-          </p>
-          
+
           <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
-          
+
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>Over the next 6 months, Dr. Popescu and I worked together to make this happen.</p>
-            
-            <p className="text-[22px] md:text-[28px] font-bold text-destructive">And it was a NIGHTMARE.</p>
-            
-            <p>The salt comes from the Mânzălești region. The deposits are on protected UNESCO Geopark land.</p>
-            
-            <p>Getting export approval meant navigating Romanian bureaucracy. Filing stacks of paperwork. Proving the salt was being used for wellness purposes. Not medical claims.</p>
-            
-            <p>Dr. Popescu leveraged her university connections. Worked with the local government.</p>
-            
-            <p className="font-semibold">And after MONTHS of negotiating... they approved limited export permits. For wellness purposes only.</p>
+            <p>Over the next six months, Dr. Popescu and I worked together to make this available outside of Romania.</p>
+
+            <p className="text-[22px] md:text-[28px] font-bold text-destructive">It was a nightmare.</p>
+
+            <p>The salt comes from protected UNESCO Geopark land.</p>
+
+            <p>Romanian export permits required mineral analysis. Geological reports. Wellness-purpose documentation.</p>
+
+            <p>U.S. Customs almost seized the first shipment because the inspector flagged the mineral composition.</p>
+
+            <p>We had to prove these were naturally occurring minerals.</p>
+
+            <p>Not synthetic.</p>
+
+            <p>Not pharmaceutical.</p>
+
+            <p className="italic">Just ancient salt, formed by an ancient sea and millions of years of pressure.</p>
+
+            <p>Months of paperwork.</p>
+
+            <p className="font-semibold text-primary">But we fought through it.</p>
           </div>
-          
+
           {/* Export Paperwork Image */}
           <div className="mt-10">
-            <div 
+            <div
               className="relative overflow-hidden rounded-xl shadow-xl"
               style={{
                 maskImage: 'radial-gradient(ellipse 100% 95% at center, black 70%, transparent 100%)',
                 WebkitMaskImage: 'radial-gradient(ellipse 100% 95% at center, black 70%, transparent 100%)'
               }}
             >
-              <img 
-                src={romaniaExportPaperwork} 
-                alt="Desk covered with Romanian government export paperwork, UNESCO Geopark maps, mineral analysis reports, and pending approval stamps" 
+              <img
+                src={romaniaExportPaperwork}
+                alt="Desk covered with Romanian government export paperwork, UNESCO Geopark maps, mineral analysis reports, and pending approval stamps"
                 className="w-full h-auto"
               />
             </div>
@@ -2429,37 +2436,33 @@ const Index = () => {
         </div>
       </section>
 
-      {/* U.S. Customs Challenge */}
+      {/* Securing the Salt */}
       <section className="py-10 md:py-16 px-4 bg-secondary/30">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p className="font-semibold">Then came U.S. customs.</p>
-            
-            <p>The shipment almost got seized because the inspector flagged the mineral composition.</p>
-            
-            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-destructive pl-6 my-8">
-              "This isn't standard sodium chloride," he said. "What IS this?"
-            </p>
-            
-            <p>We had to provide geological reports. Scientific papers proving these were naturally occurring volcanic minerals. Not synthetic additives. Not pharmaceutical compounds.</p>
-            
-            <p className="italic">Just ancient salt. Formed 20 million years ago under volcanic pressure.</p>
-            
-            <p className="font-semibold text-primary">It took months. But we fought through it.</p>
+            <p>We secured the salt from Mânzălești.</p>
+
+            <p>Sourced the four herbs from the Carpathian hillsides.</p>
+
+            <p>Refined the membrane pouch.</p>
+
+            <p>Tested it on dozens of volunteers.</p>
+
+            <p>All of whom reported meaningful changes within 4 to 6 weeks.</p>
           </div>
-          
+
           {/* Customs Release Image */}
           <div className="mt-10">
-            <div 
+            <div
               className="relative overflow-hidden rounded-xl shadow-xl"
               style={{
                 maskImage: 'radial-gradient(ellipse 100% 95% at center, black 70%, transparent 100%)',
                 WebkitMaskImage: 'radial-gradient(ellipse 100% 95% at center, black 70%, transparent 100%)'
               }}
             >
-              <img 
-                src={customsReleasedPouch} 
-                alt="Hands holding the first salt pouch from a package, with US Customs release forms stamped 'RELEASED' on the table" 
+              <img
+                src={customsReleasedPouch}
+                alt="Hands holding the first salt pouch from a package, with US Customs release forms stamped 'RELEASED' on the table"
                 className="w-full h-auto"
               />
             </div>
@@ -2470,23 +2473,32 @@ const Index = () => {
         </div>
       </section>
 
-      {/* The Final Product */}
+      {/* The Arrival */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>We secured the salt from Mânzălești. Sourced the four herbs from the Carpathian hillsides. (Mint. Sage. Basil. Lavender. The same herbs that grow wild on those salt-covered hills.)</p>
-            
-            <p>Refined the breathable membrane pouch system. Tested it on dozens of volunteers. All of whom reported dramatic improvements within 4 to 6 weeks.</p>
-            
-            <p className="font-semibold">And finally... after months of waiting... the first shipment arrived.</p>
-            
-            <p>I opened the first box myself. Held the pouch in my hands.</p>
-            
-            <p>And immediately called Linda. "We did it. We actually did it."</p>
+            <p className="font-semibold">And finally, the first shipment arrived.</p>
+
+            <p>I opened the first box myself.</p>
+
+            <p>Held the pouch in my hands.</p>
+
+            <p>And called Linda.</p>
+
+            <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-8">
+              "We did it. We actually did it."
+            </p>
+
+            <p className="text-[22px] md:text-[28px] font-bold text-primary">We call it Longevity Salt.</p>
+
+            <p>Because that's what it gave Linda.</p>
+
+            <p>Not just more years.</p>
+
+            <p className="font-semibold">But the ability to live those years fully.</p>
           </div>
         </div>
       </section>
-
       {/* Product Reveal */}
       <section className="py-12 md:py-20 px-4 bg-gradient-to-b from-primary/10 via-primary/5 to-background">
         <div className="max-w-[900px] mx-auto">
