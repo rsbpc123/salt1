@@ -3195,77 +3195,63 @@ const Index = () => {
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8 text-primary">
-            Here's What Happens Next
+            Here's What Happens Next.
           </h2>
-          
+
           <div className="space-y-6 text-[16px] md:text-[20px] leading-relaxed text-foreground">
             <p className="font-semibold">You're going to make a choice right now.</p>
-            
-            <p>And that choice is going to determine what the next 60 days... and the rest of your life... looks like.</p>
           </div>
-          
+
           {/* Choice 1 */}
           <div className="bg-muted/50 rounded-xl p-6 md:p-8 mt-8 border-l-4 border-destructive">
-            <h3 className="text-[20px] md:text-[26px] font-bold text-destructive mb-4">CHOICE #1:</h3>
+            <h3 className="text-[20px] md:text-[26px] font-bold text-destructive mb-4">Choice #1: Close this page.</h3>
             <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground">
-              <p>You close this page. Go back to "managing."</p>
-              <p>Keep using your inhaler 6 to 8 times a day. Keep waking up at 3 AM gasping for air. Keep saying "no" to the things you want to say "yes" to.</p>
-              <p className="font-semibold text-destructive">Keep watching your life get smaller.</p>
+              <p>Go back to "managing."</p>
+              <p>Keep the inhaler in your pocket. Keep saying no to the things you want to say yes to. Watch the next sixty days look exactly like the last sixty.</p>
             </div>
           </div>
-          
+
           {/* Choice 2 */}
           <div className="bg-primary/10 rounded-xl p-6 md:p-8 mt-6 border-l-4 border-primary">
-            <h3 className="text-[20px] md:text-[26px] font-bold text-primary mb-4">CHOICE #2:</h3>
+            <h3 className="text-[20px] md:text-[26px] font-bold text-primary mb-4">Choice #2: Click the button below.</h3>
             <div className="space-y-4 text-[16px] md:text-[20px] leading-relaxed text-foreground">
-              <p className="font-semibold">You click the button below. Secure your pouches NOW. Before this batch sells out.</p>
-              <p>Try Longevity Salt for 60 days. Risk-free.</p>
-              <p>And give yourself a chance at breathing freely again.</p>
-              <p>At sleeping through the night. At playing with your grandkids without needing a break.</p>
-              <p className="font-bold text-primary">At saying YES to life again.</p>
+              <p>Secure your pouches. Try Longevity Salt for sixty days, risk-free.</p>
+              <p className="font-bold text-primary">Give yourself a chance.</p>
             </div>
           </div>
-          
-          {/* Urgency Message */}
+
+          {/* Closing Message */}
           <div className="mt-10 space-y-6 text-[16px] md:text-[20px] leading-relaxed text-foreground">
-            <p className="font-semibold text-destructive">Right now, as you read this... your lungs are scarring.</p>
-            
-            <p>Tiny airways hardening. Cilia dying. Mucus cementing.</p>
-            
-            <p className="font-bold">Every hour you delay is permanent damage you can't reverse.</p>
-            
-            <p>Tomorrow morning, you'll wake up with slightly worse lungs than you have right now.</p>
-            
-            <p className="italic">Unless you do something about it.</p>
-            
-            <p className="text-[22px] md:text-[28px] font-bold text-primary text-center">Today.</p>
-            
-            <p className="font-semibold">How many more of those days are you willing to sacrifice?</p>
-            
-            <p>I know which choice Linda made.</p>
-            
-            <p>And I know which one you SHOULD make.</p>
-            
-            <p className="italic">But I can't make that decision for you.</p>
+            <p className="font-semibold">That's the whole decision.</p>
+
+            <p>The first time I held Linda while she drowned in our own bedroom, I had no idea this was possible.</p>
+
+            <p>I had no idea a Romanian village existed where 97-year-olds chopped wood.</p>
+
+            <p>I had no idea what to do.</p>
+
+            <p className="font-semibold text-primary">Now I do.</p>
+
+            <p>And I'm telling you what I wish someone had told me three years ago.</p>
           </div>
-          
+
           {/* Final Push */}
           <div className="bg-primary text-primary-foreground rounded-xl p-6 md:p-10 mt-10 text-center">
-            <p className="text-[18px] md:text-[22px] font-bold mb-4">So stop reading. Stop hesitating.</p>
-            
-            <p className="text-[22px] md:text-[28px] font-bold mb-4">Click the button below. Secure your pouches NOW.</p>
-            
-            <p className="text-[16px] md:text-[20px]">Before this batch sells out. Before you spend another night gasping for air. Before you miss another moment with the people you love.</p>
-            
-            <p className="text-[18px] md:text-[22px] font-bold mt-6">You've already wasted enough time struggling to breathe.</p>
-            
-            <p className="text-[24px] md:text-[32px] font-bold mt-4">Don't waste another second.</p>
+            <p className="text-[18px] md:text-[22px] font-bold mb-4">Don't waste another night drowning.</p>
+
+            <p className="text-[18px] md:text-[22px] font-bold mb-4">Don't wait until your "18 months" run out.</p>
+
+            <p className="text-[22px] md:text-[28px] font-bold mb-4">Click the button below.</p>
+
+            <p className="text-[20px] md:text-[24px] font-bold mb-4">Secure your pouches now.</p>
+
+            <p className="text-[16px] md:text-[20px]">Before this batch sells out.</p>
           </div>
-          
+
           {/* Robert's Sign-off */}
           <div className="mt-8 text-left">
             <p className="text-[18px] md:text-[22px] text-foreground italic">I'm rooting for you.</p>
-            <p className="text-[20px] md:text-[24px] font-bold text-primary mt-4">– Robert</p>
+            <p className="text-[20px] md:text-[24px] font-bold text-primary mt-4">— Robert</p>
           </div>
           
           {/* P.S. Section */}
