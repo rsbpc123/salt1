@@ -1762,6 +1762,32 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Soft CTA Section 2 */}
+      <section className="py-10 md:py-16 px-4 bg-background">
+        <div className="max-w-[750px] mx-auto">
+          <div className="bg-card rounded-[14px] p-6 md:p-10 shadow-lg border-l-4 border-primary">
+            <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+              <p>If you're reading this and you're nodding along...</p>
+              
+              <p>If you've been told what Linda was told, and you're tired of "just managing"...</p>
+              
+              <p className="font-bold text-primary text-[20px] md:text-[26px]">You can secure your Longevity Salt right now and start tonight.</p>
+              
+              <p className="italic text-muted-foreground">Or keep reading to see what happened when we got home.</p>
+              
+              <div className="text-center pt-4">
+                <button
+                  onClick={() => document.getElementById('order-section')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="inline-block bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-[18px] md:text-[22px] px-10 md:px-14 py-4 md:py-5 rounded-[14px] shadow-lg transition-all hover:scale-105"
+                >
+                  Secure Yours Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* The Problem At Home - Part 1 */}
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
