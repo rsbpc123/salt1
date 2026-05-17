@@ -1657,21 +1657,21 @@ const Index = () => {
       <section className="py-10 md:py-16 px-4 bg-background">
         <div className="max-w-[750px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8 text-primary">
-            By Day 10, Linda Did Something She Hasn't Done in 5 Years
+            By Day 10, Linda Did Something She Hadn't Done In Five Years.
           </h2>
           
           <div className="h-1 w-24 bg-primary mx-auto mb-10"></div>
           
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p className="font-semibold">Over the next week, Linda transformed.</p>
+            <p className="text-[22px] md:text-[28px] font-bold text-primary">She wanted to hike.</p>
             
-            <p>Not overnight. But steadily.</p>
+            <p>There's a trail near the village.</p>
             
-            <p>By day 5, she was walking around the village without stopping to catch her breath.</p>
+            <p>About 3 miles.</p>
             
-            <p>By day 7, she was sleeping through the night.</p>
+            <p>Moderate incline.</p>
             
-            <p className="text-[22px] md:text-[28px] font-bold text-primary">By day 10... she wanted to hike.</p>
+            <p className="italic">Six months earlier, she couldn't walk to the mailbox.</p>
             
             <figure className="mt-8">
               <img 
@@ -1688,25 +1688,21 @@ const Index = () => {
       <section className="py-10 md:py-16 px-4 bg-secondary/30">
         <div className="max-w-[750px] mx-auto">
           <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-            <p>There's this trail near the village. About 3 miles. Moderate incline.</p>
+            <p>"Are you sure?"</p>
             
-            <p>But for Linda? It might as well have been Everest.</p>
+            <p>She nodded.</p>
             
-            <p className="italic">Six months earlier, she couldn't walk to the mailbox.</p>
+            <p>We started slow.</p>
             
-            <p className="font-semibold">And now... she wanted to hike.</p>
+            <p>I kept waiting for her to stop.</p>
             
-            <p>"Are you sure?" I asked.</p>
+            <p className="font-semibold text-primary">She didn't.</p>
             
-            <p>She nodded. "I want to try."</p>
+            <p>She just kept going.</p>
             
-            <p>We started walking. Slowly at first.</p>
+            <p>One foot in front of the other.</p>
             
-            <p>I kept waiting for her to stop. To say she needed a break.</p>
-            
-            <p className="font-semibold text-primary">But she didn't.</p>
-            
-            <p>She just... kept going. One foot in front of the other. Breathing.</p>
+            <p className="italic">Breathing.</p>
           </div>
         </div>
       </section>
@@ -1716,11 +1712,11 @@ const Index = () => {
         <div className="max-w-[750px] mx-auto">
           <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
             <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-              <p>About halfway up, she stopped. Not because she was tired.</p>
+              <p>About halfway up, she stopped.</p>
               
-              <p>But because she wanted to look at the view.</p>
+              <p>Not because she was tired.</p>
               
-              <p className="italic">The mountains stretched out in front of us. Green and gold and endless. The white salt hills sparkling in the distance.</p>
+              <p className="font-semibold">Because she wanted to look at the view.</p>
               
               <p className="text-[20px] md:text-[24px] italic text-muted-foreground border-l-4 border-primary pl-6 my-6">
                 "I never thought I'd be able to do this again," she said quietly.
@@ -1734,131 +1730,35 @@ const Index = () => {
         </div>
       </section>
 
-      {/* The Medical Results - Redesigned */}
+      {/* The Medical Results */}
       <section className="py-12 md:py-20 px-4 bg-gradient-to-b from-primary/10 to-background">
-        <div className="max-w-[900px] mx-auto">
-          <h3 className="text-[24px] md:text-[36px] leading-tight font-bold text-center mb-4 text-primary">
-            The Numbers That Changed Everything
-          </h3>
-          <p className="text-center text-muted-foreground text-[18px] md:text-[22px] mb-10 max-w-[600px] mx-auto">
-            Dr. Popescu ran her tests that afternoon. The results left us speechless.
-          </p>
-          
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            {/* Stats Cards */}
-            <div className="space-y-6">
-              {/* Oxygen Saturation Card */}
-              <div className="bg-card rounded-2xl p-6 md:p-8 shadow-lg border-l-4 border-primary">
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center">
-                    <span className="text-2xl">🫁</span>
-                  </div>
-                  <div>
-                    <p className="text-[14px] md:text-[16px] text-muted-foreground uppercase tracking-wide font-semibold">Oxygen Saturation</p>
-                    <p className="text-[12px] md:text-[14px] text-muted-foreground">Up from 88%</p>
-                  </div>
-                </div>
-                <div className="flex items-baseline gap-2">
-                  <span className="text-[56px] md:text-[72px] font-bold text-primary leading-none">97</span>
-                  <span className="text-[28px] md:text-[36px] font-bold text-primary">%</span>
-                </div>
-                <div className="mt-4 h-2 bg-muted rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-primary/60 to-primary rounded-full" style={{ width: '97%' }}></div>
-                </div>
-                <p className="text-[14px] text-muted-foreground mt-2">Normal range: 95-100%</p>
-              </div>
-              
-              {/* Peak Flow Card */}
-              <div className="bg-card rounded-2xl p-6 md:p-8 shadow-lg border-l-4 border-primary">
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center">
-                    <span className="text-2xl">💨</span>
-                  </div>
-                  <div>
-                    <p className="text-[14px] md:text-[16px] text-muted-foreground uppercase tracking-wide font-semibold">Peak Flow</p>
-                    <p className="text-[12px] md:text-[14px] text-muted-foreground">Up from 310 L/min</p>
-                  </div>
-                </div>
-                <div className="flex items-baseline gap-2">
-                  <span className="text-[56px] md:text-[72px] font-bold text-primary leading-none">420</span>
-                  <span className="text-[18px] md:text-[22px] font-medium text-muted-foreground self-end mb-3">L/min</span>
-                </div>
-                <div className="mt-4 h-2 bg-muted rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-primary/60 to-primary rounded-full" style={{ width: '84%' }}></div>
-                </div>
-                <p className="text-[14px] text-muted-foreground mt-2">Severe → Borderline normal in 10 days</p>
-              </div>
-            </div>
+        <div className="max-w-[750px] mx-auto">
+          <div className="space-y-6 text-[18px] md:text-[22px] leading-relaxed text-foreground">
+            <p>That afternoon, Dr. Popescu ran some basic respiratory measurements on Linda.</p>
             
-            {/* Image */}
-            <div className="relative">
+            <p>Compared them to the readings Linda had brought from her pulmonologist back home.</p>
+            
+            <p className="font-semibold">The improvement was so significant that Dr. Popescu printed both reports and slid them across her desk.</p>
+            
+            <figure className="my-8">
               <img 
                 src={oximeterPeakFlow} 
-                alt="Pulse oximeter showing 97% oxygen saturation and peak flow meter on rustic wooden table" 
+                alt="Pulse oximeter and peak flow meter on rustic wooden table" 
                 className="w-full h-auto rounded-2xl shadow-xl"
               />
-              <div className="absolute -bottom-4 -right-4 bg-primary text-primary-foreground px-5 py-3 rounded-xl shadow-lg">
-                <p className="text-[14px] md:text-[16px] font-bold">10 Days Later</p>
-              </div>
-            </div>
+            </figure>
           </div>
           
-          {/* Quote */}
-          <div className="mt-12 bg-card rounded-xl p-6 md:p-8 shadow-lg max-w-[700px] mx-auto">
+          <div className="mt-8 bg-card rounded-xl p-6 md:p-8 shadow-lg max-w-[700px] mx-auto">
             <p className="text-[20px] md:text-[26px] italic text-center text-foreground leading-relaxed">
-              "You've gone from severe obstruction to borderline normal. In 10 days."
+              "You've gone from severe restriction... to borderline normal. In 10 days."
             </p>
             <p className="text-center mt-4 text-primary font-semibold">— Dr. Elena Popescu</p>
-            <div className="mt-6 text-center">
-              <p className="text-[18px] md:text-[22px]">Linda started crying. <span className="font-bold text-primary">"I'm getting better."</span></p>
-            </div>
           </div>
-        </div>
-      </section>
-
-      {/* Robert's Knee Pain - Redesigned */}
-      <section className="py-12 md:py-20 px-4 bg-secondary/20">
-        <div className="max-w-[900px] mx-auto">
-          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
-            {/* Image - Left Side */}
-            <div className="order-2 md:order-1">
-              <img 
-                src={manKneePain} 
-                alt="Man sitting in armchair holding his painful knee after hiking" 
-                className="w-full h-auto rounded-2xl shadow-xl"
-              />
-            </div>
-            
-            {/* Content - Right Side */}
-            <div className="order-1 md:order-2 space-y-6">
-              <h3 className="text-[24px] md:text-[32px] font-bold text-primary leading-tight">
-                But While Linda Was Getting Better...
-              </h3>
-              <p className="text-[20px] md:text-[26px] font-semibold text-foreground">
-                That hike absolutely DESTROYED my knees.
-              </p>
-              
-              <div className="space-y-4 text-[18px] md:text-[22px] leading-relaxed text-foreground">
-                <p>Twenty-two years in the Air Force had left them pretty shot.</p>
-                <p>And by the time we got back to the cottage, I could barely walk.</p>
-                <p className="italic text-muted-foreground">Then I remembered what Ana said about the warm salt bags.</p>
-              </div>
-              
-              <div className="bg-card rounded-xl p-6 shadow-lg border-l-4 border-primary mt-6">
-                <p className="text-[18px] md:text-[22px] leading-relaxed">
-                  I grabbed one of the small pouches Maria had given us. Heated it on the stove for a few minutes. Pressed it against my right knee.
-                </p>
-                <p className="font-bold text-primary text-[20px] md:text-[24px] mt-4">
-                  Within 20 minutes, the throbbing stopped.
-                </p>
-                <p className="mt-3">The next morning? <span className="font-bold">No pain.</span></p>
-              </div>
-              
-              <p className="text-[26px] md:text-[34px] font-bold text-primary text-center md:text-left pt-4">
-                First time in years.
-              </p>
-            </div>
-          </div>
+          
+          <p className="text-[24px] md:text-[32px] font-bold text-primary text-center mt-10">
+            Linda started crying again.
+          </p>
         </div>
       </section>
 
