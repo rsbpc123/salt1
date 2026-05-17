@@ -215,22 +215,29 @@ const Index = () => {
           </div>
           
           <p className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold mb-4">
-            I WATCHED MY WIFE DROWN
+            I WATCHED MY WIFE DROWN.
           </p>
           
+          <p className="text-[22px] md:text-[32px] leading-[30px] md:leading-[42px] font-bold">
+            Sitting right next to me.
+          </p>
           <p className="text-[22px] md:text-[32px] leading-[30px] md:leading-[42px] font-bold mb-8">
-            Sitting right next to me. In our bed.
+            In our bed.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">It was just past midnight when I heard it.</p>
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">That sound.</p>
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda wasn't breathing.</p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Chest heaving. Lips turning blue. Clutching her throat like someone had their hands around it.</p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I grabbed her inhaler. Shook it. Jammed it into her mouth.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Chest heaving.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Lips turning blue.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Clutching her throat like someone had their hands around it.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I grabbed her inhaler.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Shook it.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Jammed it into her mouth.</p>
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">"Breathe, baby. Please."</p>
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Two puffs.</p>
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Nothing.</p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">Her wheezing got WORSE.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Her wheezing got worse.</p>
           
           <div className="clear-both" />
         </div>
@@ -276,9 +283,6 @@ const Index = () => {
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">No solution.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">No plan.</p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Just... keep drowning.</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">Except Linda's lungs were already turning to cement.</p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">And I was running out of time to save her.</p>
-            
             <div className="clear-both" />
           </div>
           
