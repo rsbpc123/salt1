@@ -468,7 +468,7 @@ const Index = () => {
       <section className="py-10 px-4 bg-card text-card-foreground">
         <div className="max-w-[970px] mx-auto">
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-8">
-            The Night I Found Her Crying on the Bathroom Floor
+            The Night I Found Her On The Bathroom Floor.
           </h2>
           
           <div className="md:float-right md:ml-6 md:-mr-4 text-center mb-4 relative">
@@ -489,7 +489,7 @@ const Index = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">It was a Tuesday.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda's sister invited us to Thanksgiving.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda's sister had invited us to Thanksgiving.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda said she had a cold.</p>
           
@@ -501,7 +501,11 @@ const Index = () => {
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Linda wasn't in bed.</p>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I found her in the bathroom. Sitting on the floor. Crying.</p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I found her in the bathroom.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Sitting on the floor.</p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Crying.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold italic">"I don't want to be that person anymore," she whispered.</p>
           
@@ -514,15 +518,13 @@ const Index = () => {
           {/* Emotional Quote Box */}
           <div className="bg-primary rounded-[14px] p-5 md:p-6 mt-10 text-primary-foreground">
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px]">
-              "I used to RUN, Robert. I used to play with the grandkids. And now I can't even walk to the mailbox without feeling like I'm dying."
+              "I used to RUN, Robert. I used to play with the grandkids. And now I can't walk to the mailbox without feeling like I'm dying."
             </p>
           </div>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">I sat down next to her.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">Because what was I supposed to say?</p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">Her lungs were getting WORSE. Not better.</p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">The medications weren't working.</p>
           
@@ -537,9 +539,6 @@ const Index = () => {
             </p>
             <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4">
               I don't care what it takes.
-            </p>
-            <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-4 font-bold italic">
-              I'm going to find a way.
             </p>
           </div>
           
