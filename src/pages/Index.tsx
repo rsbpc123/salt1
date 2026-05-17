@@ -374,10 +374,10 @@ const Index = () => {
         <div className="max-w-[970px] mx-auto relative">
           
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2">
-            We Did EVERYTHING the Doctors Told Us
+            We Did EVERYTHING They Told Us.
           </h2>
           <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] font-bold text-center text-destructive mb-8">
-            (And She Got WORSE)
+            (And She Got Worse.)
           </p>
           
           <div className="md:float-right md:ml-6 md:-mr-4 text-center mb-4 relative">
