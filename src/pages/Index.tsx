@@ -2908,7 +2908,7 @@ const Index = () => {
             </div>
 
             {/* Option 3 - 3 Pouches */}
-            <div className="bg-white rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
+            <div id="pkg-3" className="scroll-mt-24 bg-white rounded-none shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
               <h3 className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-0">3 LONGEVITY SALT</h3>
               <p className="text-[16px] md:text-[18px] font-bold text-[#1a1a1a] uppercase tracking-wide mb-2">POUCHES</p>
               
