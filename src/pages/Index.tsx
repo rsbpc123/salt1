@@ -374,10 +374,10 @@ const Index = () => {
         <div className="max-w-[970px] mx-auto relative">
           
           <h2 className="text-[28px] md:text-[44px] leading-[36px] md:leading-[54px] font-bold text-center mb-2">
-            We Did EVERYTHING the Doctors Told Us
+            We Did EVERYTHING They Told Us.
           </h2>
           <p className="text-[20px] md:text-[26px] leading-[30px] md:leading-[40px] font-bold text-center text-destructive mb-8">
-            (And She Got WORSE)
+            (And She Got Worse.)
           </p>
           
           <div className="md:float-right md:ml-6 md:-mr-4 text-center mb-4 relative">
@@ -396,31 +396,29 @@ const Index = () => {
             </div>
           </div>
           
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            Linda wasn't reckless.
-          </p>
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            She did EVERYTHING they told her.
-          </p>
-          
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
-            Six different inhalers over three years. Five medications just to breathe.
+            Six different inhalers over three years.
+          </p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold">
+            Five medications just to breathe.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
-            We were spending $1,200 a month on prescriptions. Even WITH insurance.
+            $1,200 a month on prescriptions.
           </p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">
-            And she was still drowning.
-          </p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            Prednisone rounds. That awful steroid that made her gain 15 pounds and gave her insomnia.
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
+            Even with insurance.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            A $400 HEPA air purifier. Ripped out the carpets. Breathing exercises.
+            Prednisone rounds that made her gain 15 pounds and stole her sleep.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            A $400 HEPA air purifier.
+          </p>
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
+            Ripped out the carpets.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
@@ -432,7 +430,7 @@ const Index = () => {
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8">
-            Every doctor said the same thing:
+            And every doctor said the same thing.
           </p>
           
           {/* Doctor Quote Box */}
@@ -443,11 +441,7 @@ const Index = () => {
           </div>
           
           <p className="text-[28px] md:text-[40px] leading-[36px] md:leading-[50px] mt-10 font-bold text-center">
-            MANAGE.
-          </p>
-          
-          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
-            Like we weren't already managing her not being able to walk upstairs.
+            Manage.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
@@ -455,11 +449,15 @@ const Index = () => {
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
-            Managing the stack of medical bills we couldn't pay.
+            Managing the bills we couldn't pay.
           </p>
           
           <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 font-bold text-destructive">
             Managing our life shrinking smaller and smaller.
+          </p>
+          
+          <p className="text-[18px] md:text-[24px] leading-[28px] md:leading-[34px] mt-8 italic">
+            That word started to feel like a death sentence.
           </p>
           
           <div className="clear-both" />
