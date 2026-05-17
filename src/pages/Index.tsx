@@ -138,10 +138,10 @@ const Index = () => {
               />
             </div>
             <p className="font-bold italic text-[18px] md:text-[24px] leading-[24px] md:leading-[34px] text-center md:text-left">
-              "In 40 years of research, I've watched hundreds of people reverse lung damage their doctors said was permanent. The secret isn't medication. It's what you breathe while you sleep."
+              "In 40 years of research, I've watched people support their breathing in ways their doctors said weren't possible. The secret isn't another medication. It's what surrounds them while they sleep."
             </p>
             <p className="text-[16px] md:text-[24px] leading-[22px] md:leading-[34px] mt-3 text-center md:text-left">
-              <strong>– Dr. Elena Popescu, </strong><br className="md:hidden"/>Pulmonologist
+              <strong>— Dr. Elena Popescu, </strong><br className="md:hidden"/>Pulmonary Researcher
             </p>
           </div>
           
