@@ -118,16 +118,13 @@ const Index = () => {
         <div className="max-w-[970px] mx-auto relative z-10">
           <div className="text-center md:text-left">
             <p className="font-bold text-[28px] md:text-[50px] leading-[36px] md:leading-[64px]">
-              I Watched My Wife Drown in Our Bedroom at Midnight
+              I Watched My Wife Drown In Our Bedroom At Midnight.
+            </p>
+            <p className="font-bold text-[22px] md:text-[38px] leading-[30px] md:leading-[48px] mt-4">
+              Then a Romanian Village Where 97-Year-Olds Chop Wood Showed Me Why Her "Permanently Damaged" Lungs Could Heal After All.
             </p>
             <p className="font-bold text-[22px] md:text-[38px] leading-[30px] md:leading-[48px] mt-4">
               (We Live 200 Miles From the Ocean)
-            </p>
-            <p className="font-bold text-[22px] md:text-[38px] leading-[30px] md:leading-[48px] mt-4">
-              Then I Found a Romanian Village Where 97-Year-Olds Chop Wood...
-            </p>
-            <p className="font-bold text-[22px] md:text-[38px] leading-[30px] md:leading-[48px] mt-4">
-              With Lungs Their Doctors Said Were "Permanently Destroyed"
             </p>
           </div>
           
